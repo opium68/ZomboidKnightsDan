@@ -1,0 +1,190 @@
+// Reward-only manufacturing recipes are disabled by the B42 script loader.
+module Base {
+    craftRecipe FireClayTrackShoeMold { enabled = false, }
+    craftRecipe Furnace_TrackShoeNoTire { enabled = false, }
+    craftRecipe MakeTrackShoe { enabled = false, }
+    craftRecipe MakeTrackShoeNoTire { enabled = false, }
+    craftRecipe OpenCartonOf127x99mm { enabled = false, }
+    craftRecipe OpenCartonOf127x99mmBig { enabled = false, }
+    craftRecipe OpenCartonOf145x114mm { enabled = false, }
+    craftRecipe OpenCartonOf20x102mm { enabled = false, }
+    craftRecipe OpenCartonOf20x102mmHE { enabled = false, }
+    craftRecipe OpenCartonOf30x165mm { enabled = false, }
+    craftRecipe OpenCartonOf30x165mmHE { enabled = false, }
+    craftRecipe OpenCartonOf762x63mm { enabled = false, }
+    craftRecipe Place127x99mmInCarton { enabled = false, }
+    craftRecipe Place127x99mmInCartonBig { enabled = false, }
+    craftRecipe Place145x114mmInCarton { enabled = false, }
+    craftRecipe Place20x102mmHEInCarton { enabled = false, }
+    craftRecipe Place20x102mmInCarton { enabled = false, }
+    craftRecipe Place30x165mmHEInCarton { enabled = false, }
+    craftRecipe Place30x165mmInCarton { enabled = false, }
+    craftRecipe Place762x63mmInCarton { enabled = false, }
+    craftRecipe PressTrackShoeMold { enabled = false, }
+    craftRecipe SheetHighHardnessSteel { enabled = false, }
+}
+module Base {
+    craftRecipe MT_Nano_Bot { enabled = false, }
+    craftRecipe MT_Nano_Bot_FH { enabled = false, }
+    craftRecipe MT_Nano_Bot_H { enabled = false, }
+    craftRecipe MT_Nano_Gloves { enabled = false, }
+    craftRecipe MT_Nano_Gloves_FH { enabled = false, }
+    craftRecipe MT_Nano_Gloves_H { enabled = false, }
+    craftRecipe MT_Nano_Helmet { enabled = false, }
+    craftRecipe MT_Nano_Helmet_FH { enabled = false, }
+    craftRecipe MT_Nano_Helmet_H { enabled = false, }
+    craftRecipe MT_Nano_Shoes { enabled = false, }
+    craftRecipe MT_Nano_Shoes_FH { enabled = false, }
+    craftRecipe MT_Nano_Shoes_H { enabled = false, }
+    craftRecipe MT_Nano_Top { enabled = false, }
+    craftRecipe MT_Nano_Top_FH { enabled = false, }
+    craftRecipe MT_Nano_Top_H { enabled = false, }
+}
+module Base {
+    craftRecipe AssembleLegendaryBackpack_Black { enabled = false, }
+    craftRecipe AssembleLegendaryBackpack_Blue { enabled = false, }
+    craftRecipe AssembleLegendaryBackpack_Brown { enabled = false, }
+    craftRecipe AssembleLegendaryBackpack_Green { enabled = false, }
+    craftRecipe AssembleLegendaryBackpack_Grey { enabled = false, }
+    craftRecipe AssembleLegendaryBackpack_Orange { enabled = false, }
+    craftRecipe AssembleLegendaryBackpack_Pink { enabled = false, }
+    craftRecipe AssembleLegendaryBackpack_Purple { enabled = false, }
+    craftRecipe AssembleLegendaryBackpack_Red { enabled = false, }
+    craftRecipe AssembleLegendaryBackpack_White { enabled = false, }
+}
+module Base {
+    craftRecipe MakeLegendaryNaginataBlack { enabled = false, }
+    craftRecipe MakeLegendaryNaginataBlue { enabled = false, }
+    craftRecipe MakeLegendaryNaginataBrown { enabled = false, }
+    craftRecipe MakeLegendaryNaginataGreen { enabled = false, }
+    craftRecipe MakeLegendaryNaginataGrey { enabled = false, }
+    craftRecipe MakeLegendaryNaginataOrange { enabled = false, }
+    craftRecipe MakeLegendaryNaginataPink { enabled = false, }
+    craftRecipe MakeLegendaryNaginataPurple { enabled = false, }
+    craftRecipe MakeLegendaryNaginataRed { enabled = false, }
+    craftRecipe MakeLegendaryNaginataWhite { enabled = false, }
+    craftRecipe MakeLegendaryNaginataWood { enabled = false, }
+}
+module Base {
+    craftRecipe MakeLegendaryKatanaBlack { enabled = false, }
+    craftRecipe MakeLegendaryKatanaBlade { enabled = false, }
+    craftRecipe MakeLegendaryKatanaBlue { enabled = false, }
+    craftRecipe MakeLegendaryKatanaBrown { enabled = false, }
+    craftRecipe MakeLegendaryKatanaGreen { enabled = false, }
+    craftRecipe MakeLegendaryKatanaGrey { enabled = false, }
+    craftRecipe MakeLegendaryKatanaHandle { enabled = false, }
+    craftRecipe MakeLegendaryKatanaOrange { enabled = false, }
+    craftRecipe MakeLegendaryKatanaPink { enabled = false, }
+    craftRecipe MakeLegendaryKatanaPurple { enabled = false, }
+    craftRecipe MakeLegendaryKatanaRed { enabled = false, }
+    craftRecipe MakeLegendaryKatanaSheathBlack { enabled = false, }
+    craftRecipe MakeLegendaryKatanaSheathBlue { enabled = false, }
+    craftRecipe MakeLegendaryKatanaSheathBrown { enabled = false, }
+    craftRecipe MakeLegendaryKatanaSheathGreen { enabled = false, }
+    craftRecipe MakeLegendaryKatanaSheathGrey { enabled = false, }
+    craftRecipe MakeLegendaryKatanaSheathOrange { enabled = false, }
+    craftRecipe MakeLegendaryKatanaSheathPink { enabled = false, }
+    craftRecipe MakeLegendaryKatanaSheathPurple { enabled = false, }
+    craftRecipe MakeLegendaryKatanaSheathRed { enabled = false, }
+    craftRecipe MakeLegendaryKatanaSheathWhite { enabled = false, }
+    craftRecipe MakeLegendaryKatanaSheathWood { enabled = false, }
+    craftRecipe MakeLegendaryKatanaWhite { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiBlack { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiBlue { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiBrown { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiGreen { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiGrey { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiOrange { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiPink { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiPurple { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiRed { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiSheathBlack { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiSheathBlue { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiSheathBrown { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiSheathGreen { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiSheathGrey { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiSheathOrange { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiSheathPink { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiSheathPurple { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiSheathRed { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiSheathWhite { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiSheathWood { enabled = false, }
+    craftRecipe MakeLegendaryWakizashiWhite { enabled = false, }
+    craftRecipe OpenLegendaryDaishoCase { enabled = false, }
+}
+module Base {
+    craftRecipe Forge_LegendaryTacticalAxeHead { enabled = false, }
+    craftRecipe Forge_LegendaryTacticalBar { enabled = false, }
+    craftRecipe Forge_LegendaryTacticalBatHead { enabled = false, }
+    craftRecipe Forge_LegendaryTacticalDoubleAxeHead { enabled = false, }
+    craftRecipe Forge_LegendaryTacticalHammerHead { enabled = false, }
+    craftRecipe Forge_LegendaryTacticalKnifeBlade { enabled = false, }
+    craftRecipe Forge_LegendaryTacticalSledgehammerHead { enabled = false, }
+    craftRecipe Forge_LegendaryTacticalSpearHead { enabled = false, }
+    craftRecipe Forge_LegendaryTacticalSwordBlade { enabled = false, }
+    craftRecipe MakeLegendaryKnifeSheath { enabled = false, }
+    craftRecipe MakeLegendarySwordSheath { enabled = false, }
+    craftRecipe MakeLegendaryTacticalAxe { enabled = false, }
+    craftRecipe MakeLegendaryTacticalBat { enabled = false, }
+    craftRecipe MakeLegendaryTacticalCrowbar { enabled = false, }
+    craftRecipe MakeLegendaryTacticalHammer { enabled = false, }
+    craftRecipe MakeLegendaryTacticalKnife { enabled = false, }
+    craftRecipe MakeLegendaryTacticalSledgehammer { enabled = false, }
+    craftRecipe MakeLegendaryTacticalSpear { enabled = false, }
+    craftRecipe MakeLegendaryTacticalSword { enabled = false, }
+    craftRecipe MakeLegendaryTacticalTomahawk { enabled = false, }
+    craftRecipe OpenLegendaryTacticalKnifeCase { enabled = false, }
+    craftRecipe OpenLegendaryTacticalSwordCase { enabled = false, }
+}
+module bdtmre {
+    craftRecipe ConvertOldMRE { enabled = false, }
+}
+module bdtmre {
+    craftRecipe CraftMREBoxA { enabled = false, }
+    craftRecipe CraftMREBoxB { enabled = false, }
+    craftRecipe CraftMREBoxC { enabled = false, }
+}
+module bdtmre {
+    craftRecipe UnpackMREBoxA { enabled = false, }
+    craftRecipe UnpackMREBoxB { enabled = false, }
+    craftRecipe UnpackMREBoxC { enabled = false, }
+}
+module Base {
+    craftRecipe M2A_OpenAmmoBox10 { enabled = false, }
+    craftRecipe M2A_OpenAmmoBox30 { enabled = false, }
+}
+module Base {
+    craftRecipe M2A_CraftOgnemetFuelBottle { enabled = false, }
+}
+module Base {
+    craftRecipe M2A_CraftAbzats { enabled = false, }
+    craftRecipe M2A_CraftAshot { enabled = false, }
+    craftRecipe M2A_CraftBastard { enabled = false, }
+    craftRecipe M2A_CraftDuplet { enabled = false, }
+    craftRecipe M2A_CraftGatling { enabled = false, }
+    craftRecipe M2A_CraftHellsing { enabled = false, }
+    craftRecipe M2A_CraftPadonak { enabled = false, }
+    craftRecipe M2A_CraftPreved { enabled = false, }
+    craftRecipe M2A_CraftUboinik { enabled = false, }
+    craftRecipe M2A_CraftVelopal { enabled = false, }
+}
+module Base {
+    craftRecipe M2A_BallBearing_BarSaw { enabled = false, }
+    craftRecipe M2A_BallBearing_BarTorch { enabled = false, }
+    craftRecipe M2A_BallBearing_ScrapSaw { enabled = false, }
+    craftRecipe M2A_BallBearing_ScrapTorch { enabled = false, }
+    craftRecipe M2A_ChargeHellbreathBattery { enabled = false, }
+    craftRecipe M2A_CraftHellbreath { enabled = false, }
+    craftRecipe M2A_CraftHellsingMagazine { enabled = false, }
+    craftRecipe M2A_CraftTikhar { enabled = false, }
+    craftRecipe M2A_CraftTikharMagazine { enabled = false, }
+    craftRecipe M2A_HellsingArrow_BarSaw { enabled = false, }
+    craftRecipe M2A_HellsingArrow_BarTorch { enabled = false, }
+    craftRecipe M2A_HellsingArrow_ScrapSaw { enabled = false, }
+    craftRecipe M2A_HellsingArrow_ScrapTorch { enabled = false, }
+}
+module GunRepairKit {
+    craftRecipe MakeCleaningKitGun { enabled = false, }
+    craftRecipe MakeGunOilFromFat { enabled = false, }
+    craftRecipe MakeGunOilFromResidue { enabled = false, }
+}

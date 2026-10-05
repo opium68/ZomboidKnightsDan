@@ -1,0 +1,17 @@
+{
+  "Sandbox_KnoxEscapeQuest": "녹스 탈출 작전",
+  "Sandbox_KnoxEscapeQuest_Enabled": "캠페인 활성화",
+  "Sandbox_KnoxEscapeQuest_Enabled_tooltip": "서버 공용 탈출 캠페인을 활성화합니다.",
+  "Sandbox_KnoxEscapeQuest_InteractionSeconds": "목표 상호작용 시간(초)",
+  "Sandbox_KnoxEscapeQuest_InteractionSeconds_tooltip": "모든 퀘스트 목표를 수행하는 데 걸리는 현실 시간입니다. 기본값은 30초이며 이동·조준·피해를 받으면 취소됩니다.",
+  "Sandbox_KnoxEscapeQuest_FinalDefenseHours": "최종 방어 게임 시간",
+  "Sandbox_KnoxEscapeQuest_FinalDefenseHours_tooltip": "지상 구조 송신기 가동 후 구조대가 도착할 때까지의 게임 내 시간입니다. 현재 하루 길이에서는 2시간이 실제 약 10분입니다.",
+  "Sandbox_KnoxEscapeQuest_SpawnDefenseWaves": "최종 방어 웨이브 생성",
+  "Sandbox_KnoxEscapeQuest_SpawnDefenseWaves_tooltip": "기존 좀비를 소리로 유인하는 동시에 제한된 수의 좀비 웨이브를 생성합니다.",
+  "Sandbox_KnoxEscapeQuest_BaseWaveZombies": "웨이브 기본 좀비 수",
+  "Sandbox_KnoxEscapeQuest_BaseWaveZombies_tooltip": "플레이어 수와 무관하게 웨이브마다 생성되는 기본 좀비 수입니다.",
+  "Sandbox_KnoxEscapeQuest_ZombiesPerPlayer": "플레이어당 추가 좀비 수",
+  "Sandbox_KnoxEscapeQuest_ZombiesPerPlayer_tooltip": "살아 있는 온라인 플레이어 한 명당 웨이브에 추가되는 좀비 수입니다.",
+  "Sandbox_KnoxEscapeQuest_MaximumWaveZombies": "웨이브 최대 좀비 수",
+  "Sandbox_KnoxEscapeQuest_MaximumWaveZombies_tooltip": "멀티플레이 동기화 부하를 제한하기 위한 웨이브당 최대 생성 수입니다."
+}

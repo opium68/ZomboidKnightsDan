@@ -1,0 +1,4809 @@
+{
+  "version": 1,
+  "note": "Editable initial reference prices; PZLinux retains skill and reputation pricing. No world-age inflation.",
+  "items": [
+    {
+      "id": "Base.127x99mm",
+      "price": 1000,
+      "mod": "Military_Tool_Kit",
+      "type": "base:normal"
+    },
+    {
+      "id": "Base.127x99mmCarton",
+      "price": 1000,
+      "mod": "Military_Tool_Kit",
+      "type": "base:normal"
+    },
+    {
+      "id": "Base.127x99mmCartonBig",
+      "price": 1000,
+      "mod": "Military_Tool_Kit",
+      "type": "base:normal"
+    },
+    {
+      "id": "Base.20x102mm",
+      "price": 1000,
+      "mod": "Military_Tool_Kit",
+      "type": "base:normal"
+    },
+    {
+      "id": "Base.20x102mmCarton",
+      "price": 1000,
+      "mod": "Military_Tool_Kit",
+      "type": "base:normal"
+    },
+    {
+      "id": "Base.20x102mmHE",
+      "price": 1000,
+      "mod": "Military_Tool_Kit",
+      "type": "base:normal"
+    },
+    {
+      "id": "Base.20x102mmHECarton",
+      "price": 1000,
+      "mod": "Military_Tool_Kit",
+      "type": "base:normal"
+    },
+    {
+      "id": "Base.Abzats",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.AbzatsMag20",
+      "price": 1500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.AbzatsSchematic",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Literature"
+    },
+    {
+      "id": "Base.AK12",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.AK74",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.Aksu",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.Aksu_5_45x39_Box",
+      "price": 2500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.Aksu_5_45x39_Round",
+      "price": 100,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.AksuMag20",
+      "price": 1500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.AksuMag30",
+      "price": 1500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.AksuMag40",
+      "price": 1500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.Ashot",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.AshotSchematic",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Literature"
+    },
+    {
+      "id": "Base.AxeManMag",
+      "price": 30000,
+      "mod": "GydeTraitMags",
+      "type": "base:literature"
+    },
+    {
+      "id": "Base.Backpack_Cerberus",
+      "price": 18000,
+      "mod": "CerberusPack",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Backpack_Cerberus_Tight",
+      "price": 18000,
+      "mod": "CerberusPack",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.BallBearing",
+      "price": 100,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.BallBearing_Box",
+      "price": 2500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.Bastard",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.BastardMag30",
+      "price": 1500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.BastardSchematic",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Literature"
+    },
+    {
+      "id": "Base.Browning_M22",
+      "price": 1000,
+      "mod": "Military_Tool_Kit",
+      "type": "base:normal"
+    },
+    {
+      "id": "Base.BulletproofVest_Cerberus",
+      "price": 100,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.BulletproofVest_Cerberus_AssaultKit",
+      "price": 100,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.BulletproofVest_Cerberus_AssaultLightKit",
+      "price": 100,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.BulletproofVest_Cerberus_FullProtectionKit",
+      "price": 100,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.BulletproofVest_Cerberus_HighMobilityKit",
+      "price": 100,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.BurglarMag",
+      "price": 30000,
+      "mod": "GydeTraitMags",
+      "type": "base:literature"
+    },
+    {
+      "id": "Base.ChestRigs_Cerberus",
+      "price": 18000,
+      "mod": "CerberusPack",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.ChestRigs_Cerberus_NoBelts",
+      "price": 18000,
+      "mod": "CerberusPack",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.ChestRigs_Cerberus_Tight",
+      "price": 18000,
+      "mod": "CerberusPack",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.DextrousMag",
+      "price": 30000,
+      "mod": "GydeTraitMags",
+      "type": "base:literature"
+    },
+    {
+      "id": "Base.Duplet_DoubleShotgun",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.DupletSchematic",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Literature"
+    },
+    {
+      "id": "Base.ElbowPads_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.ElbowPads_Cerberus_Tight",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.FannyPack_Cerberus",
+      "price": 18000,
+      "mod": "CerberusPack",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.FannyPack_Cerberus_Front",
+      "price": 18000,
+      "mod": "CerberusPack",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.FastLearnerMag",
+      "price": 30000,
+      "mod": "GydeTraitMags",
+      "type": "base:literature"
+    },
+    {
+      "id": "Base.FastReaderMag",
+      "price": 30000,
+      "mod": "GydeTraitMags",
+      "type": "base:literature"
+    },
+    {
+      "id": "Base.Gatling",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.GatlingAmmoBox",
+      "price": 2500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.GatlingSchematic",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Literature"
+    },
+    {
+      "id": "Base.Glasses_Goggles_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Glasses_Tactical_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Gloves_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.GlovesFingerless_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.GracefulMag",
+      "price": 30000,
+      "mod": "GydeTraitMags",
+      "type": "base:literature"
+    },
+    {
+      "id": "Base.HandyMag",
+      "price": 30000,
+      "mod": "GydeTraitMags",
+      "type": "base:literature"
+    },
+    {
+      "id": "Base.Hat_BaseballCap_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Hat_BaseballCap_Cerberus_Reverse",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Headsets_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Headsets_Cerberus_Helmet",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Hellbreath",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.HellbreathBattery",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Drainable"
+    },
+    {
+      "id": "Base.HellbreathBatteryDead",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.HellbreathSchematic",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Literature"
+    },
+    {
+      "id": "Base.Hellsing",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.HellsingArrow",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.HellsingMag",
+      "price": 1500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.HellsingSchematic",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Literature"
+    },
+    {
+      "id": "Base.Helmet_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Helmet_Cerberus_NoBelts",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Helmet_Mandible_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.HipBag_Cerberus_ArmorLeft",
+      "price": 18000,
+      "mod": "CerberusPack",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.HipBag_Cerberus_ArmorRight",
+      "price": 18000,
+      "mod": "CerberusPack",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.HipBag_Cerberus_Left",
+      "price": 18000,
+      "mod": "CerberusPack",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.HipBag_Cerberus_Right",
+      "price": 18000,
+      "mod": "CerberusPack",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.InconspicuousMag",
+      "price": 30000,
+      "mod": "GydeTraitMags",
+      "type": "base:literature"
+    },
+    {
+      "id": "Base.Jacket_Lightweight_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Jacket_Lightweight_Cerberus_RolledUpSleeves",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.KATTAJ1_TacticalFlashlight",
+      "price": 1000,
+      "mod": "KATTAJ1_ClothesCore",
+      "type": "base:drainable"
+    },
+    {
+      "id": "Base.KeenHearingMag",
+      "price": 30000,
+      "mod": "GydeTraitMags",
+      "type": "base:literature"
+    },
+    {
+      "id": "Base.KneePads_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.KneePads_Cerberus_Tight",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Lolife_Padonak",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.Lolife_Padonak_Mag5",
+      "price": 1500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.M61_Vulcan2",
+      "price": 1000,
+      "mod": "Military_Tool_Kit",
+      "type": "base:normal"
+    },
+    {
+      "id": "Base.Mask_Balaclava_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Mask_BandanaMask_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MaskFull_BallisticMask_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MaskFull_BallisticMask_Cerberus_NoBelts",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MaskFull_BallisticMask_Cerberus_NoBelts-Blood",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MaskFull_BallisticMask_Cerberus-Blood",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Defender_Medium-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Defender_Medium-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Defender_Medium-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Defender_Medium-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Patriot_Light-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Patriot_Light-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Patriot_Light-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Patriot_Light-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Press",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Patriot_Light-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Patriot_Light-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Patriot_Light-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Patriot_Light-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Backpack_Colossus_VeryLarge-Black",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Colossus_VeryLarge-Black_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Colossus_VeryLarge-Desert",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Colossus_VeryLarge-Desert_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Colossus_VeryLarge-Green",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Colossus_VeryLarge-Green_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Colossus_VeryLarge-White",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Colossus_VeryLarge-White_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Echo_Radio-Black",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Echo_Radio-Black_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Echo_Radio-Desert",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Echo_Radio-Desert_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Echo_Radio-Green",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Echo_Radio-Green_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Echo_Radio-White",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Echo_Radio-White_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Pocket_Small-Black",
+      "price": 1000,
+      "mod": "KATTAJ1_Military",
+      "type": ""
+    },
+    {
+      "id": "Base.Military_Backpack_Pocket_Small-Black_Tight",
+      "price": 1000,
+      "mod": "KATTAJ1_Military",
+      "type": ""
+    },
+    {
+      "id": "Base.Military_Backpack_Pocket_Small-Desert",
+      "price": 1000,
+      "mod": "KATTAJ1_Military",
+      "type": ""
+    },
+    {
+      "id": "Base.Military_Backpack_Pocket_Small-Desert_Tight",
+      "price": 1000,
+      "mod": "KATTAJ1_Military",
+      "type": ""
+    },
+    {
+      "id": "Base.Military_Backpack_Pocket_Small-Green",
+      "price": 1000,
+      "mod": "KATTAJ1_Military",
+      "type": ""
+    },
+    {
+      "id": "Base.Military_Backpack_Pocket_Small-Green_Tight",
+      "price": 1000,
+      "mod": "KATTAJ1_Military",
+      "type": ""
+    },
+    {
+      "id": "Base.Military_Backpack_Pocket_Small-White",
+      "price": 1000,
+      "mod": "KATTAJ1_Military",
+      "type": ""
+    },
+    {
+      "id": "Base.Military_Backpack_Pocket_Small-White_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Ranger_Large-Black",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Ranger_Large-Black_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Ranger_Large-Desert",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Ranger_Large-Desert_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Ranger_Large-Green",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Ranger_Large-Green_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Ranger_Large-White",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Ranger_Large-White_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Strategist_Medium-Black",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Strategist_Medium-Black_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Strategist_Medium-Desert",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Strategist_Medium-Desert_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Strategist_Medium-Green",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Strategist_Medium-Green_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Strategist_Medium-White",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_Backpack_Strategist_Medium-White_Tight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Large-Black",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Large-Desert",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Large-Green",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Large-Medic",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Large-White",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Medium-Black",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Medium-Desert",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Medium-Green",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Medium-Medic",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Medium-White",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Small-Black",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Small-Desert",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Small-Green",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Small-Medic",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagBack_StormPack_Small-White",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagFront_ChestPouches_Large-Black",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagFront_ChestPouches_Large-Desert",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagFront_ChestPouches_Large-Green",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagFront_ChestPouches_Large-White",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagFront_ChestPouches_Medium-Black",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagFront_ChestPouches_Medium-Desert",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagFront_ChestPouches_Medium-Green",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagFront_ChestPouches_Medium-White",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagFront_ChestPouches_Small-Black",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagFront_ChestPouches_Small-Desert",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagFront_ChestPouches_Small-Green",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagFront_ChestPouches_Small-White",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-Black_ArmorLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-Black_ArmorRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-Black_Left",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-Black_Right",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-Desert_ArmorLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-Desert_ArmorRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-Desert_Left",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-Desert_Right",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-Green_ArmorLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-Green_ArmorRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-Green_Left",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-Green_Right",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-White_ArmorLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-White_ArmorRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-White_Left",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_MagSecure_Small-White_Right",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Black_ArmorLeft",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Black_ArmorRight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Black_Left",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Black_Right",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Desert_ArmorLeft",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Desert_ArmorRight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Desert_Left",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Desert_Right",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Green_ArmorLeft",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Green_ArmorRight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Green_Left",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Green_Right",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Medic_ArmorLeft",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Medic_ArmorRight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Medic_Left",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-Medic_Right",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-White_ArmorLeft",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-White_ArmorRight",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-White_Left",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BagLeg_Utility_Medium-White_Right",
+      "price": 18000,
+      "mod": "KATTAJ1_Military",
+      "type": "base:container"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Defender_Medium-Black",
+      "price": 100,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Defender_Medium-Desert",
+      "price": 100,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Defender_Medium-Green",
+      "price": 100,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Defender_Medium-White",
+      "price": 100,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Patriot_Light-Black",
+      "price": 100,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Patriot_Light-Desert",
+      "price": 100,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Patriot_Light-Green",
+      "price": 100,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Patriot_Light-Press",
+      "price": 100,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Patriot_Light-White",
+      "price": 100,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Black",
+      "price": 100,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Desert",
+      "price": 100,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Green",
+      "price": 100,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-White",
+      "price": 100,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Glasses_ShatterShield",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Gloves_GripFingerless-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Gloves_GripFingerless-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Gloves_GripFingerless-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Gloves_GripFingerless-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Gloves_Grips-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Gloves_Grips-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Gloves_Grips-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Gloves_Grips-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Hat_BaseballCapM-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Hat_BaseballCapM-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Hat_BaseballCapM-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Hat_BaseballCapM-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Hat_Beret-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Hat_Beret-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Hat_Beret-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Hat_Beret-Red",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Hat_Beret-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Hat_WarComms-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Hat_WarComms-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Hat_WarComms-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Hat_WarComms-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-Black_NoBelts",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-Desert_NoBelts",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-Green_NoBelts",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-White_NoBelts",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Black_NoBelts",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Desert_NoBelts",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Green_NoBelts",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Press",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Press_NoBelts",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-White_NoBelts",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Black_BeltLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Black_BeltRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Black_HipArmorLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Black_HipArmorRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Black_HipLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Black_HipRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Desert_BeltLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Desert_BeltRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Desert_HipArmorLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Desert_HipArmorRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Desert_HipLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Desert_HipRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Green_BeltLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Green_BeltRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Green_HipArmorLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Green_HipArmorRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Green_HipLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Green_HipRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-White_BeltLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-White_BeltRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-White_HipArmorLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-White_HipArmorRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-White_HipLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-White_HipRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Black_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Black_OpenRolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Black_RolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Desert_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Desert_OpenRolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Desert_RolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Green_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Green_OpenRolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Green_RolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-White_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-White_OpenRolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-White_RolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Black_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Black_OpenRolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Black_RolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Desert_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Desert_OpenRolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Desert_RolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Green_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Green_OpenRolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Green_RolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-White_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-White_OpenRolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-White_RolledUpSleeves",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Black_DOWN",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Black_DOWN_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Black_Up",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Black_Up_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Desert_DOWN",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Desert_DOWN_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Desert_Up",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Desert_Up_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Green_DOWN",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Green_DOWN_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Green_Up",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Green_Up_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-White_DOWN",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-White_DOWN_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-White_Up",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-White_Up_Open",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Defender_Medium-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Defender_Medium-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Defender_Medium-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Defender_Medium-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Patriot_Light-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Patriot_Light-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Patriot_Light-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Patriot_Light-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Press",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Patriot_Light-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Patriot_Light-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Patriot_Light-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Patriot_Light-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava1-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava1-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava1-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava1-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava2-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava2-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava2-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava2-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava3-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava3-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava3-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava3-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_BandanaMask-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_BandanaMask-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_BandanaMask-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Mask_BandanaMask-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_MaskHelmet_GasMask-M80",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_MaskHelmet_GasMask-M80_nofilter",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Capri-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Capri-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Capri-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Capri-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_CapriSkinny-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_CapriSkinny-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_CapriSkinny-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_CapriSkinny-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Black_RollUp",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Black_Tuck",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Desert_RollUp",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Desert_Tuck",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Green_RollUp",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Green_Tuck",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-White_RollUp",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-White_Tuck",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Black_RollUp",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Black_Tuck",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Desert_RollUp",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Desert_Tuck",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Green_RollUp",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Green_Tuck",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-White_RollUp",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-White_Tuck",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShorts-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShorts-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShorts-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShorts-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShortsSkinny-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShortsSkinny-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShortsSkinny-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShortsSkinny-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Shorts-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Shorts-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Shorts-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Shorts-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsCargo-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsCargo-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsCargo-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsCargo-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsMini-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsMini-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsMini-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsMini-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Skinny-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Skinny-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Skinny-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Pants_Skinny-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_Back",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_BeltLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_BeltRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_HipArmorLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_HipArmorRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_HipLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_HipRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_Back",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_BeltLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_BeltRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_HipArmorLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_HipArmorRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_HipLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_HipRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_Back",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_BeltLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_BeltRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_HipArmorLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_HipArmorRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_HipLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_HipRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_Back",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_BeltLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_BeltRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_HipArmorLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_HipArmorRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_HipLeft",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_HipRight",
+      "price": 1500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shirt_Classic-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shirt_Classic-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shirt_Classic-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shirt_Classic-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shirt_ShortSleeveShirt-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shirt_ShortSleeveShirt-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shirt_ShortSleeveShirt-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shirt_ShortSleeveShirt-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shoes_TacticalBoots-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shoes_TacticalBoots-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shoes_TacticalBoots-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Shoes_TacticalBoots-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleated-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleated-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleated-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleated-Press",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleated-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedMini-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedMini-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedMini-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedMini-Press",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedMini-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedShort-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedShort-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedShort-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedShort-Press",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedShort-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Stockings-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Stockings-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Stockings-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Stockings-Press",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_Stockings-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-Black_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-Desert_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-Green_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-White_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeveShort-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeveShort-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeveShort-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeveShort-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_Neckholder-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_Neckholder-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_Neckholder-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_Neckholder-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_NeckholderShort-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_NeckholderShort-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_NeckholderShort-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_NeckholderShort-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-Black_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-Desert_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-Green_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-White_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulderShort-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulderShort-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulderShort-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulderShort-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-Black_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-Desert_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-Green_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-White_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_SleevelessShort-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_SleevelessShort-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_SleevelessShort-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_SleevelessShort-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTop-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTop-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTop-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTop-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTopShort-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTopShort-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTopShort-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTopShort-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-Black_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-Desert_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-Green_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-White_Man",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirtShort-Black",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirtShort-Desert",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirtShort-Green",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirtShort-White",
+      "price": 7500,
+      "mod": "KATTAJ1_Military",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Bot",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Bot_FH",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Bot_H",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Gloves",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Gloves_FH",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Gloves_H",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Helmet",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Helmet_FH",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Helmet_H",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Shoes",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Shoes_FH",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Shoes_H",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Top",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Top_FH",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.MT_Nano_Top_H",
+      "price": 20000,
+      "mod": "[MT] Nano Armor - Easy",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.NutritionistMag",
+      "price": 30000,
+      "mod": "GydeTraitMags",
+      "type": "base:literature"
+    },
+    {
+      "id": "Base.Ognemet",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.OgnemetFuelBottle",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "base:normal"
+    },
+    {
+      "id": "Base.OrganizedMag",
+      "price": 30000,
+      "mod": "GydeTraitMags",
+      "type": "base:literature"
+    },
+    {
+      "id": "Base.OutdoorsmanMag",
+      "price": 30000,
+      "mod": "GydeTraitMags",
+      "type": "base:literature"
+    },
+    {
+      "id": "Base.PadonakSchematic",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Literature"
+    },
+    {
+      "id": "Base.Pants_Classic_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Pants_Classic_Cerberus_RollUp",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Pants_Classic_Cerberus_Tuck",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Pants_Shorts_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Pants_Skinny_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Pants_Skinny_Cerberus_RollUp",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Preved",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.Preved_12_7x108_Box",
+      "price": 2500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.Preved_12_7x108_Round",
+      "price": 100,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.PrevedMag5",
+      "price": 1500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.PrevedSchematic",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Literature"
+    },
+    {
+      "id": "Base.RPK",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.RPKMag45",
+      "price": 1500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.Saiga12",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.Saiga12Magazine",
+      "price": 1500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.Shirt_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Shirt_Cerberus_Open",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Shirt_Cerberus_OpenRolledUpSleeves",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Shirt_Cerberus_RolledUpSleeves",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Shirt_Neckholder_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Shirt_NeckholderShort_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Shirt_ShortSleeve_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Shirt_ShortSleeve_Cerberus_Open",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Shirt_TankTop_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Shirt_TankTopShort_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Shirt_Tshirt_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Shirt_TshirtShort_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Shoes_TacticalBoots_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.SpeedDemonMag",
+      "price": 30000,
+      "mod": "GydeTraitMags",
+      "type": "base:literature"
+    },
+    {
+      "id": "Base.Stockings_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Tights_Cerberus",
+      "price": 7500,
+      "mod": "CerberusPack",
+      "type": "base:clothing"
+    },
+    {
+      "id": "Base.Tikhar",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.TikharMag",
+      "price": 1500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.TikharRecipeBook",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Literature"
+    },
+    {
+      "id": "Base.Uboinik",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.UboinikSchematic",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Literature"
+    },
+    {
+      "id": "Base.Velopal",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.VelopalSchematic",
+      "price": 1000,
+      "mod": "Metro2033Armory",
+      "type": "Literature"
+    },
+    {
+      "id": "Base.VSSK",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.VSSKMag5",
+      "price": 1500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "Base.VSV",
+      "price": 35000,
+      "mod": "Metro2033Armory",
+      "type": "base:weapon"
+    },
+    {
+      "id": "Base.VSVMag20",
+      "price": 1500,
+      "mod": "Metro2033Armory",
+      "type": "Normal"
+    },
+    {
+      "id": "bdtmre.bdtmre26a1",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26a10",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26a11",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26a12",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26a2",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26a3",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26a4",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26a5",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26a6",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26a7",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26a8",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26a9",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26b13",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26b14",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26b15",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26b16",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26b17",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26b18",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26b19",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26b20",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26b21",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26b22",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26b23",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre26b24",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre93c1",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre93c10",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre93c11",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre93c12",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre93c2",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre93c3",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre93c4",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre93c5",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre93c6",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre93c7",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre93c8",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "bdtmre.bdtmre93c9",
+      "price": 350,
+      "mod": "bdtmre",
+      "type": "base:food"
+    },
+    {
+      "id": "GunRepairKit.GunRepairKit",
+      "price": 750,
+      "mod": "dk_gunrepairkit",
+      "type": "base:normal"
+    },
+    {
+      "id": "GunRepairKit.GunRepairKitAdvanced",
+      "price": 2500,
+      "mod": "dk_gunrepairkit",
+      "type": "base:normal"
+    },
+    {
+      "id": "LB.Bag_LegendaryBackpack",
+      "price": 18000,
+      "mod": "LBB42",
+      "type": "base:container"
+    },
+    {
+      "id": "LB.Bag_LegendaryBackpack_Black",
+      "price": 18000,
+      "mod": "LBB42",
+      "type": "base:container"
+    },
+    {
+      "id": "LB.Bag_LegendaryBackpack_Blue",
+      "price": 18000,
+      "mod": "LBB42",
+      "type": "base:container"
+    },
+    {
+      "id": "LB.Bag_LegendaryBackpack_Brown",
+      "price": 18000,
+      "mod": "LBB42",
+      "type": "base:container"
+    },
+    {
+      "id": "LB.Bag_LegendaryBackpack_Green",
+      "price": 18000,
+      "mod": "LBB42",
+      "type": "base:container"
+    },
+    {
+      "id": "LB.Bag_LegendaryBackpack_Orange",
+      "price": 18000,
+      "mod": "LBB42",
+      "type": "base:container"
+    },
+    {
+      "id": "LB.Bag_LegendaryBackpack_Pink",
+      "price": 18000,
+      "mod": "LBB42",
+      "type": "base:container"
+    },
+    {
+      "id": "LB.Bag_LegendaryBackpack_Purple",
+      "price": 18000,
+      "mod": "LBB42",
+      "type": "base:container"
+    },
+    {
+      "id": "LB.Bag_LegendaryBackpack_Red",
+      "price": 18000,
+      "mod": "LBB42",
+      "type": "base:container"
+    },
+    {
+      "id": "LB.Bag_LegendaryBackpack_White",
+      "price": 18000,
+      "mod": "LBB42",
+      "type": "base:container"
+    },
+    {
+      "id": "LB.LBMagLegendary",
+      "price": 1500,
+      "mod": "LBB42",
+      "type": "base:literature"
+    },
+    {
+      "id": "LK.LegendaryDaishoCaseSealed",
+      "price": 1000,
+      "mod": "LKB42",
+      "type": "base:normal"
+    },
+    {
+      "id": "LK.LegendaryKatanaBlack",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryKatanaBlue",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryKatanaBrown",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryKatanaGreen",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryKatanaGrey",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryKatanaOrange",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryKatanaPink",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryKatanaPurple",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryKatanaRed",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackBlack",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackBlue",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackBrown",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackGreen",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackGrey",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackOrange",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackPink",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackPurple",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackRed",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackWhite",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackWood",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipBlack",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipBlue",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipBrown",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipGreen",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipGrey",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipOrange",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipPink",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipPurple",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipRed",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipWhite",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipWood",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryKatanaWhite",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryWakizashiBlack",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryWakizashiBlue",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryWakizashiBrown",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryWakizashiGreen",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryWakizashiGrey",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryWakizashiOrange",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryWakizashiPink",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryWakizashiPurple",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryWakizashiRed",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackBlack",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackBlue",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackBrown",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackGreen",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackGrey",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackOrange",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackPink",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackPurple",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackRed",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackWhite",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackWood",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipBlack",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipBlue",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipBrown",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipGreen",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipGrey",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipOrange",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipPink",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipPurple",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipRed",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipWhite",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipWood",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LK.LegendaryWakizashiWhite",
+      "price": 35000,
+      "mod": "LKB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LK.LKMagLegendary",
+      "price": 1500,
+      "mod": "LKB42",
+      "type": "base:literature"
+    },
+    {
+      "id": "LN.LegendaryNaginata_Black",
+      "price": 35000,
+      "mod": "LNB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LN.LegendaryNaginata_Blue",
+      "price": 35000,
+      "mod": "LNB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LN.LegendaryNaginata_Brown",
+      "price": 35000,
+      "mod": "LNB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LN.LegendaryNaginata_Green",
+      "price": 35000,
+      "mod": "LNB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LN.LegendaryNaginata_Grey",
+      "price": 35000,
+      "mod": "LNB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LN.LegendaryNaginata_Orange",
+      "price": 35000,
+      "mod": "LNB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LN.LegendaryNaginata_Pink",
+      "price": 35000,
+      "mod": "LNB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LN.LegendaryNaginata_Purple",
+      "price": 35000,
+      "mod": "LNB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LN.LegendaryNaginata_Red",
+      "price": 35000,
+      "mod": "LNB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LN.LegendaryNaginata_White",
+      "price": 35000,
+      "mod": "LNB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LN.LegendaryNaginata_Wood",
+      "price": 35000,
+      "mod": "LNB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LN.LNMag",
+      "price": 1500,
+      "mod": "LNB42",
+      "type": "base:literature"
+    },
+    {
+      "id": "LTW.LegendaryKnifeSheathBack",
+      "price": 1500,
+      "mod": "LTWB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LTW.LegendaryKnifeSheathRightThigh",
+      "price": 1500,
+      "mod": "LTWB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LTW.LegendarySwordSheathBack",
+      "price": 1500,
+      "mod": "LTWB42",
+      "type": "base:clothing"
+    },
+    {
+      "id": "LTW.LegendaryTacticalAxe",
+      "price": 35000,
+      "mod": "LTWB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LTW.LegendaryTacticalAxeHead",
+      "price": 1000,
+      "mod": "LTWB42",
+      "type": "base:normal"
+    },
+    {
+      "id": "LTW.LegendaryTacticalBar",
+      "price": 35000,
+      "mod": "LTWB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LTW.LegendaryTacticalBat",
+      "price": 35000,
+      "mod": "LTWB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LTW.LegendaryTacticalBatHead",
+      "price": 1000,
+      "mod": "LTWB42",
+      "type": "base:normal"
+    },
+    {
+      "id": "LTW.LegendaryTacticalCrowbar",
+      "price": 35000,
+      "mod": "LTWB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LTW.LegendaryTacticalDoubleAxeHead",
+      "price": 1000,
+      "mod": "LTWB42",
+      "type": "base:normal"
+    },
+    {
+      "id": "LTW.LegendaryTacticalHammer",
+      "price": 35000,
+      "mod": "LTWB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LTW.LegendaryTacticalHammerHead",
+      "price": 1000,
+      "mod": "LTWB42",
+      "type": "base:normal"
+    },
+    {
+      "id": "LTW.LegendaryTacticalKnife",
+      "price": 35000,
+      "mod": "LTWB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LTW.LegendaryTacticalKnifeCaseSealed",
+      "price": 1000,
+      "mod": "LTWB42",
+      "type": "base:normal"
+    },
+    {
+      "id": "LTW.LegendaryTacticalSledgehammer",
+      "price": 35000,
+      "mod": "LTWB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LTW.LegendaryTacticalSledgehammerHead",
+      "price": 1000,
+      "mod": "LTWB42",
+      "type": "base:normal"
+    },
+    {
+      "id": "LTW.LegendaryTacticalSpear",
+      "price": 35000,
+      "mod": "LTWB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LTW.LegendaryTacticalSpearHead",
+      "price": 1000,
+      "mod": "LTWB42",
+      "type": "base:normal"
+    },
+    {
+      "id": "LTW.LegendaryTacticalSword",
+      "price": 35000,
+      "mod": "LTWB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LTW.LegendaryTacticalSwordCaseSealed",
+      "price": 1000,
+      "mod": "LTWB42",
+      "type": "base:normal"
+    },
+    {
+      "id": "LTW.LegendaryTacticalTomahawk",
+      "price": 35000,
+      "mod": "LTWB42",
+      "type": "base:weapon"
+    },
+    {
+      "id": "LTW.LTWMag",
+      "price": 1500,
+      "mod": "LTWB42",
+      "type": "base:literature"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "Base.78lamboCountachLP400",
+      "price": 325000,
+      "mod": "78lamboCountach"
+    },
+    {
+      "id": "Base.78lamboCountachLP400S",
+      "price": 325000,
+      "mod": "78lamboCountach"
+    },
+    {
+      "id": "Base.78lamboCountachLP400Scb",
+      "price": 325000,
+      "mod": "78lamboCountach"
+    },
+    {
+      "id": "Base.82porsche911rwb",
+      "price": 325000,
+      "mod": "82porsche911"
+    },
+    {
+      "id": "Base.82porsche911sc",
+      "price": 325000,
+      "mod": "82porsche911"
+    },
+    {
+      "id": "Base.82porsche911targa",
+      "price": 325000,
+      "mod": "82porsche911"
+    },
+    {
+      "id": "Base.82porsche911turbo",
+      "price": 325000,
+      "mod": "82porsche911"
+    },
+    {
+      "id": "Base.84corvetteC4",
+      "price": 325000,
+      "mod": "84corvette"
+    },
+    {
+      "id": "Base.93corvetteC4",
+      "price": 325000,
+      "mod": "84corvette"
+    },
+    {
+      "id": "Base.M163",
+      "price": 1000000,
+      "mod": "U.S. M163 VADS by Papa_Chad by Papa_Chad"
+    },
+    {
+      "id": "Base.M998_Humvee",
+      "price": 350000,
+      "mod": "U.S. M998 Humvee by Papa_Chad"
+    }
+  ]
+}

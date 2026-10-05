@@ -1,0 +1,20 @@
+{
+  "ContextMenu_KEQ_Status": "탈출 작전 현황 확인",
+  "ContextMenu_KEQ_Action_0": "[탈출 작전] 구조 주파수 기록 확보 (30초)",
+  "ContextMenu_KEQ_Action_1": "[탈출 작전] 바이러스 표본 확보 (30초)",
+  "ContextMenu_KEQ_Action_2_Panel": "[탈출 작전] 비상 배전반 복구 (30초)",
+  "ContextMenu_KEQ_Action_2_Terminal": "[탈출 작전] 중앙 전력 단말기 가동 (30초)",
+  "ContextMenu_KEQ_Action_3": "[탈출 작전] LBMW 송신기 가동 (30초)",
+  "ContextMenu_KEQ_Action_4": "[탈출 작전] 군 주파수로 구조 신호 송신 (30초)",
+  "ContextMenu_KEQ_Action_5": "[탈출 작전] 지하 연구시설 접근 권한 복구 (30초)",
+  "ContextMenu_KEQ_Action_6": "[탈출 작전] 바이러스 표본 분석 (30초)",
+  "ContextMenu_KEQ_Action_7": "[탈출 작전] 군 비상 주파수 확보 (30초)",
+  "ContextMenu_KEQ_Action_8": "[탈출 작전] 지상 구조 송신기 가동 (30초)",
+  "ContextMenu_KEQ_Admin": "탈출 작전 관리자",
+  "ContextMenu_KEQ_AdminSurvey": "현재 방·주변 오브젝트 조사 기록",
+  "ContextMenu_KEQ_AdminRefresh": "현재 상태 다시 받기",
+  "ContextMenu_KEQ_AdminPrevious": "이전 단계로 복구",
+  "ContextMenu_KEQ_AdminNext": "다음 단계로 이동",
+  "ContextMenu_KEQ_AdminReset": "진행도만 초기화 (목표 유지)",
+  "ContextMenu_KEQ_AdminReroll": "진행도 초기화 및 목표 다시 선정"
+}

@@ -1,0 +1,6 @@
+name=Knights Dan Server Patch
+id=KnightsDanServerPatch
+description=Personal banking, cooperative contracts and reward-only equipment for Knights Dan.
+require=\B42_PZLinux
+version=0.1.0
+versionMin=42.21

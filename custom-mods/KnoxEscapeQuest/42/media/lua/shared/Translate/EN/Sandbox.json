@@ -1,0 +1,17 @@
+{
+  "Sandbox_KnoxEscapeQuest": "Knox Escape Quest",
+  "Sandbox_KnoxEscapeQuest_Enabled": "Enable campaign",
+  "Sandbox_KnoxEscapeQuest_Enabled_tooltip": "Enables the shared server escape campaign.",
+  "Sandbox_KnoxEscapeQuest_InteractionSeconds": "Objective interaction seconds",
+  "Sandbox_KnoxEscapeQuest_InteractionSeconds_tooltip": "Real-time duration of every quest interaction. The default is 30 seconds; moving, aiming, or taking damage cancels it.",
+  "Sandbox_KnoxEscapeQuest_FinalDefenseHours": "Final defense game hours",
+  "Sandbox_KnoxEscapeQuest_FinalDefenseHours_tooltip": "Game hours between surface rescue-transmitter activation and rescue arrival. With the current two-hour day length, two hours is about 10 real minutes.",
+  "Sandbox_KnoxEscapeQuest_SpawnDefenseWaves": "Spawn final defense waves",
+  "Sandbox_KnoxEscapeQuest_SpawnDefenseWaves_tooltip": "Attracts existing zombies and spawns capped defense waves.",
+  "Sandbox_KnoxEscapeQuest_BaseWaveZombies": "Base zombies per wave",
+  "Sandbox_KnoxEscapeQuest_BaseWaveZombies_tooltip": "Base number of zombies spawned in each wave.",
+  "Sandbox_KnoxEscapeQuest_ZombiesPerPlayer": "Additional zombies per player",
+  "Sandbox_KnoxEscapeQuest_ZombiesPerPlayer_tooltip": "Additional zombies for each living online player.",
+  "Sandbox_KnoxEscapeQuest_MaximumWaveZombies": "Maximum zombies per wave",
+  "Sandbox_KnoxEscapeQuest_MaximumWaveZombies_tooltip": "Caps each wave to limit multiplayer synchronization load."
+}

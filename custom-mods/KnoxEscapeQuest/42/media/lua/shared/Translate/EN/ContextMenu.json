@@ -1,0 +1,20 @@
+{
+  "ContextMenu_KEQ_Status": "Check escape operation status",
+  "ContextMenu_KEQ_Action_0": "[Escape operation] Recover frequency records (30 sec)",
+  "ContextMenu_KEQ_Action_1": "[Escape operation] Secure the virus sample (30 sec)",
+  "ContextMenu_KEQ_Action_2_Panel": "[Escape operation] Restore emergency panel (30 sec)",
+  "ContextMenu_KEQ_Action_2_Terminal": "[Escape operation] Start the grid terminal (30 sec)",
+  "ContextMenu_KEQ_Action_3": "[Escape operation] Start the LBMW transmitter (30 sec)",
+  "ContextMenu_KEQ_Action_4": "[Escape operation] Broadcast on the military channel (30 sec)",
+  "ContextMenu_KEQ_Action_5": "[Escape operation] Restore underground access (30 sec)",
+  "ContextMenu_KEQ_Action_6": "[Escape operation] Analyze the virus sample (30 sec)",
+  "ContextMenu_KEQ_Action_7": "[Escape operation] Recover the emergency frequency (30 sec)",
+  "ContextMenu_KEQ_Action_8": "[Escape operation] Start the surface rescue transmitter (30 sec)",
+  "ContextMenu_KEQ_Admin": "Escape operation admin",
+  "ContextMenu_KEQ_AdminSurvey": "Record this room and nearby objects",
+  "ContextMenu_KEQ_AdminRefresh": "Refresh current state",
+  "ContextMenu_KEQ_AdminPrevious": "Restore previous stage",
+  "ContextMenu_KEQ_AdminNext": "Advance to next stage",
+  "ContextMenu_KEQ_AdminReset": "Reset progress (keep targets)",
+  "ContextMenu_KEQ_AdminReroll": "Reset progress and reroll targets"
+}

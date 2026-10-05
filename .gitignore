@@ -1,0 +1,7 @@
+config/*.secret.*
+config/release-private.xml
+packages/
+research/
+player-launcher/player-settings.json
+player-launcher/release-state.json
+player-launcher/.knights-update-backups/

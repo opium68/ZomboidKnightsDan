@@ -1,0 +1,22 @@
+module bdtmre
+{
+    // The upstream conversion references a removed vanilla Base.MRE item.
+    // Reward-only meals have no conversion route; keep a valid disabled stub.
+    craftRecipe ConvertOldMRE
+    {
+        enabled = false,
+        timedAction = Making,
+        time = 1,
+        category = Packing,
+        Tags = InHandCraft,
+        SkillRequired = Carpentry:99,
+        inputs
+        {
+            item 1 [Base.ScrapMetal],
+        }
+        outputs
+        {
+            item 1 Base.ScrapMetal,
+        }
+    }
+}

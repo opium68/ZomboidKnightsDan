@@ -1,0 +1,43 @@
+VERSION = 1,
+
+option KnoxEscapeQuest.Enabled
+{
+    type = boolean, default = true,
+    page = KnoxEscapeQuest, translation = KnoxEscapeQuest_Enabled,
+}
+
+option KnoxEscapeQuest.InteractionSeconds
+{
+    type = integer, min = 5, max = 120, default = 30,
+    page = KnoxEscapeQuest, translation = KnoxEscapeQuest_InteractionSeconds,
+}
+
+option KnoxEscapeQuest.FinalDefenseHours
+{
+    type = integer, min = 1, max = 12, default = 2,
+    page = KnoxEscapeQuest, translation = KnoxEscapeQuest_FinalDefenseHours,
+}
+
+option KnoxEscapeQuest.SpawnDefenseWaves
+{
+    type = boolean, default = true,
+    page = KnoxEscapeQuest, translation = KnoxEscapeQuest_SpawnDefenseWaves,
+}
+
+option KnoxEscapeQuest.BaseWaveZombies
+{
+    type = integer, min = 0, max = 50, default = 6,
+    page = KnoxEscapeQuest, translation = KnoxEscapeQuest_BaseWaveZombies,
+}
+
+option KnoxEscapeQuest.ZombiesPerPlayer
+{
+    type = integer, min = 0, max = 10, default = 2,
+    page = KnoxEscapeQuest, translation = KnoxEscapeQuest_ZombiesPerPlayer,
+}
+
+option KnoxEscapeQuest.MaximumWaveZombies
+{
+    type = integer, min = 0, max = 80, default = 24,
+    page = KnoxEscapeQuest, translation = KnoxEscapeQuest_MaximumWaveZombies,
+}

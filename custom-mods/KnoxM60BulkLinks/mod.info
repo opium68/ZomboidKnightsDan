@@ -1,0 +1,7 @@
+name=M60 탄띠 100발 결합
+id=KnoxM60BulkLinks
+description=VFE M60의 탄과 링크 100개를 한 번의 빠른 제작으로 결합합니다.
+author=pz-zombie-escape
+modversion=0.1.0
+versionMin=42.21
+require=VFExpansion1

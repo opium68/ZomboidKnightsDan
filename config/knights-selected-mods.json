@@ -1,0 +1,146 @@
+[
+  {
+    "WorkshopId": "2705406713",
+    "ModId": "Military_Tool_Kit",
+    "Version": "2.0.0",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "2705655822",
+    "ModId": "U.S.M113_APC_by_Papa_Chad",
+    "Version": "2.0.0",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "2757712197",
+    "ModId": "VehicleRepairOverhaul",
+    "Version": "",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "2757712197",
+    "ModId": "VehicleSalvageOverhaulB42",
+    "Version": "",
+    "Requires": "\\VehicleRepairOverhaul"
+  },
+  {
+    "WorkshopId": "3342191739",
+    "ModId": "GydeTraitMags",
+    "Version": "v2.5",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3379334330",
+    "ModId": "82porsche911",
+    "Version": "",
+    "Requires": "\\damnlib"
+  },
+  {
+    "WorkshopId": "3414468585",
+    "ModId": "B42_PZLinux",
+    "Version": "1.0.20",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3470422050",
+    "ModId": "KATTAJ1_ClothesCore",
+    "Version": "",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3470426196",
+    "ModId": "KATTAJ1_Military",
+    "Version": "",
+    "Requires": "\\KATTAJ1_ClothesCore"
+  },
+  {
+    "WorkshopId": "3470478700",
+    "ModId": "CerberusPack",
+    "Version": "",
+    "Requires": "\\KATTAJ1_ClothesCore"
+  },
+  {
+    "WorkshopId": "3474774172",
+    "ModId": "[MT] Nano Armor - Easy",
+    "Version": "",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3538353228",
+    "ModId": "LBB42",
+    "Version": "3.1.0",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3554424111",
+    "ModId": "U.S. M998 Humvee by Papa_Chad",
+    "Version": "2.0.0",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3580577925",
+    "ModId": "LNB42",
+    "Version": "3.1.0",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3598575779",
+    "ModId": "U.S. M163 VADS by Papa_Chad by Papa_Chad",
+    "Version": "1.0.0",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3668370011",
+    "ModId": "LKB42",
+    "Version": "3.1.4",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3684087856",
+    "ModId": "NVFramework",
+    "Version": "2.1",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3684254299",
+    "ModId": "84corvette",
+    "Version": "",
+    "Requires": "\\damnlib"
+  },
+  {
+    "WorkshopId": "3689524052",
+    "ModId": "LTWB42",
+    "Version": "3.1.1",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3726526329",
+    "ModId": "78lamboCountach",
+    "Version": "",
+    "Requires": "\\damnlib"
+  },
+  {
+    "WorkshopId": "3765409550",
+    "ModId": "bdtmre",
+    "Version": "1.0.0",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3783207788",
+    "ModId": "RepairAnyWeapons",
+    "Version": "",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3786428136",
+    "ModId": "Metro2033Armory",
+    "Version": "1.3.0",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3794209234",
+    "ModId": "dk_gunrepairkit",
+    "Version": "1.0.1",
+    "Requires": ""
+  }
+]

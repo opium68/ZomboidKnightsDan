@@ -1,0 +1,19 @@
+module Base
+{
+    craftRecipe KnoxM60_Link100
+    {
+        timedAction = Making,
+        time = 50,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 100 [Base.308Bullets],
+            item 100 [Base.M60_Link],
+        }
+        outputs
+        {
+            item 100 Base.308BulletsLinked,
+        }
+    }
+}
