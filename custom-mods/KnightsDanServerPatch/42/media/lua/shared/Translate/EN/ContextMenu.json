@@ -1,0 +1,13 @@
+{
+    "ContextMenu_KD_Coop": "Cooperative contracts",
+    "ContextMenu_KD_Join": "Accept invitation",
+    "ContextMenu_KD_Leave": "Cancel registration",
+    "ContextMenu_KD_Invite": "Invite %1",
+    "ContextMenu_KD_Active": "Participants cannot be added to an active contract.",
+    "ContextMenu_KD_InviteNotice": "%1 invited you. Accept from the right-click menu.",
+    "ContextMenu_KD_ExistingParty": "Cancel your previous registration first.",
+    "ContextMenu_KD_JoinedLeader": "%1 registered. Accept a contract when everyone is nearby.",
+    "ContextMenu_KD_Joined": "Registered. Participants are fixed once the contract is accepted.",
+    "ContextMenu_KD_Left": "Cooperative contract registration cancelled.",
+    "ContextMenu_SalvageVehicle": "Salvage Vehicle"
+}

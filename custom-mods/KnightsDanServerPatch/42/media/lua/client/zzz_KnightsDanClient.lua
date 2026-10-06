@@ -42,21 +42,38 @@ AtmMenu_AddContext=function() end
 AtmMenu_OnUse=function() end
 AtmMenu_ShowUI=function() return nil end
 local function command(player,cmd,args) sendClientCommand(player,"KnightsDan",cmd,args or {}) end
+local fallback={
+    ContextMenu_KD_Coop="Cooperative contracts",
+    ContextMenu_KD_Join="Accept invitation",
+    ContextMenu_KD_Leave="Cancel registration",
+    ContextMenu_KD_Invite="Invite %1",
+    ContextMenu_KD_Active="Participants cannot be added to an active contract.",
+    ContextMenu_KD_InviteNotice="%1 invited you. Accept from the right-click menu.",
+    ContextMenu_KD_ExistingParty="Cancel your previous registration first.",
+    ContextMenu_KD_JoinedLeader="%1 registered. Accept a contract when everyone is nearby.",
+    ContextMenu_KD_Joined="Registered. Participants are fixed once the contract is accepted.",
+    ContextMenu_KD_Left="Cooperative contract registration cancelled.",
+}
+local function text(key,param)
+    local value=getText(key,param)
+    if value and value~=key then return value end
+    return (fallback[key] or key):gsub("%%1",function() return tostring(param or "") end)
+end
 local function coopMenu(index,context)
     local player=getSpecificPlayer(index)
     if not player then return end
-    local root=context:addOption("협동 의뢰")
+    local root=context:addOption(text("ContextMenu_KD_Coop"))
     local menu=ISContextMenu:getNew(context)
     context:addSubMenu(root,menu)
-    menu:addOption("받은 초대 수락",player,command,"join")
-    menu:addOption("참가 등록 취소",player,command,"leave")
+    menu:addOption(text("ContextMenu_KD_Join"),player,command,"join")
+    menu:addOption(text("ContextMenu_KD_Leave"),player,command,"leave")
     if getOnlinePlayers then
         local all=getOnlinePlayers()
         for i=0,all:size()-1 do
             local buddy=all:get(i)
             if buddy~=player and buddy:getZ()==player:getZ()
                 and math.abs(buddy:getX()-player:getX())<=10 and math.abs(buddy:getY()-player:getY())<=10 then
-                menu:addOption(buddy:getUsername().."님 초대",player,command,"invite",{username=buddy:getUsername()})
+                menu:addOption(text("ContextMenu_KD_Invite",buddy:getUsername()),player,command,"invite",{username=buddy:getUsername()})
             end
         end
     end
@@ -65,6 +82,6 @@ Events.OnFillWorldObjectContextMenu.Add(coopMenu)
 Events.OnServerCommand.Add(function(module,cmd,args)
     if module=="KnightsDan" and cmd=="notice" and args then
         local p=getPlayer()
-        if p then p:Say(tostring(args.message)) end
+        if p then p:Say(args.key and text(args.key,args.param) or tostring(args.message or "")) end
     end
 end)

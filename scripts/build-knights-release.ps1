@@ -37,7 +37,17 @@ try {
             [ordered]@{path=$_.FullName.Substring($stage.Length+1).Replace('\','/');sha256=(Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash}
         })
         $archive=Join-Path $releaseRoot 'knights-client.zip'
-        Compress-Archive -Path (Join-Path $stage '*') -DestinationPath $archive
+        # Explicit forward-slash entries work with both PowerShell 5.1 and 7.
+        # Compress-Archive on Framework writes backslash paths rejected by the
+        # existing strict launcher. Include only the signed files, no folders.
+        Add-Type -AssemblyName System.IO.Compression.FileSystem
+        $zip=[IO.Compression.ZipFile]::Open($archive,[IO.Compression.ZipArchiveMode]::Create)
+        try {
+            foreach($file in $files){
+                $null=[IO.Compression.ZipFileExtensions]::CreateEntryFromFile($zip,
+                    (Join-Path $stage $file.path),$file.path,[IO.Compression.CompressionLevel]::Optimal)
+            }
+        } finally {$zip.Dispose()}
         $serverMods=Get-Content -LiteralPath (Join-Path $stage 'server-mods.json') -Raw | ConvertFrom-Json
         $manifest=[ordered]@{schema=1;version=$Version;revision=[DateTimeOffset]::UtcNow.ToUnixTimeSeconds();
             assetUrl="https://github.com/opium68/ZomboidKnightsDan/releases/download/v$Version/knights-client.zip";

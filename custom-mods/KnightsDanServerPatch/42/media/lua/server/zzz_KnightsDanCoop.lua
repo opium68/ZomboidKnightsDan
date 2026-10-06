@@ -15,8 +15,8 @@ local function idle(p) return (tonumber(p:getModData().PZLinuxActiveContract) or
 local function nearby(a,b)
     return a:getZ()==b:getZ() and math.abs(a:getX()-b:getX())<=10 and math.abs(a:getY()-b:getY())<=10
 end
-local function notify(p,message)
-    sendServerCommand(p,"KnightsDan","notice",{message=message})
+local function notify(p,key,param)
+    sendServerCommand(p,"KnightsDan","notice",{key=key,param=param})
 end
 function K.settle(player)
     if K.settling then return end
@@ -230,12 +230,12 @@ local function commands(module,command,player,args)
     args=args or {}
     local store=K.store(); local key=K.key(player)
     if command=="invite" then
-        if not idle(player) then return notify(player,"진행 중인 의뢰에는 참가자를 추가할 수 없습니다.") end
+        if not idle(player) then return notify(player,"ContextMenu_KD_Active") end
         local target
         K.players(function(p) if username(p)==args.username then target=p end end)
         if not target or target==player or not idle(target) or not nearby(player,target) then return end
         store.invites[K.key(target)]={leader=key,hour=getGameTime():getWorldAgeHours()}
-        notify(target,username(player).."님의 협동 의뢰 초대: 우클릭 메뉴에서 수락하세요.")
+        notify(target,"ContextMenu_KD_InviteNotice",username(player))
     elseif command=="join" then
         local invite=store.invites[key]
         local leader=invite and K.online(invite.leader)
@@ -243,17 +243,17 @@ local function commands(module,command,player,args)
             or getGameTime():getWorldAgeHours()-invite.hour>1 then return end
         -- A character can be registered in only one pending party.
         for partyLeader,party in pairs(store.parties) do
-            if party[key] or (partyLeader==key and partyLeader~=invite.leader) then return notify(player,"기존 참가 등록을 먼저 취소하세요.") end
+            if party[key] or (partyLeader==key and partyLeader~=invite.leader) then return notify(player,"ContextMenu_KD_ExistingParty") end
         end
         local party=store.parties[invite.leader] or {[invite.leader]=username(leader)}
         party[key]=username(player); store.parties[invite.leader]=party; store.invites[key]=nil
-        notify(leader,username(player).."님 참가 등록 완료. 모두 근처에 있을 때 컴퓨터에서 의뢰를 수락하세요.")
-        notify(player,"참가 등록 완료. 의뢰 수락 후에는 참가자가 고정됩니다.")
+        notify(leader,"ContextMenu_KD_JoinedLeader",username(player))
+        notify(player,"ContextMenu_KD_Joined")
     elseif command=="leave" and idle(player) then
         for leader,party in pairs(store.parties) do
             if leader==key then store.parties[leader]=nil else party[key]=nil end
         end
-        store.invites[key]=nil; notify(player,"협동 의뢰 참가 등록을 취소했습니다.")
+        store.invites[key]=nil; notify(player,"ContextMenu_KD_Left")
     end
 end
 Events.OnClientCommand.Add(commands)

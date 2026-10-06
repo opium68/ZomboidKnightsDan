@@ -1,0 +1,13 @@
+{
+    "ContextMenu_KD_Coop": "협동 의뢰",
+    "ContextMenu_KD_Join": "받은 초대 수락",
+    "ContextMenu_KD_Leave": "참가 등록 취소",
+    "ContextMenu_KD_Invite": "%1님 초대",
+    "ContextMenu_KD_Active": "진행 중인 의뢰에는 참가자를 추가할 수 없습니다.",
+    "ContextMenu_KD_InviteNotice": "%1님의 협동 의뢰 초대: 우클릭 메뉴에서 수락하세요.",
+    "ContextMenu_KD_ExistingParty": "기존 참가 등록을 먼저 취소하세요.",
+    "ContextMenu_KD_JoinedLeader": "%1님 참가 등록 완료. 모두 근처에 있을 때 컴퓨터에서 의뢰를 수락하세요.",
+    "ContextMenu_KD_Joined": "참가 등록 완료. 의뢰 수락 후에는 참가자가 고정됩니다.",
+    "ContextMenu_KD_Left": "협동 의뢰 참가 등록을 취소했습니다.",
+    "ContextMenu_SalvageVehicle": "차량 해체"
+}
