@@ -1,5 +1,6 @@
 require "Context/World/ISContextLinuxMenu"
 require "TimedActions/ISPZLinuxAction"
+require "Context/World/ISContextATMMenu"
 require "KnightsDan/Core"
 local oldMenu=linuxMenu_AddContext
 local function heal(obj)
@@ -33,11 +34,13 @@ end
 local update=linuxUI.update
 linuxUI.update=function(self,...)
     if update then update(self,...) end
-    if self.tradingButton then self.tradingButton:setVisible(false) end
     if self.conditionButton then self.conditionButton:setVisible(false) end
 end
-linuxUI.onTrading=function() end
 linuxUI.onCondition=function() end
+Events.OnFillWorldObjectContextMenu.Remove(AtmMenu_AddContext)
+AtmMenu_AddContext=function() end
+AtmMenu_OnUse=function() end
+AtmMenu_ShowUI=function() return nil end
 local function command(player,cmd,args) sendClientCommand(player,"KnightsDan",cmd,args or {}) end
 local function coopMenu(index,context)
     local player=getSpecificPlayer(index)
