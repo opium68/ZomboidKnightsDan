@@ -48,5 +48,8 @@
     "IGUI_KD_Contract_SendComputer": "컴퓨터 납품",
     "IGUI_KD_Contract_SendFridge": "냉장고 납품",
     "IGUI_EER_RebuildEngine": "엔진 복원",
-    "IGUI_GunRepairKit_RepairWith": "%1로 수리(%2)"
+    "IGUI_GunRepairKit_RepairWith": "%1로 수리(%2)",
+    "IGUI_PZLinux_Sell_DropAtMailbox": "판매 대금이 개인 계좌에 입금되었습니다.",
+    "IGUI_KD_DirectSellHelp": "판매할 물품은 기본 인벤토리에 넣으세요.\n수량을 선택해 판매하면 대금이 개인 계좌에 즉시 입금됩니다.\n\n거래 가능한 물품:",
+    "IGUI_KD_UnresolvedRecipeSkill": "확인할 수 없는 스킬"
 }

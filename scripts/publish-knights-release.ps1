@@ -88,6 +88,8 @@ Cooperative contracts: invite nearby players from the right-click menu; invited 
 PZLinux stock trading is enabled and buys/sells through personal bank accounts. ATM menus, cash deposit/withdrawal and new ATM refill contracts are disabled. Computer wear, repair UI and world-age price inflation remain disabled. Automatic login animation, electricity, ID-card hacking, mail and reputation remain enabled. Existing bank balances, holdings and cash items are preserved; existing ATM refill jobs can be cancelled from the computer. Selected equipment and cars are supplied through purchases/rewards; natural loot and manufacturing are blocked. Maintenance, fuel, ammunition loading and repairs remain available. M60 linking has a separate 100-round recipe.
 
 Initial prices are editable in `config/knights-reward-prices.json`. Server startup, source checks, cooperative logic and updater rollback are tested separately from two-player equipment, NVG and turret gameplay verification.
+
+Successful surplus-item and Dark Web sales credit the personal bank account directly. Replayed sale receipts do not credit twice. Previously created payment parcels retain their existing mailbox redemption flow. Neat Crafting list and detail views tolerate unresolved recipe skill references without changing server crafting requirements; actual ammunition unpacking remains a client gameplay check.
 '@
 [IO.File]::WriteAllText((Join-Path $repository 'README.md'),$readme,[Text.UTF8Encoding]::new($false))
 [IO.File]::WriteAllText((Join-Path $repository '.gitignore'),"config/*.secret.*`nconfig/release-private.xml`npackages/`nresearch/`nplayer-launcher/player-settings.json`nplayer-launcher/release-state.json`nplayer-launcher/.knights-update-backups/`n",[Text.UTF8Encoding]::new($false))

@@ -48,5 +48,8 @@
     "IGUI_KD_Contract_SendComputer": "Send a computer",
     "IGUI_KD_Contract_SendFridge": "Send a fridge",
     "IGUI_EER_RebuildEngine": "Rebuild Engine",
-    "IGUI_GunRepairKit_RepairWith": "Repair with %1 (%2)"
+    "IGUI_GunRepairKit_RepairWith": "Repair with %1 (%2)",
+    "IGUI_PZLinux_Sell_DropAtMailbox": "Sale proceeds deposited into your personal bank account.",
+    "IGUI_KD_DirectSellHelp": "Keep sale items in your main inventory.\nSelect a quantity and sell to receive payment directly in your personal bank account.\n\nAvailable trading items:",
+    "IGUI_KD_UnresolvedRecipeSkill": "Unknown skill"
 }
