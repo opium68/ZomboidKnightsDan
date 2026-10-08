@@ -12,7 +12,9 @@ function Get-KnightsSafePath {
 }
 function Test-KnightsManifest {
     param([string]$Envelope,[string]$PublicKey)
-    $signed=$Envelope | ConvertFrom-Json
+    # ReadAllText strips a UTF-8 BOM, while WebRequest.Content retains it on
+    # Windows PowerShell 5.1. Normalize both paths before parsing the envelope.
+    $signed=$Envelope.TrimStart([char]0xFEFF) | ConvertFrom-Json
     $payload=[Convert]::FromBase64String($signed.payload)
     $signature=[Convert]::FromBase64String($signed.signature)
     $rsa=New-Object Security.Cryptography.RSACryptoServiceProvider

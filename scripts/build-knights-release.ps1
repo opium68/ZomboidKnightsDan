@@ -55,8 +55,10 @@ try {
         $payload=[Text.Encoding]::UTF8.GetBytes(($manifest | ConvertTo-Json -Depth 8 -Compress))
         $sha=[Security.Cryptography.SHA256]::Create()
         try {$signature=$rsa.SignHash($sha.ComputeHash($payload),[Security.Cryptography.CryptoConfig]::MapNameToOID('SHA256'))}finally{$sha.Dispose()}
-        @{payload=[Convert]::ToBase64String($payload);signature=[Convert]::ToBase64String($signature)} |
-            ConvertTo-Json | Set-Content -LiteralPath (Join-Path $releaseRoot 'stable.json') -Encoding UTF8
+        $envelope=@{payload=[Convert]::ToBase64String($payload);signature=[Convert]::ToBase64String($signature)} | ConvertTo-Json
+        # Public WebRequest.Content is parsed by already installed launchers:
+        # Framework ConvertFrom-Json rejects a leading BOM. Explicitly omit it.
+        [IO.File]::WriteAllText((Join-Path $releaseRoot 'stable.json'),$envelope,[Text.UTF8Encoding]::new($false))
         $manifest | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $releaseRoot 'manifest-readable.json') -Encoding UTF8
         Write-Output ('Built signed release: '+$Version+'; '+$files.Count+' owned files.')
     } finally {
