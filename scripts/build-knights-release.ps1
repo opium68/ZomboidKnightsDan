@@ -3,6 +3,7 @@ param([string]$Version='0.1.0-20261005.1')
 $ErrorActionPreference='Stop'
 $root=Split-Path -Parent $PSScriptRoot
 if($Version -notmatch '^[A-Za-z0-9_.-]+$'){throw 'Invalid release version.'}
+& (Join-Path $PSScriptRoot 'validate-config.ps1') -SkipInstalledWorkshopCheck
 $privatePath=Join-Path $root 'config/release-signing.secret.bin'
 $publicPath=Join-Path $root 'player-launcher/release-public.xml'
 Add-Type -AssemblyName System.Security

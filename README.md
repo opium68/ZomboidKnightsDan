@@ -19,3 +19,5 @@ The shared contract board refreshes at midnight in game time with 3-5 random off
 Ammunition unpacking/repacking and opening purchased meal or weapon cases are permitted. Manufacturing reward equipment and food remains restricted. Restart both server and game after updating to reload recipe conditions.
 
 Lifestyle: Hobbies is installed through Steam Workshop (3403870858). Large fluid containers can use the native drink action without the 3 L capacity restriction; sealed-container and fullness checks remain. Multiplayer musical performance and drink synchronization still require in-game verification.
+
+The vanilla fishing panel uses the Korean bitmap font in Korean-language games to avoid question-mark substitutions in its SDF font. Panel and fish-tooltip text retain native translation and discovery rules; visual gameplay verification remains separate from automated checks.
