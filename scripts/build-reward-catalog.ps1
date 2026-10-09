@@ -28,7 +28,10 @@ function Get-Block($row) {
     return $body.Substring($start,$end-$start)
 }
 $items=@($rows | Where-Object {$_.Kind -eq 'item' -and ($_.ModId -in $gear -or $_.ModId -in $vehicleMods)} | Sort-Object Id -Unique)
-$recipes=@($rows | Where-Object {$_.Kind -in 'craftRecipe','recipe' -and $_.ModId -in $gear -and $_.Id -notmatch '(?i)repair|refill|recharge|reload|unload|load|paint|attach|detach'} | Sort-Object Id -Unique)
+# Opening purchased containers and repacking existing ammunition do not
+# manufacture rewards. Keep this audited allowlist narrow (not every "Open").
+$packaging='^(OpenCartonOf\d+x\d+mm(?:HE)?(?:Big)?|Place\d+x\d+mm(?:HE)?InCarton(?:Big)?|OpenLegendary(?:Daisho|TacticalKnife|TacticalSword)Case|UnpackMREBox[ABC]|M2A_OpenAmmoBox(?:10|30))$'
+$recipes=@($rows | Where-Object {$_.Kind -in 'craftRecipe','recipe' -and $_.ModId -in $gear -and $_.Id -notmatch '(?i)repair|refill|recharge|reload|unload|load|paint|attach|detach' -and $_.Id -notmatch $packaging} | Sort-Object Id -Unique)
 $catalog=@()
 foreach($row in $items) {
     $block=Get-Block $row

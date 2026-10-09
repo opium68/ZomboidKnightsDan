@@ -64,7 +64,7 @@ local function restrictRecipes()
             if K.blockedRecipes[recipe:getName()] then
                 -- The engine enforces required skills on the server too.
                 -- Level 99 is unreachable (normal skills stop at 10).
-                recipe:addRequiredSkill(Perks.Carpentry,99)
+                recipe:addRequiredSkill(Perks.Woodwork,99)
                 count=count+1
             end
         end

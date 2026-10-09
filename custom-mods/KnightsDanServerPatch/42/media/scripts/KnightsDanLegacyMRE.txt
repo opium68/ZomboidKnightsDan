@@ -9,7 +9,7 @@ module bdtmre
         time = 1,
         category = Packing,
         Tags = InHandCraft,
-        SkillRequired = Carpentry:99,
+        SkillRequired = Woodwork:99,
         inputs
         {
             item 1 [Base.ScrapMetal],

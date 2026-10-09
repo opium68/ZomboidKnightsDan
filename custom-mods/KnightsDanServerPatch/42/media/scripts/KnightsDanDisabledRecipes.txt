@@ -4,22 +4,6 @@ module Base {
     craftRecipe Furnace_TrackShoeNoTire { enabled = false, }
     craftRecipe MakeTrackShoe { enabled = false, }
     craftRecipe MakeTrackShoeNoTire { enabled = false, }
-    craftRecipe OpenCartonOf127x99mm { enabled = false, }
-    craftRecipe OpenCartonOf127x99mmBig { enabled = false, }
-    craftRecipe OpenCartonOf145x114mm { enabled = false, }
-    craftRecipe OpenCartonOf20x102mm { enabled = false, }
-    craftRecipe OpenCartonOf20x102mmHE { enabled = false, }
-    craftRecipe OpenCartonOf30x165mm { enabled = false, }
-    craftRecipe OpenCartonOf30x165mmHE { enabled = false, }
-    craftRecipe OpenCartonOf762x63mm { enabled = false, }
-    craftRecipe Place127x99mmInCarton { enabled = false, }
-    craftRecipe Place127x99mmInCartonBig { enabled = false, }
-    craftRecipe Place145x114mmInCarton { enabled = false, }
-    craftRecipe Place20x102mmHEInCarton { enabled = false, }
-    craftRecipe Place20x102mmInCarton { enabled = false, }
-    craftRecipe Place30x165mmHEInCarton { enabled = false, }
-    craftRecipe Place30x165mmInCarton { enabled = false, }
-    craftRecipe Place762x63mmInCarton { enabled = false, }
     craftRecipe PressTrackShoeMold { enabled = false, }
     craftRecipe SheetHighHardnessSteel { enabled = false, }
 }
@@ -110,7 +94,6 @@ module Base {
     craftRecipe MakeLegendaryWakizashiSheathWhite { enabled = false, }
     craftRecipe MakeLegendaryWakizashiSheathWood { enabled = false, }
     craftRecipe MakeLegendaryWakizashiWhite { enabled = false, }
-    craftRecipe OpenLegendaryDaishoCase { enabled = false, }
 }
 module Base {
     craftRecipe Forge_LegendaryTacticalAxeHead { enabled = false, }
@@ -133,8 +116,6 @@ module Base {
     craftRecipe MakeLegendaryTacticalSpear { enabled = false, }
     craftRecipe MakeLegendaryTacticalSword { enabled = false, }
     craftRecipe MakeLegendaryTacticalTomahawk { enabled = false, }
-    craftRecipe OpenLegendaryTacticalKnifeCase { enabled = false, }
-    craftRecipe OpenLegendaryTacticalSwordCase { enabled = false, }
 }
 module bdtmre {
     craftRecipe ConvertOldMRE { enabled = false, }
@@ -143,15 +124,6 @@ module bdtmre {
     craftRecipe CraftMREBoxA { enabled = false, }
     craftRecipe CraftMREBoxB { enabled = false, }
     craftRecipe CraftMREBoxC { enabled = false, }
-}
-module bdtmre {
-    craftRecipe UnpackMREBoxA { enabled = false, }
-    craftRecipe UnpackMREBoxB { enabled = false, }
-    craftRecipe UnpackMREBoxC { enabled = false, }
-}
-module Base {
-    craftRecipe M2A_OpenAmmoBox10 { enabled = false, }
-    craftRecipe M2A_OpenAmmoBox30 { enabled = false, }
 }
 module Base {
     craftRecipe M2A_CraftOgnemetFuelBottle { enabled = false, }
