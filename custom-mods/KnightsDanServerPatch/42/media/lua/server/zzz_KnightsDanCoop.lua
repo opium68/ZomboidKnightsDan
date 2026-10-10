@@ -192,13 +192,32 @@ if original.cancel then
         return result
     end
 end
+-- The native manhunt resolver is local to ISPZLinuxVariablesTables. Match
+-- its tagged-body/death-location rules here for the membership guard, then
+-- let the native handler validate and create the evidence normally.
+local function manhuntRecordForBody(body)
+    local square=body and body.getSquare and body:getSquare()
+    if not square then return nil end
+    local tagged=PZLinuxContractsGetWorldContract(PZLinuxContractsGetEntityContractId(body))
+    if tagged and tonumber(tagged.contractId)==3 and tagged.status=="target_down" then return tagged end
+    for _,candidate in pairs(PZLinuxContractsGetWorldData().active or {}) do
+        if tonumber(candidate.contractId)==3 and candidate.status=="target_down" then
+            local x=tonumber(candidate.targetDeathX) or tonumber(candidate.locationX) or 0
+            local y=tonumber(candidate.targetDeathY) or tonumber(candidate.locationY) or 0
+            local z=tonumber(candidate.targetDeathZ) or tonumber(candidate.locationZ) or 0
+            if square:getZ()==z and math.max(math.abs(square:getX()-x),math.abs(square:getY()-y))<=2 then
+                return candidate
+            end
+        end
+    end
+end
 PZLinuxContractsApplyWorldEvent=function(player,event,args,requestId)
     local p=PZLinuxGetPlayer(player)
     local id=args and (args.contractWorldId or args.worldContractId)
     local record=id and PZLinuxContractsGetWorldContract(id) or (p and K.active(p))
     if event=="decapitate" and p then
         local body=PZLinuxValidateWorldInteraction(p,args and args.target,"body",2)
-        local target=body and PZLinuxContractsFindManhuntRecordForBody(body)
+        local target=manhuntRecordForBody(body)
         if target and target.knightsMembers and not K.member(target,p) then return {ok=false,error="knights_not_participant",requestId=requestId} end
         record=target or record
     end

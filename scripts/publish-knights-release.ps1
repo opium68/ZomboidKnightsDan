@@ -91,7 +91,7 @@ Initial prices are editable in `config/knights-reward-prices.json`. Server start
 
 Successful surplus-item and Dark Web sales credit the personal bank account directly. Replayed sale receipts do not credit twice. Previously created payment parcels retain their existing mailbox redemption flow. Neat Crafting list and detail views tolerate unresolved recipe skill references without changing server crafting requirements; actual ammunition unpacking remains a client gameplay check.
 
-The shared contract board refreshes at midnight in game time with 3-5 random offers. Unaccepted offers from the previous day expire; accepted jobs remain active. Each participant can have only one active job. Boot, automatic login and general item-purchase dialogue run about five times faster while retaining their text and login animation.
+The shared contract board refreshes at midnight in game time with 3-5 random offers. Unaccepted offers from the previous day expire; accepted jobs remain active. Each participant can have only one active job. Boot and all common PZLinux dialogue/typing, including contracts, login and purchases, run about five times faster while retaining their text and login animation. The multiplier is applied once; existing fast login and purchase dialogue do not become 25 times faster.
 
 Ammunition unpacking/repacking and opening purchased meal or weapon cases are permitted. Manufacturing reward equipment and food remains restricted. Restart both server and game after updating to reload recipe conditions.
 
@@ -100,6 +100,8 @@ Lifestyle: Hobbies is installed through Steam Workshop (3403870858). Large fluid
 The vanilla fishing panel uses the Korean bitmap font in Korean-language games to avoid question-mark substitutions in its SDF font. Panel and fish-tooltip text retain native translation and discovery rules; visual gameplay verification remains separate from automated checks.
 
 When a backpack's Bedroll attachment slot disappears, automatic detachment now synchronizes the tool's attachment fields with the multiplayer server. The tool remains in the character inventory. Actual backpack pickup and rewearing still require multiplayer verification; native weight limits remain.
+
+The cooperative manhunt guard no longer calls a private native resolver as a global function. Successful decapitation uses the original evidence-bag creation path while retaining participant checks. In-game evidence delivery remains separate from automated native-Lua regression tests.
 '@
 [IO.File]::WriteAllText((Join-Path $repository 'README.md'),$readme,[Text.UTF8Encoding]::new($false))
 [IO.File]::WriteAllText((Join-Path $repository '.gitignore'),"config/*.secret.*`nconfig/release-private.xml`npackages/`nresearch/`nplayer-launcher/player-settings.json`nplayer-launcher/release-state.json`nplayer-launcher/.knights-update-backups/`n",[Text.UTF8Encoding]::new($false))

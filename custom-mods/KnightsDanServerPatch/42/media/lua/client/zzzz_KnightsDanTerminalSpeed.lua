@@ -1,10 +1,9 @@
 require "PZLinux/PZLinuxTyping"
 local nativeWait = PZLinux.Typing.wait
 PZLinux.Typing.wait = function(ui, minimum, maximum, multiplier)
-    local class = ui and getmetatable(ui)
-    if (connectUI and class == connectUI) or (requestUI and class == requestUI) then
-        multiplier = (tonumber(multiplier) or 1) / 5
-    end
+    -- One shared adjustment covers contract replies, message pauses and
+    -- character typing without stacking another factor on login/purchases.
+    multiplier = (tonumber(multiplier) or 1) / 5
     return nativeWait(ui, minimum, maximum, multiplier)
 end
 
