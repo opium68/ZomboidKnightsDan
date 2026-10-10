@@ -1,5 +1,18 @@
 require "Hotbar/ISHotbar"
 
+-- B42's automatic slot removal clears these fields only on the client.
+-- The normal ISDetachItemHotbar action also sends syncItemFields. Do the
+-- same for Bedroll items when a backpack disappears from the worn slots.
+local removeItem = ISHotbar.removeItem
+ISHotbar.removeItem = function(self, item, doAnim, ...)
+    local sync = not doAnim and item and item:getAttachmentType() == "Bedroll"
+        and item:getAttachedSlot() ~= -1
+        and not self.availableSlot[item:getAttachedSlot()] and isClient()
+    local result = removeItem(self, item, doAnim, ...)
+    if sync then syncItemFields(self.chr, item) end
+    return result
+end
+
 -- All-In-One toolboxes use the vanilla Bedroll attachment type. Older mod
 -- backpacks often supply no BedrollBottom slot, even though they occupy Back.
 local function addBottomSlot(hotbar, item)

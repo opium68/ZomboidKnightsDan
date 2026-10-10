@@ -21,3 +21,5 @@ Ammunition unpacking/repacking and opening purchased meal or weapon cases are pe
 Lifestyle: Hobbies is installed through Steam Workshop (3403870858). Large fluid containers can use the native drink action without the 3 L capacity restriction; sealed-container and fullness checks remain. Multiplayer musical performance and drink synchronization still require in-game verification.
 
 The vanilla fishing panel uses the Korean bitmap font in Korean-language games to avoid question-mark substitutions in its SDF font. Panel and fish-tooltip text retain native translation and discovery rules; visual gameplay verification remains separate from automated checks.
+
+When a backpack's Bedroll attachment slot disappears, automatic detachment now synchronizes the tool's attachment fields with the multiplayer server. The tool remains in the character inventory. Actual backpack pickup and rewearing still require multiplayer verification; native weight limits remain.

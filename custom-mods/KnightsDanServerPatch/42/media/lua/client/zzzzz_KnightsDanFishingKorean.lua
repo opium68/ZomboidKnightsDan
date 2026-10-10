@@ -1,7 +1,7 @@
 -- B42's AtomUIText uses a Latin SDF atlas and substitutes '?' for Hangul.
 -- Render only fishing-panel text through the game's Korean bitmap font.
 require "PZAPI/ui/organisms/FishWindow"
-local UI = PZAPI.UI
+print("[KnightsDan] Fishing Korean text module loaded")
 
 local function inFishing(node)
     local current = node
@@ -22,7 +22,9 @@ local function lines(text)
 end
 
 local function patch(node)
-    if node.knightsFishingText or node._ATOM_UI_CLASS ~= AtomUIText or not inFishing(node) then return end
+    -- PZAPI deep-copies template tables, including Lua-exposed class tables.
+    -- Comparing _ATOM_UI_CLASS with the global AtomUIText misses copied nodes.
+    if node.knightsFishingText or not node.setText or not node.font or not inFishing(node) then return end
     node.knightsFishingText = true
     node.knightsText = node.text or ""
     node.text = ""
@@ -64,16 +66,23 @@ local function patch(node)
 end
 
 local function install()
+    -- Resolve the final UI namespace after the game's UI bootstrap.
+    local UI = PZAPI.UI
     if UI.knightsFishingKoreanInstalled then return end
     local language = Translator.getLanguage()
     if language:name() ~= "KO" then return end
     UI.knightsFishingKoreanInstalled = true
     UI.FishWindow.knightsFishingWindow = true
     local original = UI._applyHooks
-    UI._applyHooks = function(node)
+    local function patchTree(node)
         patch(node)
+        for _, child in pairs(node.children or {}) do patchTree(child) end
+    end
+    UI._applyHooks = function(node)
+        patchTree(node)
         original(node)
     end
+    print("[KnightsDan] Fishing Korean bitmap hook installed")
 end
 
 Events.OnGameStart.Add(install)
