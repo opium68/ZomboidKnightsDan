@@ -26,4 +26,4 @@ When a backpack's Bedroll attachment slot disappears, automatic detachment now s
 
 The cooperative manhunt guard no longer calls a private native resolver as a global function. Successful decapitation uses the original evidence-bag creation path while retaining participant checks. In-game evidence delivery remains separate from automated native-Lua regression tests.
 
-Humvee VRO welding repairs use the normal vehicle-maintenance pose as a candidate workaround for reported animation-blend overflow. Materials and repair completion logic are retained. Actual FPS improvement and renderer stability still require in-game verification.
+Humvee repair lag reproduced after the welding-pose workaround. Bounded diagnostics now record animation track counts and names before and after repair completion to identify the affected character or vehicle part model. No tracks or buffers are forcibly cleared; materials and repair completion logic are retained. Root cause and FPS improvement remain unverified.
