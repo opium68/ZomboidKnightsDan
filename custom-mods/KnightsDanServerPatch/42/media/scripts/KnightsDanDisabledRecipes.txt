@@ -107,15 +107,6 @@ module Base {
     craftRecipe Forge_LegendaryTacticalSwordBlade { enabled = false, }
     craftRecipe MakeLegendaryKnifeSheath { enabled = false, }
     craftRecipe MakeLegendarySwordSheath { enabled = false, }
-    craftRecipe MakeLegendaryTacticalAxe { enabled = false, }
-    craftRecipe MakeLegendaryTacticalBat { enabled = false, }
-    craftRecipe MakeLegendaryTacticalCrowbar { enabled = false, }
-    craftRecipe MakeLegendaryTacticalHammer { enabled = false, }
-    craftRecipe MakeLegendaryTacticalKnife { enabled = false, }
-    craftRecipe MakeLegendaryTacticalSledgehammer { enabled = false, }
-    craftRecipe MakeLegendaryTacticalSpear { enabled = false, }
-    craftRecipe MakeLegendaryTacticalSword { enabled = false, }
-    craftRecipe MakeLegendaryTacticalTomahawk { enabled = false, }
 }
 module bdtmre {
     craftRecipe ConvertOldMRE { enabled = false, }

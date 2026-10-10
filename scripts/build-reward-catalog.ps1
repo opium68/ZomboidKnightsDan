@@ -31,7 +31,11 @@ $items=@($rows | Where-Object {$_.Kind -eq 'item' -and ($_.ModId -in $gear -or $
 # Opening purchased containers and repacking existing ammunition do not
 # manufacture rewards. Keep this audited allowlist narrow (not every "Open").
 $packaging='^(OpenCartonOf\d+x\d+mm(?:HE)?(?:Big)?|Place\d+x\d+mm(?:HE)?InCarton(?:Big)?|OpenLegendary(?:Daisho|TacticalKnife|TacticalSword)Case|UnpackMREBox[ABC]|M2A_OpenAmmoBox(?:10|30))$'
-$recipes=@($rows | Where-Object {$_.Kind -in 'craftRecipe','recipe' -and $_.ModId -in $gear -and $_.Id -notmatch '(?i)repair|refill|recharge|reload|unload|load|paint|attach|detach' -and $_.Id -notmatch $packaging} | Sort-Object Id -Unique)
+# Reassemble existing legendary components; forging components remains blocked.
+$assembly=@('MakeLegendaryTacticalSpear','MakeLegendaryTacticalSword','MakeLegendaryTacticalKnife',
+    'MakeLegendaryTacticalTomahawk','MakeLegendaryTacticalHammer','MakeLegendaryTacticalSledgehammer',
+    'MakeLegendaryTacticalBat','MakeLegendaryTacticalCrowbar','MakeLegendaryTacticalAxe')
+$recipes=@($rows | Where-Object {$_.Kind -in 'craftRecipe','recipe' -and $_.ModId -in $gear -and $_.Id -notmatch '(?i)repair|refill|recharge|reload|unload|load|paint|attach|detach' -and $_.Id -notmatch $packaging -and $_.Id -notin $assembly} | Sort-Object Id -Unique)
 $catalog=@()
 foreach($row in $items) {
     $block=Get-Block $row

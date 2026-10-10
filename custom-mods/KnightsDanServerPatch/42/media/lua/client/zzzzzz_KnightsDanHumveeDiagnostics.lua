@@ -27,16 +27,9 @@ end
 
 local function field(obj, name)
     if not obj then return nil end
+    -- Public Lua-visible fields only. Reflection is forbidden in normal MP.
     local ok, value = pcall(function() return obj[name] end)
-    if ok and value ~= nil then return value end
-    if not (getNumClassFields and getClassField and getClassFieldVal) then return nil end
-    local found, result = pcall(function()
-        for i = 0, math.min(getNumClassFields(obj), 1024) - 1 do
-            local f = getClassField(obj, i)
-            if call(f, "getName") == name then return getClassFieldVal(obj, f) end
-        end
-    end)
-    if found then return result end
+    if ok then return value end
 end
 
 local function inspect(label, player)
