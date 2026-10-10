@@ -102,6 +102,8 @@ The vanilla fishing panel uses the Korean bitmap font in Korean-language games t
 When a backpack's Bedroll attachment slot disappears, automatic detachment now synchronizes the tool's attachment fields with the multiplayer server. The tool remains in the character inventory. Actual backpack pickup and rewearing still require multiplayer verification; native weight limits remain.
 
 The cooperative manhunt guard no longer calls a private native resolver as a global function. Successful decapitation uses the original evidence-bag creation path while retaining participant checks. In-game evidence delivery remains separate from automated native-Lua regression tests.
+
+Humvee VRO welding repairs use the normal vehicle-maintenance pose as a candidate workaround for reported animation-blend overflow. Materials and repair completion logic are retained. Actual FPS improvement and renderer stability still require in-game verification.
 '@
 [IO.File]::WriteAllText((Join-Path $repository 'README.md'),$readme,[Text.UTF8Encoding]::new($false))
 [IO.File]::WriteAllText((Join-Path $repository '.gitignore'),"config/*.secret.*`nconfig/release-private.xml`npackages/`nresearch/`nplayer-launcher/player-settings.json`nplayer-launcher/release-state.json`nplayer-launcher/.knights-update-backups/`n",[Text.UTF8Encoding]::new($false))
