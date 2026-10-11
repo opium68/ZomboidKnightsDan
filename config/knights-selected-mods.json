@@ -178,5 +178,23 @@
     "ModId": "[J&G] British DPM Uniform",
     "Version": "",
     "Requires": "\\KATTAJ1_ClothesCore"
+  },
+  {
+    "WorkshopId": "3269061047",
+    "ModId": "Militek_Faction_Clothing",
+    "Version": "",
+    "Requires": "\\KATTAJ1_ClothesCore"
+  },
+  {
+    "WorkshopId": "3283211180",
+    "ModId": "KATTAJ1_Japanese_Traditional_Outfit",
+    "Version": "",
+    "Requires": []
+  },
+  {
+    "WorkshopId": "3470485566",
+    "ModId": "LynxPack",
+    "Version": "",
+    "Requires": "\\KATTAJ1_ClothesCore"
   }
 ]

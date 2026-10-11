@@ -1,0 +1,117 @@
+{
+  "reviewDate": "2026-10-12",
+  "status": "applied-0.1.0-20261012.4-gameplay-pending",
+  "selected": [
+    {
+      "WorkshopId": "3269061047",
+      "ModId": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "requires": "\\KATTAJ1_ClothesCore",
+      "outfits": [
+        "TTAJ1bl4_Army_Militek_Regular",
+        "TTAJ1bl4_Army_Militek_Officer"
+      ],
+      "sets": [
+        {
+          "family": "militek",
+          "name": "밀리텍 중장갑 세트",
+          "price": 225000,
+          "parts": [
+            "Base.Military_FullHelmet_Vanguard-Militek",
+            "Base.Military_Glasses_ShatterShield-Militek",
+            "Base.Military_Jacket_Classic-Militek",
+            "Base.Military_BulletproofVest_Vanguard_Heavy-Militek",
+            "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Militek",
+            "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Militek",
+            "Base.Military_Gloves_Grips-Militek",
+            "Base.Military_Pants_Cargo-Militek",
+            "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Militek",
+            "Base.Military_LegsProtectionLower_Vanguard_Heavy-Militek",
+            "Base.Military_Shoes_Boots-Militek"
+          ]
+        },
+        {
+          "family": "militek-officer",
+          "name": "밀리텍 장교 중장갑 세트",
+          "price": 270000,
+          "parts": [
+            "Base.Military_FullHelmet_Vanguard-MilitekOfficer",
+            "Base.Military_Glasses_ShatterShield-Militek",
+            "Base.Military_Jacket_Classic-Militek",
+            "Base.Military_BulletproofVest_Vanguard_Heavy-Militek",
+            "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-MilitekOfficer",
+            "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Militek",
+            "Base.Military_Gloves_Grips-Militek",
+            "Base.Military_Pants_Cargo-Militek",
+            "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Militek",
+            "Base.Military_LegsProtectionLower_Vanguard_Heavy-Militek",
+            "Base.Military_Shoes_Boots-Militek"
+          ]
+        }
+      ]
+    },
+    {
+      "WorkshopId": "3283211180",
+      "ModId": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "requires": "",
+      "outfits": [
+        "KATTAJ1_Japanese_Traditional",
+        "Traditional_Japanese_Outfit_Dyed"
+      ],
+      "sets": [
+        {
+          "family": "haori",
+          "name": "검정 하오리 전통 의복 세트",
+          "price": 30000,
+          "parts": [
+            "Base.Japanese_Belt-White",
+            "Base.Japanese_Jacket_Overshirt-Black",
+            "Base.Japanese_Jacket_Undershirt-Beige",
+            "Base.Japanese_Pants_Hakama-Brown",
+            "Base.Japanese_Shoes_Sandals-Straw",
+            "Base.Japanese_Socks-Black"
+          ]
+        }
+      ]
+    },
+    {
+      "WorkshopId": "3470485566",
+      "ModId": "LynxPack",
+      "build": "42.15",
+      "requires": "\\KATTAJ1_ClothesCore",
+      "outfits": [
+        "Lynx_Black",
+        "Lynx_Green",
+        "Lynx_BallisticFaceShield_Black",
+        "Lynx_BallisticFaceShield_Green",
+        "Lynx_RysT_Black",
+        "Lynx_RysT_Green",
+        "Lynx_Clothes"
+      ],
+      "sets": [
+        {
+          "family": "lynx-black",
+          "name": "링크스 검정 전술 세트",
+          "price": 180000,
+          "parts": [
+            "Base.Helmet_Lynx-Black",
+            "Base.BulletproofVest_Lynx_AssaultKit-Black",
+            "Base.Jacket_Lightweight_Lynx",
+            "Base.Pants_Classic_Lynx",
+            "Base.ElbowPads_Lynx_Armored-Black",
+            "Base.KneePads_Lynx_Armored-Black",
+            "Base.Gloves_Lynx",
+            "Base.Shoes_TacticalBoots_Lynx"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Militek vest/jacket conflict fixed 2026-08-15; thermal underwear and chest pouch omitted for missing icons.",
+    "Haori: no recent unresolved functional report found.",
+    "Lynx: field spawning disabled. Suspected Alice Weapon Sling conflict unconfirmed; that mod is not installed.",
+    "Original mods are installed from Workshop, never redistributed. Multiplayer appearance needs gameplay verification."
+  ]
+}

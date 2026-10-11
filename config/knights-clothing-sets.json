@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "applied-0.1.0-20261012.3-client-gameplay-pending",
+  "status": "applied-0.1.0-20261012.4-gameplay-pending",
   "note": "세트 가방 전체 구성품 배송; 개별 의복 판매 제거. 가방 내부에서 꺼내 착용. 고정 텍스처 0 사용.",
   "selectionPolicy": "추후 의류 슬롯에서 family를 먼저 추첨하고 해당 family의 색상 세트 하나를 선택. 구성과 색상은 구매 전에 표시하고 당일 고정.",
   "verification": "네이티브 42.21: 21개 가방 전체 구성품 생성·중복 방지·용량 및 94개 J&G 제작 제한 검증, 격리 부팅/정상 종료·운영 적용 통과. 실제 착용 외형 및 멀티 수령 대기.",
@@ -2445,6 +2445,503 @@
           "textureChoices": [
             "Clothes\\Military\\ArmourPads\\DPM_HeavyKneePads_Camo",
             "Clothes\\Military\\ArmourPads\\DPM_HeavyKneePads_Plain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "militek",
+      "name": "밀리텍 중장갑 세트",
+      "family": "militek",
+      "color": "fixed",
+      "price": 225000,
+      "referencePrice": 75000,
+      "items": [
+        {
+          "id": "Base.Military_FullHelmet_Vanguard-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Helmet Vanguard",
+          "bodyLocation": "base:FullHat",
+          "weight": "1",
+          "clothingItem": "Military_FullHelmet_Vanguard-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\FullHelmet\\Military_FullHelmet_Vanguard-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_Glasses_ShatterShield-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek ShatterShield Goggles",
+          "bodyLocation": "base:Eyes",
+          "weight": "0.1",
+          "clothingItem": "Military_Glasses_ShatterShield-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\Glasses\\Military_Glasses_ShatterShield-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_Jacket_Classic-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Jacket",
+          "bodyLocation": "base:Jacket",
+          "weight": "2",
+          "clothingItem": "Military_Jacket_Classic-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\Jacket\\Military_Jacket_Classic-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek BulletproofVest Vanguard",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "5",
+          "clothingItem": "Military_BulletproofVest_Vanguard_Heavy-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\BulletproofVest\\Military_BulletproofVest_Vanguard_Heavy-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Pauldrons Vanguard",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "3",
+          "clothingItem": "Military_ArmsProtectionUpper_Vanguard_Heavy-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Vanguard_Heavy-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Elbow Pads Vanguard",
+          "bodyLocation": "KATTAJ1:LowerArms",
+          "weight": "2",
+          "clothingItem": "Military_ArmsProtectionLower_Vanguard_Heavy-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\ArmsProtectionLower\\Military_ArmsProtectionLower_Vanguard_Heavy-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Grips Gloves",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\Gloves\\Military_Gloves_Grips-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Cargo Pants",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\Pants\\Military_Pants_Cargo-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Thigh Guards Vanguard",
+          "bodyLocation": "KATTAJ1:UpperLegs",
+          "weight": "3",
+          "clothingItem": "Military_LegsProtectionUpper_Vanguard_Heavy-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\LegsProtectionUpper\\Military_LegsProtectionUpper_Vanguard_Heavy-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Shin Guards Vanguard",
+          "bodyLocation": "KATTAJ1:LowerLegs",
+          "weight": "2",
+          "clothingItem": "Military_LegsProtectionLower_Vanguard_Heavy-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\LegsProtectionLower\\Military_LegsProtectionLower_Vanguard_Heavy-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_Boots-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Boots",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_Boots-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\Shoes\\Military_Shoes_Boots-Militek"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "militek-officer",
+      "name": "밀리텍 장교 중장갑 세트",
+      "family": "militek-officer",
+      "color": "fixed",
+      "price": 270000,
+      "referencePrice": 90000,
+      "items": [
+        {
+          "id": "Base.Military_FullHelmet_Vanguard-MilitekOfficer",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Officer Helmet Vanguard",
+          "bodyLocation": "base:FullHat",
+          "weight": "1",
+          "clothingItem": "Military_FullHelmet_Vanguard-MilitekOfficer",
+          "textureChoices": [
+            "Clothes\\Militek\\FullHelmet\\Military_FullHelmet_Vanguard-MilitekOfficer"
+          ]
+        },
+        {
+          "id": "Base.Military_Glasses_ShatterShield-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek ShatterShield Goggles",
+          "bodyLocation": "base:Eyes",
+          "weight": "0.1",
+          "clothingItem": "Military_Glasses_ShatterShield-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\Glasses\\Military_Glasses_ShatterShield-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_Jacket_Classic-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Jacket",
+          "bodyLocation": "base:Jacket",
+          "weight": "2",
+          "clothingItem": "Military_Jacket_Classic-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\Jacket\\Military_Jacket_Classic-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek BulletproofVest Vanguard",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "5",
+          "clothingItem": "Military_BulletproofVest_Vanguard_Heavy-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\BulletproofVest\\Military_BulletproofVest_Vanguard_Heavy-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-MilitekOfficer",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Officer Pauldrons Vanguard",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "3",
+          "clothingItem": "Military_ArmsProtectionUpper_Vanguard_Heavy-MilitekOfficer",
+          "textureChoices": [
+            "Clothes\\Militek\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Vanguard_Heavy-MilitekOfficer"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Elbow Pads Vanguard",
+          "bodyLocation": "KATTAJ1:LowerArms",
+          "weight": "2",
+          "clothingItem": "Military_ArmsProtectionLower_Vanguard_Heavy-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\ArmsProtectionLower\\Military_ArmsProtectionLower_Vanguard_Heavy-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Grips Gloves",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\Gloves\\Military_Gloves_Grips-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Cargo Pants",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\Pants\\Military_Pants_Cargo-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Thigh Guards Vanguard",
+          "bodyLocation": "KATTAJ1:UpperLegs",
+          "weight": "3",
+          "clothingItem": "Military_LegsProtectionUpper_Vanguard_Heavy-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\LegsProtectionUpper\\Military_LegsProtectionUpper_Vanguard_Heavy-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Shin Guards Vanguard",
+          "bodyLocation": "KATTAJ1:LowerLegs",
+          "weight": "2",
+          "clothingItem": "Military_LegsProtectionLower_Vanguard_Heavy-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\LegsProtectionLower\\Military_LegsProtectionLower_Vanguard_Heavy-Militek"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_Boots-Militek",
+          "quantity": 1,
+          "mod": "Militek_Faction_Clothing",
+          "originalName": "Militek Boots",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_Boots-Militek",
+          "textureChoices": [
+            "Clothes\\Militek\\Shoes\\Military_Shoes_Boots-Militek"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "haori",
+      "name": "검정 하오리 전통 의복 세트",
+      "family": "haori",
+      "color": "fixed",
+      "price": 30000,
+      "referencePrice": 10000,
+      "items": [
+        {
+          "id": "Base.Japanese_Belt-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+          "originalName": "Traditional Japanese Obi",
+          "bodyLocation": "base:Torso1",
+          "weight": "0.2",
+          "clothingItem": "Japanese_Belt-White",
+          "textureChoices": [
+            "Clothes\\Japanese\\Belt\\Japanese_Belt-White",
+            "Clothes\\Japanese\\Belt\\Japanese_Belt-Grey",
+            "Clothes\\Japanese\\Belt\\Japanese_Belt-Beige",
+            "Clothes\\Japanese\\Belt\\Japanese_Belt-Black",
+            "Clothes\\Japanese\\Belt\\Japanese_Belt-Brown"
+          ]
+        },
+        {
+          "id": "Base.Japanese_Jacket_Overshirt-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+          "originalName": "Traditional Japanese Haori",
+          "bodyLocation": "base:Jacket_Bulky",
+          "weight": "1",
+          "clothingItem": "Japanese_Jacket_Overshirt-Black",
+          "textureChoices": [
+            "Clothes\\Japanese\\Jacket\\Japanese_Jacket_Overshirt-Beige",
+            "Clothes\\Japanese\\Jacket\\Japanese_Jacket_Overshirt-Black",
+            "Clothes\\Japanese\\Jacket\\Japanese_Jacket_Overshirt-Blue",
+            "Clothes\\Japanese\\Jacket\\Japanese_Jacket_Overshirt-Brown",
+            "Clothes\\Japanese\\Jacket\\Japanese_Jacket_Overshirt-Red",
+            "Clothes\\Japanese\\Jacket\\Japanese_Jacket_Overshirt-White"
+          ]
+        },
+        {
+          "id": "Base.Japanese_Jacket_Undershirt-Beige",
+          "quantity": 1,
+          "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+          "originalName": "Traditional Japanese Jiban Shitagi",
+          "bodyLocation": "base:Sweater",
+          "weight": "0.5",
+          "clothingItem": "Japanese_Jacket_Undershirt-Beige",
+          "textureChoices": [
+            "Clothes\\Japanese\\Jacket\\Japanese_Jacket_Undershirt-Beige",
+            "Clothes\\Japanese\\Jacket\\Japanese_Jacket_Undershirt-Black",
+            "Clothes\\Japanese\\Jacket\\Japanese_Jacket_Undershirt-Blue",
+            "Clothes\\Japanese\\Jacket\\Japanese_Jacket_Undershirt-Brown",
+            "Clothes\\Japanese\\Jacket\\Japanese_Jacket_Undershirt-Red",
+            "Clothes\\Japanese\\Jacket\\Japanese_Jacket_Undershirt-White"
+          ]
+        },
+        {
+          "id": "Base.Japanese_Pants_Hakama-Brown",
+          "quantity": 1,
+          "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+          "originalName": "Traditional Japanese Hakama",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Japanese_Pants_Hakama-Brown",
+          "textureChoices": [
+            "Clothes\\Japanese\\Pants\\Japanese_Pants_Hakama-Beige",
+            "Clothes\\Japanese\\Pants\\Japanese_Pants_Hakama-Black",
+            "Clothes\\Japanese\\Pants\\Japanese_Pants_Hakama-Brown",
+            "Clothes\\Japanese\\Pants\\Japanese_Pants_Hakama-White"
+          ]
+        },
+        {
+          "id": "Base.Japanese_Shoes_Sandals-Straw",
+          "quantity": 1,
+          "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+          "originalName": "Traditional Japanese Waraji",
+          "bodyLocation": "base:Shoes",
+          "weight": "0.3",
+          "clothingItem": "Japanese_Shoes_Sandals-Straw",
+          "textureChoices": [
+            "Clothes\\Japanese\\Shoes\\Japanese_Shoes_Sandals-Straw"
+          ]
+        },
+        {
+          "id": "Base.Japanese_Socks-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+          "originalName": "Traditional Japanese Tabi",
+          "bodyLocation": "base:Socks",
+          "weight": "0.3",
+          "clothingItem": "Japanese_Socks-Black",
+          "textureChoices": [
+            "Clothes\\Japanese\\Socks\\Japanese_Socks-Black"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lynx-black",
+      "name": "링크스 검정 전술 세트",
+      "family": "lynx-black",
+      "color": "fixed",
+      "price": 180000,
+      "referencePrice": 60000,
+      "items": [
+        {
+          "id": "Base.Helmet_Lynx-Black",
+          "quantity": 1,
+          "mod": "LynxPack",
+          "originalName": "Helmet Lynx",
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Helmet_Lynx-Black",
+          "textureChoices": [
+            "Clothes\\Lynx\\Helmet\\Helmet_Lynx"
+          ]
+        },
+        {
+          "id": "Base.BulletproofVest_Lynx_AssaultKit-Black",
+          "quantity": 1,
+          "mod": "LynxPack",
+          "originalName": "BulletproofVest Lynx (Assault Kit)",
+          "bodyLocation": "KATTAJ1:TorsoExtraShoulderPelvic",
+          "weight": "7.5",
+          "clothingItem": "BulletproofVest_Lynx_AssaultKit-Black",
+          "textureChoices": [
+            "Clothes\\Lynx\\BulletproofVest\\BulletproofVest_Lynx"
+          ]
+        },
+        {
+          "id": "Base.Jacket_Lightweight_Lynx",
+          "quantity": 1,
+          "mod": "LynxPack",
+          "originalName": "Lightweight Jacket Lynx",
+          "bodyLocation": "base:Jacket",
+          "weight": "1",
+          "clothingItem": "Jacket_Lightweight_Lynx",
+          "textureChoices": [
+            "Clothes\\Lynx\\Jacket\\Jacket_Lightweight_Lynx",
+            "Clothes\\Lynx\\Jacket\\Jacket_Lightweight_Lynx2",
+            "Clothes\\Lynx\\Jacket\\Jacket_Lightweight_Lynx3"
+          ]
+        },
+        {
+          "id": "Base.Pants_Classic_Lynx",
+          "quantity": 1,
+          "mod": "LynxPack",
+          "originalName": "Cargo Pants Lynx",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Pants_Classic_Lynx",
+          "textureChoices": [
+            "Clothes\\Lynx\\Pants\\Pants_Classic_Lynx",
+            "Clothes\\Lynx\\Pants\\Pants_Classic_Lynx2",
+            "Clothes\\Lynx\\Pants\\Pants_Classic_Lynx3",
+            "Clothes\\Lynx\\Pants\\Pants_Classic_Lynx4",
+            "Clothes\\Lynx\\Pants\\Pants_Classic_Lynx5"
+          ]
+        },
+        {
+          "id": "Base.ElbowPads_Lynx_Armored-Black",
+          "quantity": 1,
+          "mod": "LynxPack",
+          "originalName": "ElbowPads Lynx (Armored)",
+          "bodyLocation": "KATTAJ1:Elbows",
+          "weight": "1",
+          "clothingItem": "ElbowPads_Lynx_Armored-Black",
+          "textureChoices": [
+            "Clothes\\Lynx\\ElbowPads\\ElbowPads_Lynx"
+          ]
+        },
+        {
+          "id": "Base.KneePads_Lynx_Armored-Black",
+          "quantity": 1,
+          "mod": "LynxPack",
+          "originalName": "KneePads Lynx (Armored)",
+          "bodyLocation": "KATTAJ1:Knees",
+          "weight": "1",
+          "clothingItem": "KneePads_Lynx_Armored-Black",
+          "textureChoices": [
+            "Clothes\\Lynx\\KneePads\\KneePads_Lynx"
+          ]
+        },
+        {
+          "id": "Base.Gloves_Lynx",
+          "quantity": 1,
+          "mod": "LynxPack",
+          "originalName": "Gloves Lynx",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Gloves_Lynx",
+          "textureChoices": [
+            "Clothes\\Lynx\\Gloves\\Gloves_Lynx",
+            "Clothes\\Lynx\\Gloves\\Gloves_Lynx2"
+          ]
+        },
+        {
+          "id": "Base.Shoes_TacticalBoots_Lynx",
+          "quantity": 1,
+          "mod": "LynxPack",
+          "originalName": "Tactical Boots Lynx",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Shoes_TacticalBoots_Lynx",
+          "textureChoices": [
+            "Clothes\\Lynx\\Shoes\\Shoes_TacticalBoots_Lynx",
+            "Clothes\\Lynx\\Shoes\\Shoes_TacticalBoots_Lynx2"
           ]
         }
       ]

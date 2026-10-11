@@ -20,4 +20,8 @@ module KnightsDan {
     item ClothingSet_trauma_responder { ItemType = base:container, DisplayName = Clothing Set trauma-responder, Icon = Bag_DuffelBag, Weight = 0.5, Capacity = 50, WeightReduction = 0, CanBeEquipped = Secondary, OnCreate = KnightsDan.createClothingSet, }
     item ClothingSet_marpat { ItemType = base:container, DisplayName = Clothing Set marpat, Icon = Bag_DuffelBag, Weight = 0.5, Capacity = 50, WeightReduction = 0, CanBeEquipped = Secondary, OnCreate = KnightsDan.createClothingSet, }
     item ClothingSet_british_dpm { ItemType = base:container, DisplayName = Clothing Set british-dpm, Icon = Bag_DuffelBag, Weight = 0.5, Capacity = 50, WeightReduction = 0, CanBeEquipped = Secondary, OnCreate = KnightsDan.createClothingSet, }
+    item ClothingSet_militek { ItemType = base:container, DisplayName = Clothing Set militek, Icon = Bag_DuffelBag, Weight = 0.5, Capacity = 50, WeightReduction = 0, CanBeEquipped = Secondary, OnCreate = KnightsDan.createClothingSet, }
+    item ClothingSet_militek_officer { ItemType = base:container, DisplayName = Clothing Set militek-officer, Icon = Bag_DuffelBag, Weight = 0.5, Capacity = 50, WeightReduction = 0, CanBeEquipped = Secondary, OnCreate = KnightsDan.createClothingSet, }
+    item ClothingSet_haori { ItemType = base:container, DisplayName = Clothing Set haori, Icon = Bag_DuffelBag, Weight = 0.5, Capacity = 50, WeightReduction = 0, CanBeEquipped = Secondary, OnCreate = KnightsDan.createClothingSet, }
+    item ClothingSet_lynx_black { ItemType = base:container, DisplayName = Clothing Set lynx-black, Icon = Bag_DuffelBag, Weight = 0.5, Capacity = 50, WeightReduction = 0, CanBeEquipped = Secondary, OnCreate = KnightsDan.createClothingSet, }
 }

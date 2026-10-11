@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "applied-0.1.0-20261012.3-client-gameplay-pending",
+  "status": "applied-0.1.0-20261012.4-gameplay-pending",
   "note": "승인된 세트 기준가의 3배. 0.1.0-20261012.3 운영 적용. 실제 구매가는 기존 평판·거래 기술 계산을 따름.",
   "families": [
     {
@@ -66,6 +66,30 @@
       "id": "british-dpm",
       "name": "영국 DPM 전술 세트",
       "price": 105000,
+      "status": "implemented"
+    },
+    {
+      "id": "militek",
+      "name": "밀리텍 중장갑 세트",
+      "price": 225000,
+      "status": "implemented"
+    },
+    {
+      "id": "militek-officer",
+      "name": "밀리텍 장교 중장갑 세트",
+      "price": 270000,
+      "status": "implemented"
+    },
+    {
+      "id": "haori",
+      "name": "검정 하오리 전통 의복 세트",
+      "price": 30000,
+      "status": "implemented"
+    },
+    {
+      "id": "lynx-black",
+      "name": "링크스 검정 전술 세트",
+      "price": 180000,
       "status": "implemented"
     }
   ]

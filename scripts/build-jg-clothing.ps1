@@ -7,20 +7,26 @@ if(!$StageRoot){
     if(!(Test-Path -LiteralPath $StageRoot)){$StageRoot='D:/PZDedicated'}
 }
 $selection=Get-Content (Join-Path $root 'config/knights-jg-clothing.json') -Raw | ConvertFrom-Json
+$ttaj=Get-Content (Join-Path $root 'config/knights-ttaj-clothing.json') -Raw | ConvertFrom-Json
+$allEntries=@($selection.selected)+@($ttaj.selected)
+$families=@($selection.selected.family)+@($ttaj.selected.sets.family)
 $setsConfig=Get-Content (Join-Path $root 'config/knights-clothing-sets.json') -Raw | ConvertFrom-Json
-$oldSets=@($setsConfig.sets | Where-Object {$_.family -notin $selection.selected.family})
+$oldSets=@($setsConfig.sets | Where-Object {$_.family -notin $families})
 $items=@{}; $recipes=@{}; $modRecords=@(); $sets=@($oldSets)
 $utf8=[Text.UTF8Encoding]::new($false)
 $patch=Join-Path $root 'custom-mods/KnightsDanServerPatch/42/media'
-foreach($entry in $selection.selected){
-    $mod=Get-ChildItem -LiteralPath (Join-Path $StageRoot ('steamapps/workshop/content/108600/'+$entry.WorkshopId+'/mods')) -Directory | Select-Object -First 1
-    $info=Get-Content -LiteralPath (Join-Path $mod.FullName '42.20/mod.info')
+foreach($entry in $allEntries){
+    $source=if($entry.build){Join-Path $root 'research/ttaj-workshop-staging'}else{$StageRoot}
+    if(!(Test-Path -LiteralPath $source)){$source=$StageRoot}
+    $build=if($entry.build){$entry.build}else{'42.20'}
+    $mod=Get-ChildItem -LiteralPath (Join-Path $source ('steamapps/workshop/content/108600/'+$entry.WorkshopId+'/mods')) -Directory | Select-Object -First 1
+    $info=Get-Content -LiteralPath (Join-Path $mod.FullName ($build+'/mod.info'))
     $id=($info | Where-Object {$_ -match '^id='}) -replace '^id=',''
     if($id -cne $entry.ModId){throw 'Unexpected J&G Mod ID.'}
     $require=($info | Where-Object {$_ -match '^require='}) -replace '^require=',''
-    if($require -ne '\KATTAJ1_ClothesCore'){throw 'Unexpected J&G dependency.'}
+    if($entry.build -and $require -ne $entry.requires -or !$entry.build -and $require -ne '\KATTAJ1_ClothesCore'){throw 'Unexpected J&G dependency.'}
     $modRecords+=[ordered]@{WorkshopId=$entry.WorkshopId;ModId=$id;Version='';Requires=$require}
-    $media=Join-Path $mod.FullName 'common/media'
+    $media=Join-Path $mod.FullName $(if($entry.build){$build+'/media'}else{'common/media'})
     foreach($file in Get-ChildItem -LiteralPath (Join-Path $media 'scripts') -Recurse -File -Filter '*.txt'){
         $text=[IO.File]::ReadAllText($file.FullName)
         $module=[regex]::Match($text,'(?m)^\s*module\s+(\S+)').Groups[1].Value
@@ -33,12 +39,25 @@ foreach($entry in $selection.selected){
             $textures=@();$clothing=$fields.ClothingItem
             if($clothing){
                 $xmlPath=Join-Path $media ('clothing/clothingItems/'+$clothing+'.xml')
-                if(!(Test-Path -LiteralPath $xmlPath)){throw "Missing clothing XML: $clothing"}
-                [xml]$xml=[IO.File]::ReadAllText($xmlPath)
-                $textures=@($xml.SelectNodes('//m_BaseTextures|//textureChoices') | ForEach-Object {$_.InnerText})
+                if(Test-Path -LiteralPath $xmlPath){
+                    [xml]$xml=[IO.File]::ReadAllText($xmlPath)
+                    $textures=@($xml.SelectNodes('//m_BaseTextures|//textureChoices') | ForEach-Object {$_.InnerText})
+                }elseif(!$entry.build){throw "Missing clothing XML: $clothing"}
             }
             $items[$module+'.'+$name]=[ordered]@{id=$module+'.'+$name;quantity=1;mod=$id;originalName=$fields.DisplayName;bodyLocation=$fields.BodyLocation;weight=$fields.Weight;clothingItem=$clothing;textureChoices=$textures}
         }
+    }
+    if($entry.sets){
+        foreach($definition in $entry.sets){
+            $parts=@();$slots=@{}
+            foreach($component in $definition.parts){
+                $part=$items[$component]
+                if(!$part -or !$part.bodyLocation -or $slots.ContainsKey($part.bodyLocation) -or !(Test-Path -LiteralPath (Join-Path $media ('clothing/clothingItems/'+$part.clothingItem+'.xml')))){throw "Invalid TTAJ set component: $component"}
+                $slots[$part.bodyLocation]=$true;$parts+=$part
+            }
+            $sets+=[ordered]@{id=$definition.family;name=$definition.name;family=$definition.family;color='fixed';price=$definition.price;referencePrice=($definition.price/3);items=$parts}
+        }
+        continue
     }
     $prefix=$entry.prefix
     $names=if($prefix -eq 'Medical_Red'){@('Jacket','Pants','Gloves','TacBoots','Helmet_Patriot','BulletproofVest_Patriot','ShoulderPads_Patriot','ElbowPads','HeavyKneePads')}else{@('Jacket','Pants','Gloves','TacBoots','Helmet','Vest','ShoulderPads_Patriot','Elbow_Pads','KneePads_Defender')}
@@ -52,7 +71,7 @@ foreach($entry in $selection.selected){
     $sets+=[ordered]@{id=$entry.family;name=$entry.name;family=$entry.family;color=$prefix;price=$entry.price;referencePrice=67500;items=$parts}
 }
 $selectedPath=Join-Path $root 'config/knights-selected-mods.json'
-$selected=@(Get-Content $selectedPath -Raw | ConvertFrom-Json | Where-Object {$_.ModId -notin $selection.selected.ModId})+@($modRecords)
+$selected=@(Get-Content $selectedPath -Raw | ConvertFrom-Json | Where-Object {$_.ModId -notin $allEntries.ModId})+@($modRecords)
 [IO.File]::WriteAllText($selectedPath,($selected | ConvertTo-Json -Depth 8),$utf8)
 $lua=[Collections.Generic.List[string]]::new()
 $lua.Add('require "KnightsDan/Catalog"')
@@ -74,7 +93,7 @@ foreach($set in $sets){
 $lua.Add('}');$lua.Add('KnightsDan.jgItems = {')
 foreach($id in ($items.Keys | Sort-Object)){$lua.Add('    ["'+$id+'"] = true,')}
 $lua.Add('}');$lua.Add('KnightsDan.jgOutfits = {')
-foreach($entry in $selection.selected){$lua.Add('    ["'+$entry.outfit+'"] = true,')}
+foreach($entry in $allEntries){foreach($outfit in @($entry.outfit)+@($entry.outfits)){if($outfit){$lua.Add('    ["'+$outfit+'"] = true,')}}}
 $lua.Add('}');$lua.Add('KnightsDan.jgRecipes = {')
 foreach($key in ($recipes.Keys | Sort-Object)){$name=($key -split '\.',2)[1];$lua.Add('    ["'+$name+'"] = true,')}
 $lua.Add('}');$lua.Add('KnightsDan.individualClothingItems = {')
@@ -97,7 +116,7 @@ $setsConfig.sets=@($sets);$setsConfig.status='implemented-awaiting-validation';$
 [IO.File]::WriteAllText((Join-Path $root 'config/knights-clothing-sets.json'),($setsConfig | ConvertTo-Json -Depth 12),$utf8)
 $pricesPath=Join-Path $root 'config/knights-clothing-set-prices.json'
 $priceConfig=Get-Content $pricesPath -Raw | ConvertFrom-Json
-$priceConfig.families=@($priceConfig.families | Where-Object {$_.id -notin $selection.selected.family})+@($selection.selected | ForEach-Object {[ordered]@{id=$_.family;name=$_.name;price=$_.price;status='implemented'}})
+$priceConfig.families=@($priceConfig.families | Where-Object {$_.id -notin $families})+@($sets | Where-Object {$_.family -in $families} | ForEach-Object {[ordered]@{id=$_.family;name=$_.name;price=$_.price;status='implemented'}})
 $priceConfig.status='implemented-awaiting-validation'
 [IO.File]::WriteAllText($pricesPath,($priceConfig | ConvertTo-Json -Depth 8),$utf8)
 $doc=@('# 의류 세트 판매','','상태: 구현 완료, 자동 검사/격리 서버 검증 및 운영 적용 상태는 J&G 배포 기록 참조.','',
@@ -109,4 +128,4 @@ foreach($set in $sets){$doc+='| '+$set.name+' | $'+$set.price+' | '+@($set.items
 $doc+=@('',('총 '+$sets.Count+'개 세트. 코드/착용 부위/텍스처 원본은 config/knights-clothing-sets.json. 선언 및 슬롯 중복을 검사했으며 실제 남녀 착용·외형·멀티 수령은 게임에서 확인해야 한다.'),'',
     'KATTAJ1 뱅가드에는 같은 색 디펜더 헬멧을 사용한다. 세베루스 키트는 세트당 한 종류다. 나노아머는 보이지 않는 보호 모델이다. J&G 마스크는 소진 필터 관련 보고를 고려해 세트 동봉 및 신규 판매에서 제외한다.')
 [IO.File]::WriteAllLines((Join-Path $root 'docs/KNIGHTS-CLOTHING-SETS.md'),$doc,$utf8)
-Write-Output "Built $($modRecords.Count) J&G mods, $($items.Count) items, $($recipes.Count) restricted recipes, $($sets.Count) clothing set packages."
+Write-Output "Built $($modRecords.Count) J&G/TTAJ mods, $($items.Count) items, $($recipes.Count) restricted recipes, $($sets.Count) clothing set packages."
