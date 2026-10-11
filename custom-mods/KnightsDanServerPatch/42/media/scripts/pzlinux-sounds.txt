@@ -1,0 +1,247 @@
+module Base
+{
+	sound computerBootLow
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/computerBootLow.ogg,
+			volume = 0.25,
+		}
+	}
+	sound computerBootMedium
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/computerBootMedium.ogg,
+			volume = 0.25,
+		}
+	}
+	sound computerBoot
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/computerBoot.ogg,
+			volume = 0.25,
+		}
+	}
+	sound typingKeyboard1
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/typingKeyboard1.ogg,
+			volume = 0.25,
+		}
+	}
+	sound typingKeyboard2
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/typingKeyboard2.ogg,
+			volume = 0.25,
+		}
+	}
+	sound typingKeyboard3
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/typingKeyboard3.ogg,
+			volume = 0.25,
+		}
+	}
+	sound typingKeyboard4
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/typingKeyboard4.ogg,
+			volume = 0.25,
+		}
+	}
+	sound typingKeyboard5
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/typingKeyboard5.ogg,
+			volume = 0.25,
+		}
+	}
+	sound typingKeyboard6
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/typingKeyboard6.ogg,
+			volume = 0.25,
+		}
+	}
+	sound typingKeyboard7
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/typingKeyboard7.ogg,
+			volume = 0.25,
+		}
+	}
+	sound typingKeyboard8
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/typingKeyboard8.ogg,
+			volume = 0.25,
+		}
+	}
+	sound typingKeyboard9
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/typingKeyboard9.ogg,
+			volume = 0.25,
+		}
+	}
+	sound typingKeyboard10
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/typingKeyboard10.ogg,
+			volume = 0.25,
+		}
+	}
+	sound typingKeyboardEnd
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/typingKeyboardEnd.ogg,
+			volume = 0.25,
+		}
+	}
+	sound upInternet
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/upInternet.ogg,
+			volume = 0.25,
+		}
+	}
+	sound buy
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/buy.ogg,
+			volume = 0.25,
+		}
+	}
+	sound sold
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/sold.ogg,
+			volume = 0.25,
+		}
+	}
+	sound error
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/error.ogg,
+			volume = 0.25,
+		}
+	}
+	sound creditCard
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/creditCard.ogg,
+			volume = 0.25,
+		}
+	}
+	sound atmBip
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/atmBip.ogg,
+			volume = 0.25,
+		}
+	}
+	sound decapitate
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/decapitate.ogg,
+			volume = 0.25,
+		}
+	}
+	sound openCloseCabinet
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/openCloseCabinet.ogg,
+			volume = 0.25,
+		}
+	}
+	sound blood
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/blood.ogg,
+			volume = 0.25,
+		}
+	}
+	sound ircNotification
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/ircNotification.ogg,
+			volume = 0.25,
+		}
+	}
+	sound race
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/race.ogg,
+			volume = 0.25,
+		}
+	}
+	sound done
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/done.ogg,
+			volume = 0.25,
+		}
+	}
+	sound screw
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/screw.ogg,
+			volume = 0.25,
+		}
+	}
+}
+

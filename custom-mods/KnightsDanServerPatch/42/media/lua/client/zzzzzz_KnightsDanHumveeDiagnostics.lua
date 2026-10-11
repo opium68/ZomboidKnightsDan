@@ -26,10 +26,10 @@ local function collectionGet(list, i)
 end
 
 local function field(obj, name)
-    if not obj then return nil end
-    -- Public Lua-visible fields only. Reflection is forbidden in normal MP.
-    local ok, value = pcall(function() return obj[name] end)
-    if ok then return value end
+    -- Native Java fields are not Lua table entries, even when public in Java.
+    -- pcall catches the exception but the engine still logs/counts it.
+    if type(obj) ~= "table" then return nil end
+    return rawget(obj, name)
 end
 
 local function inspect(label, player)
@@ -70,10 +70,14 @@ function D.snapshot(action, phase)
     local script = call(vehicle, "getScript")
     if call(script, "getFullName") ~= "Base.M998_Humvee" then return end
     local models = field(vehicle, "models")
+    local item = call(action.part, "getInventoryItem")
     local fields = {"[KD_HUMVEE_DIAG] phase=" .. phase,
         "vehicle=" .. tostring(call(vehicle, "getId")),
         "part=" .. tostring(call(action.part, "getId")),
         "condition=" .. tostring(call(action.part, "getCondition")),
+        "itemCondition=" .. tostring(call(item, "getCondition")),
+        "itemMax=" .. tostring(call(item, "getConditionMax")),
+        "repairs=" .. tostring(call(item, "getHaveBeenRepaired")),
         "action=" .. tostring(action.actionAnim),
         inspect("character", existingPlayer(action.character)),
         inspect("vehicle", existingPlayer(vehicle))}
@@ -105,6 +109,14 @@ VRO.DoFixAction.start = function(self, ...)
 end
 VRO.DoFixAction.perform = function(self, ...)
     safeSnapshot(self, "before-perform")
+    local repairVehicle = call(self.part, "getVehicle")
+    if isClient and isClient() and sendClientCommand
+        and call(call(repairVehicle, "getScript"), "getFullName") == "Base.M998_Humvee" then
+        -- Same command channel as VRO: server records its state before doFix arrives.
+        sendClientCommand(self.character, "KDHumveeDiag", "beforeRepair", {
+            vehicleId=call(repairVehicle, "getId"), partId=call(self.part, "getId"),
+            clientCondition=call(self.part, "getCondition")})
+    end
     local result = perform(self, ...)
     safeSnapshot(self, "after-perform")
     local vehicle = call(self.part, "getVehicle")
