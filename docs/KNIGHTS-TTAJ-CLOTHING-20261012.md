@@ -25,3 +25,5 @@
 - 운영 적용·공개 배포: 0.1.0-20261012.4로 진행. 최종 상태는 아래 기록 참조.
 
 운영 적용 완료: 0.1.0-20261012.4, 자체 모드 65개 파일 해시 일치. 원본 3개 Workshop 캐시 설치 및 정본 INI 102 Mod ID / 94 Workshop ID 검증. 백업: backups/owned-mods-before-0.1.0-20261012.4. 서버는 종료 상태 유지.
+
+공개 배포 완료: GitHub 릴리스 v0.1.0-20261012.4 및 stable 채널 활성화. 실제 HTTP JSON·서명·ZIP·추출 파일 전부 검증 PASS, 운영 65개 자체 파일 일치. 증거: research/public-release-0806eed549294cc0bbdfd040a69c95cf.
