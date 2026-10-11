@@ -156,7 +156,7 @@ PZLinuxContractsApplyComplete=function(player,state,requestId)
     local status=PZLinuxContractsCanonicalActiveState(record.status)
     if status~=9 and status~=10 then return {ok=false,error="contract_not_completed",requestId=requestId} end
     local store=K.store()
-    local amount=PZLinuxNormalizeMoney(record.reward)+PZLinuxNormalizeMoney(record.zombieCount)*5
+    local amount=K.contractPayout(record)
     local id=tostring(record.id)
     for member in pairs(record.knightsMembers) do
         store.payouts[member]=store.payouts[member] or {}

@@ -49,6 +49,7 @@ function PZLinuxContractsGetBoardData()
         PZLinux.contractPreviews = {}
         if isServer() then ModData.transmit("PZLinuxContractsBoard") end
     end
+    for _, offer in ipairs(board.contracts or {}) do KnightsDan.scaleContractReward(offer) end
     return board
 end
 

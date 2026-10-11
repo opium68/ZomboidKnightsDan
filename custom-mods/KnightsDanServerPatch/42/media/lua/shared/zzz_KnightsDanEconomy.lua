@@ -37,11 +37,18 @@ PZLinuxContractsGetBoardData = function()
     if board.knightsEconomyVersion ~= 1 and K.authoritative() then
         for _, offer in ipairs(board.contracts or {}) do
             local def = PZLinuxContractsGetDefinition(offer.id)
-            if def then offer.reward=PZLinux.Economy.roundPrice(def.reward,"nearest") end
+            if def then
+                offer.reward=PZLinux.Economy.roundPrice(def.reward,"nearest")
+                offer.knightsRewardMultiplier=nil
+            end
         end
         PZLinux.contractPreviews = {}
         board.knightsEconomyVersion=1
     end
+    if K.scaleContractReward then
+        for _, offer in ipairs(board.contracts or {}) do K.scaleContractReward(offer) end
+    end
     return board
 end
+require "KnightsDan/ContractMoney"
 print("[KnightsDan] economy patch " .. K.version .. " loaded; stock trading enabled; inflation and ATM disabled")
