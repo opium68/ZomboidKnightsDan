@@ -1,0 +1,2453 @@
+{
+  "schemaVersion": 1,
+  "status": "applied-0.1.0-20261012.3-client-gameplay-pending",
+  "note": "세트 가방 전체 구성품 배송; 개별 의복 판매 제거. 가방 내부에서 꺼내 착용. 고정 텍스처 0 사용.",
+  "selectionPolicy": "추후 의류 슬롯에서 family를 먼저 추첨하고 해당 family의 색상 세트 하나를 선택. 구성과 색상은 구매 전에 표시하고 당일 고정.",
+  "verification": "네이티브 42.21: 21개 가방 전체 구성품 생성·중복 방지·용량 및 94개 J&G 제작 제한 검증, 격리 부팅/정상 종료·운영 적용 통과. 실제 착용 외형 및 멀티 수령 대기.",
+  "notes": [
+    "뱅가드 세트의 헬멧은 현재 선언이 확인된 같은 색 디펜더 헬멧 사용.",
+    "Cerberus 방탄복 키트는 서로 배타적이므로 세트당 한 종류만 포함. 별도 기본 방탄복 중복 제공 안 함.",
+    "배낭·홀스터·칼집·야시경·램프는 별도 상품으로 유지하는 구성안.",
+    "일부 옷은 같은 아이템 코드 안에 무늬/단색 텍스처가 여러 개 있으므로 판매 연동 시 텍스처 고정 필요.",
+    "나노아머는 blank 모델/텍스처를 사용하는 보이지 않는 보호 장비. H/FH 변형은 동봉하지 않음."
+  ],
+  "sets": [
+    {
+      "id": "patriot-black",
+      "name": "패트리어트 경량 전술 세트 (검정)",
+      "family": "patriot",
+      "color": "Black",
+      "price": 90000,
+      "referencePrice": 37600,
+      "items": [
+        {
+          "id": "Base.Military_Shirt_Classic-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shirt (Black)",
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Military_Shirt_Classic-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-Black",
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Cargo Pants (Black)",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-Black",
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Grips Gloves (Black)",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-Black"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_TacticalBoots-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Tactical Boots (Black)",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_TacticalBoots-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-Black",
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Helmet_Patriot-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Helmet Patriot (Black)",
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Military_Helmet_Patriot-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Helmet\\Military_Helmet_Patriot-Black",
+            "Clothes\\Military\\Helmet\\Military_Helmet_Patriot-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Patriot_Light-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military BulletproofVest Patriot (Black)",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "2.5",
+          "clothingItem": "Military_BulletproofVest_Patriot_Light-Black",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Patriot_Light-Black",
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Patriot_Light-BlackPlain"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_patriot_black"
+    },
+    {
+      "id": "defender-black",
+      "name": "디펜더 중형 전술 세트 (검정)",
+      "family": "defender",
+      "color": "Black",
+      "price": 150000,
+      "referencePrice": 67600,
+      "items": [
+        {
+          "id": "Base.Military_Shirt_Classic-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shirt (Black)",
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Military_Shirt_Classic-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-Black",
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Cargo Pants (Black)",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-Black",
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Grips Gloves (Black)",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-Black"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_TacticalBoots-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Tactical Boots (Black)",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_TacticalBoots-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-Black",
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Helmet_Defender-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Helmet Defender (Black)",
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Military_Helmet_Defender-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-Black",
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Defender_Medium-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military BulletproofVest Defender (Black)",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "6",
+          "clothingItem": "Military_BulletproofVest_Defender_Medium-Black",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Defender_Medium-Black",
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Defender_Medium-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Pauldrons Defender (Black)",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "2",
+          "clothingItem": "Military_ArmsProtectionUpper_Defender_Medium-Black",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Defender_Medium-Black",
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Defender_Medium-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionLower_Defender_Medium-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Elbow Pads Defender (Black)",
+          "bodyLocation": "KATTAJ1:LowerArms",
+          "weight": "1.5",
+          "clothingItem": "Military_ArmsProtectionLower_Defender_Medium-Black",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Defender_Medium-Black",
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Defender_Medium-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Thigh Guards Defender (Black)",
+          "bodyLocation": "KATTAJ1:UpperLegs",
+          "weight": "2",
+          "clothingItem": "Military_LegsProtectionUpper_Defender_Medium-Black",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Defender_Medium-Black",
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Defender_Medium-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionLower_Defender_Medium-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shin Guards Defender (Black)",
+          "bodyLocation": "KATTAJ1:LowerLegs",
+          "weight": "1.5",
+          "clothingItem": "Military_LegsProtectionLower_Defender_Medium-Black",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Defender_Medium-Black",
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Defender_Medium-BlackPlain"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_defender_black"
+    },
+    {
+      "id": "vanguard-black",
+      "name": "뱅가드 중장갑 전술 세트 (검정)",
+      "family": "vanguard",
+      "color": "Black",
+      "price": 225000,
+      "referencePrice": 67600,
+      "items": [
+        {
+          "id": "Base.Military_Shirt_Classic-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shirt (Black)",
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Military_Shirt_Classic-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-Black",
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Cargo Pants (Black)",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-Black",
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Grips Gloves (Black)",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-Black"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_TacticalBoots-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Tactical Boots (Black)",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_TacticalBoots-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-Black",
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Helmet_Defender-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Helmet Defender (Black)",
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Military_Helmet_Defender-Black",
+          "textureChoices": [
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-Black",
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military BulletproofVest Vanguard (Black)",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "8",
+          "clothingItem": "Military_BulletproofVest_Vanguard_Heavy-Black",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Vanguard_Heavy-Black",
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Vanguard_Heavy-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Pauldrons Vanguard (Black)",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "3",
+          "clothingItem": "Military_ArmsProtectionUpper_Vanguard_Heavy-Black",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Vanguard_Heavy-Black",
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Vanguard_Heavy-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Elbow Pads Vanguard (Black)",
+          "bodyLocation": "KATTAJ1:LowerArms",
+          "weight": "2",
+          "clothingItem": "Military_ArmsProtectionLower_Vanguard_Heavy-Black",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Vanguard_Heavy-Black",
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Vanguard_Heavy-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Thigh Guards Vanguard (Black)",
+          "bodyLocation": "KATTAJ1:UpperLegs",
+          "weight": "3",
+          "clothingItem": "Military_LegsProtectionUpper_Vanguard_Heavy-Black",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Vanguard_Heavy-Black",
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Vanguard_Heavy-BlackPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Black",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shin Guards Vanguard (Black)",
+          "bodyLocation": "KATTAJ1:LowerLegs",
+          "weight": "2",
+          "clothingItem": "Military_LegsProtectionLower_Vanguard_Heavy-Black",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Vanguard_Heavy-Black",
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Vanguard_Heavy-BlackPlain"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_vanguard_black"
+    },
+    {
+      "id": "patriot-green",
+      "name": "패트리어트 경량 전술 세트 (녹색)",
+      "family": "patriot",
+      "color": "Green",
+      "price": 90000,
+      "referencePrice": 37600,
+      "items": [
+        {
+          "id": "Base.Military_Shirt_Classic-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shirt (Green)",
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Military_Shirt_Classic-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-Green",
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Cargo Pants (Green)",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-Green",
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Grips Gloves (Green)",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-Green"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_TacticalBoots-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Tactical Boots (Green)",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_TacticalBoots-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-Green",
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Helmet_Patriot-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Helmet Patriot (Green)",
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Military_Helmet_Patriot-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Helmet\\Military_Helmet_Patriot-Green",
+            "Clothes\\Military\\Helmet\\Military_Helmet_Patriot-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Patriot_Light-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military BulletproofVest Patriot (Green)",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "2.5",
+          "clothingItem": "Military_BulletproofVest_Patriot_Light-Green",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Patriot_Light-Green",
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Patriot_Light-GreenPlain"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_patriot_green"
+    },
+    {
+      "id": "defender-green",
+      "name": "디펜더 중형 전술 세트 (녹색)",
+      "family": "defender",
+      "color": "Green",
+      "price": 150000,
+      "referencePrice": 67600,
+      "items": [
+        {
+          "id": "Base.Military_Shirt_Classic-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shirt (Green)",
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Military_Shirt_Classic-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-Green",
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Cargo Pants (Green)",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-Green",
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Grips Gloves (Green)",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-Green"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_TacticalBoots-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Tactical Boots (Green)",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_TacticalBoots-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-Green",
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Helmet_Defender-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Helmet Defender (Green)",
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Military_Helmet_Defender-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-Green",
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Defender_Medium-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military BulletproofVest Defender (Green)",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "6",
+          "clothingItem": "Military_BulletproofVest_Defender_Medium-Green",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Defender_Medium-Green",
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Defender_Medium-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Pauldrons Defender (Green)",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "2",
+          "clothingItem": "Military_ArmsProtectionUpper_Defender_Medium-Green",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Defender_Medium-Green",
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Defender_Medium-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionLower_Defender_Medium-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Elbow Pads Defender (Green)",
+          "bodyLocation": "KATTAJ1:LowerArms",
+          "weight": "1.5",
+          "clothingItem": "Military_ArmsProtectionLower_Defender_Medium-Green",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Defender_Medium-Green",
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Defender_Medium-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Thigh Guards Defender (Green)",
+          "bodyLocation": "KATTAJ1:UpperLegs",
+          "weight": "2",
+          "clothingItem": "Military_LegsProtectionUpper_Defender_Medium-Green",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Defender_Medium-Green",
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Defender_Medium-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionLower_Defender_Medium-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shin Guards Defender (Green)",
+          "bodyLocation": "KATTAJ1:LowerLegs",
+          "weight": "1.5",
+          "clothingItem": "Military_LegsProtectionLower_Defender_Medium-Green",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Defender_Medium-Green",
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Defender_Medium-GreenPlain"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_defender_green"
+    },
+    {
+      "id": "vanguard-green",
+      "name": "뱅가드 중장갑 전술 세트 (녹색)",
+      "family": "vanguard",
+      "color": "Green",
+      "price": 225000,
+      "referencePrice": 67600,
+      "items": [
+        {
+          "id": "Base.Military_Shirt_Classic-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shirt (Green)",
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Military_Shirt_Classic-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-Green",
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Cargo Pants (Green)",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-Green",
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Grips Gloves (Green)",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-Green"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_TacticalBoots-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Tactical Boots (Green)",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_TacticalBoots-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-Green",
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Helmet_Defender-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Helmet Defender (Green)",
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Military_Helmet_Defender-Green",
+          "textureChoices": [
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-Green",
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military BulletproofVest Vanguard (Green)",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "8",
+          "clothingItem": "Military_BulletproofVest_Vanguard_Heavy-Green",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Vanguard_Heavy-Green",
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Vanguard_Heavy-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Pauldrons Vanguard (Green)",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "3",
+          "clothingItem": "Military_ArmsProtectionUpper_Vanguard_Heavy-Green",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Vanguard_Heavy-Green",
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Vanguard_Heavy-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Elbow Pads Vanguard (Green)",
+          "bodyLocation": "KATTAJ1:LowerArms",
+          "weight": "2",
+          "clothingItem": "Military_ArmsProtectionLower_Vanguard_Heavy-Green",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Vanguard_Heavy-Green",
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Vanguard_Heavy-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Thigh Guards Vanguard (Green)",
+          "bodyLocation": "KATTAJ1:UpperLegs",
+          "weight": "3",
+          "clothingItem": "Military_LegsProtectionUpper_Vanguard_Heavy-Green",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Vanguard_Heavy-Green",
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Vanguard_Heavy-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Green",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shin Guards Vanguard (Green)",
+          "bodyLocation": "KATTAJ1:LowerLegs",
+          "weight": "2",
+          "clothingItem": "Military_LegsProtectionLower_Vanguard_Heavy-Green",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Vanguard_Heavy-Green",
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Vanguard_Heavy-GreenPlain"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_vanguard_green"
+    },
+    {
+      "id": "patriot-desert",
+      "name": "패트리어트 경량 전술 세트 (사막색)",
+      "family": "patriot",
+      "color": "Desert",
+      "price": 90000,
+      "referencePrice": 37600,
+      "items": [
+        {
+          "id": "Base.Military_Shirt_Classic-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shirt (Desert)",
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Military_Shirt_Classic-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-Desert",
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Cargo Pants (Desert)",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-Desert",
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Grips Gloves (Desert)",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-Desert"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_TacticalBoots-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Tactical Boots (Desert)",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_TacticalBoots-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-Desert",
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Helmet_Patriot-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Helmet Patriot (Desert)",
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Military_Helmet_Patriot-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Helmet\\Military_Helmet_Patriot-Desert",
+            "Clothes\\Military\\Helmet\\Military_Helmet_Patriot-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Patriot_Light-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military BulletproofVest Patriot (Desert)",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "2.5",
+          "clothingItem": "Military_BulletproofVest_Patriot_Light-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Patriot_Light-Desert",
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Patriot_Light-DesertPlain"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_patriot_desert"
+    },
+    {
+      "id": "defender-desert",
+      "name": "디펜더 중형 전술 세트 (사막색)",
+      "family": "defender",
+      "color": "Desert",
+      "price": 150000,
+      "referencePrice": 67600,
+      "items": [
+        {
+          "id": "Base.Military_Shirt_Classic-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shirt (Desert)",
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Military_Shirt_Classic-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-Desert",
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Cargo Pants (Desert)",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-Desert",
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Grips Gloves (Desert)",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-Desert"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_TacticalBoots-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Tactical Boots (Desert)",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_TacticalBoots-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-Desert",
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Helmet_Defender-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Helmet Defender (Desert)",
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Military_Helmet_Defender-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-Desert",
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Defender_Medium-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military BulletproofVest Defender (Desert)",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "6",
+          "clothingItem": "Military_BulletproofVest_Defender_Medium-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Defender_Medium-Desert",
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Defender_Medium-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Pauldrons Defender (Desert)",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "2",
+          "clothingItem": "Military_ArmsProtectionUpper_Defender_Medium-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Defender_Medium-Desert",
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Defender_Medium-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionLower_Defender_Medium-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Elbow Pads Defender (Desert)",
+          "bodyLocation": "KATTAJ1:LowerArms",
+          "weight": "1.5",
+          "clothingItem": "Military_ArmsProtectionLower_Defender_Medium-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Defender_Medium-Desert",
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Defender_Medium-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Thigh Guards Defender (Desert)",
+          "bodyLocation": "KATTAJ1:UpperLegs",
+          "weight": "2",
+          "clothingItem": "Military_LegsProtectionUpper_Defender_Medium-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Defender_Medium-Desert",
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Defender_Medium-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionLower_Defender_Medium-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shin Guards Defender (Desert)",
+          "bodyLocation": "KATTAJ1:LowerLegs",
+          "weight": "1.5",
+          "clothingItem": "Military_LegsProtectionLower_Defender_Medium-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Defender_Medium-Desert",
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Defender_Medium-DesertPlain"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_defender_desert"
+    },
+    {
+      "id": "vanguard-desert",
+      "name": "뱅가드 중장갑 전술 세트 (사막색)",
+      "family": "vanguard",
+      "color": "Desert",
+      "price": 225000,
+      "referencePrice": 67600,
+      "items": [
+        {
+          "id": "Base.Military_Shirt_Classic-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shirt (Desert)",
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Military_Shirt_Classic-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-Desert",
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Cargo Pants (Desert)",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-Desert",
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Grips Gloves (Desert)",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-Desert"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_TacticalBoots-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Tactical Boots (Desert)",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_TacticalBoots-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-Desert",
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Helmet_Defender-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Helmet Defender (Desert)",
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Military_Helmet_Defender-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-Desert",
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military BulletproofVest Vanguard (Desert)",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "8",
+          "clothingItem": "Military_BulletproofVest_Vanguard_Heavy-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Vanguard_Heavy-Desert",
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Vanguard_Heavy-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Pauldrons Vanguard (Desert)",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "3",
+          "clothingItem": "Military_ArmsProtectionUpper_Vanguard_Heavy-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Vanguard_Heavy-Desert",
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Vanguard_Heavy-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Elbow Pads Vanguard (Desert)",
+          "bodyLocation": "KATTAJ1:LowerArms",
+          "weight": "2",
+          "clothingItem": "Military_ArmsProtectionLower_Vanguard_Heavy-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Vanguard_Heavy-Desert",
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Vanguard_Heavy-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Thigh Guards Vanguard (Desert)",
+          "bodyLocation": "KATTAJ1:UpperLegs",
+          "weight": "3",
+          "clothingItem": "Military_LegsProtectionUpper_Vanguard_Heavy-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Vanguard_Heavy-Desert",
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Vanguard_Heavy-DesertPlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Desert",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shin Guards Vanguard (Desert)",
+          "bodyLocation": "KATTAJ1:LowerLegs",
+          "weight": "2",
+          "clothingItem": "Military_LegsProtectionLower_Vanguard_Heavy-Desert",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Vanguard_Heavy-Desert",
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Vanguard_Heavy-DesertPlain"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_vanguard_desert"
+    },
+    {
+      "id": "patriot-white",
+      "name": "패트리어트 경량 전술 세트 (흰색)",
+      "family": "patriot",
+      "color": "White",
+      "price": 90000,
+      "referencePrice": 37600,
+      "items": [
+        {
+          "id": "Base.Military_Shirt_Classic-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shirt (White)",
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Military_Shirt_Classic-White",
+          "textureChoices": [
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-White",
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Cargo Pants (White)",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-White",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-White",
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Grips Gloves (White)",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-White",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-White"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_TacticalBoots-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Tactical Boots (White)",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_TacticalBoots-White",
+          "textureChoices": [
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-White",
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Helmet_Patriot-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Helmet Patriot (White)",
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Military_Helmet_Patriot-White",
+          "textureChoices": [
+            "Clothes\\Military\\Helmet\\Military_Helmet_Patriot-White",
+            "Clothes\\Military\\Helmet\\Military_Helmet_Patriot-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Patriot_Light-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military BulletproofVest Patriot (White)",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "2.5",
+          "clothingItem": "Military_BulletproofVest_Patriot_Light-White",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Patriot_Light-White",
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Patriot_Light-WhitePlain"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_patriot_white"
+    },
+    {
+      "id": "defender-white",
+      "name": "디펜더 중형 전술 세트 (흰색)",
+      "family": "defender",
+      "color": "White",
+      "price": 150000,
+      "referencePrice": 67600,
+      "items": [
+        {
+          "id": "Base.Military_Shirt_Classic-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shirt (White)",
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Military_Shirt_Classic-White",
+          "textureChoices": [
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-White",
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Cargo Pants (White)",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-White",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-White",
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Grips Gloves (White)",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-White",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-White"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_TacticalBoots-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Tactical Boots (White)",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_TacticalBoots-White",
+          "textureChoices": [
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-White",
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Helmet_Defender-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Helmet Defender (White)",
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Military_Helmet_Defender-White",
+          "textureChoices": [
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-White",
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Defender_Medium-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military BulletproofVest Defender (White)",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "6",
+          "clothingItem": "Military_BulletproofVest_Defender_Medium-White",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Defender_Medium-White",
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Defender_Medium-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Pauldrons Defender (White)",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "2",
+          "clothingItem": "Military_ArmsProtectionUpper_Defender_Medium-White",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Defender_Medium-White",
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Defender_Medium-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionLower_Defender_Medium-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Elbow Pads Defender (White)",
+          "bodyLocation": "KATTAJ1:LowerArms",
+          "weight": "1.5",
+          "clothingItem": "Military_ArmsProtectionLower_Defender_Medium-White",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Defender_Medium-White",
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Defender_Medium-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionUpper_Defender_Medium-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Thigh Guards Defender (White)",
+          "bodyLocation": "KATTAJ1:UpperLegs",
+          "weight": "2",
+          "clothingItem": "Military_LegsProtectionUpper_Defender_Medium-White",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Defender_Medium-White",
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Defender_Medium-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionLower_Defender_Medium-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shin Guards Defender (White)",
+          "bodyLocation": "KATTAJ1:LowerLegs",
+          "weight": "1.5",
+          "clothingItem": "Military_LegsProtectionLower_Defender_Medium-White",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Defender_Medium-White",
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Defender_Medium-WhitePlain"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_defender_white"
+    },
+    {
+      "id": "vanguard-white",
+      "name": "뱅가드 중장갑 전술 세트 (흰색)",
+      "family": "vanguard",
+      "color": "White",
+      "price": 225000,
+      "referencePrice": 67600,
+      "items": [
+        {
+          "id": "Base.Military_Shirt_Classic-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shirt (White)",
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Military_Shirt_Classic-White",
+          "textureChoices": [
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-White",
+            "Clothes\\Military\\Shirt\\Military_Shirt_Classic-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Pants_Cargo-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Cargo Pants (White)",
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Military_Pants_Cargo-White",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-White",
+            "Clothes\\Military\\Pants\\Military_Pants_Cargo-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Gloves_Grips-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Grips Gloves (White)",
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Military_Gloves_Grips-White",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-White"
+          ]
+        },
+        {
+          "id": "Base.Military_Shoes_TacticalBoots-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Tactical Boots (White)",
+          "bodyLocation": "base:Shoes",
+          "weight": "1",
+          "clothingItem": "Military_Shoes_TacticalBoots-White",
+          "textureChoices": [
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-White",
+            "Clothes\\Military\\Shoes\\Military_Shoes_TacticalBoots-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_Helmet_Defender-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Helmet Defender (White)",
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Military_Helmet_Defender-White",
+          "textureChoices": [
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-White",
+            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_BulletproofVest_Vanguard_Heavy-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military BulletproofVest Vanguard (White)",
+          "bodyLocation": "base:TorsoExtraVestBullet",
+          "weight": "8",
+          "clothingItem": "Military_BulletproofVest_Vanguard_Heavy-White",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Vanguard_Heavy-White",
+            "Clothes\\Military\\BulletproofVest\\Military_BulletproofVest_Vanguard_Heavy-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Pauldrons Vanguard (White)",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "3",
+          "clothingItem": "Military_ArmsProtectionUpper_Vanguard_Heavy-White",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Vanguard_Heavy-White",
+            "Clothes\\Military\\ArmsProtectionUpper\\Military_ArmsProtectionUpper_Vanguard_Heavy-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Elbow Pads Vanguard (White)",
+          "bodyLocation": "KATTAJ1:LowerArms",
+          "weight": "2",
+          "clothingItem": "Military_ArmsProtectionLower_Vanguard_Heavy-White",
+          "textureChoices": [
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Vanguard_Heavy-White",
+            "Clothes\\Military\\ArmsProtectionLower\\Military_ArmsProtectionLower_Vanguard_Heavy-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Thigh Guards Vanguard (White)",
+          "bodyLocation": "KATTAJ1:UpperLegs",
+          "weight": "3",
+          "clothingItem": "Military_LegsProtectionUpper_Vanguard_Heavy-White",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Vanguard_Heavy-White",
+            "Clothes\\Military\\LegsProtectionUpper\\Military_LegsProtectionUpper_Vanguard_Heavy-WhitePlain"
+          ]
+        },
+        {
+          "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-White",
+          "quantity": 1,
+          "mod": "KATTAJ1_Military",
+          "originalName": "Military Shin Guards Vanguard (White)",
+          "bodyLocation": "KATTAJ1:LowerLegs",
+          "weight": "2",
+          "clothingItem": "Military_LegsProtectionLower_Vanguard_Heavy-White",
+          "textureChoices": [
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Vanguard_Heavy-White",
+            "Clothes\\Military\\LegsProtectionLower\\Military_LegsProtectionLower_Vanguard_Heavy-WhitePlain"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_vanguard_white"
+    },
+    {
+      "id": "cerberus-light",
+      "name": "세베루스 경량 돌격 세트",
+      "family": "cerberus-light",
+      "color": "Cerberus",
+      "price": 135000,
+      "referencePrice": 37600,
+      "items": [
+        {
+          "id": "Base.Shirt_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Shirt_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Shirt\\Shirt_Cerberus",
+            "Clothes\\Cerberus\\Shirt\\Shirt_Cerberus2"
+          ]
+        },
+        {
+          "id": "Base.Pants_Classic_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Pants_Classic_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Pants\\Pants_Classic_Cerberus"
+          ]
+        },
+        {
+          "id": "Base.Gloves_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Gloves_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Gloves\\Gloves_Cerberus"
+          ]
+        },
+        {
+          "id": "Base.Shoes_TacticalBoots_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": "Tactical Boots Cerberus",
+          "bodyLocation": "base:shoes",
+          "weight": "1",
+          "clothingItem": "Shoes_TacticalBoots_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Shoes\\Shoes_TacticalBoots_Cerberus",
+            "Clothes\\Cerberus\\Shoes\\Shoes_TacticalBoots_Cerberus2"
+          ]
+        },
+        {
+          "id": "Base.Helmet_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Helmet_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Helmet\\Helmet_Cerberus"
+          ]
+        },
+        {
+          "id": "Base.BulletproofVest_Cerberus_AssaultLightKit",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "KATTAJ1:TorsoExtraShoulder",
+          "weight": "5.5",
+          "clothingItem": "BulletproofVest_Cerberus_AssaultLightKit",
+          "textureChoices": [
+            "Clothes\\Cerberus\\BulletproofVest\\BulletproofVest_Cerberus"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_cerberus_light"
+    },
+    {
+      "id": "cerberus-assault",
+      "name": "세베루스 돌격 세트",
+      "family": "cerberus-assault",
+      "color": "Cerberus",
+      "price": 180000,
+      "referencePrice": 37600,
+      "items": [
+        {
+          "id": "Base.Shirt_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Shirt_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Shirt\\Shirt_Cerberus",
+            "Clothes\\Cerberus\\Shirt\\Shirt_Cerberus2"
+          ]
+        },
+        {
+          "id": "Base.Pants_Classic_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Pants_Classic_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Pants\\Pants_Classic_Cerberus"
+          ]
+        },
+        {
+          "id": "Base.Gloves_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Gloves_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Gloves\\Gloves_Cerberus"
+          ]
+        },
+        {
+          "id": "Base.Shoes_TacticalBoots_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": "Tactical Boots Cerberus",
+          "bodyLocation": "base:shoes",
+          "weight": "1",
+          "clothingItem": "Shoes_TacticalBoots_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Shoes\\Shoes_TacticalBoots_Cerberus",
+            "Clothes\\Cerberus\\Shoes\\Shoes_TacticalBoots_Cerberus2"
+          ]
+        },
+        {
+          "id": "Base.Helmet_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Helmet_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Helmet\\Helmet_Cerberus"
+          ]
+        },
+        {
+          "id": "Base.BulletproofVest_Cerberus_AssaultKit",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "KATTAJ1:TorsoExtraShoulderPelvic",
+          "weight": "7",
+          "clothingItem": "BulletproofVest_Cerberus_AssaultKit",
+          "textureChoices": [
+            "Clothes\\Cerberus\\BulletproofVest\\BulletproofVest_Cerberus"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_cerberus_assault"
+    },
+    {
+      "id": "cerberus-full",
+      "name": "세베루스 전신 보호 세트",
+      "family": "cerberus-full",
+      "color": "Cerberus",
+      "price": 240000,
+      "referencePrice": 37600,
+      "items": [
+        {
+          "id": "Base.Shirt_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "base:Shirt",
+          "weight": "0.1",
+          "clothingItem": "Shirt_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Shirt\\Shirt_Cerberus",
+            "Clothes\\Cerberus\\Shirt\\Shirt_Cerberus2"
+          ]
+        },
+        {
+          "id": "Base.Pants_Classic_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "base:Pants",
+          "weight": "1",
+          "clothingItem": "Pants_Classic_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Pants\\Pants_Classic_Cerberus"
+          ]
+        },
+        {
+          "id": "Base.Gloves_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "base:Hands",
+          "weight": "0.1",
+          "clothingItem": "Gloves_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Gloves\\Gloves_Cerberus"
+          ]
+        },
+        {
+          "id": "Base.Shoes_TacticalBoots_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": "Tactical Boots Cerberus",
+          "bodyLocation": "base:shoes",
+          "weight": "1",
+          "clothingItem": "Shoes_TacticalBoots_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Shoes\\Shoes_TacticalBoots_Cerberus",
+            "Clothes\\Cerberus\\Shoes\\Shoes_TacticalBoots_Cerberus2"
+          ]
+        },
+        {
+          "id": "Base.Helmet_Cerberus",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "base:Hat",
+          "weight": "1",
+          "clothingItem": "Helmet_Cerberus",
+          "textureChoices": [
+            "Clothes\\Cerberus\\Helmet\\Helmet_Cerberus"
+          ]
+        },
+        {
+          "id": "Base.BulletproofVest_Cerberus_FullProtectionKit",
+          "quantity": 1,
+          "mod": "CerberusPack",
+          "originalName": null,
+          "bodyLocation": "KATTAJ1:TorsoExtraFull",
+          "weight": "8",
+          "clothingItem": "BulletproofVest_Cerberus_FullProtectionKit",
+          "textureChoices": [
+            "Clothes\\Cerberus\\BulletproofVest\\BulletproofVest_Cerberus"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_cerberus_full"
+    },
+    {
+      "id": "nano-standard",
+      "name": "나노아머 기본 세트",
+      "family": "nano",
+      "color": "Invisible",
+      "price": 450000,
+      "referencePrice": 100000,
+      "items": [
+        {
+          "id": "Base.MT_Nano_Helmet",
+          "quantity": 1,
+          "mod": "[MT] Nano Armor - Easy",
+          "originalName": "MT_Nano_Helmet",
+          "bodyLocation": "MTNANO:MT_Nano_Armor_Helmet",
+          "weight": null,
+          "clothingItem": "MT_NanoArmor",
+          "textureChoices": [
+            "Mutilated/blank"
+          ]
+        },
+        {
+          "id": "Base.MT_Nano_Top",
+          "quantity": 1,
+          "mod": "[MT] Nano Armor - Easy",
+          "originalName": "MT_Nano_Top",
+          "bodyLocation": "MTNANO:MT_Nano_Armor_Top",
+          "weight": null,
+          "clothingItem": "MT_NanoArmor",
+          "textureChoices": [
+            "Mutilated/blank"
+          ]
+        },
+        {
+          "id": "Base.MT_Nano_Bot",
+          "quantity": 1,
+          "mod": "[MT] Nano Armor - Easy",
+          "originalName": "MT_Nano_Bot",
+          "bodyLocation": "MTNANO:MT_Nano_Armor_Bot",
+          "weight": null,
+          "clothingItem": "MT_NanoArmor",
+          "textureChoices": [
+            "Mutilated/blank"
+          ]
+        },
+        {
+          "id": "Base.MT_Nano_Gloves",
+          "quantity": 1,
+          "mod": "[MT] Nano Armor - Easy",
+          "originalName": "MT_Nano_Gloves",
+          "bodyLocation": "MTNANO:MT_Nano_Armor_Gloves",
+          "weight": null,
+          "clothingItem": "MT_NanoArmor",
+          "textureChoices": [
+            "Mutilated/blank"
+          ]
+        },
+        {
+          "id": "Base.MT_Nano_Shoes",
+          "quantity": 1,
+          "mod": "[MT] Nano Armor - Easy",
+          "originalName": "MT_Nano_Shoes",
+          "bodyLocation": "MTNANO:MT_Nano_Armor_Shoes",
+          "weight": null,
+          "clothingItem": "MT_NanoArmor",
+          "textureChoices": [
+            "Mutilated/blank"
+          ]
+        }
+      ],
+      "packageId": "KnightsDan.ClothingSet_nano_standard"
+    },
+    {
+      "id": "forest-multicam",
+      "name": "포레스트 멀티캠 전술 세트",
+      "family": "forest-multicam",
+      "color": "Forest_Camo",
+      "price": 105000,
+      "referencePrice": 67500,
+      "items": [
+        {
+          "id": "Base.Forest_Camo_Jacket",
+          "quantity": 1,
+          "mod": "[J&G] Forest Multicam Uniform",
+          "originalName": "Forest Camo Jacket",
+          "bodyLocation": "base:jacket",
+          "weight": "2",
+          "clothingItem": "Forest_Camo_Jacket",
+          "textureChoices": [
+            "Clothes\\Military\\Jacket\\Military_Jacket_Lightweight-ForestGreenCamo",
+            "Clothes\\Military\\Jacket\\Military_Jacket_Lightweight-ForestGreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Forest_Camo_Pants",
+          "quantity": 1,
+          "mod": "[J&G] Forest Multicam Uniform",
+          "originalName": "Forest Camo Pants",
+          "bodyLocation": "base:pants",
+          "weight": "1",
+          "clothingItem": "Forest_Camo_Pants",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Cargos_ForestGreen_Camo",
+            "Clothes\\Military\\Pants\\Cargos_ForestGreen_Plain"
+          ]
+        },
+        {
+          "id": "Base.Forest_Camo_Gloves",
+          "quantity": 1,
+          "mod": "[J&G] Forest Multicam Uniform",
+          "originalName": "Forest Camo Gloves",
+          "bodyLocation": "base:hands",
+          "weight": "0.1",
+          "clothingItem": "Forest_Camo_Gloves",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-ForestGreen"
+          ]
+        },
+        {
+          "id": "Base.Forest_Camo_TacBoots",
+          "quantity": 1,
+          "mod": "[J&G] Forest Multicam Uniform",
+          "originalName": "Forest Camo Tactical Shoes",
+          "bodyLocation": "base:shoes",
+          "weight": "1",
+          "clothingItem": "Forest_Camo_TacBoots",
+          "textureChoices": [
+            "Clothes\\Military\\Boots\\ForestGreen-TacBoots-Tex"
+          ]
+        },
+        {
+          "id": "Base.Forest_Camo_Helmet",
+          "quantity": 1,
+          "mod": "[J&G] Forest Multicam Uniform",
+          "originalName": "Forest Camo Helmet [Defender]",
+          "bodyLocation": "base:hat",
+          "weight": "1",
+          "clothingItem": "Forest_Camo_Helmet",
+          "textureChoices": [
+            "Clothes\\Military\\Helmets\\Military_Helmet_Defender-ForestGreenCamo",
+            "Clothes\\Military\\Helmets\\Military_Helmet_Defender-ForestGreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Forest_Camo_Vest",
+          "quantity": 1,
+          "mod": "[J&G] Forest Multicam Uniform",
+          "originalName": "Forest Camo Plate Carrier",
+          "bodyLocation": "base:torsoextravestbullet",
+          "weight": "2.5",
+          "clothingItem": "Forest_Camo_Vest",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVests\\Military_BulletproofVest_Defender_Forest-GreenCamo",
+            "Clothes\\Military\\BulletproofVests\\Military_BulletproofVest_Defender_Forest-GreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Forest_Camo_ShoulderPads_Patriot",
+          "quantity": 1,
+          "mod": "[J&G] Forest Multicam Uniform",
+          "originalName": "Forest Camo Shoulder Pads",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "0.5",
+          "clothingItem": "Forest_Camo_ShoulderPads_Patriot",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionUpper_Patriot_Light-ForestGreenCamo",
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionUpper_Patriot_Light-ForestGreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Forest_Camo_Elbow_Pads",
+          "quantity": 1,
+          "mod": "[J&G] Forest Multicam Uniform",
+          "originalName": "Forest Camo Elbow Pads",
+          "bodyLocation": "KATTAJ1:Elbows",
+          "weight": "0.5",
+          "clothingItem": "Forest_Camo_Elbow_Pads",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionLower_Patriot_Light-ForestGreenCamo",
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionLower_Patriot_Light-ForestGreenPlain"
+          ]
+        },
+        {
+          "id": "Base.Forest_Camo_KneePads_Defender",
+          "quantity": 1,
+          "mod": "[J&G] Forest Multicam Uniform",
+          "originalName": "Forest Camo Knee Pads [Heavy]",
+          "bodyLocation": "KATTAJ1:Knees",
+          "weight": "0.5",
+          "clothingItem": "Forest_Camo_KneePads_Defender",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\Military_LegsProtectionLower_Defender_Medium-ForestGreenCamo",
+            "Clothes\\Military\\ArmourPads\\Military_LegsProtectionLower_Defender_Medium-ForestGreenPlain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "black-multicam",
+      "name": "블랙 멀티캠 전술 세트",
+      "family": "black-multicam",
+      "color": "Black_Camo",
+      "price": 105000,
+      "referencePrice": 67500,
+      "items": [
+        {
+          "id": "Base.Black_Camo_Jacket",
+          "quantity": 1,
+          "mod": "[J&G] Black Multicam Uniform",
+          "originalName": "Black Camo Jacket",
+          "bodyLocation": "base:jacket",
+          "weight": "2",
+          "clothingItem": "Black_Camo_Jacket",
+          "textureChoices": [
+            "Clothes\\Military\\Jacket\\Military_Jacket_Lightweight-BlackMulti",
+            "Clothes\\Military\\Jacket\\Military_Jacket_Lightweight-BlackMultiPlain"
+          ]
+        },
+        {
+          "id": "Base.Black_Camo_Pants",
+          "quantity": 1,
+          "mod": "[J&G] Black Multicam Uniform",
+          "originalName": "Black Camo Pants",
+          "bodyLocation": "base:pants",
+          "weight": "1",
+          "clothingItem": "Black_Camo_Pants",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Cargos_Black_Camo",
+            "Clothes\\Military\\Pants\\Cargos_Black_Plain"
+          ]
+        },
+        {
+          "id": "Base.Black_Camo_Gloves",
+          "quantity": 1,
+          "mod": "[J&G] Black Multicam Uniform",
+          "originalName": "Black Camo Gloves",
+          "bodyLocation": "base:hands",
+          "weight": "0.1",
+          "clothingItem": "Black_Camo_Gloves",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-BlackMulti"
+          ]
+        },
+        {
+          "id": "Base.Black_Camo_TacBoots",
+          "quantity": 1,
+          "mod": "[J&G] Black Multicam Uniform",
+          "originalName": "Black Camo Tactical Shoes",
+          "bodyLocation": "base:shoes",
+          "weight": "1",
+          "clothingItem": "Black_Camo_TacBoots",
+          "textureChoices": [
+            "Clothes\\Military\\Boots\\Black-TacBoots-Tex"
+          ]
+        },
+        {
+          "id": "Base.Black_Camo_Helmet",
+          "quantity": 1,
+          "mod": "[J&G] Black Multicam Uniform",
+          "originalName": "Black Camo Helmet [Defender]",
+          "bodyLocation": "base:hat",
+          "weight": "1",
+          "clothingItem": "Black_Camo_Helmet",
+          "textureChoices": [
+            "Clothes\\Military\\Helmets\\Military_Helmet_Defender-BlackMulti",
+            "Clothes\\Military\\Helmets\\Military_Helmet_Defender-BlackMultiPlain"
+          ]
+        },
+        {
+          "id": "Base.Black_Camo_Vest",
+          "quantity": 1,
+          "mod": "[J&G] Black Multicam Uniform",
+          "originalName": "Black Camo Plate Carrier",
+          "bodyLocation": "base:torsoextravestbullet",
+          "weight": "2.5",
+          "clothingItem": "Black_Camo_Vest",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVests\\Military_BulletproofVest_Defender_Medium-BlackMultiCamo",
+            "Clothes\\Military\\BulletproofVests\\Military_BulletproofVest_Defender_Medium-BlackMultiPlain"
+          ]
+        },
+        {
+          "id": "Base.Black_Camo_ShoulderPads_Patriot",
+          "quantity": 1,
+          "mod": "[J&G] Black Multicam Uniform",
+          "originalName": "Black Camo Shoulder Pads",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "0.5",
+          "clothingItem": "Black_Camo_ShoulderPads_Patriot",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionUpper_Patriot_Light-BlackMulti",
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionUpper_Patriot_Light-BlackMultiPlain"
+          ]
+        },
+        {
+          "id": "Base.Black_Camo_Elbow_Pads",
+          "quantity": 1,
+          "mod": "[J&G] Black Multicam Uniform",
+          "originalName": "Black Camo Elbow Pads",
+          "bodyLocation": "KATTAJ1:Elbows",
+          "weight": "0.5",
+          "clothingItem": "Black_Camo_Elbow_Pads",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionLower_Patriot_Light-BlackMulti",
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionLower_Patriot_Light-BlackMultiPlain"
+          ]
+        },
+        {
+          "id": "Base.Black_Camo_KneePads_Defender",
+          "quantity": 1,
+          "mod": "[J&G] Black Multicam Uniform",
+          "originalName": "Black Camo Knee Pads [Heavy]",
+          "bodyLocation": "KATTAJ1:Knees",
+          "weight": "0.5",
+          "clothingItem": "Black_Camo_KneePads_Defender",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\Military_LegsProtectionLower_Defender_Medium-BlackMulti",
+            "Clothes\\Military\\ArmourPads\\Military_LegsProtectionLower_Defender_Medium-BlackMultiPlain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trauma-responder",
+      "name": "트라우마 대응 전술 세트",
+      "family": "trauma-responder",
+      "color": "Medical_Red",
+      "price": 270000,
+      "referencePrice": 67500,
+      "items": [
+        {
+          "id": "Base.Medical_Red_Jacket",
+          "quantity": 1,
+          "mod": "[J&G] Trauma Responder Uniform",
+          "originalName": "Trauma Responder Jacket",
+          "bodyLocation": "base:jacket",
+          "weight": "2",
+          "clothingItem": "Medical_Red_Jacket",
+          "textureChoices": [
+            "Clothes\\Military\\Jacket\\Jacket_Lightweight-Medic_Insignia",
+            "Clothes\\Military\\Jacket\\Jacket_Lightweight-Medic_Plain",
+            "Clothes\\Military\\Jacket\\Jacket_Lightweight-Medic_InsigniaStripe",
+            "Clothes\\Military\\Jacket\\Jacket_Lightweight-Medic_InsigniaRedSleeves",
+            "Clothes\\Military\\Jacket\\Jacket_Lightweight-Medic_InsigniaWhiteSleeves",
+            "Clothes\\Military\\Jacket\\Jacket_Lightweight-MedicWhite_Insignia"
+          ]
+        },
+        {
+          "id": "Base.Medical_Red_Pants",
+          "quantity": 1,
+          "mod": "[J&G] Trauma Responder Uniform",
+          "originalName": "Trauma Responder Pants",
+          "bodyLocation": "base:pants",
+          "weight": "1",
+          "clothingItem": "Medical_Red_Pants",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\Cargos_Medic_Stripe",
+            "Clothes\\Military\\Pants\\Cargos_Medic_Plain",
+            "Clothes\\Military\\Pants\\Cargos_Medic_White_RedStripe"
+          ]
+        },
+        {
+          "id": "Base.Medical_Red_Gloves",
+          "quantity": 1,
+          "mod": "[J&G] Trauma Responder Uniform",
+          "originalName": "Trauma Responder Gloves",
+          "bodyLocation": "base:hands",
+          "weight": "0.1",
+          "clothingItem": "Medical_Red_Gloves",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-MedicalBlack-Red",
+            "Clothes\\Military\\Gloves\\Military_Gloves_Grips-MedicalWhite-Red"
+          ]
+        },
+        {
+          "id": "Base.Medical_Red_TacBoots",
+          "quantity": 1,
+          "mod": "[J&G] Trauma Responder Uniform",
+          "originalName": "Trauma Responder Shoes",
+          "bodyLocation": "base:shoes",
+          "weight": "1",
+          "clothingItem": "Medical_Red_TacBoots",
+          "textureChoices": [
+            "Clothes\\Military\\Boots\\Military_Shoes_TacticalBoots-MedicBlack",
+            "Clothes\\Military\\Boots\\Military_Shoes_TacticalBoots-MedicWhite"
+          ]
+        },
+        {
+          "id": "Base.Medical_Red_Helmet_Patriot",
+          "quantity": 1,
+          "mod": "[J&G] Trauma Responder Uniform",
+          "originalName": "Trauma Responder Helmet [Patriot]",
+          "bodyLocation": "base:hat",
+          "weight": "1",
+          "clothingItem": "Medical_Red_Helmet_Patriot",
+          "textureChoices": [
+            "Clothes\\Military\\Helmets\\Military_Helmet_Patriot_COMBAT_MEDICv2",
+            "Clothes\\Military\\Helmets\\Military_Helmet_Patriot_COMBAT_MEDICv3"
+          ]
+        },
+        {
+          "id": "Base.Medical_Red_BulletproofVest_Patriot",
+          "quantity": 1,
+          "mod": "[J&G] Trauma Responder Uniform",
+          "originalName": "Trauma Responder BulletproofVest",
+          "bodyLocation": "base:torsoextravestbullet",
+          "weight": "1.5",
+          "clothingItem": "Medical_Red_BulletproofVest_Patriot",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVests\\Military_BulletproofVest_Patriot_Light-MEDIC3",
+            "Clothes\\Military\\BulletproofVests\\Military_BulletproofVest_Patriot_Light-MEDIC1",
+            "Clothes\\Military\\BulletproofVests\\Military_BulletproofVest_Medical_White",
+            "Clothes\\Military\\BulletproofVests\\Military_BulletproofVest_Medical_RedBlack-2",
+            "Clothes\\Military\\BulletproofVests\\Military_BulletproofVest_Medical_RedWhite-2"
+          ]
+        },
+        {
+          "id": "Base.Medical_Red_ShoulderPads_Patriot",
+          "quantity": 1,
+          "mod": "[J&G] Trauma Responder Uniform",
+          "originalName": "Trauma Responder Shoulder Pads",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "0.5",
+          "clothingItem": "Medical_Red_ShoulderPads_Patriot",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionUpper_Patriot_Light-Medical1",
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionUpper_Patriot_Light-Medical2",
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionUpper_Patriot_Light-Medical-White"
+          ]
+        },
+        {
+          "id": "Base.Medical_Red_ElbowPads",
+          "quantity": 1,
+          "mod": "[J&G] Trauma Responder Uniform",
+          "originalName": "Trauma Responder Elbow Pads",
+          "bodyLocation": "KATTAJ1:Elbows",
+          "weight": "0.5",
+          "clothingItem": "Medical_Red_ElbowPads",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionLower_Patriot_Light-Medical-Insignia",
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionLower_Patriot_Light-Medical-Plain",
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionLower_Patriot_Light-Medical-Insignia-White",
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionLower_Patriot_Light-Medical-InsigniaWhitePads",
+            "Clothes\\Military\\ArmourPads\\Military_ArmsProtectionLower_Patriot_Light-Medical-InsigniaWhitePadsRed"
+          ]
+        },
+        {
+          "id": "Base.Medical_Red_HeavyKneePads",
+          "quantity": 1,
+          "mod": "[J&G] Trauma Responder Uniform",
+          "originalName": "Trauma Responder Knee Pads [Heavy]",
+          "bodyLocation": "KATTAJ1:Knees",
+          "weight": "0.5",
+          "clothingItem": "Medical_Red_HeavyKneePads",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\Military_LegsProtectionLower_Defender_Medical-Insignia",
+            "Clothes\\Military\\ArmourPads\\Military_LegsProtectionLower_Defender_Medical-Caution",
+            "Clothes\\Military\\ArmourPads\\Military_LegsProtectionLower_Defender_MedicalRed",
+            "Clothes\\Military\\ArmourPads\\Military_LegsProtectionLower_Defender_Medical-Caution-White"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marpat",
+      "name": "MARPAT 전술 세트",
+      "family": "marpat",
+      "color": "MARPAT_Camo",
+      "price": 105000,
+      "referencePrice": 67500,
+      "items": [
+        {
+          "id": "Base.MARPAT_Camo_Jacket",
+          "quantity": 1,
+          "mod": "[J&G] MARPAT Camo Uniform",
+          "originalName": "MARPAT Camo Jacket",
+          "bodyLocation": "base:jacket",
+          "weight": "2",
+          "clothingItem": "MARPAT_Camo_Jacket",
+          "textureChoices": [
+            "Clothes\\Military\\Jacket\\MARPAT_Camo_Jacket",
+            "Clothes\\Military\\Jacket\\MARPAT_Camo_Full_Jacket"
+          ]
+        },
+        {
+          "id": "Base.MARPAT_Camo_Pants",
+          "quantity": 1,
+          "mod": "[J&G] MARPAT Camo Uniform",
+          "originalName": "MARPAT Camo Pants",
+          "bodyLocation": "base:pants",
+          "weight": "1",
+          "clothingItem": "MARPAT_Camo_Pants",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\MARPAT_Camo_Cargos"
+          ]
+        },
+        {
+          "id": "Base.MARPAT_Camo_Gloves",
+          "quantity": 1,
+          "mod": "[J&G] MARPAT Camo Uniform",
+          "originalName": "MARPAT Camo Gloves",
+          "bodyLocation": "base:hands",
+          "weight": "0.1",
+          "clothingItem": "MARPAT_Camo_Gloves",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\MARPAT_Camo_Plain_Gloves"
+          ]
+        },
+        {
+          "id": "Base.MARPAT_Camo_TacBoots",
+          "quantity": 1,
+          "mod": "[J&G] MARPAT Camo Uniform",
+          "originalName": "MARPAT Camo Tactical Boots",
+          "bodyLocation": "base:shoes",
+          "weight": "1",
+          "clothingItem": "MARPAT_Camo_TacBoots",
+          "textureChoices": [
+            "Clothes\\Military\\Boots\\MARPAT_Camo_Plain_TacBoots"
+          ]
+        },
+        {
+          "id": "Base.MARPAT_Camo_Helmet",
+          "quantity": 1,
+          "mod": "[J&G] MARPAT Camo Uniform",
+          "originalName": "MARPAT Camo Helmet [Defender]",
+          "bodyLocation": "base:hat",
+          "weight": "1",
+          "clothingItem": "MARPAT_Camo_Helmet",
+          "textureChoices": [
+            "Clothes\\Military\\Helmets\\MARPAT_Camo_DefenderHelmet",
+            "Clothes\\Military\\Helmets\\MARPAT_Camo_Plain_DefenderHelmet"
+          ]
+        },
+        {
+          "id": "Base.MARPAT_Camo_Vest",
+          "quantity": 1,
+          "mod": "[J&G] MARPAT Camo Uniform",
+          "originalName": "MARPAT Camo Plate Carrier [Heavy]",
+          "bodyLocation": "base:torsoextravestbullet",
+          "weight": "2.5",
+          "clothingItem": "MARPAT_Camo_Vest",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVests\\MARPAT_Camo_DefenderVest",
+            "Clothes\\Military\\BulletproofVests\\MARPAT_Camo_Plain_DefenderVest"
+          ]
+        },
+        {
+          "id": "Base.MARPAT_Camo_ShoulderPads_Patriot",
+          "quantity": 1,
+          "mod": "[J&G] MARPAT Camo Uniform",
+          "originalName": "MARPAT Camo Shoulder Pads",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "0.5",
+          "clothingItem": "MARPAT_Camo_ShoulderPads_Patriot",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\MARPAT_Camo_ShoulderPads",
+            "Clothes\\Military\\ArmourPads\\MARPAT_Camo_Plain_ShoulderPads"
+          ]
+        },
+        {
+          "id": "Base.MARPAT_Camo_Elbow_Pads",
+          "quantity": 1,
+          "mod": "[J&G] MARPAT Camo Uniform",
+          "originalName": "MARPAT Camo Elbow Pads",
+          "bodyLocation": "KATTAJ1:Elbows",
+          "weight": "0.5",
+          "clothingItem": "MARPAT_Camo_Elbow_Pads",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\MARPAT_Camo_ElbowPads",
+            "Clothes\\Military\\ArmourPads\\MARPAT_Camo_Plain_ElbowPads"
+          ]
+        },
+        {
+          "id": "Base.MARPAT_Camo_KneePads_Defender",
+          "quantity": 1,
+          "mod": "[J&G] MARPAT Camo Uniform",
+          "originalName": "MARPAT Camo Knee Pads [Heavy]",
+          "bodyLocation": "KATTAJ1:Knees",
+          "weight": "0.5",
+          "clothingItem": "MARPAT_Camo_KneePads_Defender",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\MARPAT_Camo_HeavyKneePads",
+            "Clothes\\Military\\ArmourPads\\MARPAT_Camo_Plain_HeavyKneePads"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "british-dpm",
+      "name": "영국 DPM 전술 세트",
+      "family": "british-dpm",
+      "color": "DPM-95_Camo",
+      "price": 105000,
+      "referencePrice": 67500,
+      "items": [
+        {
+          "id": "Base.DPM-95_Camo_Jacket",
+          "quantity": 1,
+          "mod": "[J&G] British DPM Uniform",
+          "originalName": "DPM-95 Camo Jacket",
+          "bodyLocation": "base:jacket",
+          "weight": "2",
+          "clothingItem": "DPM-95_Camo_Jacket",
+          "textureChoices": [
+            "Clothes\\Military\\Jacket\\DPM_Camo_Jacket",
+            "Clothes\\Military\\Jacket\\DPM_Camo_Jacket_PlainTorso"
+          ]
+        },
+        {
+          "id": "Base.DPM-95_Camo_Pants",
+          "quantity": 1,
+          "mod": "[J&G] British DPM Uniform",
+          "originalName": "DPM-95 Camo Pants",
+          "bodyLocation": "base:pants",
+          "weight": "1",
+          "clothingItem": "DPM-95_Camo_Pants",
+          "textureChoices": [
+            "Clothes\\Military\\Pants\\DPM_Cargos"
+          ]
+        },
+        {
+          "id": "Base.DPM-95_Camo_Gloves",
+          "quantity": 1,
+          "mod": "[J&G] British DPM Uniform",
+          "originalName": "DPM-95 Camo Gloves",
+          "bodyLocation": "base:hands",
+          "weight": "0.1",
+          "clothingItem": "DPM-95_Camo_Gloves",
+          "textureChoices": [
+            "Clothes\\Military\\Gloves\\DPM_Camo_Gloves"
+          ]
+        },
+        {
+          "id": "Base.DPM-95_Camo_TacBoots",
+          "quantity": 1,
+          "mod": "[J&G] British DPM Uniform",
+          "originalName": "DPM-95 Camo Tactical Shoes",
+          "bodyLocation": "base:shoes",
+          "weight": "1",
+          "clothingItem": "DPM-95_Camo_TacBoots",
+          "textureChoices": [
+            "Clothes\\Military\\Boots\\DPM_Camo_TacBoots"
+          ]
+        },
+        {
+          "id": "Base.DPM-95_Camo_Helmet",
+          "quantity": 1,
+          "mod": "[J&G] British DPM Uniform",
+          "originalName": "DPM-95 Camo Helmet [Defender]",
+          "bodyLocation": "base:hat",
+          "weight": "1",
+          "clothingItem": "DPM-95_Camo_Helmet",
+          "textureChoices": [
+            "Clothes\\Military\\Helmets\\DPM_Camo_Helmet_Defender",
+            "Clothes\\Military\\Helmets\\DPM_Plain_Helmet_Defender"
+          ]
+        },
+        {
+          "id": "Base.DPM-95_Camo_Vest",
+          "quantity": 1,
+          "mod": "[J&G] British DPM Uniform",
+          "originalName": "DPM-95 Camo Plate Carrier",
+          "bodyLocation": "base:torsoextravestbullet",
+          "weight": "2.5",
+          "clothingItem": "DPM-95_Camo_Vest",
+          "textureChoices": [
+            "Clothes\\Military\\BulletproofVests\\DPM_Vest_Heavy",
+            "Clothes\\Military\\BulletproofVests\\DPM_Vest_Heavy_Plain"
+          ]
+        },
+        {
+          "id": "Base.DPM-95_Camo_ShoulderPads_Patriot",
+          "quantity": 1,
+          "mod": "[J&G] British DPM Uniform",
+          "originalName": "DPM-95 Camo Shoulder Pads",
+          "bodyLocation": "KATTAJ1:UpperArms",
+          "weight": "0.5",
+          "clothingItem": "DPM-95_Camo_ShoulderPads_Patriot",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\DPM_ShoulderPads_Camo",
+            "Clothes\\Military\\ArmourPads\\DPM_ShoulderPads_Plain"
+          ]
+        },
+        {
+          "id": "Base.DPM-95_Camo_Elbow_Pads",
+          "quantity": 1,
+          "mod": "[J&G] British DPM Uniform",
+          "originalName": "DPM-95 Camo Elbow Pads",
+          "bodyLocation": "KATTAJ1:Elbows",
+          "weight": "0.5",
+          "clothingItem": "DPM-95_Camo_Elbow_Pads",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\DPM_ElbowPads_Camo",
+            "Clothes\\Military\\ArmourPads\\DPM_ElbowPads_Plain"
+          ]
+        },
+        {
+          "id": "Base.DPM-95_Camo_KneePads_Defender",
+          "quantity": 1,
+          "mod": "[J&G] British DPM Uniform",
+          "originalName": "DPM-95 Camo Knee Pads [Heavy]",
+          "bodyLocation": "KATTAJ1:Knees",
+          "weight": "0.5",
+          "clothingItem": "DPM-95_Camo_KneePads_Defender",
+          "textureChoices": [
+            "Clothes\\Military\\ArmourPads\\DPM_HeavyKneePads_Camo",
+            "Clothes\\Military\\ArmourPads\\DPM_HeavyKneePads_Plain"
+          ]
+        }
+      ]
+    }
+  ]
+}

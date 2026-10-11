@@ -1,0 +1,33 @@
+{
+  "reviewDate": "2026-10-12",
+  "policy": "Recent unresolved functional reports are held; crafting is disabled for reward-only equipment.",
+  "selected": [
+    {"WorkshopId":"3309971624","ModId":"[J&G] Forest Multicam Uniform","family":"forest-multicam","name":"포레스트 멀티캠 전술 세트","prefix":"Forest_Camo","outfit":"Forest_Camo_Unit","price":105000},
+    {"WorkshopId":"3315302991","ModId":"[J&G] Black Multicam Uniform","family":"black-multicam","name":"블랙 멀티캠 전술 세트","prefix":"Black_Camo","outfit":"Black_Camo_Unit","price":105000},
+    {"WorkshopId":"3443982326","ModId":"[J&G] Trauma Responder Uniform","family":"trauma-responder","name":"트라우마 대응 전술 세트","prefix":"Medical_Red","outfit":"Trauma_Responder","price":270000},
+    {"WorkshopId":"3616192072","ModId":"[J&G] MARPAT Camo Uniform","family":"marpat","name":"MARPAT 전술 세트","prefix":"MARPAT_Camo","outfit":"MARPAT_Camo_Unit","price":105000},
+    {"WorkshopId":"3654107996","ModId":"[J&G] British DPM Uniform","family":"british-dpm","name":"영국 DPM 전술 세트","prefix":"DPM-95_Camo","outfit":"DPM95_Camo_Unit","price":105000}
+  ],
+  "held": [
+    {"WorkshopId":"3781267190","name":"T.H.O.R.N.","reason":"2026-09-19 jacket/sleeve invisible arms; 09-21 dedicated loading report unresolved"},
+    {"WorkshopId":"3675741487","name":"Umbrella Corp","reason":"2026-10-05 sleeve toggle invisible body; 10-11 server Mod ID report unresolved"},
+    {"WorkshopId":"3719531113","name":"ODST","reason":"2026-10-02 Quick Clothing Actions resets jacket texture; conditional conflict held"},
+    {"WorkshopId":"3521263771","name":"Firefighter","reason":"2026-09-23 emergency axe rendering issue; ongoing multiplayer reports"},
+    {"WorkshopId":"3577881528","name":"Arcane Piltover Enforcer","reason":"2026-08-09 infinite errors/save loading report; no explicit resolution found"},
+    {"WorkshopId":"3276134387","name":"XKU","reason":"2026-09-27 not working report without confirmed resolution"},
+    {"WorkshopId":"3497172953","name":"Neon Vandals","reason":"2026-10-09 empty filter still protects; unresolved"},
+    {"WorkshopId":"3303746488","name":"Alpine","reason":"2026-09-02 empty filter still protects; unresolved"},
+    {"WorkshopId":"3299457564","name":"Desert","reason":"2026-08-14 thigh holster not working; unresolved"},
+    {"WorkshopId":"3457969588","name":"SWAT","reason":"2026-08-28 crafting consumes/produces nothing; no explicit resolution found"},
+    {"WorkshopId":"3206579556","name":"Flecktarn","reason":"2026-08-28 cross-report on SWAT page: crafting fails; no explicit resolution found"},
+    {"WorkshopId":"3369825662","name":"Caution","reason":"2026-08-05 save failure predates 08-17 update; no explicit resolution, held conservatively"}
+  ],
+  "outsideScope": [
+    {"WorkshopId":"3362348033","name":"Jordan's Tailoring Buff","reason":"Dye/style helper; not an outfit pack"},
+    {"WorkshopId":"3387382165","name":"Functional Clipboard","reason":"Not clothing"},
+    {"WorkshopId":"3397865481","name":"Larger Jerrycan","reason":"Not clothing; B41"},
+    {"WorkshopId":"3300434185","name":"Jordan's Extra Stuff 2.0","reason":"Legacy mixed server assets; not a current B42 J&G outfit pack"},
+    {"WorkshopId":"3405967816","name":"LightBringersMerch","reason":"No current B42 multiplayer support established"},
+    {"WorkshopId":"3476123322","name":"Mushroom Hat","reason":"No current B42 multiplayer support established"}
+  ]
+}

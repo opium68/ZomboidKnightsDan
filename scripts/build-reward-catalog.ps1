@@ -2,6 +2,7 @@
 param()
 $ErrorActionPreference='Stop'
 $root=Split-Path -Parent $PSScriptRoot
+$previousSelection=@(Get-Content (Join-Path $root 'config/knights-selected-mods.json') -Raw | ConvertFrom-Json)
 $selected=@('Military_Tool_Kit','U.S.M113_APC_by_Papa_Chad','VehicleRepairOverhaul','VehicleSalvageOverhaulB42',
     'GydeTraitMags','82porsche911','B42_PZLinux','KATTAJ1_ClothesCore','KATTAJ1_Military','CerberusPack',
     '[MT] Nano Armor - Easy','LBB42','U.S. M998 Humvee by Papa_Chad','LNB42',
@@ -9,7 +10,7 @@ $selected=@('Military_Tool_Kit','U.S.M113_APC_by_Papa_Chad','VehicleRepairOverha
     'LTWB42','bdtmre','RepairAnyWeapons','Metro2033Armory','dk_gunrepairkit')
 $builds=Import-Csv (Join-Path $root 'research/mod-builds.csv') | Where-Object {$_.ModId -in $selected}
 if (@($builds).Count -ne $selected.Count) {throw 'Selected mod IDs are missing from the audited build inventory.'}
-$builds | Select-Object WorkshopId,ModId,Version,Requires | ConvertTo-Json -Depth 4 |
+@($builds | Select-Object WorkshopId,ModId,Version,Requires)+@($previousSelection | Where-Object {$_.ModId -notin $selected}) | ConvertTo-Json -Depth 4 |
     Set-Content (Join-Path $root 'config/knights-selected-mods.json') -Encoding utf8
 $gear=@('Military_Tool_Kit','GydeTraitMags','KATTAJ1_ClothesCore','KATTAJ1_Military','CerberusPack',
     '[MT] Nano Armor - Easy','LBB42','LNB42','LKB42','LTWB42','bdtmre','Metro2033Armory','dk_gunrepairkit')
@@ -105,3 +106,4 @@ foreach($group in ($recipes | Where-Object {$_.Kind -eq 'craftRecipe'} | Group-O
 $disabledPath=Join-Path $root 'custom-mods/KnightsDanServerPatch/42/media/scripts/KnightsDanDisabledRecipes.txt'
 [IO.File]::WriteAllLines($disabledPath,$disabled,[Text.UTF8Encoding]::new($false))
 Write-Output ('Catalog: {0} shop items, {1} cars; restrictions: {2} items, {3} vehicles, {4} creation recipes' -f $catalog.Count,$cars.Count,$items.Count,$vehicles.Count,$recipes.Count)
+if(Test-Path (Join-Path $root 'config/knights-jg-clothing.json')){& (Join-Path $PSScriptRoot 'build-jg-clothing.ps1')}

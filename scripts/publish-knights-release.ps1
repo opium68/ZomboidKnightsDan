@@ -65,10 +65,13 @@ foreach($folder in 'custom-mods','player-launcher'){
     if($LASTEXITCODE -gt 7){throw 'Publication source copy failed.'}
 }
 New-Item -ItemType Directory -Path (Join-Path $repository 'config'),(Join-Path $repository 'scripts'),(Join-Path $repository 'docs/distribution'),(Join-Path $repository 'distribution') -Force | Out-Null
-foreach($file in 'knights-selected-mods.json','knights-reward-prices.json'){
+foreach($file in 'KNIGHTS-JG-CLOTHING-20261012.md','KNIGHTS-CLOTHING-SETS.md'){
+    Copy-Item -LiteralPath (Join-Path $root "docs/$file") -Destination (Join-Path $repository "docs/$file") -Force
+}
+foreach($file in 'knights-selected-mods.json','knights-reward-prices.json','knights-jg-clothing.json','knights-clothing-sets.json','knights-clothing-set-prices.json'){
     Copy-Item -LiteralPath (Join-Path $root "config/$file") -Destination (Join-Path $repository "config/$file") -Force
 }
-foreach($file in 'common.ps1','build-player-package.ps1','build-reward-catalog.ps1','build-knights-release.ps1','publish-knights-release.ps1'){
+foreach($file in 'common.ps1','build-player-package.ps1','build-reward-catalog.ps1','build-jg-clothing.ps1','build-clothing-sets.ps1','build-knights-release.ps1','publish-knights-release.ps1'){
     Copy-Item -LiteralPath (Join-Path $PSScriptRoot $file) -Destination (Join-Path $repository "scripts/$file") -Force
 }
 New-Item -ItemType Directory -Path (Join-Path $repository 'config/escape_test') -Force | Out-Null
@@ -108,6 +111,8 @@ Humvee door and hood parts disable automatic display of all colour alternatives 
 Multiplayer Humvee armor protection and wear are computed and synchronized by the server. Repair and replacement reset the damage baseline; other vehicles and single-player retain their original armor handling. Behavioral tests pass; multiplayer collision verification and the separate headlight condition investigation remain pending. Humvee repair diagnostics compare client/server and installed-item conditions without changing repair results. PZLinux sound clips use one quarter of their original volume.
 
 Contract money is multiplied by ten, including mission modifiers and the per-kill completion bonus. Offers and notes show increased rewards. Uncompleted contracts migrate once; completed contracts and existing cooperative receipts are preserved. Solo/cooperative payout and daily-board regression tests pass. Shop prices and stock transactions are unchanged.
+
+J&G Forest Multicam, Black Multicam, Trauma Responder, MARPAT and British DPM are installed. Other J&G outfit packs with unresolved recent reports are held. Clothing is sold as 21 complete set bags, including 5 new J&G sets; take the garments out of the delivered bag to wear them. Individual garment offers are removed, existing paid orders are retained, and new J&G masks/backpacks are not sold. Natural spawning and manufacture remain restricted. The 42.21 engine created all 21 complete sets and verified 94 J&G crafting restrictions in an isolated server; multiplayer appearance and mailbox delivery still need in-game checks. Family-first selection and fixed daily shopping lists remain separate pending work. See docs/KNIGHTS-JG-CLOTHING-20261012.md.
 '@
 [IO.File]::WriteAllText((Join-Path $repository 'README.md'),$readme,[Text.UTF8Encoding]::new($false))
 [IO.File]::WriteAllText((Join-Path $repository '.gitignore'),"config/*.secret.*`nconfig/release-private.xml`npackages/`nresearch/`nplayer-launcher/player-settings.json`nplayer-launcher/release-state.json`nplayer-launcher/.knights-update-backups/`n",[Text.UTF8Encoding]::new($false))

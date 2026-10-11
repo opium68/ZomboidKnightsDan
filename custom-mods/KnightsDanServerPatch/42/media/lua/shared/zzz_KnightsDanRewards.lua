@@ -1,5 +1,6 @@
 require "ISPZLinuxVariablesTables"
 require "KnightsDan/Catalog"
+require "KnightsDan/ClothingShop"
 local K=KnightsDan
 local function blockedItem(id)
     return type(id)=="string" and (K.rewardItems[id] or K.rewardItems["Base."..id])
@@ -8,7 +9,7 @@ local function blockedVehicle(id)
     return type(id)=="string" and (K.rewardVehicles[id] or K.rewardVehicles["Base."..id])
 end
 local function blockedOutfit(name)
-    return type(name)=="string" and (name:find("^Cerberus_") or name:find("^KATTAJ1_Army_"))
+    return type(name)=="string" and (K.jgOutfits[name] or name:find("^Cerberus_") or name:find("^KATTAJ1_Army_"))
 end
 -- Distribution lists use alternating item/weight pairs. Purge recursively
 -- without touching unrelated vanilla loot or already created possessions.
@@ -73,6 +74,13 @@ local function restrictRecipes()
 end
 local function installCatalog()
     local manager=getScriptManager()
+    K.removeIndividualClothingOffers()
+    -- Fail at startup rather than accepting payment for an incomplete set.
+    for id,definition in pairs(K.clothingSets) do
+        for _,part in ipairs(definition.items) do
+            if not manager:FindItem(part) then error("KnightsDan set component missing: "..part) end
+        end
+    end
     local known={}
     for _,entry in ipairs(PZLinuxDarkWebItemsTable) do
         for _,id in ipairs(entry.id or {}) do known[id]=true end
@@ -95,4 +103,5 @@ end
 Events.OnGameBoot.Add(function() preventStartingGear(); restrictRecipes(); installCatalog(); purgeAll() end)
 Events.OnInitGlobalModData.Add(function() preventStartingGear(); purgeAll() end)
 if Events.OnPreDistributionMerge then Events.OnPreDistributionMerge.Add(purgeAll) end
+if Events.OnPostDistributionMerge then Events.OnPostDistributionMerge.Add(purgeAll) end
 if Events.OnGameStart then Events.OnGameStart.Add(purgeAll) end

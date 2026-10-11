@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "status": "applied-0.1.0-20261012.3-client-gameplay-pending",
+  "note": "승인된 세트 기준가의 3배. 0.1.0-20261012.3 운영 적용. 실제 구매가는 기존 평판·거래 기술 계산을 따름.",
+  "families": [
+    {
+      "id": "patriot",
+      "name": "패트리어트 경량",
+      "price": 90000
+    },
+    {
+      "id": "defender",
+      "name": "디펜더 중형",
+      "price": 150000
+    },
+    {
+      "id": "cerberus-light",
+      "name": "세베루스 경량 돌격",
+      "price": 135000
+    },
+    {
+      "id": "cerberus-assault",
+      "name": "세베루스 돌격",
+      "price": 180000
+    },
+    {
+      "id": "vanguard",
+      "name": "뱅가드 중장갑",
+      "price": 225000
+    },
+    {
+      "id": "cerberus-full",
+      "name": "세베루스 전신 보호",
+      "price": 240000
+    },
+    {
+      "id": "nano",
+      "name": "나노아머 기본",
+      "price": 450000
+    },
+    {
+      "id": "forest-multicam",
+      "name": "포레스트 멀티캠 전술 세트",
+      "price": 105000,
+      "status": "implemented"
+    },
+    {
+      "id": "black-multicam",
+      "name": "블랙 멀티캠 전술 세트",
+      "price": 105000,
+      "status": "implemented"
+    },
+    {
+      "id": "trauma-responder",
+      "name": "트라우마 대응 전술 세트",
+      "price": 270000,
+      "status": "implemented"
+    },
+    {
+      "id": "marpat",
+      "name": "MARPAT 전술 세트",
+      "price": 105000,
+      "status": "implemented"
+    },
+    {
+      "id": "british-dpm",
+      "name": "영국 DPM 전술 세트",
+      "price": 105000,
+      "status": "implemented"
+    }
+  ]
+}

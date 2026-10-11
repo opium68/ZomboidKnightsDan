@@ -148,5 +148,35 @@
     "ModId": "LifestyleHobbies",
     "Version": "0.4.0.3",
     "Requires": ""
+  },
+  {
+    "WorkshopId": "3309971624",
+    "ModId": "[J&G] Forest Multicam Uniform",
+    "Version": "",
+    "Requires": "\\KATTAJ1_ClothesCore"
+  },
+  {
+    "WorkshopId": "3315302991",
+    "ModId": "[J&G] Black Multicam Uniform",
+    "Version": "",
+    "Requires": "\\KATTAJ1_ClothesCore"
+  },
+  {
+    "WorkshopId": "3443982326",
+    "ModId": "[J&G] Trauma Responder Uniform",
+    "Version": "",
+    "Requires": "\\KATTAJ1_ClothesCore"
+  },
+  {
+    "WorkshopId": "3616192072",
+    "ModId": "[J&G] MARPAT Camo Uniform",
+    "Version": "",
+    "Requires": "\\KATTAJ1_ClothesCore"
+  },
+  {
+    "WorkshopId": "3654107996",
+    "ModId": "[J&G] British DPM Uniform",
+    "Version": "",
+    "Requires": "\\KATTAJ1_ClothesCore"
   }
 ]
