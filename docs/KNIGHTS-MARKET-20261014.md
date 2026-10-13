@@ -19,3 +19,5 @@ Kahlua: 상품군 0~3종·중복 제거·재고 유지·모두 0종인 날 유�
 격리 B42.21: 네이티브 아이템 분류와 0~3종 상한 PASS(수리용품 0, 전투식량 2). 기존 25개 세트·94개 제작 제한 및 초기화 생성 차단도 PASS. SERVER STARTED·저장·Shutdown handling finished 확인. 기존 지도 마네킹 속성 오류는 남아 있음. 로그: logs/knights-market-20261014-isolated.log.
 
 PS5.1 서명 설치·실패 복구·재실행·별도 모드 보존 PASS. 자동 배포 활성화·공개 다운로드 검증은 아래에 기록.
+
+공개 배포 완료: v0.1.0-20261014.1 및 stable 채널 활성화. 실제 HTTP JSON·서명·ZIP·전체 추출 파일 검증 PASS, 운영 68개 파일 일치. 증거: research/public-release-a38364e2123741b0a00fa2d0c12726a1.
