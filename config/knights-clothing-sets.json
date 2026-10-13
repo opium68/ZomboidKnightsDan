@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "status": "applied-0.1.0-20261012.4-gameplay-pending",
+  "status": "applied-0.1.0-20261014.4-gameplay-pending",
   "note": "세트 가방 전체 구성품 배송; 개별 의복 판매 제거. 가방 내부에서 꺼내 착용. 고정 텍스처 0 사용.",
-  "selectionPolicy": "추후 의류 슬롯에서 family를 먼저 추첨하고 해당 family의 색상 세트 하나를 선택. 구성과 색상은 구매 전에 표시하고 당일 고정.",
-  "verification": "네이티브 42.21: 21개 가방 전체 구성품 생성·중복 방지·용량 및 94개 J&G 제작 제한 검증, 격리 부팅/정상 종료·운영 적용 통과. 실제 착용 외형 및 멀티 수령 대기.",
+  "selectionPolicy": "암시장 의류 세트 상품군에서 게임 시간 24시간 단위로 0~3종 추첨. 세트별 색상과 구성은 고정.",
+  "verification": "설치 아이템 선언·가격·착용 부위 중복 검사 완료. 코어 배타 슬롯 검토. 게임 내 외형/남녀 착용 및 배송 검증은 미완료.",
   "notes": [
-    "뱅가드 세트의 헬멧은 현재 선언이 확인된 같은 색 디펜더 헬멧 사용.",
+    "뱅가드 세트는 같은 색 뱅가드 야간투시 풀헬멧을 포함.",
     "Cerberus 방탄복 키트는 서로 배타적이므로 세트당 한 종류만 포함. 별도 기본 방탄복 중복 제공 안 함.",
-    "배낭·홀스터·칼집·야시경·램프는 별도 상품으로 유지하는 구성안.",
+    "배낭·홀스터·칼집·램프는 별도 상품으로 유지. 뱅가드 야간투시 풀헬멧은 뱅가드 세트에 포함.",
     "일부 옷은 같은 아이템 코드 안에 무늬/단색 텍스처가 여러 개 있으므로 판매 연동 시 텍스처 고정 필요.",
     "나노아머는 blank 모델/텍스처를 사용하는 보이지 않는 보호 장비. H/FH 변형은 동봉하지 않음."
   ],
@@ -300,16 +300,16 @@
           ]
         },
         {
-          "id": "Base.Military_Helmet_Defender-Black",
+          "id": "Base.Military_FullHelmet_Vanguard-Black",
           "quantity": 1,
           "mod": "KATTAJ1_Military",
-          "originalName": "Military Helmet Defender (Black)",
-          "bodyLocation": "base:Hat",
+          "originalName": "Military Helmet Vanguard (Black)",
+          "bodyLocation": "base:FullHat",
           "weight": "1",
-          "clothingItem": "Military_Helmet_Defender-Black",
+          "clothingItem": "Military_FullHelmet_Vanguard-Black",
           "textureChoices": [
-            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-Black",
-            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-BlackPlain"
+            "Clothes\\Military\\FullHelmet\\Military_FullHelmet_Vanguard-Black",
+            "Clothes\\Military\\FullHelmet\\Military_FullHelmet_Vanguard-BlackPlain"
           ]
         },
         {
@@ -668,16 +668,16 @@
           ]
         },
         {
-          "id": "Base.Military_Helmet_Defender-Green",
+          "id": "Base.Military_FullHelmet_Vanguard-Green",
           "quantity": 1,
           "mod": "KATTAJ1_Military",
-          "originalName": "Military Helmet Defender (Green)",
-          "bodyLocation": "base:Hat",
+          "originalName": "Military Helmet Vanguard (Green)",
+          "bodyLocation": "base:FullHat",
           "weight": "1",
-          "clothingItem": "Military_Helmet_Defender-Green",
+          "clothingItem": "Military_FullHelmet_Vanguard-Green",
           "textureChoices": [
-            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-Green",
-            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-GreenPlain"
+            "Clothes\\Military\\FullHelmet\\Military_FullHelmet_Vanguard-Green",
+            "Clothes\\Military\\FullHelmet\\Military_FullHelmet_Vanguard-GreenPlain"
           ]
         },
         {
@@ -1036,16 +1036,16 @@
           ]
         },
         {
-          "id": "Base.Military_Helmet_Defender-Desert",
+          "id": "Base.Military_FullHelmet_Vanguard-Desert",
           "quantity": 1,
           "mod": "KATTAJ1_Military",
-          "originalName": "Military Helmet Defender (Desert)",
-          "bodyLocation": "base:Hat",
+          "originalName": "Military Helmet Vanguard (Desert)",
+          "bodyLocation": "base:FullHat",
           "weight": "1",
-          "clothingItem": "Military_Helmet_Defender-Desert",
+          "clothingItem": "Military_FullHelmet_Vanguard-Desert",
           "textureChoices": [
-            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-Desert",
-            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-DesertPlain"
+            "Clothes\\Military\\FullHelmet\\Military_FullHelmet_Vanguard-Desert",
+            "Clothes\\Military\\FullHelmet\\Military_FullHelmet_Vanguard-DesertPlain"
           ]
         },
         {
@@ -1404,16 +1404,16 @@
           ]
         },
         {
-          "id": "Base.Military_Helmet_Defender-White",
+          "id": "Base.Military_FullHelmet_Vanguard-White",
           "quantity": 1,
           "mod": "KATTAJ1_Military",
-          "originalName": "Military Helmet Defender (White)",
-          "bodyLocation": "base:Hat",
+          "originalName": "Military Helmet Vanguard (White)",
+          "bodyLocation": "base:FullHat",
           "weight": "1",
-          "clothingItem": "Military_Helmet_Defender-White",
+          "clothingItem": "Military_FullHelmet_Vanguard-White",
           "textureChoices": [
-            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-White",
-            "Clothes\\Military\\Helmet\\Military_Helmet_Defender-WhitePlain"
+            "Clothes\\Military\\FullHelmet\\Military_FullHelmet_Vanguard-White",
+            "Clothes\\Military\\FullHelmet\\Military_FullHelmet_Vanguard-WhitePlain"
           ]
         },
         {

@@ -126,6 +126,6 @@ $doc=@('# 의류 세트 판매','','상태: 구현 완료, 자동 검사/격리 
     '## 세트 목록','','| 세트 | 가격 | 구성품 수 |','|---|---:|---:|')
 foreach($set in $sets){$doc+='| '+$set.name+' | $'+$set.price+' | '+@($set.items).Count+' |'}
 $doc+=@('',('총 '+$sets.Count+'개 세트. 코드/착용 부위/텍스처 원본은 config/knights-clothing-sets.json. 선언 및 슬롯 중복을 검사했으며 실제 남녀 착용·외형·멀티 수령은 게임에서 확인해야 한다.'),'',
-    'KATTAJ1 뱅가드에는 같은 색 디펜더 헬멧을 사용한다. 세베루스 키트는 세트당 한 종류다. 나노아머는 보이지 않는 보호 모델이다. J&G 마스크는 소진 필터 관련 보고를 고려해 세트 동봉 및 신규 판매에서 제외한다.')
+    'KATTAJ1 뱅가드에는 같은 색 뱅가드 야간투시 풀헬멧을 사용한다. 세베루스 키트는 세트당 한 종류다. 나노아머는 보이지 않는 보호 모델이다. J&G 마스크는 소진 필터 관련 보고를 고려해 세트 동봉 및 신규 판매에서 제외한다.')
 [IO.File]::WriteAllLines((Join-Path $root 'docs/KNIGHTS-CLOTHING-SETS.md'),$doc,$utf8)
 Write-Output "Built $($modRecords.Count) J&G/TTAJ mods, $($items.Count) items, $($recipes.Count) restricted recipes, $($sets.Count) clothing set packages."

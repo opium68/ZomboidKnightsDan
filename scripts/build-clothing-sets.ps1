@@ -63,7 +63,7 @@ foreach($color in $colors.Keys) {
     $medium=@($armor | ForEach-Object {'Base.Military_'+$_+'_Defender_Medium-'+$color})
     Add-Set ('defender-'+$color.ToLower()) ('디펜더 중형 전술 세트 ('+$colors[$color]+')') 'defender' $color ($basic+@(('Base.Military_Helmet_Defender-'+$color),('Base.Military_BulletproofVest_Defender_Medium-'+$color))+$medium)
     $heavy=@($armor | ForEach-Object {'Base.Military_'+$_+'_Vanguard_Heavy-'+$color})
-    Add-Set ('vanguard-'+$color.ToLower()) ('뱅가드 중장갑 전술 세트 ('+$colors[$color]+')') 'vanguard' $color ($basic+@(('Base.Military_Helmet_Defender-'+$color),('Base.Military_BulletproofVest_Vanguard_Heavy-'+$color))+$heavy)
+    Add-Set ('vanguard-'+$color.ToLower()) ('뱅가드 중장갑 전술 세트 ('+$colors[$color]+')') 'vanguard' $color ($basic+@(('Base.Military_FullHelmet_Vanguard-'+$color),('Base.Military_BulletproofVest_Vanguard_Heavy-'+$color))+$heavy)
 }
 $cerberus=@('Base.Shirt_Cerberus','Base.Pants_Classic_Cerberus','Base.Gloves_Cerberus','Base.Shoes_TacticalBoots_Cerberus','Base.Helmet_Cerberus')
 Add-Set 'cerberus-light' '세베루스 경량 돌격 세트' 'cerberus-light' 'Cerberus' ($cerberus+@('Base.BulletproofVest_Cerberus_AssaultLightKit'))
@@ -74,9 +74,9 @@ $result=[ordered]@{
     schemaVersion=1
     status='assembled-pending-shop-integration'
     note='현재 설치 파일로 조립한 판매 구성안. 운영 카탈로그는 아직 변경하지 않음. price는 제안 기본가의 3배로 지정한 세트 기본가, referencePrice는 기존 개별 기준가 합계.'
-    selectionPolicy='추후 의류 슬롯에서 family를 먼저 추첨하고 해당 family의 색상 세트 하나를 선택. 구성과 색상은 구매 전에 표시하고 당일 고정.'
+    selectionPolicy='암시장 의류 세트 상품군에서 게임 시간 24시간 단위로 0~3종 추첨. 세트별 색상과 구성은 고정.'
     verification='설치 아이템 선언·가격·착용 부위 중복 검사 완료. 코어 배타 슬롯 검토. 게임 내 외형/남녀 착용 및 배송 검증은 미완료.'
-    notes=@('뱅가드 세트의 헬멧은 현재 선언이 확인된 같은 색 디펜더 헬멧 사용.','Cerberus 방탄복 키트는 서로 배타적이므로 세트당 한 종류만 포함. 별도 기본 방탄복 중복 제공 안 함.','배낭·홀스터·칼집·야시경·램프는 별도 상품으로 유지하는 구성안.','일부 옷은 같은 아이템 코드 안에 무늬/단색 텍스처가 여러 개 있으므로 판매 연동 시 텍스처 고정 필요.','나노아머는 blank 모델/텍스처를 사용하는 보이지 않는 보호 장비. H/FH 변형은 동봉하지 않음.')
+    notes=@('뱅가드 세트는 같은 색 뱅가드 야간투시 풀헬멧을 포함.','Cerberus 방탄복 키트는 서로 배타적이므로 세트당 한 종류만 포함. 별도 기본 방탄복 중복 제공 안 함.','배낭·홀스터·칼집·램프는 별도 상품으로 유지. 뱅가드 야간투시 풀헬멧은 뱅가드 세트에 포함.','일부 옷은 같은 아이템 코드 안에 무늬/단색 텍스처가 여러 개 있으므로 판매 연동 시 텍스처 고정 필요.','나노아머는 blank 모델/텍스처를 사용하는 보이지 않는 보호 장비. H/FH 변형은 동봉하지 않음.')
     sets=@($sets.ToArray())
 }
 $jsonPath=Join-Path $root 'config/knights-clothing-sets.json'
@@ -94,7 +94,7 @@ $doc.Add('| 상품군 | 구성 | 색상/변형 |')
 $doc.Add('|---|---|---|')
 $doc.Add('| 패트리어트 경량 | 셔츠·카고바지·장갑·전술화·패트리어트 헬멧·경량 방탄복, 6종 | 검정·녹색·사막색·흰색 |')
 $doc.Add('| 디펜더 중형 | 셔츠·카고바지·장갑·전술화·디펜더 헬멧·중형 방탄복·상완/전완/허벅지/정강이 보호대, 10종 | 검정·녹색·사막색·흰색 |')
-$doc.Add('| 뱅가드 중장갑 | 같은 색 기본 의류·디펜더 헬멧·뱅가드 중장갑 방탄복·4부위 중장갑 보호대, 10종 | 검정·녹색·사막색·흰색 |')
+$doc.Add('| 뱅가드 중장갑 | 같은 색 기본 의류·뱅가드 야간투시 풀헬멧·뱅가드 중장갑 방탄복·4부위 중장갑 보호대, 10종 | 검정·녹색·사막색·흰색 |')
 $doc.Add('| 세베루스 경량 돌격 | 셔츠·바지·장갑·전술화·헬멧·AssaultLightKit, 6종 | 모드 기본 텍스처 |')
 $doc.Add('| 세베루스 돌격 | 같은 기본 의류·AssaultKit, 6종 | 모드 기본 텍스처 |')
 $doc.Add('| 세베루스 전신 보호 | 같은 기본 의류·FullProtectionKit, 6종 | 모드 기본 텍스처 |')
