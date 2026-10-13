@@ -86,7 +86,7 @@ foreach($set in $sets){
     $lua.Add('    ["KnightsDan.'+$code+'"] = {price='+$set.price+', family="'+$set.family+'", items={')
     foreach($part in $set.items){$lua.Add('        "'+$part.id+'",')}
     $lua.Add('    }},')
-    $script.Add('    item '+$code+' { ItemType = base:container, DisplayName = Clothing Set '+$set.id+', Icon = Bag_DuffelBag, Weight = 0.5, Capacity = 50, WeightReduction = 0, CanBeEquipped = Secondary, OnCreate = KnightsDan.createClothingSet, }')
+    $script.Add('    item '+$code+' { ItemType = base:container, DisplayName = Clothing Set '+$set.id+', Icon = Duffelbag, DisplayCategory = Bag, Weight = 0.5, Capacity = 50, WeightReduction = 0, CanBeEquipped = Secondary, OnCreate = KnightsDan.createClothingSet, }')
     $ko['KnightsDan.'+$code]=$set.name
     $en['KnightsDan.'+$code]='Clothing Set ('+$set.id+')'
 }

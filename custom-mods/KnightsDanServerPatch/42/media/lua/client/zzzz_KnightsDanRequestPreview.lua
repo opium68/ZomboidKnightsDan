@@ -22,11 +22,20 @@ end
 local function install()
     if not requestUI or requestUI.knightsPreviewInstalled then return end
     requestUI.knightsPreviewInstalled=true
+    local refuse=requestUI.onRefuseButton
+    requestUI.onRefuseButton=function(self,button)
+        if button and tonumber(button.id)==9 then return refuse(self,button) end
+        -- Ordinary goods: declining must not consume the day's category.
+        return self:onMinimizeBack(button)
+    end
     local start=requestUI.onContractId
     requestUI.onContractId=function(self,contract,...)
         activeUI=self
         self.knightsPreviewContract=contract
         self.knightsPreviewItems={}
+        -- The native method creates loadingMessage and the coroutine here.
+        -- Its coroutine is resumed later by the UI update, after this returns.
+        local result=start(self,contract,...)
         local panel=self.loadingMessage
         if panel and not panel.knightsPreviewInstalled then
             panel.knightsPreviewInstalled=true
@@ -47,7 +56,7 @@ local function install()
                 return paginate(p,...)
             end
         end
-        return start(self,contract,...)
+        return result
     end
 end
 Events.OnGameBoot.Add(install)
