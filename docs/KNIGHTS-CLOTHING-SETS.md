@@ -47,3 +47,5 @@ KATTAJ1 뱅가드에는 같은 색 뱅가드 야간투시 풀헬멧을 사용한
 뱅가드 .4 검증: Kahlua 4색 동일색 풀헬멧·디펜더 헬멧 제외·가격 225,000 유지 PASS. 실제 B42.21에서 네이티브 25개 세트 생성 PASS, 4개 뱅가드 세트의 풀헬멧을 NV.Shared.HasNightVisionIdentity가 모두 인식 PASS. 격리 로그: logs/knights-vanguard-20261014-final-isolated.log. PS5.1 서명 설치/복구 PASS. 기존 소유품은 교체하지 않으며 실제 착용 외형·멀티 야간투시 체감 확인은 대기.
 
 운영 .4 적용: 정상 종료 확인, backups/owned-mods-before-0.1.0-20261014.4 백업, 운영 자체 파일 68개 해시 일치. 격리 저장·Shutdown handling finished 확인. 공개 배포 검증은 아래 기록.
+
+.4 공개 배포 완료: stable 활성화, 실제 HTTP 서명·ZIP·전체 추출 파일 검증 PASS, 운영 자체 파일 68개 해시 일치. 증거: research/public-release-368ee4e786324292bb41f66fcb77843b.
