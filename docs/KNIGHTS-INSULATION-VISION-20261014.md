@@ -19,3 +19,5 @@
 Kahlua: 보온성 상한·기존 착용품·이미 낮은 값·기본 아이템 보존 PASS. 보온성 외 필드 미수정 및 주기 핸들러 미등록 확인. 실제 42.21 엔진에서 197개 원본 스크립트/신규 아이템의 상한, 기존 아이템 보정, 기본 군용 헬멧 유지, 뱅가드 NV 인식 PASS. 기존 25개 세트 및 야간투시 검사도 유지. 시야 원본 Lua 컴파일 및 서버 mod 로딩 PASS.
 
 격리 SERVER STARTED·저장·Shutdown handling finished 확인. 기존 지도 마네킹 속성 오류는 남아 있다. 로그: logs/knights-insulation-vision-20261014-isolated.log. PS5.1 서명 설치·복구·재실행·별도 모드 보존 PASS. 실제 멀티 더위 체감·시야/FPS는 확인 대기.
+
+공개 .5 배포 완료: stable 활성화, 실제 HTTP 서명·ZIP·추출 파일·운영 자체 70개 파일 해시 PASS. 운영 INI의 ZombieVisibilityFix 및 3814073243 등록 확인. 증거: research/public-release-41fd46dc0b03439eb85fb20e55e2553a.
