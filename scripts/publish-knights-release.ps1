@@ -65,11 +65,11 @@ foreach($folder in 'custom-mods','player-launcher'){
     if($LASTEXITCODE -gt 7){throw 'Publication source copy failed.'}
 }
 New-Item -ItemType Directory -Path (Join-Path $repository 'config'),(Join-Path $repository 'scripts'),(Join-Path $repository 'docs/distribution'),(Join-Path $repository 'distribution') -Force | Out-Null
-foreach($file in 'KNIGHTS-JG-CLOTHING-20261012.md','KNIGHTS-TTAJ-CLOTHING-20261012.md','KNIGHTS-CLOTHING-SETS.md','KNIGHTS-MARKET-20261014.md','KNIGHTS-INSULATION-VISION-20261014.md','KNIGHTS-CONTRACT-MONEY-20261012.md'){
+foreach($file in 'KNIGHTS-JG-CLOTHING-20261012.md','KNIGHTS-TTAJ-CLOTHING-20261012.md','KNIGHTS-CLOTHING-SETS.md','KNIGHTS-MARKET-20261014.md','KNIGHTS-INSULATION-VISION-20261014.md','KNIGHTS-CONTRACT-MONEY-20261012.md','KNIGHTS-DAILY-CONTRACTS-20261009.md'){
     Copy-Item -LiteralPath (Join-Path $root "docs/$file") -Destination (Join-Path $repository "docs/$file") -Force
 }
 New-Item -ItemType Directory -Path (Join-Path $repository 'scripts/tests') -Force | Out-Null
-foreach($file in 'knights-market.lua','knights-request-preview.lua','knights-clothing-sets.lua','knights-clothing-insulation.lua','knights-contract-money.lua','knights-coop.lua','knights-daily-contracts.lua','knights-daily-requests.lua','knights-daily-requests-ui.lua'){
+foreach($file in 'knights-market.lua','knights-request-preview.lua','knights-clothing-sets.lua','knights-clothing-insulation.lua','knights-contract-money.lua','knights-coop.lua','knights-daily-contracts.lua','knights-daily-requests.lua','knights-daily-requests-ui.lua','knights-protect-chase.lua'){
     Copy-Item -LiteralPath (Join-Path $PSScriptRoot "tests/$file") -Destination (Join-Path $repository "scripts/tests/$file") -Force
 }
 foreach($file in 'knights-selected-mods.json','knights-clothing-insulation.json','knights-reward-prices.json','knights-jg-clothing.json','knights-ttaj-clothing.json','knights-clothing-sets.json','knights-clothing-set-prices.json'){
@@ -91,6 +91,8 @@ Download [KnightsDan-Launcher.zip](https://github.com/opium68/ZomboidKnightsDan/
 Original mods remain on Steam Workshop. This repository contains only our own patches, launcher files and configuration references. It contains no save, database, server password or signing credential.
 
 General Buy Goods offers are fixed per character for each existing 24-world-hour restock period. Contents, quantities, price, vehicle and delivery location are saved on the server. Declining/reopening/reconnecting does not reroll; orders use the saved offer reference and expired offers are rejected. Contracts pay 3x the original money reward; unfinished 10x records migrate to 3x while previously credited balances and queued payouts are preserved.
+
+Building-defense contract zombies pursue the nearest living registered participant until the contract completes/cancels, retargeting on death/disconnect. Server-assigned targets are followed by the owning client with bounded extra path requests. Normal zombies and spawn counts are unchanged; unloaded chunks and native pathfinding restrictions remain.
 
 Cooperative contracts: invite nearby players from the right-click menu; invited players accept the invitation before the leader accepts a computer contract. Everyone must be online and nearby at acceptance. The roster is then fixed. Progress is shared and every registered character receives the full reward once; offline receipts are settled on the next bank synchronization. Accounts and vehicle purchases remain personal.
 
