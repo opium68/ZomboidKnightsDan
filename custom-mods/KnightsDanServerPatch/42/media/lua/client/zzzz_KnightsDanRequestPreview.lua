@@ -4,7 +4,7 @@ local pool=PZLinuxRequestsGetOfferPool
 PZLinuxRequestsGetOfferPool=function(contract)
     local entries=pool(contract)
     local ui=activeUI
-    if not ui or ui.isClosing or ui.knightsPreviewContract~=contract or contract==9 then return entries end
+    if not ui or ui.isClosing or ui.knightsDailyOfferMode or ui.knightsPreviewContract~=contract or contract==9 then return entries end
     ui.knightsPreviewItems={}
     local wrapped={}
     for _,entry in ipairs(entries) do

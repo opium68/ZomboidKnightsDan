@@ -4,7 +4,7 @@ require "KnightsDan/Core"
 local K = KnightsDan
 if K.contractMoneyInstalled then return end
 K.contractMoneyInstalled = true
-local multiplier = 10
+local multiplier = 3
 local creating = false
 local function scaleNote(note, old, value)
     if type(note) ~= "string" then return note end
@@ -14,7 +14,8 @@ end
 local function scale(record)
     if record.knightsRewardMultiplier == multiplier then return end
     local old = PZLinuxNormalizeMoney(record.reward)
-    record.reward = old*multiplier
+    local prior = math.max(1, tonumber(record.knightsRewardMultiplier) or 1)
+    record.reward = PZLinuxNormalizeMoney(old/prior*multiplier)
     record.note = scaleNote(record.note, old, record.reward)
     record.fullNote = scaleNote(record.fullNote, old, record.reward)
     record.knightsRewardMultiplier = multiplier
@@ -30,10 +31,11 @@ end
 PZLinuxContractsBuildMission = function(...)
     local args = {...}
     local selected = args[1]
-    if selected and selected.knightsRewardMultiplier == multiplier then
+    if selected and tonumber(selected.knightsRewardMultiplier) then
         local original = {}
         for key,value in pairs(selected) do original[key]=value end
-        original.reward = selected.reward/multiplier
+        original.reward = selected.reward/math.max(1, tonumber(selected.knightsRewardMultiplier))
+        original.knightsRewardMultiplier = nil
         args[1] = original
     end
     local mission, err = build(unpack(args))
@@ -78,8 +80,8 @@ PZLinuxContractsApplyComplete = function(player, state, requestId)
     local record = md.PZLinuxContractId and PZLinuxContractsGetWorldContract(md.PZLinuxContractId)
     local previous = md.PZLinuxOnReward
     local reward = record and record.reward or PZLinuxNormalizeMoney(previous)*multiplier
-    -- Native completion adds five per kill. Supply the remaining 45 here.
-    md.PZLinuxOnReward = reward+PZLinuxNormalizeMoney(md.PZLinuxOnZombieDead)*45
+    -- Native completion adds five per kill; add only the multiplier remainder.
+    md.PZLinuxOnReward = reward+PZLinuxNormalizeMoney(md.PZLinuxOnZombieDead)*5*(multiplier-1)
     local ok, result = pcall(complete, player, state, requestId)
     if not ok or not result or not result.ok then md.PZLinuxOnReward = previous end
     if not ok then error(result) end
