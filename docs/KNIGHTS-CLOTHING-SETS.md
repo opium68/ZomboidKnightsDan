@@ -49,3 +49,5 @@ KATTAJ1 뱅가드에는 같은 색 뱅가드 야간투시 풀헬멧을 사용한
 운영 .4 적용: 정상 종료 확인, backups/owned-mods-before-0.1.0-20261014.4 백업, 운영 자체 파일 68개 해시 일치. 격리 저장·Shutdown handling finished 확인. 공개 배포 검증은 아래 기록.
 
 .4 공개 배포 완료: stable 활성화, 실제 HTTP 서명·ZIP·전체 추출 파일 검증 PASS, 운영 자체 파일 68개 해시 일치. 증거: research/public-release-368ee4e786324292bb41f66fcb77843b.
+
+2026-10-14 보온성 변경: 197개 의류의 높은 보온성을 부위별 상한으로 낮춘 .5 패치 운영 적용. 세트 구성/가격은 동일. [정책·검증](KNIGHTS-INSULATION-VISION-20261014.md).

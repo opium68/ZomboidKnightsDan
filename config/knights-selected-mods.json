@@ -196,5 +196,11 @@
     "ModId": "LynxPack",
     "Version": "",
     "Requires": "\\KATTAJ1_ClothesCore"
+  },
+  {
+    "WorkshopId": "3814073243",
+    "ModId": "ZombieVisibilityFix",
+    "Version": "",
+    "Requires": ""
   }
 ]

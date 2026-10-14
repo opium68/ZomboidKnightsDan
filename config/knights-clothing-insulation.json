@@ -1,0 +1,1401 @@
+{
+  "version": 1,
+  "status": "applied-0.1.0-20261014.5-gameplay-pending",
+  "scope": "Selected clothing mods only; no vanilla items; values already below caps unchanged",
+  "defaults": {
+    "helmet": 0.2,
+    "vest": 0.6,
+    "armLegGuards": 0.15,
+    "shirtJacketPants": 0.3,
+    "gloves": 0.8,
+    "boots": 0.9
+  },
+  "preserve": [
+    "defense",
+    "windResistance",
+    "waterResistance",
+    "weight",
+    "nightVision"
+  ],
+  "entries": [
+    {
+      "id": "Base.Military_ArmsProtectionLower_Defender_Medium-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerArms",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Defender_Medium-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerArms",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Defender_Medium-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerArms",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Defender_Medium-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerArms",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerArms",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerArms",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerArms",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerArms",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Patriot_Light-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.3,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Patriot_Light-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.3,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Patriot_Light-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.3,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Patriot_Light-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.3,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Press",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Defender_Medium-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:TorsoExtraVestBullet",
+      "original": 0.7,
+      "cap": 0.6
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Defender_Medium-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:TorsoExtraVestBullet",
+      "original": 0.7,
+      "cap": 0.6
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Defender_Medium-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:TorsoExtraVestBullet",
+      "original": 0.7,
+      "cap": 0.6
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Defender_Medium-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:TorsoExtraVestBullet",
+      "original": 0.7,
+      "cap": 0.6
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:TorsoExtraVestBullet",
+      "original": 0.85,
+      "cap": 0.6
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:TorsoExtraVestBullet",
+      "original": 0.85,
+      "cap": 0.6
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:TorsoExtraVestBullet",
+      "original": 0.85,
+      "cap": 0.6
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:TorsoExtraVestBullet",
+      "original": 0.85,
+      "cap": 0.6
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:FullHat",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:FullHat",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:FullHat",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:FullHat",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.4,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Green_Open",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Green_RolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.6,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-White_Open",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.55,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-White_OpenRolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.5,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-White_RolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.55,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.5,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-White_Open",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.45,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-White_OpenRolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.4,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-White_RolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.45,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Black_DOWN",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.95,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Black_DOWN_Open",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.75,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Black_Up",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "JacketHat",
+      "original": 0.95,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Black_Up_Open",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "JacketHat",
+      "original": 0.75,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Desert_DOWN",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.95,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Desert_DOWN_Open",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.75,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Desert_Up",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "JacketHat",
+      "original": 0.95,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Desert_Up_Open",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "JacketHat",
+      "original": 0.75,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Green_DOWN",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.95,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Green_DOWN_Open",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.75,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Green_Up",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "JacketHat",
+      "original": 0.95,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Green_Up_Open",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "JacketHat",
+      "original": 0.75,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-White_DOWN",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.95,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-White_DOWN_Open",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Jacket",
+      "original": 0.75,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-White_Up",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "JacketHat",
+      "original": 0.95,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-White_Up_Open",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "JacketHat",
+      "original": 0.75,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Defender_Medium-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerLegs",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Defender_Medium-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerLegs",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Defender_Medium-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerLegs",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Defender_Medium-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerLegs",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerLegs",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerLegs",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerLegs",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:LowerLegs",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Patriot_Light-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.3,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Patriot_Light-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.3,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Patriot_Light-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.3,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Patriot_Light-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.3,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Press",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.45,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava1-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.65,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava1-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava1-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.8,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava1-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava2-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.65,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava2-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava2-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava2-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava3-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.65,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava3-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava3-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.8,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava3-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_BandanaMask-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_BandanaMask-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.3,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_BandanaMask-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.6,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Mask_BandanaMask-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.8,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_MaskHelmet_GasMask-M80",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:MaskEyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_MaskHelmet_GasMask-M80_nofilter",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:MaskEyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Pants",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Pants_Classic-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Pants",
+      "original": 0.55,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Pants_Classic-White_RollUp",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Pants",
+      "original": 0.5,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Pants_Classic-White_Tuck",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Pants",
+      "original": 0.55,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Pants",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Black_Tuck",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Pants",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Pants",
+      "original": 0.4,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Green_RollUp",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Pants",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Green_Tuck",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Pants",
+      "original": 0.4,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Pants",
+      "original": 0.6,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-White_RollUp",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Pants",
+      "original": 0.55,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-White_Tuck",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Pants",
+      "original": 0.6,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Pants_Capri-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Pants",
+      "original": 0.45,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Shirt_Classic-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Shirt",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Shirt_Classic-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Shirt",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Shirt_Classic-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Shirt",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Shirt_Classic-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Shirt",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Shirt_ShortSleeveShirt-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Shirt",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Shirt_ShortSleeveShirt-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Shirt",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Shirt_ShortSleeveShirt-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Shirt",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Shirt_ShortSleeveShirt-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Shirt",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Shoes",
+      "original": 1.0,
+      "cap": 0.9
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Shoes",
+      "original": 1.0,
+      "cap": 0.9
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Shoes",
+      "original": 1.0,
+      "cap": 0.9
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Shoes",
+      "original": 1.0,
+      "cap": 0.9
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-Black",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Torso1Legs1",
+      "original": 0.6,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-Desert",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Torso1Legs1",
+      "original": 0.5,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-Green",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Torso1Legs1",
+      "original": 0.7,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-White",
+      "mod": "KATTAJ1_Military",
+      "bodyLocation": "base:Torso1Legs1",
+      "original": 1.0,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Mask_Balaclava_Cerberus",
+      "mod": "CerberusPack",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.85,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Mask_BandanaMask_Cerberus",
+      "mod": "CerberusPack",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.MT_Nano_Helmet_FH",
+      "mod": "[MT] Nano Armor - Easy",
+      "bodyLocation": "MTNANO:MT_Nano_Armor_Helmet",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.MT_Nano_Top_H",
+      "mod": "[MT] Nano Armor - Easy",
+      "bodyLocation": "MTNANO:MT_Nano_Armor_Top",
+      "original": 0.75,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.MT_Nano_Top_FH",
+      "mod": "[MT] Nano Armor - Easy",
+      "bodyLocation": "MTNANO:MT_Nano_Armor_Top",
+      "original": 1.0,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.MT_Nano_Bot_H",
+      "mod": "[MT] Nano Armor - Easy",
+      "bodyLocation": "MTNANO:MT_Nano_Armor_Bot",
+      "original": 0.4,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.MT_Nano_Bot_FH",
+      "mod": "[MT] Nano Armor - Easy",
+      "bodyLocation": "MTNANO:MT_Nano_Armor_Bot",
+      "original": 1.0,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.MT_Nano_Shoes_FH",
+      "mod": "[MT] Nano Armor - Easy",
+      "bodyLocation": "MTNANO:MT_Nano_Armor_Shoes",
+      "original": 1.0,
+      "cap": 0.9
+    },
+    {
+      "id": "Base.MT_Nano_Gloves_FH",
+      "mod": "[MT] Nano Armor - Easy",
+      "bodyLocation": "MTNANO:MT_Nano_Armor_Gloves",
+      "original": 1.0,
+      "cap": 0.8
+    },
+    {
+      "id": "Base.Forest_Camo_GasMask-M80",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "bodyLocation": "base:maskeyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Forest_Camo_GasMask-M80_NoFilter",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "bodyLocation": "base:maskeyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Forest_Camo_Balaclava",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.8,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Forest_Camo_Boots",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "bodyLocation": "base:shoes",
+      "original": 1.0,
+      "cap": 0.9
+    },
+    {
+      "id": "Base.Black_Camo_GasMask-M80",
+      "mod": "[J&G] Black Multicam Uniform",
+      "bodyLocation": "base:maskeyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Black_Camo_GasMask-M80_NoFilter",
+      "mod": "[J&G] Black Multicam Uniform",
+      "bodyLocation": "base:maskeyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Black_Camo_Balaclava",
+      "mod": "[J&G] Black Multicam Uniform",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.8,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Black_Camo_Boots",
+      "mod": "[J&G] Black Multicam Uniform",
+      "bodyLocation": "base:shoes",
+      "original": 1.0,
+      "cap": 0.9
+    },
+    {
+      "id": "Base.Medical_Red_GasMask",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "bodyLocation": "base:maskeyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Medical_Red_GasMask_NoFilter",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "bodyLocation": "base:maskeyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Medical_Red_Balaclava_1Hole",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Medical_Red_Balaclava_2Hole",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Medical_Red_Balaclava_3Hole",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Medical_Red_Boots",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "bodyLocation": "base:shoes",
+      "original": 1.0,
+      "cap": 0.9
+    },
+    {
+      "id": "Base.MARPAT_Camo_GasMask-M80",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "bodyLocation": "base:maskeyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.MARPAT_Camo_GasMask-M80_NoFilter",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "bodyLocation": "base:maskeyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.MARPAT_Camo_Balaclava",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.8,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.MARPAT_Camo_LongSleeveTop",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "bodyLocation": "base:shirt",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.MARPAT_Camo_ShortSleeveTop",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "bodyLocation": "base:shirt",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.MARPAT_Camo_Boots",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "bodyLocation": "base:shoes",
+      "original": 1.0,
+      "cap": 0.9
+    },
+    {
+      "id": "Base.DPM-95_Camo_GasMask-M80",
+      "mod": "[J&G] British DPM Uniform",
+      "bodyLocation": "base:maskeyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.DPM-95_Camo_GasMask-M80_NoFilter",
+      "mod": "[J&G] British DPM Uniform",
+      "bodyLocation": "base:maskeyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.DPM-95_Camo_GasMask-M17",
+      "mod": "[J&G] British DPM Uniform",
+      "bodyLocation": "base:maskeyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.DPM-95_Camo_GasMask-M17_NoFilter",
+      "mod": "[J&G] British DPM Uniform",
+      "bodyLocation": "base:maskeyes",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.DPM-95_Camo_Balaclava",
+      "mod": "[J&G] British DPM Uniform",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.8,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.DPM-95_Camo_Boots",
+      "mod": "[J&G] British DPM Uniform",
+      "bodyLocation": "base:shoes",
+      "original": 1.0,
+      "cap": 0.9
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "bodyLocation": "KATTAJ1:LowerArms",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-MilitekOfficer",
+      "mod": "Militek_Faction_Clothing",
+      "bodyLocation": "KATTAJ1:UpperArms",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "bodyLocation": "base:TorsoExtraVestBullet",
+      "original": 0.85,
+      "cap": 0.6
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "bodyLocation": "base:FullHat",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-MilitekOfficer",
+      "mod": "Militek_Faction_Clothing",
+      "bodyLocation": "base:FullHat",
+      "original": 1.0,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "bodyLocation": "base:Jacket",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "bodyLocation": "KATTAJ1:LowerLegs",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "bodyLocation": "KATTAJ1:UpperLegs",
+      "original": 0.7,
+      "cap": 0.15
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "bodyLocation": "base:Pants",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Militek_Tuck",
+      "mod": "Militek_Faction_Clothing",
+      "bodyLocation": "base:Pants",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "bodyLocation": "base:Shoes",
+      "original": 1.0,
+      "cap": 0.9
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "bodyLocation": "base:Torso1Legs1",
+      "original": 0.8,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Japanese_Belt-White",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "bodyLocation": "base:Torso1",
+      "original": 0.5,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Japanese_Belt-Dyed",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "bodyLocation": "base:Torso1",
+      "original": 0.5,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Japanese_Jacket_Overshirt-Black",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "bodyLocation": "base:Jacket_Bulky",
+      "original": 0.4,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Japanese_Jacket_Overshirt-Black_Tuck",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "bodyLocation": "base:Jacket_Bulky",
+      "original": 0.4,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Japanese_Jacket_Overshirt-Dyed",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "bodyLocation": "base:Jacket_Bulky",
+      "original": 0.4,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Japanese_Jacket_Overshirt-Dyed_Tuck",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "bodyLocation": "base:Jacket_Bulky",
+      "original": 0.4,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Japanese_Pants_Hakama-Brown",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "bodyLocation": "base:Pants",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Japanese_Pants_Hakama-Brown_RollUp",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "bodyLocation": "base:Pants",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Japanese_Pants_Hakama-Dyed",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "bodyLocation": "base:Pants",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Japanese_Pants_Hakama-Dyed_RollUp",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "bodyLocation": "base:Pants",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Japanese_Socks-Black",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "bodyLocation": "base:Socks",
+      "original": 0.4,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Japanese_Socks-Dyed",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "bodyLocation": "base:Socks",
+      "original": 0.4,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Helmet_RysT_Lynx_DOWN-Black",
+      "mod": "LynxPack",
+      "bodyLocation": "base:FullHat",
+      "original": 0.35,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Helmet_RysT_Lynx_UP-Black",
+      "mod": "LynxPack",
+      "bodyLocation": "base:FullHat",
+      "original": 0.35,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Helmet_RysT_Lynx_DOWN-Green",
+      "mod": "LynxPack",
+      "bodyLocation": "base:FullHat",
+      "original": 0.35,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Helmet_RysT_Lynx_UP-Green",
+      "mod": "LynxPack",
+      "bodyLocation": "base:FullHat",
+      "original": 0.35,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Mask_Balaclava_Lynx",
+      "mod": "LynxPack",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.85,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Mask_BandanaMask_Lynx",
+      "mod": "LynxPack",
+      "bodyLocation": "KATTAJ1:Balaclava",
+      "original": 0.5,
+      "cap": 0.2
+    },
+    {
+      "id": "Base.Sweater_Tactical_Lynx",
+      "mod": "LynxPack",
+      "bodyLocation": "base:Shirt",
+      "original": 0.35,
+      "cap": 0.3
+    },
+    {
+      "id": "Base.Sweater_Tactical_Lynx_RolledUpSleeves",
+      "mod": "LynxPack",
+      "bodyLocation": "base:Shirt",
+      "original": 0.35,
+      "cap": 0.3
+    }
+  ]
+}
