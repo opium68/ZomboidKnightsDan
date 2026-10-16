@@ -4,7 +4,6 @@ module bdtmre
     // Reward-only meals have no conversion route; keep a valid disabled stub.
     craftRecipe ConvertOldMRE
     {
-        enabled = false,
         timedAction = Making,
         time = 1,
         category = Packing,

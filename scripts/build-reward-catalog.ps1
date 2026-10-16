@@ -94,13 +94,13 @@ $lines.Add('}')
 $destination=Join-Path $root 'custom-mods/KnightsDanServerPatch/42/media/lua/shared/KnightsDan/Catalog.lua'
 [IO.File]::WriteAllLines($destination,$lines,[Text.UTF8Encoding]::new($false))
 $disabled=[Collections.Generic.List[string]]::new()
-$disabled.Add('// Reward-only manufacturing recipes are disabled by the B42 script loader.')
+$disabled.Add('// Reward-only manufacturing requires an unreachable skill; enabled is not a B42 recipe property.')
 foreach($group in ($recipes | Where-Object {$_.Kind -eq 'craftRecipe'} | Group-Object File)) {
     $source=[IO.File]::ReadAllText($group.Name).TrimStart([char]0xFEFF)
     $module=[regex]::Match($source,'(?m)^\s*module\s+([\w.]+)').Groups[1].Value
     if(!$module){throw 'Missing recipe module.'}
     $disabled.Add('module '+$module+' {')
-    foreach($recipe in $group.Group){$disabled.Add('    craftRecipe '+$recipe.Id+' { enabled = false, }')}
+    foreach($recipe in $group.Group){$disabled.Add('    craftRecipe '+$recipe.Id+' { SkillRequired = Woodwork:99, }')}
     $disabled.Add('}')
 }
 $disabledPath=Join-Path $root 'custom-mods/KnightsDanServerPatch/42/media/scripts/KnightsDanDisabledRecipes.txt'

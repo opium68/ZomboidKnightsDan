@@ -1,3 +1,5 @@
 {
-    "UI_BAM_Uninstall_Title": "탈착 ..."
+    "UI_BAM_Uninstall_Title": "탈착 ...",
+    "UI_KnightsDan_PlumbingRestore": "확장 배관 복구 (관리자)",
+    "UI_KnightsDan_PlumbingRestoreConfirm": "서버 전체의 확장 배관을 끄고 급수 연결을 기본 방식으로 복구할까요?\n싱크대, 물통, 파이프는 삭제하지 않습니다.\n현재 불러온 지역부터 복구합니다. 남은 지역은 결과 창을 확인하세요.\n수도가 끊겼거나 실제 물통에 연결된 경우에는 수도 급수가 돌아오지 않을 수 있습니다."
 }

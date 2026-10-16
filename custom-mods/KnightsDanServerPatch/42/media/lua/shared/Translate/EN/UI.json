@@ -1,3 +1,5 @@
 {
-    "UI_BAM_Uninstall_Title": "Uninstall ..."
+    "UI_BAM_Uninstall_Title": "Uninstall ...",
+    "UI_KnightsDan_PlumbingRestore": "Restore extended plumbing (admin)",
+    "UI_KnightsDan_PlumbingRestoreConfirm": "Switch extended plumbing off server-wide and restore vanilla water connections?\nSinks, barrels and pipes are not deleted.\nLoaded areas are restored first. Check the result for remaining areas.\nMains water may remain unavailable after shutoff or when a real barrel is still connected."
 }
