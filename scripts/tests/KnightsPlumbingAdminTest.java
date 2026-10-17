@@ -19,6 +19,8 @@ public class KnightsPlumbingAdminTest {
             (proxy, method, values) -> {
                 Object frame = values[0];
                 String path = Path.of(args[1]).resolve((String)frame.getClass().getMethod("get", int.class).invoke(frame, 0)).toString();
+                if (!Files.isRegularFile(Path.of(path)))
+                    return frame.getClass().getMethod("push", Object.class).invoke(frame, new Object[]{null});
                 try (var reader = Files.newBufferedReader(Path.of(path))) {
                     Object closure = compile.invoke(null, reader, path, env);
                     return frame.getClass().getMethod("push", Object.class).invoke(frame, closure);

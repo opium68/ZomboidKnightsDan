@@ -44,7 +44,7 @@ function K.generateCategoryMarket(market)
             local reference = math.max(1, math.floor((tonumber(entry.Price) or 0) * scarcity * multiplier))
             local minimum,maximum = PZLinuxDarkWebGetStockRange(reference)
             local stock = ZombRand(minimum, maximum + 1)
-            table.insert(offers,{id=tostring(market.generation)..":"..index,sourceIndex=index,
+            table.insert(offers,{id=tostring(market.knightsCalendarDay or market.generation)..":"..index,sourceIndex=index,
                 item={id=PZLinuxDarkWebGetItemIds(entry)},stock=stock,initialStock=stock,
                 referencePrice=reference,knightsCategory=name})
         end
@@ -53,4 +53,39 @@ function K.generateCategoryMarket(market)
     market.knightsCategoryVersion = 1
     market.knightsCategoryGeneration = market.generation
     market.knightsCategoryEmpty = #offers == 0
+end
+
+-- Calendar date decides stock. Align only the native compatibility counter
+-- so its private EnsureMarket cannot replace stock at a world-age boundary.
+function K.ensureMidnightMarket()
+    if isClient() then return nil end
+    local clock=getGameTime()
+    local today=tostring(clock:getYear())..":"..tostring(clock:getMonth())..":"..tostring(clock:getDay())
+    local hour=clock:getWorldAgeHours()
+    local nativeGeneration=math.floor(math.max(0,hour)/math.max(1,tonumber((PZLinuxDarkWebMarketConfig or {}).refreshHours) or 24))
+    local market=ModData.getOrCreate("PZLinuxDarkWebMarket")
+    local first=market.knightsMidnightVersion~=1
+    local newDay=not first and market.knightsCalendarDay~=today
+    local valid=market.knightsCategoryVersion==1 and type(market.offers)=="table"
+    local oldGeneration=market.generation
+    market.generation=nativeGeneration
+    market.knightsCategoryGeneration=nativeGeneration
+    market.knightsCalendarDay=today
+    market.knightsMidnightVersion=1
+    if newDay or not valid then
+        if PZLinuxDarkWebLoadCustomItems then PZLinuxDarkWebLoadCustomItems() end
+        K.generateCategoryMarket(market)
+        PZLinux.darkWebBuySessions={}
+        PZLinux.darkWebSellSessions={}
+        print("[KnightsDan] midnight dark market: "..today..", offers="..tostring(#market.offers))
+    elseif oldGeneration~=nativeGeneration then
+        -- Preserve existing quotes as well as stock within the same date.
+        for _,sessions in ipairs({PZLinux.darkWebBuySessions or {},PZLinux.darkWebSellSessions or {}}) do
+            for _,session in pairs(sessions) do session.generation=nativeGeneration end
+        end
+    end
+    if (first or newDay or not valid or oldGeneration~=nativeGeneration) and isServer() then
+        ModData.transmit("PZLinuxDarkWebMarket")
+    end
+    return market
 end

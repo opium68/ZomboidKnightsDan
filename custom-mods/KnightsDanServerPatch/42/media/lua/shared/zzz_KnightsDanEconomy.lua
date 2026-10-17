@@ -23,6 +23,11 @@ local buildContract = PZLinuxContractsBuildContract
 PZLinuxContractsBuildContract = function(definition)
     local contract = buildContract(definition)
     contract.reward = PZLinux.Economy.roundPrice(definition.reward, "nearest")
+    -- ContractMoney may already have run through the engine's shared-file
+    -- autoload. Do not retain its 3x marker while replacing its scaled amount.
+    contract.knightsRewardMultiplier = nil
+    contract.knightsRewardFormulaVersion = nil
+    if K.scaleContractReward then K.scaleContractReward(contract) end
     return contract
 end
 local getBoard = PZLinuxContractsGetBoardData

@@ -42,8 +42,14 @@ assert(counts.rations==3 and counts.repair==2 and counts.clothing==1)
 for _,count in pairs(counts) do assert(count<=3) end
 local bootMarket={generation=2,offers={}}
 ModData={getOrCreate=function() return bootMarket end,transmit=function() end}
-PZLinux={darkWebBuySessions={}}
+PZLinux={darkWebBuySessions={},Economy={scarcityMultiplier=function() return 1 end}}
 function isClient() return false end
+function isServer() return true end
+local day=20
+function getGameTime() return {getWorldAgeHours=function() return 50 end,
+    getYear=function() return 1993 end,getMonth=function() return 7 end,getDay=function() return day end} end
+function PZLinuxLoadBankBalance() return 0 end
+function PZLinuxDarkWebLoadCustomItems() end
 function PZLinuxDarkWebBuildBuyOffers()
     if #bootMarket.offers==0 then bootMarket.offers={{item={id={'Base.Gun1'}},stock=8}} end
     return {offers=bootMarket.offers}
@@ -53,7 +59,7 @@ local first=PZLinuxDarkWebBuildBuyOffers({})
 first.offers[1].stock=0
 local second=PZLinuxDarkWebBuildBuyOffers({})
 assert(second.offers==first.offers and second.offers[1].stock==0,'reentry must preserve consumed stock')
-maximum=false;bootMarket.generation=3
+maximum=false;day=21
 local empty=PZLinuxDarkWebBuildBuyOffers({})
 assert(#empty.offers==0)
 assert(#PZLinuxDarkWebBuildBuyOffers({}).offers==0,'all-zero day must not reroll')
