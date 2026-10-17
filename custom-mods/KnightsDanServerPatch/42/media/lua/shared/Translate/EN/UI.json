@@ -1,5 +1,23 @@
 {
     "UI_BAM_Uninstall_Title": "Uninstall ...",
+    "UI_KnightsDan_PlumbingFixtureInspect": "Inspect this water fixture (admin)",
+    "UI_KnightsDan_PlumbingFixtureRestore": "Clear this fixture's stranded connection (admin)",
+    "UI_KnightsDan_PlumbingFixtureConfirm": "Clear this fixture's external connection if it has no source?\nSwitch extended plumbing off first. Existing sources, including barrels, prevent changes.\nThis does not create water, change the moved flag or guarantee mains water.",
+    "UI_KnightsDan_PlumbingReason_Inspect": "Water fixture inspection",
+    "UI_KnightsDan_PlumbingReason_Enabled": "Switch extended plumbing off first. Nothing changed.",
+    "UI_KnightsDan_PlumbingReason_Source": "An external source remains. Nothing changed.",
+    "UI_KnightsDan_PlumbingReason_Unchanged": "No external connection marker remains. Check mains and placement conditions.",
+    "UI_KnightsDan_PlumbingReason_Restored": "Cleared the stranded external connection. Check the actual available fluid below.",
+    "UI_KnightsDan_PlumbingField_External": "External connection",
+    "UI_KnightsDan_PlumbingField_Marker": "LGEP connection marker",
+    "UI_KnightsDan_PlumbingField_Moved": "Moved fixture flag",
+    "UI_KnightsDan_PlumbingField_Room": "Recognized room",
+    "UI_KnightsDan_PlumbingField_NoWater": "No-water tile",
+    "UI_KnightsDan_PlumbingField_Amount": "Available fluid amount",
+    "UI_KnightsDan_PlumbingField_Source": "External source sprite",
+    "UI_KnightsDan_PlumbingField_Days": "World age in days",
+    "UI_KnightsDan_PlumbingField_Shutoff": "Water shutoff day",
+    "UI_KnightsDan_PlumbingMainsUnavailable": "A vanilla mains-water condition is unmet. Clearing the connection may not restore mains water.",
     "UI_KnightsDan_PlumbingRestore": "Restore extended plumbing (admin)",
     "UI_KnightsDan_PlumbingRestoreConfirm": "Switch extended plumbing off server-wide and restore vanilla water connections?\nSinks, barrels and pipes are not deleted.\nLoaded areas are restored first. Check the result for remaining areas.\nMains water may remain unavailable after shutoff or when a real barrel is still connected."
 }

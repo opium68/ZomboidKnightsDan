@@ -1,5 +1,23 @@
 {
     "UI_BAM_Uninstall_Title": "탈착 ...",
+    "UI_KnightsDan_PlumbingFixtureInspect": "이 급수 설비 진단 (관리자)",
+    "UI_KnightsDan_PlumbingFixtureRestore": "이 급수 설비의 끊긴 연결 해제 (관리자)",
+    "UI_KnightsDan_PlumbingFixtureConfirm": "선택한 급수 설비에 공급원 없는 외부 연결이 남아 있으면 해제할까요?\n확장 배관을 먼저 꺼야 합니다. 물통 등 공급원이 남아 있으면 변경하지 않습니다.\n물을 생성하거나 이동 설치 판정을 바꾸지 않으며, 수도 복구를 보장하지 않습니다.",
+    "UI_KnightsDan_PlumbingReason_Inspect": "급수 설비 진단 결과",
+    "UI_KnightsDan_PlumbingReason_Enabled": "확장 배관을 먼저 끈 뒤 다시 실행하세요. 변경하지 않았습니다.",
+    "UI_KnightsDan_PlumbingReason_Source": "위층 등에 공급원이 남아 있어 연결을 변경하지 않았습니다.",
+    "UI_KnightsDan_PlumbingReason_Unchanged": "외부 연결 표시가 없습니다. 설치 위치와 수도 조건을 확인하세요.",
+    "UI_KnightsDan_PlumbingReason_Restored": "공급원 없는 외부 연결을 해제했습니다. 아래 실제 급수량을 확인하세요.",
+    "UI_KnightsDan_PlumbingField_External": "외부 급수 연결",
+    "UI_KnightsDan_PlumbingField_Marker": "확장 배관 연결 표시",
+    "UI_KnightsDan_PlumbingField_Moved": "이동 설치 판정",
+    "UI_KnightsDan_PlumbingField_Room": "게임의 방 인식",
+    "UI_KnightsDan_PlumbingField_NoWater": "단수 지정 타일",
+    "UI_KnightsDan_PlumbingField_Amount": "실제 사용 가능한 액체량",
+    "UI_KnightsDan_PlumbingField_Source": "외부 공급원 스프라이트",
+    "UI_KnightsDan_PlumbingField_Days": "월드 경과 일수",
+    "UI_KnightsDan_PlumbingField_Shutoff": "수도 중단 기준 일수",
+    "UI_KnightsDan_PlumbingMainsUnavailable": "기본 수도 급수를 막는 조건이 있습니다. 연결 해제만으로 수도가 돌아오지 않을 수 있습니다.",
     "UI_KnightsDan_PlumbingRestore": "확장 배관 복구 (관리자)",
     "UI_KnightsDan_PlumbingRestoreConfirm": "서버 전체의 확장 배관을 끄고 급수 연결을 기본 방식으로 복구할까요?\n싱크대, 물통, 파이프는 삭제하지 않습니다.\n현재 불러온 지역부터 복구합니다. 남은 지역은 결과 창을 확인하세요.\n수도가 끊겼거나 실제 물통에 연결된 경우에는 수도 급수가 돌아오지 않을 수 있습니다."
 }

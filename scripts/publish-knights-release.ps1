@@ -69,7 +69,7 @@ foreach($file in 'KNIGHTS-IMPLEMENTATION-20261005.md','KNIGHTS-JG-CLOTHING-20261
     Copy-Item -LiteralPath (Join-Path $root "docs/$file") -Destination (Join-Path $repository "docs/$file") -Force
 }
 New-Item -ItemType Directory -Path (Join-Path $repository 'scripts/tests') -Force | Out-Null
-foreach($file in 'knights-market.lua','knights-request-preview.lua','knights-clothing-sets.lua','knights-clothing-insulation.lua','knights-contract-money.lua','knights-coop.lua','knights-daily-contracts.lua','knights-daily-requests.lua','knights-daily-requests-ui.lua','knights-protect-chase.lua','knights-plumbing-admin.lua','KnightsPlumbingAdminTest.java','KnightsDisabledRecipeTest.java'){
+foreach($file in 'knights-market.lua','knights-request-preview.lua','knights-clothing-sets.lua','knights-clothing-insulation.lua','knights-contract-money.lua','knights-coop.lua','knights-daily-contracts.lua','knights-daily-requests.lua','knights-daily-requests-ui.lua','knights-protect-chase.lua','knights-plumbing-admin.lua','knights-plumbing-fixture.lua','KnightsPlumbingAdminTest.java','KnightsDisabledRecipeTest.java'){
     Copy-Item -LiteralPath (Join-Path $PSScriptRoot "tests/$file") -Destination (Join-Path $repository "scripts/tests/$file") -Force
 }
 foreach($file in 'knights-selected-mods.json','knights-clothing-insulation.json','knights-reward-prices.json','knights-jg-clothing.json','knights-ttaj-clothing.json','knights-clothing-sets.json','knights-clothing-set-prices.json'){
@@ -107,6 +107,8 @@ The shared contract board refreshes at midnight in game time with 3-5 random off
 Ammunition unpacking/repacking and opening purchased meal or weapon cases are permitted. Manufacturing reward equipment and food remains restricted. Restart both server and game after updating to reload recipe conditions.
 
 Admins can use Restore extended plumbing (admin) from the root right-click menu without debug mode. Confirmation sends LG Extended Plumbing's existing server-authorized cleanup command; it switches extended plumbing off server-wide and restores loaded fixtures first. Check the original result dialog for unloaded areas. Physical sinks, barrels and pipes are retained. Real overhead barrels and water shutoff can still prevent mains water. Unsupported enabled=false recipe properties have been replaced with valid level-99 requirements; 129 restricted recipes pass the native debug-mode parser. Multiplayer restoration and rendered UI remain in-game checks.
+
+Selected water fixtures also offer admin inspection and stranded-connection cleanup. The server validates role, distance, floor, object index and sprite. Cleanup requires extended plumbing to be off and no external source to remain; it clears only the selected fixture's external flag and LGEP marker through native synchronization. It never changes the moved-fixture flag or creates water. Inspection reports room/no-water conditions, source, available fluid and water shutoff timing to distinguish vanilla mains eligibility from an orphaned connection. Actual fixture state and multiplayer gameplay remain separate checks.
 
 Lifestyle: Hobbies is installed through Steam Workshop (3403870858). Large fluid containers can use the native drink action without the 3 L capacity restriction; sealed-container and fullness checks remain. Multiplayer musical performance and drink synchronization still require in-game verification.
 
