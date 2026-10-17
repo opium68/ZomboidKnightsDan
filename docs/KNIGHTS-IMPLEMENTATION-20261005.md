@@ -47,6 +47,8 @@
 - `0.1.0-20261017.2` 서명 후보 생성 완료(자체 모드 78개 파일). PS5.1 서명·경로·해시·실패 복구·설치/동일 버전·다른 모드 보존 PASS. 증거: `research/updater-test-cf8d70e148f741f9857a45431c21522c`. `.1` 대비 클라이언트 메뉴·서버 처리·KO/EN 번역 4개 파일만 변경. 진단용 GameTime/SandboxOptions/IsoGridSquare API는 설치된 Java 공개 메서드에서 확인했고 번역 JSON UTF-8 파싱도 통과했다. 공개 배포·운영 적용은 대기한다.
 - 후속 요청에 따라 추적 INI의 `SafehouseAllowNonResidential=true` 및 종료 후 적용 스크립트에 해당 정책 반영. 비주거 판정만 허용하며 건물/방 정보·도시 수도 조건을 바꾸지 않는다. 서버·게임이 실행 중이고 RCON 자격 증명도 구성되지 않아 실행 중 서버 설정은 직접 변경하지 않았다. 관리자 채팅 `/changeoption SafehouseAllowNonResidential true`로 재시작 없이 반영하거나 종료 후 배포로 적용한다. 현 싱크대 원인은 `.2` 진단 결과로 확인해야 하며 미확정 상태다.
 - 후속 적용 승인 후 서버·게임 프로세스 부재 확인, `backups/owned-mods-before-0.1.0-20261017.2` 백업 후 `.2` 운영 적용 완료. 자체 모드 78개 파일의 서명 목록 SHA-256 일치, 운영 `SafehouseAllowNonResidential=true` 및 다른 INI 값 보존 확인. LG 확장 배관은 off 상태 유지. 서버 시작·싱크대 진단·복구 실행은 하지 않았다. 공개 배포 결과는 아래에 기록한다.
+- 최종 설정 검사에서 운영 SandboxVars와 추적 SandboxVars가 모두 LGEP on으로 확인됐다. `one-click-host.ps1`은 시작 준비 중 `deploy-config.ps1`을 호출하여 추적 설정을 복사한다. 따라서 게임에서만 끈 값은 다음 시작 시 추적 정본의 true로 덮어써질 수 있다. 추적 정본과 운영 파일의 LGEP Enabled만 false로 변경하고 다른 SandboxVars 보존 확인. 운영 원본은 위 백업 폴더의 `escape_test_SandboxVars-before-diagnosis.lua`에 별도 보관했다. 이 설정 재활성화 경로와 현재 싱크대 고장의 원인은 구분한다.
+- `.2` 공개 릴리스·stable 활성화 및 실제 HTTP 목록·서명·ZIP·전체 추출 파일 검사 PASS. 운영 자체 모드 78개 파일 해시 일치. 증거: `research/public-release-54c8d17bea61432b8f5729c645cd807d`. 소스 `ef6a1d0`, 활성화 `ba8d37e`. 최종 운영/추적 INI 모두 비주거 은신처 true 확인, 서버·게임 종료 상태 유지. 다음 접속 후 선택한 싱크대의 진단 결과 확인이 필요하다.
 
 ### 기존 초기 배포 검증 기록
 
