@@ -83,4 +83,13 @@ for i=1,50 do local n=zombie({});n.x=500;horde[i]=n;C.drive(n,a,30000) end
 local paths=0;for _,n in ipairs(horde) do paths=paths+n.paths end
 assert(paths==4,"burst pathfinding requests are capped at four per 125 ms")
 C.pruneRuntime(60000)
+KnoxEscapeQuest={DATA_KEY='test.escape',DEFENSE_STAGE=9}
+local escapeState={stage=9,defenseEndHour=99,escaped={}}
+ModData={getOrCreate=function() return escapeState end}
+local wave=zombie({knightsEscapeWave='99'})
+local hunt=zombie({PZLinuxContractObjective='manhunt',PZLinuxContractId='job'})
+zombies={wave,hunt};players={a,b};a.dead=false;b.dead=false;b.x=10
+C.sweep(70000);assert(wave.target==b and hunt.target==nil,'escape wave tracks; manhunt stays fixed')
+b.dead=true;C.sweep(72000);assert(wave.target==a,'escape death retarget')
+escapeState.stage=10;C.sweep(74000);assert(wave.target==nil,'escape completion releases pursuit')
 return "protect-only nearest participant, dead/disconnect retarget, complete/cancel release, server/client ownership, character identity, throttled pathfinding PASS"

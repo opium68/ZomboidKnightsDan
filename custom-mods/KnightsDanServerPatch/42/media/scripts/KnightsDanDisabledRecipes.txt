@@ -117,34 +117,10 @@ module bdtmre {
     craftRecipe CraftMREBoxC { SkillRequired = Woodwork:99, }
 }
 module Base {
-    craftRecipe M2A_CraftOgnemetFuelBottle { SkillRequired = Woodwork:99, }
 }
 module Base {
-    craftRecipe M2A_CraftAbzats { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_CraftAshot { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_CraftBastard { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_CraftDuplet { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_CraftGatling { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_CraftHellsing { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_CraftPadonak { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_CraftPreved { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_CraftUboinik { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_CraftVelopal { SkillRequired = Woodwork:99, }
 }
 module Base {
-    craftRecipe M2A_BallBearing_BarSaw { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_BallBearing_BarTorch { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_BallBearing_ScrapSaw { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_BallBearing_ScrapTorch { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_ChargeHellbreathBattery { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_CraftHellbreath { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_CraftHellsingMagazine { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_CraftTikhar { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_CraftTikharMagazine { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_HellsingArrow_BarSaw { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_HellsingArrow_BarTorch { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_HellsingArrow_ScrapSaw { SkillRequired = Woodwork:99, }
-    craftRecipe M2A_HellsingArrow_ScrapTorch { SkillRequired = Woodwork:99, }
 }
 module GunRepairKit {
     craftRecipe MakeCleaningKitGun { SkillRequired = Woodwork:99, }

@@ -1,9 +1,13 @@
 require "ISPZLinuxVariablesTables"
 require "KnightsDan/Catalog"
 require "KnightsDan/ClothingShop"
+require "KnightsDan/Supply"
+require "KnightsDan/Retirement"
 local K=KnightsDan
 local function blockedItem(id)
-    return type(id)=="string" and (K.rewardItems[id] or K.rewardItems["Base."..id])
+    if type(id)~="string" then return false end
+    local full=id:find('%.') and id or 'Base.'..id
+    return K.rewardItems[id] or K.rewardItems[full] or K.removedItem(full) or full=='Base.308BulletsLinked' or full=='Base.M60_Link_Die'
 end
 local function blockedVehicle(id)
     return type(id)=="string" and (K.rewardVehicles[id] or K.rewardVehicles["Base."..id])
@@ -99,6 +103,7 @@ local function installCatalog()
         if not existing[entry.id] then table.insert(cars,{baseName=entry.id,delta=entry.price/PZLinuxRequestDefinitions[9].price}) end
     end
     print("[KnightsDan] reward catalog installed: "..tostring(added).." items, "..tostring(#K.shopVehicles).." vehicles")
+    K.installSupply()
 end
 Events.OnGameBoot.Add(function() preventStartingGear(); restrictRecipes(); installCatalog(); purgeAll() end)
 Events.OnInitGlobalModData.Add(function() preventStartingGear(); purgeAll() end)

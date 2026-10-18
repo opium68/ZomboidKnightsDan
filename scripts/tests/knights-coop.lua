@@ -97,17 +97,17 @@ r.status="ready_to_complete"
 PZLinuxContractsSyncRecordToParticipants(r)
 players={a,stranger} -- buddy goes offline before completion
 local done=PZLinuxContractsApplyComplete(a,{},"complete")
-assert(done.ok and done.amount==15075)
-assert(balances[K.key(a)]==15075)
+assert(done.ok and done.amount==25125)
+assert(balances[K.key(a)]==25125)
 assert(balances[K.key(b)]==nil,"offline payout stays pending")
 assert(not PZLinuxContractsApplyComplete(a,{},"duplicate").ok)
-K.settle(a);assert(balances[K.key(a)]==15075,"repeat settlement cannot double pay")
+K.settle(a);assert(balances[K.key(a)]==25125,"repeat settlement cannot double pay")
 local replacement=player("buddy",22,0)
 players={a,replacement,stranger}
 K.settle(replacement);assert(balances[K.key(replacement)]==nil,"new character cannot claim predecessor reward")
 players={a,b,stranger}
-assert(PZLinuxLoadBankBalance(b)==15075,"offline participant paid on bank access")
-assert(PZLinuxLoadBankBalance(b)==15075,"reconnect payout is idempotent")
+assert(PZLinuxLoadBankBalance(b)==25125,"offline participant paid on bank access")
+assert(PZLinuxLoadBankBalance(b)==25125,"reconnect payout is idempotent")
 assert(PZLinux.Economy.scarcityMultiplier(999999)==1,"inflation disabled")
 assert(PZLinuxTradingApplyBuy==nativeBuy and PZLinuxTradingApplySell==nativeSell,"native stock transactions restored")
 assert(PZLinuxContractsUpdateCompanyPrice==nativeCompanyPrice,"native company price updates restored")
@@ -119,7 +119,7 @@ for _,definition in ipairs(PZLinuxContractDefinitions) do assert(definition.id~=
 local board=PZLinuxContractsGetBoardData()
 table.insert(board.contracts,{id=13,reward=2000})
 for _,offer in ipairs(PZLinuxContractsGetBoardData().contracts) do assert(offer.id~=13,"cached ATM offer removed") end
-assert(PZLinuxContractsBuildContract(PZLinuxContractDefinitions[1]).reward==PZLinux.Economy.roundPrice(PZLinuxContractDefinitions[1].reward,"nearest")*3,"reward is 3x and does not depend on stock prices")
+assert(PZLinuxContractsBuildContract(PZLinuxContractDefinitions[1]).reward==PZLinux.Economy.roundPrice(PZLinuxContractDefinitions[1].reward,"nearest")*5,"reward is 5x and does not depend on stock prices")
 PZLinuxTradingSyncToWorldHour=function() end
 PZLinuxTradingGetCompanyByCode=function(code) return {code=code,price=100} end
 PZLinuxTradingGetCompanyHistory=function() return {100} end

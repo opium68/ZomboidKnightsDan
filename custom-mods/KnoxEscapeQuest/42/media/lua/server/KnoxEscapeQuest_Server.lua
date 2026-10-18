@@ -273,10 +273,18 @@ local function spawnDefenseWave()
         if remaining <= 0 then break end
         local slotsLeft = #points - i + 1
         local count = math.ceil(remaining / slotsLeft)
-        local ok, err = pcall(addZombiesInOutfit, points[i].x, points[i].y, zone.z, count, nil, 0)
+        local ok, err = pcall(addZombiesInOutfit, points[i].x, points[i].y, zone.z, count, nil, nil)
         if not ok then
             print("[KnoxEscapeQuest] defense wave spawn failed safely: " .. tostring(err))
             break
+        end
+        if err then
+            for n=0,err:size()-1 do
+                local zombie=err:get(n)
+                local md=zombie:getModData()
+                md.knightsEscapeWave=tostring(getState().defenseEndHour)
+                if zombie.transmitModData then zombie:transmitModData() end
+            end
         end
         remaining = remaining - count
     end

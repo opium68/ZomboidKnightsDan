@@ -83,12 +83,20 @@ function C.sweep(now)
     local zombies=cell and cell:getZombieList()
     if not zombies then return end
     local seen={}
+    local escape=KnoxEscapeQuest
+    local escapeState=escape and ModData.getOrCreate(escape.DATA_KEY)
+    local escapePlayers={}
+    if escapeState and tonumber(escapeState.stage)==escape.DEFENSE_STAGE then
+        K.players(function(p) if alive(p) and not (escapeState.escaped or {})[p:getUsername()] then escapePlayers[#escapePlayers+1]=p end end)
+    end
     for i=0,zombies:size()-1 do
         local zombie=zombies:get(i)
         local md=zombie:hasModData() and zombie:getModData()
-        if md and md.PZLinuxContractObjective=="protect" then
+        if md and (md.PZLinuxContractObjective=="protect" or md.knightsEscapeWave) then
             seen[zombie]=true
-            local target=not zombie:isDead() and C.nearest(zombie,rosters[tostring(md.PZLinuxContractId)]) or nil
+            local candidates=rosters[tostring(md.PZLinuxContractId)]
+            if md.knightsEscapeWave then candidates=escapeState and tostring(escapeState.defenseEndHour)==md.knightsEscapeWave and escapePlayers or nil end
+            local target=not zombie:isDead() and C.nearest(zombie,candidates) or nil
             C.assign(zombie,target,now)
         end
     end
@@ -99,7 +107,7 @@ function C.clientStep(zombie,now)
     if zombie:isRemoteZombie() then runtime[zombie]=nil;return end
     if not zombie:hasModData() then return end
     local md=zombie:getModData()
-    if not md.knightsProtectChase or md.PZLinuxContractObjective~="protect" then C.release(zombie);return end
+    if not md.knightsProtectChase or (md.PZLinuxContractObjective~="protect" and not md.knightsEscapeWave) then C.release(zombie);return end
     now=now or getTimestampMs()
     local state=runtime[zombie]
     if state and state.nextAt and now<state.nextAt then return end

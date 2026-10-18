@@ -1,4 +1,4 @@
-assert(loadfile("scripts/tests/native-knights-loader.lua"))()
+-- LuaTestRunner supplies the owned and installed native module search roots.
 require "knights-coop"
 local handler,reply
 Events.OnClientCommand.Add=function(fn) handler=fn end
@@ -13,9 +13,9 @@ local record={id="native-job22",contractId=8,status="accepted",reward=13950,knig
     note="for $13950",fullNote="for $13950",knightsMembers={[KnightsDan.key(p)]="Gogi"}}
 local world=PZLinuxContractsGetWorldData()
 world.active[record.id]=record;world.byPlayer.Gogi=record.id
-assert(loadfile("custom-mods/KnightsDanServerPatch/42/media/lua/server/zzzzzzz_KnightsDanContractSyncServer.lua"))()
+require "zzzzzzz_KnightsDanContractSyncServer"
 handler("KnightsDanContractSync","sync",p,{sequence=1,knownId=""})
 assert(reply and reply.ok and reply.state.PZLinuxContractProtect==1 and reply.state.PZLinuxActiveContract==1)
-assert(reply.state.PZLinuxContractLocationX==12616 and reply.state.PZLinuxOnReward==42000)
-assert(record.reward==42000 and record.status=="accepted", "repair retains accepted progress and fixes underpayment")
-return "actual PZLinux SyncWorldRecordToPlayer restores accepted defense flags and corrected $42000 snapshot"
+assert(reply.state.PZLinuxContractLocationX==12616 and reply.state.PZLinuxOnReward==70000)
+assert(record.reward==70000 and record.status=="accepted", "repair retains accepted progress and fixes underpayment")
+return "actual PZLinux SyncWorldRecordToPlayer restores accepted defense flags and corrected $70000 snapshot"

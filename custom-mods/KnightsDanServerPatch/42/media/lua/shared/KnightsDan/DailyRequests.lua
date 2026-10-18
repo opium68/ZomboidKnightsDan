@@ -37,13 +37,14 @@ local function generate(player, id, day)
         offer.locationName = PZLinuxGetMissionLocationDescription(location)
         offer.amount = math.ceil(unit*(tonumber(vehicle.delta) or 1))
     else
-        local count, weight = ZombRand(4,7), 0
+        local count, weight, amount = ZombRand(4,7), 0, 0
         while weight <= 9.5 and #offer.items < count do
             local item = pool[ZombRand(1, #pool+1)]
             offer.items[#offer.items+1] = {name=item.baseName}
             weight = weight + (tonumber(item.weight) or 1)
+            amount=amount+math.ceil(unit*(tonumber(item.delta) or 1))
         end
-        offer.amount = #offer.items*unit
+        offer.amount = amount
     end
     return offer
 end

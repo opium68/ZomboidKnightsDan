@@ -4,7 +4,7 @@ require "KnightsDan/Core"
 local K = KnightsDan
 if K.contractMoneyInstalled then return end
 K.contractMoneyInstalled = true
-local multiplier = 3
+local multiplier = 5
 local creating = false
 local function expectedReward(record)
     local id = tonumber(record.contractId or record.id)

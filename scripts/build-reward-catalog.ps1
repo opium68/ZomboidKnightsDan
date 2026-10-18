@@ -7,13 +7,13 @@ $selected=@('Military_Tool_Kit','U.S.M113_APC_by_Papa_Chad','VehicleRepairOverha
     'GydeTraitMags','82porsche911','B42_PZLinux','KATTAJ1_ClothesCore','KATTAJ1_Military','CerberusPack',
     '[MT] Nano Armor - Easy','LBB42','U.S. M998 Humvee by Papa_Chad','LNB42',
     'U.S. M163 VADS by Papa_Chad by Papa_Chad','LKB42','84corvette','NVFramework','78lamboCountach',
-    'LTWB42','bdtmre','RepairAnyWeapons','Metro2033Armory','dk_gunrepairkit')
+    'LTWB42','bdtmre','RepairAnyWeapons','dk_gunrepairkit')
 $builds=Import-Csv (Join-Path $root 'research/mod-builds.csv') | Where-Object {$_.ModId -in $selected}
 if (@($builds).Count -ne $selected.Count) {throw 'Selected mod IDs are missing from the audited build inventory.'}
-@($builds | Select-Object WorkshopId,ModId,Version,Requires)+@($previousSelection | Where-Object {$_.ModId -notin $selected}) | ConvertTo-Json -Depth 4 |
+@($builds | Select-Object WorkshopId,ModId,Version,Requires)+@($previousSelection | Where-Object {$_.ModId -notin $selected -and $_.ModId -ne 'Metro2033Armory'}) | ConvertTo-Json -Depth 4 |
     Set-Content (Join-Path $root 'config/knights-selected-mods.json') -Encoding utf8
 $gear=@('Military_Tool_Kit','GydeTraitMags','KATTAJ1_ClothesCore','KATTAJ1_Military','CerberusPack',
-    '[MT] Nano Armor - Easy','LBB42','LNB42','LKB42','LTWB42','bdtmre','Metro2033Armory','dk_gunrepairkit')
+    '[MT] Nano Armor - Easy','LBB42','LNB42','LKB42','LTWB42','bdtmre','dk_gunrepairkit')
 $vehicleMods=@('U.S.M113_APC_by_Papa_Chad','82porsche911','U.S. M998 Humvee by Papa_Chad',
     'U.S. M163 VADS by Papa_Chad by Papa_Chad','84corvette','78lamboCountach')
 $rows=@(Import-Csv (Join-Path $root 'research/script-declarations.csv') | Where-Object {$_.ModId -in $selected})
@@ -31,7 +31,7 @@ function Get-Block($row) {
 $items=@($rows | Where-Object {$_.Kind -eq 'item' -and ($_.ModId -in $gear -or $_.ModId -in $vehicleMods)} | Sort-Object Id -Unique)
 # Opening purchased containers and repacking existing ammunition do not
 # manufacture rewards. Keep this audited allowlist narrow (not every "Open").
-$packaging='^(OpenCartonOf\d+x\d+mm(?:HE)?(?:Big)?|Place\d+x\d+mm(?:HE)?InCarton(?:Big)?|OpenLegendary(?:Daisho|TacticalKnife|TacticalSword)Case|UnpackMREBox[ABC]|M2A_OpenAmmoBox(?:10|30))$'
+$packaging='^(OpenCartonOf\d+x\d+mm(?:HE)?(?:Big)?|Place\d+x\d+mm(?:HE)?InCarton(?:Big)?|OpenLegendary(?:Daisho|TacticalKnife|TacticalSword)Case|UnpackMREBox[ABC])$'
 # Reassemble existing legendary components; forging components remains blocked.
 $assembly=@('MakeLegendaryTacticalSpear','MakeLegendaryTacticalSword','MakeLegendaryTacticalKnife',
     'MakeLegendaryTacticalTomahawk','MakeLegendaryTacticalHammer','MakeLegendaryTacticalSledgehammer',

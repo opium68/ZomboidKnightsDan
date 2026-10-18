@@ -1,5 +1,6 @@
 require "ISPZLinuxVariablesTables"
 require "PZLinux/PZLinuxDarkWeb"
+require "KnightsDan/Retirement"
 local K = KnightsDan
 local native = assert(K.deliveryNative, "PZLinux delivery helper overlay was not loaded")
 
@@ -66,9 +67,13 @@ local function migrate(player, source)
             requestId = "legacy-request-" .. tostring(index)
         end
         if not done[requestId] then
-            local order, _, failure = PZLinuxDeliveryEnqueue(p, source, items, requestId)
-            if order then done[requestId]=true
-            else failures[#failures+1] = {requestId=requestId,error=failure or "enqueue_failed"} end
+            items=K.cleanOrderItems(items)
+            if #items==0 then done[requestId]=true
+            else
+                local order, _, failure = PZLinuxDeliveryEnqueue(p, source, items, requestId)
+                if order then done[requestId]=true
+                else failures[#failures+1] = {requestId=requestId,error=failure or "enqueue_failed"} end
+            end
         end
     end
     record.knightsLegacyFailures[source] = failures
@@ -141,5 +146,15 @@ PZLinuxDeliveryDeliverPending = function(player, source)
     local config = PZLinux.Config and PZLinux.Config.Deliveries or {}
     result.maxCarryWeight=math.max(1,tonumber(config.maxCarryWeight) or 80)
     result.remaining=PZLinuxDeliveryPendingCount(p,source)
+    result.pendingItems=0
+    for _,order in ipairs(record.orders) do
+        if order.source==source and (order.status=="pending" or order.status=="materializing") then
+            if order.parcels and #order.parcels>0 then
+                for _,part in ipairs(order.parcels) do if part.status~="delivered" then
+                    for _,item in ipairs(part.items or {}) do result.pendingItems=result.pendingItems+(tonumber(item.quantity) or 0) end
+                end end
+            else for _,item in ipairs(order.items or {}) do result.pendingItems=result.pendingItems+(tonumber(item.quantity) or 0) end end
+        end
+    end
     return result
 end

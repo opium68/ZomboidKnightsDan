@@ -1,3 +1,4 @@
+Events=Events or {EveryHours={Add=function() end}}
 require "KnightsDan/Market"
 require "PZLinux/PZLinuxDarkWeb"
 local K=KnightsDan

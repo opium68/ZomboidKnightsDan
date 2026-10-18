@@ -1,8 +1,10 @@
 require "KnightsDan/ClothingSets"
+require "KnightsDan/Supply"
 local K = KnightsDan
 K.marketCategories = {"firearms","melee","ammunition","attachments","clothing",
     "bags","equipment","repair","rations","food","medical","tools","supplies"}
 function K.marketCategory(id, script)
+    if K.supplyProducts[id] then return K.supplyProducts[id].category end
     local key = id:lower()
     if K.clothingSets[id] then return "clothing" end
     if key:find("^bdtmre%.bdtmre%d") then return "rations" end
@@ -22,18 +24,25 @@ end
 function K.generateCategoryMarket(market)
     local groups, seen = {}, {}
     for _,name in ipairs(K.marketCategories) do groups[name] = {} end
+    for _,name in ipairs({"cartons","magazines","vehicle","vehicleHE"}) do groups[name]={} end
     for index, entry in ipairs(PZLinuxDarkWebItemsTable) do
         local id = PZLinuxDarkWebGetFirstItemId(entry)
         local script = id and getScriptManager():FindItem(id)
-        if script and not seen[id] then
+        if script and not seen[id] and not entry.knightsSellOnly then
             seen[id] = true
             table.insert(groups[K.marketCategory(id, script)], index)
         end
     end
     local offers = {}
-    for _,name in ipairs(K.marketCategories) do
+    local categories={};for _,name in ipairs(K.marketCategories) do categories[#categories+1]=name end
+    for _,name in ipairs({"cartons","magazines","vehicle","vehicleHE"}) do categories[#categories+1]=name end
+    for _,name in ipairs(categories) do
         local group = groups[name]
         local count = ZombRand(0, math.min(3, #group) + 1)
+        if name=="cartons" then count=math.min(5,#group)
+        elseif name=="magazines" then count=#group
+        elseif name=="vehicle" then count=math.min(1,#group)
+        elseif name=="vehicleHE" then count=ZombRand(0,4)==0 and math.min(1,#group) or 0 end
         for position=1,count do
             local choice = ZombRand(position, #group + 1)
             group[position],group[choice] = group[choice],group[position]
@@ -44,13 +53,15 @@ function K.generateCategoryMarket(market)
             local reference = math.max(1, math.floor((tonumber(entry.Price) or 0) * scarcity * multiplier))
             local minimum,maximum = PZLinuxDarkWebGetStockRange(reference)
             local stock = ZombRand(minimum, maximum + 1)
+            if name=="cartons" or name=="vehicle" or name=="vehicleHE" then stock=ZombRand(1,6)
+            elseif name=="magazines" then stock=8 end
             table.insert(offers,{id=tostring(market.knightsCalendarDay or market.generation)..":"..index,sourceIndex=index,
                 item={id=PZLinuxDarkWebGetItemIds(entry)},stock=stock,initialStock=stock,
                 referencePrice=reference,knightsCategory=name})
         end
     end
     market.offers = offers
-    market.knightsCategoryVersion = 1
+    market.knightsCategoryVersion = K.supplyReady and 2 or 1
     market.knightsCategoryGeneration = market.generation
     market.knightsCategoryEmpty = #offers == 0
 end
@@ -66,7 +77,7 @@ function K.ensureMidnightMarket()
     local market=ModData.getOrCreate("PZLinuxDarkWebMarket")
     local first=market.knightsMidnightVersion~=1
     local newDay=not first and market.knightsCalendarDay~=today
-    local valid=market.knightsCategoryVersion==1 and type(market.offers)=="table"
+    local valid=market.knightsCategoryVersion==(K.supplyReady and 2 or 1) and type(market.offers)=="table"
     local oldGeneration=market.generation
     market.generation=nativeGeneration
     market.knightsCategoryGeneration=nativeGeneration

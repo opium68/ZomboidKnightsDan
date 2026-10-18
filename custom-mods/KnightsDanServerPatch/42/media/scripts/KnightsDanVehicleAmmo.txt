@@ -1,0 +1,5 @@
+module KnightsDan {
+ item VehicleAmmo127 { ItemType = base:container, DisplayName = 12.7x99mm 100발 팩, Icon = Duffelbag, Weight = 0.1, Capacity = 100, WeightReduction = 0, DisplayCategory = Ammo, OnCreate = KnightsDan.createVehicleAmmo, }
+ item VehicleAmmo20 { ItemType = base:container, DisplayName = 20x102mm 일반탄 100발 팩, Icon = Duffelbag, Weight = 0.1, Capacity = 100, WeightReduction = 0, DisplayCategory = Ammo, OnCreate = KnightsDan.createVehicleAmmo, }
+ item VehicleAmmo20HE { ItemType = base:container, DisplayName = 20x102mm 고폭탄 50발 팩, Icon = Duffelbag, Weight = 0.1, Capacity = 100, WeightReduction = 0, DisplayCategory = Ammo, OnCreate = KnightsDan.createVehicleAmmo, }
+}

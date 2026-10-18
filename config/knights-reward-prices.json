@@ -45,84 +45,6 @@
       "type": "base:normal"
     },
     {
-      "id": "Base.Abzats",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.AbzatsMag20",
-      "price": 1500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.AbzatsSchematic",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Literature"
-    },
-    {
-      "id": "Base.AK12",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.AK74",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.Aksu",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.Aksu_5_45x39_Box",
-      "price": 2500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.Aksu_5_45x39_Round",
-      "price": 100,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.AksuMag20",
-      "price": 1500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.AksuMag30",
-      "price": 1500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.AksuMag40",
-      "price": 1500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.Ashot",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.AshotSchematic",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Literature"
-    },
-    {
       "id": "Base.AxeManMag",
       "price": 30000,
       "mod": "GydeTraitMags",
@@ -139,36 +61,6 @@
       "price": 18000,
       "mod": "CerberusPack",
       "type": "base:container"
-    },
-    {
-      "id": "Base.BallBearing",
-      "price": 100,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.BallBearing_Box",
-      "price": 2500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.Bastard",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.BastardMag30",
-      "price": 1500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.BastardSchematic",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Literature"
     },
     {
       "id": "Base.Browning_M22",
@@ -237,18 +129,6 @@
       "type": "base:literature"
     },
     {
-      "id": "Base.Duplet_DoubleShotgun",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.DupletSchematic",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Literature"
-    },
-    {
       "id": "Base.ElbowPads_Cerberus",
       "price": 7500,
       "mod": "CerberusPack",
@@ -283,24 +163,6 @@
       "price": 30000,
       "mod": "GydeTraitMags",
       "type": "base:literature"
-    },
-    {
-      "id": "Base.Gatling",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.GatlingAmmoBox",
-      "price": 2500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.GatlingSchematic",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Literature"
     },
     {
       "id": "Base.Glasses_Goggles_Cerberus",
@@ -361,54 +223,6 @@
       "price": 7500,
       "mod": "CerberusPack",
       "type": "base:clothing"
-    },
-    {
-      "id": "Base.Hellbreath",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.HellbreathBattery",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Drainable"
-    },
-    {
-      "id": "Base.HellbreathBatteryDead",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.HellbreathSchematic",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Literature"
-    },
-    {
-      "id": "Base.Hellsing",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.HellsingArrow",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.HellsingMag",
-      "price": 1500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.HellsingSchematic",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Literature"
     },
     {
       "id": "Base.Helmet_Cerberus",
@@ -493,18 +307,6 @@
       "price": 7500,
       "mod": "CerberusPack",
       "type": "base:clothing"
-    },
-    {
-      "id": "Base.Lolife_Padonak",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.Lolife_Padonak_Mag5",
-      "price": 1500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
     },
     {
       "id": "Base.M61_Vulcan2",
@@ -3573,18 +3375,6 @@
       "type": "base:literature"
     },
     {
-      "id": "Base.Ognemet",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.OgnemetFuelBottle",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "base:normal"
-    },
-    {
       "id": "Base.OrganizedMag",
       "price": 30000,
       "mod": "GydeTraitMags",
@@ -3595,12 +3385,6 @@
       "price": 30000,
       "mod": "GydeTraitMags",
       "type": "base:literature"
-    },
-    {
-      "id": "Base.PadonakSchematic",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Literature"
     },
     {
       "id": "Base.Pants_Classic_Cerberus",
@@ -3637,60 +3421,6 @@
       "price": 7500,
       "mod": "CerberusPack",
       "type": "base:clothing"
-    },
-    {
-      "id": "Base.Preved",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.Preved_12_7x108_Box",
-      "price": 2500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.Preved_12_7x108_Round",
-      "price": 100,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.PrevedMag5",
-      "price": 1500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.PrevedSchematic",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Literature"
-    },
-    {
-      "id": "Base.RPK",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.RPKMag45",
-      "price": 1500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.Saiga12",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.Saiga12Magazine",
-      "price": 1500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
     },
     {
       "id": "Base.Shirt_Cerberus",
@@ -3787,72 +3517,6 @@
       "price": 7500,
       "mod": "CerberusPack",
       "type": "base:clothing"
-    },
-    {
-      "id": "Base.Tikhar",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.TikharMag",
-      "price": 1500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.TikharRecipeBook",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Literature"
-    },
-    {
-      "id": "Base.Uboinik",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.UboinikSchematic",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Literature"
-    },
-    {
-      "id": "Base.Velopal",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.VelopalSchematic",
-      "price": 1000,
-      "mod": "Metro2033Armory",
-      "type": "Literature"
-    },
-    {
-      "id": "Base.VSSK",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.VSSKMag5",
-      "price": 1500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
-    },
-    {
-      "id": "Base.VSV",
-      "price": 35000,
-      "mod": "Metro2033Armory",
-      "type": "base:weapon"
-    },
-    {
-      "id": "Base.VSVMag20",
-      "price": 1500,
-      "mod": "Metro2033Armory",
-      "type": "Normal"
     },
     {
       "id": "bdtmre.bdtmre26a1",
