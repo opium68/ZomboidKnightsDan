@@ -9,6 +9,11 @@ K.ammoCartons={
  {id="Base.308Carton",rounds=240},{id="Base.ShotgunShellsCarton",rounds=300},
 }
 K.supplyProducts={}
+-- Spare-magazine offers only; complete firearm bundles still include four.
+K.militaryMagazines={
+ ["Base.556Clip"]=true,["Base.M14Clip"]=true,["Base.762Clip"]=true,["Base.FALClip"]=true,
+ ["Base.9mmClip30"]=true,["Base.45Clip32"]=true,["Base.9mmClip32"]=true,["Base.M60Belt"]=true,
+}
 K.bundleByPackage={}
 for gun,d in pairs(K.weaponBundles) do K.bundleByPackage[d.package]=d;d.gun=gun end
 local function script(id) return getScriptManager():FindItem(id) end
@@ -79,7 +84,7 @@ function K.installSupply()
  end
  for _,c in ipairs(K.ammoCartons) do product(c.id,"cartons",price(c.id,c.rounds*10),c.rounds) end
  for _,d in pairs(K.weaponBundles) do
-  if d.magazine then product(d.magazine,"magazines",price(d.magazine,1500)) end
+  if d.magazine and K.militaryMagazines[d.magazine] then product(d.magazine,"magazines",price(d.magazine,1500)) end
  end
  local compatible={}
  for gun,d in pairs(K.weaponBundles) do if d.magazine then

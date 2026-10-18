@@ -25,6 +25,7 @@ PZLinuxDarkWebItemsTable={{id={'Base.M60MMG'},Price=10000},{id={'Base.Aksu'},Pri
 PZLinuxRequestDefinitions={}
 K.installSupply()
 local magazineCount=0;for _,d in pairs(K.supplyProducts) do if d.category=='magazines' then magazineCount=magazineCount+1 end end
+assert(magazineCount==8,'only military rifle, SMG and M60 magazine types')
 for seed=1,50 do
  local rng=seed
  function ZombRand(a,b) if not b then b=a;a=0 end;rng=(rng*1103515245+12345)%2147483647;return a+(rng%(b-a)) end
@@ -34,10 +35,19 @@ for seed=1,50 do
   local id=offer.item.id[1];assert(not seen[id]);seen[id]=true
   assert(not K.retiredMetro[id]);assert(not K.weaponBundles[id],'no bare firearm offer')
   counts[offer.knightsCategory]=(counts[offer.knightsCategory] or 0)+1
-  if offer.knightsCategory=='cartons' or offer.knightsCategory=='vehicle' or offer.knightsCategory=='vehicleHE' then assert(offer.stock>=1 and offer.stock<=5) end
+  if offer.knightsCategory=='cartons' or offer.knightsCategory=='vehicle' or offer.knightsCategory=='vehicleHE' or offer.knightsCategory=='magazines' then assert(offer.stock>=1 and offer.stock<=5) end
+  if offer.knightsCategory=='magazines' then assert(K.militaryMagazines[id],'civilian/pistol magazine leaked into buy offers') end
  end
- assert(counts.cartons==5 and counts.magazines==magazineCount and counts.vehicle==1)
+ assert(counts.cartons==5 and (counts.magazines or 0)<=3 and counts.vehicle==1)
  assert((counts.vehicleHE or 0)<=1)
+end
+for _,maximum in ipairs({false,true}) do
+ function ZombRand(a,b) return maximum and b-1 or a end
+ local m={generation=100};K.generateCategoryMarket(m);local n=0
+ for _,offer in ipairs(m.offers) do if offer.knightsCategory=='magazines' then
+  n=n+1;assert(offer.stock==(maximum and 5 or 1))
+ end end
+ assert(n==(maximum and 3 or 0),'zero and three magazine types must both be possible')
 end
 local function container()
  local c={items={}}
@@ -78,4 +88,4 @@ end} end} end
 require 'zzzzzzzzz_KnightsDanRetirement'
 assert(cleanupTick);cleanupTick();cleanupTick()
 assert(#parked.items==1 and parked.items[1].id=='Base.TunaTin','42.21 Set iterator cleans parked vehicles without touching common items')
-return '50 restocks: exactly five distinct calibers, 1-5 cartons/packs, every magazine; M60 bundle 4/400, idempotent 58-ID retirement and linked conversion, 3x to 5x'
+return '50 restocks: five calibers, military-only eight-magazine pool, 0-3 distinct magazines with 1-5 stock, zero/max edges; M60 4/400, retirement/conversion, 3x to 5x'

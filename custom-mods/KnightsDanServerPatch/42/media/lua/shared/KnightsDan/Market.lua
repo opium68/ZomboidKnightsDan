@@ -40,7 +40,7 @@ function K.generateCategoryMarket(market)
         local group = groups[name]
         local count = ZombRand(0, math.min(3, #group) + 1)
         if name=="cartons" then count=math.min(5,#group)
-        elseif name=="magazines" then count=#group
+        elseif name=="magazines" then count=ZombRand(0, math.min(3,#group)+1)
         elseif name=="vehicle" then count=math.min(1,#group)
         elseif name=="vehicleHE" then count=ZombRand(0,4)==0 and math.min(1,#group) or 0 end
         for position=1,count do
@@ -54,14 +54,14 @@ function K.generateCategoryMarket(market)
             local minimum,maximum = PZLinuxDarkWebGetStockRange(reference)
             local stock = ZombRand(minimum, maximum + 1)
             if name=="cartons" or name=="vehicle" or name=="vehicleHE" then stock=ZombRand(1,6)
-            elseif name=="magazines" then stock=8 end
+            elseif name=="magazines" then stock=ZombRand(1,6) end
             table.insert(offers,{id=tostring(market.knightsCalendarDay or market.generation)..":"..index,sourceIndex=index,
                 item={id=PZLinuxDarkWebGetItemIds(entry)},stock=stock,initialStock=stock,
                 referencePrice=reference,knightsCategory=name})
         end
     end
     market.offers = offers
-    market.knightsCategoryVersion = K.supplyReady and 2 or 1
+    market.knightsCategoryVersion = K.supplyReady and 3 or 1
     market.knightsCategoryGeneration = market.generation
     market.knightsCategoryEmpty = #offers == 0
 end
@@ -77,7 +77,7 @@ function K.ensureMidnightMarket()
     local market=ModData.getOrCreate("PZLinuxDarkWebMarket")
     local first=market.knightsMidnightVersion~=1
     local newDay=not first and market.knightsCalendarDay~=today
-    local valid=market.knightsCategoryVersion==(K.supplyReady and 2 or 1) and type(market.offers)=="table"
+    local valid=market.knightsCategoryVersion==(K.supplyReady and 3 or 1) and type(market.offers)=="table"
     local oldGeneration=market.generation
     market.generation=nativeGeneration
     market.knightsCategoryGeneration=nativeGeneration
