@@ -1,4 +1,5 @@
 -- Native game objects are mocked; PZLinux source and KnightsDan hooks are real.
+require "knights-native-reader"
 local events={}
 Events=setmetatable({}, {__index=function(t,name)
     local value={Add=function(f) events[name]=events[name] or {}; table.insert(events[name],f) end,Remove=function() end}

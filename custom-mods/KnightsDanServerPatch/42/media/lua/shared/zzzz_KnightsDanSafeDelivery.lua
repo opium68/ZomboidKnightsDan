@@ -1,9 +1,10 @@
 require "ISPZLinuxVariablesTables"
 require "PZLinux/PZLinuxDarkWeb"
+require "KnightsDan/DeliverySafety"
 
 -- Keep the native validated delivery queue, without the random theft branch.
 -- No global RNG override; existing lost orders are not recreated.
-local function deliver(player, mailboxRef, requestId, source, migrate, sync)
+local function deliver(player, mailboxRef, requestId, source, migrate)
     local playerObj = PZLinuxGetPlayer(player)
     if not playerObj then
         return {ok=false, error="no_player", requestId=requestId}
@@ -25,15 +26,15 @@ local function deliver(player, mailboxRef, requestId, source, migrate, sync)
     result.requestId = requestId
     result.lost = false
     result.balance = PZLinuxLoadBankBalance(playerObj)
-    sync(playerObj)
+    result.remaining = KnightsDan.syncDeliveryPending(playerObj, source)
     return result
 end
 
 PZLinuxDarkWebApplyDeliverOrders = function(player, mailboxRef, requestId)
     return deliver(player, mailboxRef, requestId, "darkweb",
-        PZLinuxDarkWebMigrateLegacyQueue, PZLinuxDarkWebSyncPendingState)
+        PZLinuxDarkWebMigrateLegacyQueue)
 end
 PZLinuxRequestsApplyDelivery = function(player, mailboxRef, requestId)
     return deliver(player, mailboxRef, requestId, "request",
-        PZLinuxRequestsMigrateLegacyQueue, PZLinuxRequestsSyncPendingState)
+        PZLinuxRequestsMigrateLegacyQueue)
 end

@@ -65,17 +65,17 @@ foreach($folder in 'custom-mods','player-launcher'){
     if($LASTEXITCODE -gt 7){throw 'Publication source copy failed.'}
 }
 New-Item -ItemType Directory -Path (Join-Path $repository 'config'),(Join-Path $repository 'scripts'),(Join-Path $repository 'docs/distribution'),(Join-Path $repository 'distribution') -Force | Out-Null
-foreach($file in 'KNIGHTS-IMPLEMENTATION-20261005.md','KNIGHTS-JG-CLOTHING-20261012.md','KNIGHTS-TTAJ-CLOTHING-20261012.md','KNIGHTS-CLOTHING-SETS.md','KNIGHTS-MARKET-20261014.md','KNIGHTS-INSULATION-VISION-20261014.md','KNIGHTS-CONTRACT-MONEY-20261012.md','KNIGHTS-DAILY-CONTRACTS-20261009.md'){
+foreach($file in 'KNIGHTS-IMPLEMENTATION-20261005.md','KNIGHTS-MANHUNT-20261010.md','KNIGHTS-JG-CLOTHING-20261012.md','KNIGHTS-TTAJ-CLOTHING-20261012.md','KNIGHTS-CLOTHING-SETS.md','KNIGHTS-MARKET-20261014.md','KNIGHTS-INSULATION-VISION-20261014.md','KNIGHTS-CONTRACT-MONEY-20261012.md','KNIGHTS-DAILY-CONTRACTS-20261009.md'){
     Copy-Item -LiteralPath (Join-Path $root "docs/$file") -Destination (Join-Path $repository "docs/$file") -Force
 }
 New-Item -ItemType Directory -Path (Join-Path $repository 'scripts/tests') -Force | Out-Null
-foreach($file in 'knights-market.lua','knights-midnight-market.lua','knights-market-regression.lua','knights-request-preview.lua','knights-clothing-sets.lua','knights-clothing-insulation.lua','knights-clothing-combat-speed.lua','knights-contract-money.lua','knights-coop.lua','knights-daily-contracts.lua','knights-daily-requests.lua','knights-daily-requests-ui.lua','knights-protect-chase.lua','knights-plumbing-admin.lua','knights-plumbing-fixture.lua','knights-contract-sync.lua','knights-contract-sync-native.lua','knights-contract-money-regression.lua','knights-money-load-order.lua','native-knights-loader.lua','KnightsPlumbingAdminTest.java','KnightsDisabledRecipeTest.java'){
+foreach($file in 'knights-market.lua','knights-midnight-market.lua','knights-market-regression.lua','knights-request-preview.lua','knights-clothing-sets.lua','knights-clothing-insulation.lua','knights-clothing-combat-speed.lua','knights-contract-money.lua','knights-coop.lua','knights-native-reader.lua','knights-manhunt.lua','knights-pzlinux-safety.lua','test-pzlinux-safety.ps1','knights-daily-contracts.lua','knights-daily-requests.lua','knights-daily-requests-ui.lua','knights-protect-chase.lua','knights-plumbing-admin.lua','knights-plumbing-fixture.lua','knights-contract-sync.lua','knights-contract-sync-native.lua','knights-contract-money-regression.lua','knights-money-load-order.lua','native-knights-loader.lua','KnightsPlumbingAdminTest.java','KnightsDisabledRecipeTest.java'){
     Copy-Item -LiteralPath (Join-Path $PSScriptRoot "tests/$file") -Destination (Join-Path $repository "scripts/tests/$file") -Force
 }
 foreach($file in 'knights-selected-mods.json','knights-clothing-combat-speed.json','knights-clothing-insulation.json','knights-reward-prices.json','knights-jg-clothing.json','knights-ttaj-clothing.json','knights-clothing-sets.json','knights-clothing-set-prices.json'){
     Copy-Item -LiteralPath (Join-Path $root "config/$file") -Destination (Join-Path $repository "config/$file") -Force
 }
-foreach($file in 'common.ps1','build-player-package.ps1','build-reward-catalog.ps1','build-jg-clothing.ps1','build-clothing-sets.ps1','build-clothing-insulation.ps1','build-knights-release.ps1','publish-knights-release.ps1'){
+foreach($file in 'common.ps1','LuaTestRunner.java','build-player-package.ps1','build-reward-catalog.ps1','build-jg-clothing.ps1','build-clothing-sets.ps1','build-clothing-insulation.ps1','build-knights-release.ps1','publish-knights-release.ps1'){
     Copy-Item -LiteralPath (Join-Path $PSScriptRoot $file) -Destination (Join-Path $repository "scripts/$file") -Force
 }
 New-Item -ItemType Directory -Path (Join-Path $repository 'config/escape_test') -Force | Out-Null
