@@ -27,3 +27,4 @@
 
 - 운영 서버 2026-10-18 21:34 정상 종료 기록 확인. 최신 백업: `backups/escape_test-20261018-214617.zip`, 228,300개 항목·251,540,278바이트, 7-Zip 무결성 PASS, SHA256 `0387E17AC6065F96A2A576750D5A4EDB0BF520DE20F784F5FAD6DAB89D6AF9DF`. 백업은 한 번만 수행했다.
 - 서명 설치·같은 버전 재실행·변조/경로 공격 거부·실패 시 복구·개인 모드 보존 PASS: `research/updater-test-a1642898d30e4d2f972aad5c7eb834e6`. 운영 자체 99개 파일 해시 일치, INI의 Mods/WorkshopItems 두 줄만 갱신. 이전 모드·INI는 `backups/owned-mods-before-0.1.0-20261018.4`에 보관했다. 운영 반영 기록: `research/supply-deployment-20261018.json`. 서버는 재시작하지 않았다. 공개 서명 릴리스 `v0.1.0-20261018.4` 활성화로 기존 JOIN-SERVER.cmd가 업데이트를 받는다.
+- 공개 활성화 완료: 소스 `c4ff8eb`, 배포 목록 `5e2bcf4`. 실제 공개 HTTP JSON 파싱·서명·압축과 전체 추출 파일·운영 자체 99개 파일 대조 PASS: `research/public-release-555121b4f100474d9d1faede4626171b`. 설치된 서버/클라이언트 VFE 원본 진입점 해시도 일치한다. 플레이어는 게임을 완전히 종료하고 기존 `JOIN-SERVER.cmd`로 업데이트한다. 개인 전역 모드에 Metro가 켜져 있다면 비활성화한다.
