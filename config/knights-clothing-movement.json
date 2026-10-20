@@ -1,0 +1,5243 @@
+{
+  "version": 1,
+  "scope": "Active Workshop-added clothing; RunSpeedModifier penalties only; bonuses and vanilla preserved",
+  "excludedVanillaOverrides": [],
+  "entries": [
+    {
+      "id": "Base.Black_Camo_Balaclava",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Boots",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 0.9,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Elbow_Pads",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_GasMask-M80",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_GasMask-M80_NoFilter",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Gloves",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Hat",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Helmet",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Helmet_NoBelts",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Helmet_Patriot",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Helmet_Patriot_NoBelts",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Helmet_Rook_FaceShield",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Helmet_Rook_FaceShieldUp",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Jacket",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Jacket_Closed_SleevesUp",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Jacket_Open",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Jacket_Open_SleevesUp",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Knee_Pads",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_KneePads_Defender",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_LightVest",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Pants",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Pants_Tuck",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_ShoulderPads_Patriot",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_TacBoots",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 0.95,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.Black_Camo_Vest",
+      "mod": "[J&G] Black Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3315302991/mods/[J&G] Black Multicam Uniform/common/media/scripts/items_black_camo.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Cerberus_AssaultKit",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 0.97,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Cerberus_AssaultLightKit",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Cerberus_FullProtectionKit",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 0.95,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Cerberus_HighMobilityKit",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 0.97,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Lynx_AssaultKit-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.96,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Lynx_AssaultKit-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.96,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Lynx_AssaultLightKit-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Lynx_AssaultLightKit-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Lynx_FullProtectionKit-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.94,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Lynx_FullProtectionKit-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.94,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Lynx_HighMobilityKit-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.96,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Lynx_HighMobilityKit-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.96,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Lynx_Neck-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Lynx_Neck-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Lynx-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.BulletproofVest_Lynx-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Balaclava",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Boots",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 0.9,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Elbow_Pads",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_GasMask-M17",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_GasMask-M17_NoFilter",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_GasMask-M80",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_GasMask-M80_NoFilter",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Gloves",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Hat",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Helmet",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Helmet_NoBelts",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Helmet_Patriot",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Helmet_Patriot_NoBelts",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Helmet_Rook_FaceShield",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Helmet_Rook_FaceShieldUp",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Jacket",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Jacket_Closed_SleevesUp",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Jacket_Open",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Jacket_Open_SleevesUp",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_KneePads_Defender",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_LightVest",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Pants",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Pants_Tuck",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_ShoulderPads_Patriot",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_TacBoots",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 0.95,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.DPM-95_Camo_Vest",
+      "mod": "[J&G] British DPM Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3654107996/mods/[J&G] British DPM Uniform/common/media/scripts/items_dpm95_camo.txt"
+    },
+    {
+      "id": "Base.ElbowPads_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_ElbowPads.txt"
+    },
+    {
+      "id": "Base.ElbowPads_Cerberus_Tight",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_ElbowPads.txt"
+    },
+    {
+      "id": "Base.ElbowPads_Lynx_Armored-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_ElbowPads.txt"
+    },
+    {
+      "id": "Base.ElbowPads_Lynx_Armored-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_ElbowPads.txt"
+    },
+    {
+      "id": "Base.ElbowPads_Lynx_Tight-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_ElbowPads.txt"
+    },
+    {
+      "id": "Base.ElbowPads_Lynx_Tight-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_ElbowPads.txt"
+    },
+    {
+      "id": "Base.ElbowPads_Lynx-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_ElbowPads.txt"
+    },
+    {
+      "id": "Base.ElbowPads_Lynx-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_ElbowPads.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Balaclava",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Boots",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 0.9,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Elbow_Pads",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_GasMask-M80",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_GasMask-M80_NoFilter",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Gloves",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Hat",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Helmet",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Helmet_NoBelts",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Helmet_Patriot",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Helmet_Patriot_NoBelts",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Jacket",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Jacket_Closed_SleevesUp",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Jacket_Open",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Jacket_Open_SleevesUp",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Knee_Pads",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_KneePads_Defender",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_LightVest",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Pants",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Pants_Tuck",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_ShoulderPads_Patriot",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_TacBoots",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 0.95,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Forest_Camo_Vest",
+      "mod": "[J&G] Forest Multicam Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3309971624/mods/[J&G] Forest Multicam Uniform/common/media/scripts/items_forest_camo.txt"
+    },
+    {
+      "id": "Base.Glasses_Goggles_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Other.txt"
+    },
+    {
+      "id": "Base.Glasses_Goggles_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Other.txt"
+    },
+    {
+      "id": "Base.Glasses_Tactical_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Other.txt"
+    },
+    {
+      "id": "Base.Gloves_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Other.txt"
+    },
+    {
+      "id": "Base.Gloves_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Other.txt"
+    },
+    {
+      "id": "Base.GlovesFingerless_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Other.txt"
+    },
+    {
+      "id": "Base.GlovesFingerless_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Other.txt"
+    },
+    {
+      "id": "Base.Hat_BaseballCap_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Hat.txt"
+    },
+    {
+      "id": "Base.Hat_BaseballCap_Cerberus_Reverse",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Hat.txt"
+    },
+    {
+      "id": "Base.Hat_BaseballCap_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Hat_BaseballCap_Lynx_Reverse",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Headsets_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Hat.txt"
+    },
+    {
+      "id": "Base.Headsets_Cerberus_Helmet",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Hat.txt"
+    },
+    {
+      "id": "Base.Headsets_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Headsets_Lynx_Helmet",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Helmet_BallisticFaceShield_Lynx_DOWN",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Helmet_BallisticFaceShield_Lynx_UP",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Helmet_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Hat.txt"
+    },
+    {
+      "id": "Base.Helmet_Cerberus_NoBelts",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Hat.txt"
+    },
+    {
+      "id": "Base.Helmet_Lynx_NoBelts-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Helmet_Lynx_NoBelts-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Helmet_Lynx-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Helmet_Lynx-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Helmet_Mandible_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Hat.txt"
+    },
+    {
+      "id": "Base.Helmet_RysT_Lynx_DOWN-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Helmet_RysT_Lynx_DOWN-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Helmet_RysT_Lynx_UP-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Helmet_RysT_Lynx_UP-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Hat.txt"
+    },
+    {
+      "id": "Base.Jacket_Hood_DOWN_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Jacket.txt"
+    },
+    {
+      "id": "Base.Jacket_Hood_DOWN_Lynx_Open",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Jacket.txt"
+    },
+    {
+      "id": "Base.Jacket_Hood_DOWN_Lynx_OpenRolledUpSleeves",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Jacket.txt"
+    },
+    {
+      "id": "Base.Jacket_Hood_DOWN_Lynx_RolledUpSleeves",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Jacket.txt"
+    },
+    {
+      "id": "Base.Jacket_Hood_UP_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Jacket.txt"
+    },
+    {
+      "id": "Base.Jacket_Hood_UP_Lynx_Open",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Jacket.txt"
+    },
+    {
+      "id": "Base.Jacket_Hood_UP_Lynx_OpenRolledUpSleeves",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Jacket.txt"
+    },
+    {
+      "id": "Base.Jacket_Hood_UP_Lynx_RolledUpSleeves",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Jacket.txt"
+    },
+    {
+      "id": "Base.Jacket_Lightweight_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Jacket.txt"
+    },
+    {
+      "id": "Base.Jacket_Lightweight_Cerberus_RolledUpSleeves",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Jacket.txt"
+    },
+    {
+      "id": "Base.Jacket_Lightweight_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Jacket.txt"
+    },
+    {
+      "id": "Base.Jacket_Lightweight_Lynx_Open",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Jacket.txt"
+    },
+    {
+      "id": "Base.Jacket_Lightweight_Lynx_OpenRolledUpSleeves",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Jacket.txt"
+    },
+    {
+      "id": "Base.Jacket_Lightweight_Lynx_RolledUpSleeves",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Jacket.txt"
+    },
+    {
+      "id": "Base.Japanese_Belt-Dyed",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 1,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Belt_Dyed.txt"
+    },
+    {
+      "id": "Base.Japanese_Belt-White",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 1,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Belt.txt"
+    },
+    {
+      "id": "Base.Japanese_Jacket_Overshirt-Black",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 1,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Overshirt.txt"
+    },
+    {
+      "id": "Base.Japanese_Jacket_Overshirt-Black_Tuck",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 1,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Overshirt.txt"
+    },
+    {
+      "id": "Base.Japanese_Jacket_Overshirt-Dyed",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 1,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Overshirt_Dyed.txt"
+    },
+    {
+      "id": "Base.Japanese_Jacket_Overshirt-Dyed_Tuck",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 1,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Overshirt_Dyed.txt"
+    },
+    {
+      "id": "Base.Japanese_Jacket_Undershirt-Beige",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 1,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Undershirt.txt"
+    },
+    {
+      "id": "Base.Japanese_Jacket_Undershirt-Beige_Tuck",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 1,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Undershirt.txt"
+    },
+    {
+      "id": "Base.Japanese_Jacket_Undershirt-Dyed",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 1,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Undershirt_Dyed.txt"
+    },
+    {
+      "id": "Base.Japanese_Jacket_Undershirt-Dyed_Tuck",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 1,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Undershirt_Dyed.txt"
+    },
+    {
+      "id": "Base.Japanese_Pants_Hakama-Brown",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 0.98,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Pants.txt"
+    },
+    {
+      "id": "Base.Japanese_Pants_Hakama-Brown_RollUp",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 0.98,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Pants.txt"
+    },
+    {
+      "id": "Base.Japanese_Pants_Hakama-Dyed",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 0.98,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Pants_Dyed.txt"
+    },
+    {
+      "id": "Base.Japanese_Pants_Hakama-Dyed_RollUp",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 0.98,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Pants_Dyed.txt"
+    },
+    {
+      "id": "Base.Japanese_Shoes_Sandals-Dyed",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 0.8,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Shoes_Dyed.txt"
+    },
+    {
+      "id": "Base.Japanese_Shoes_Sandals-Straw",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 0.8,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Shoes.txt"
+    },
+    {
+      "id": "Base.Japanese_Socks-Black",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 1,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Socks.txt"
+    },
+    {
+      "id": "Base.Japanese_Socks-Dyed",
+      "mod": "KATTAJ1_Japanese_Traditional_Outfit",
+      "build": "42.13",
+      "original": 1,
+      "file": "3283211180/mods/Japanese Traditional Outfit/42.13/media/scripts/clothing/Japanese_Socks_Dyed.txt"
+    },
+    {
+      "id": "Base.KneePads_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_KneePads.txt"
+    },
+    {
+      "id": "Base.KneePads_Cerberus_Tight",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_KneePads.txt"
+    },
+    {
+      "id": "Base.KneePads_Lynx_Armored-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_KneePads.txt"
+    },
+    {
+      "id": "Base.KneePads_Lynx_Armored-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_KneePads.txt"
+    },
+    {
+      "id": "Base.KneePads_Lynx_Tight-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_KneePads.txt"
+    },
+    {
+      "id": "Base.KneePads_Lynx_Tight-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_KneePads.txt"
+    },
+    {
+      "id": "Base.KneePads_Lynx-Black",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_KneePads.txt"
+    },
+    {
+      "id": "Base.KneePads_Lynx-Green",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_KneePads.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Balaclava",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Boots",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 0.9,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Elbow_Pads",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_GasMask-M80",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_GasMask-M80_NoFilter",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Gloves",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Hat",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Helmet",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Helmet_NoBelts",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Jacket",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Jacket_Closed_SleevesUp",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Jacket_Open",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Jacket_Open_SleevesUp",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Knee_Pads",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_KneePads_Defender",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_LightVest",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_LongSleeveTop",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Pants",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Pants_Tuck",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_ShortSleeveTop",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_ShoulderPads_Patriot",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_TacBoots",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 0.95,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.MARPAT_Camo_Vest",
+      "mod": "[J&G] MARPAT Camo Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3616192072/mods/[J&G] MARPAT Camo Uniform/common/media/scripts/items_marpat_uniform.txt"
+    },
+    {
+      "id": "Base.Mask_Balaclava_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Other.txt"
+    },
+    {
+      "id": "Base.Mask_Balaclava_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Other.txt"
+    },
+    {
+      "id": "Base.Mask_BandanaMask_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Other.txt"
+    },
+    {
+      "id": "Base.Mask_BandanaMask_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Other.txt"
+    },
+    {
+      "id": "Base.MaskFull_BallisticMask_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Hat.txt"
+    },
+    {
+      "id": "Base.MaskFull_BallisticMask_Cerberus_NoBelts",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Hat.txt"
+    },
+    {
+      "id": "Base.MaskFull_BallisticMask_Cerberus_NoBelts-Blood",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Hat.txt"
+    },
+    {
+      "id": "Base.MaskFull_BallisticMask_Cerberus-Blood",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Hat.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Balaclava_1Hole",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Balaclava_2Hole",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Balaclava_3Hole",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Boots",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 0.9,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_BulletproofVest_Patriot",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_ElbowPads",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_GasMask",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_GasMask_NoFilter",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Gloves",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Hat",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_HeavyKneePads",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Helmet",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Helmet_NoBelts",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Helmet_Patriot",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Helmet_Patriot_NoBelts",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Helmet_Rook_FaceShield",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Helmet_Rook_FaceShieldUp",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Jacket",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Jacket_Closed_SleevesUp",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Jacket_Open",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Jacket_Open_SleevesUp",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_KneePads",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Pants",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_Pants_Tuck",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_ShoulderPads_Patriot",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 1,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Medical_Red_TacBoots",
+      "mod": "[J&G] Trauma Responder Uniform",
+      "build": "42.20",
+      "original": 0.95,
+      "file": "3443982326/mods/[J&G] Trauma Responder Uniform/common/media/scripts/items_trauma_responder_uniform.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Defender_Medium-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Defender_Medium-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Defender_Medium-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Defender_Medium-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Patriot_Light-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Patriot_Light-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Patriot_Light-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Patriot_Light-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_ArmsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionLower_Vanguard_Heavy-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-Press",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Defender_Medium-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Patriot_Light-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Patriot_Light-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Patriot_Light-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Patriot_Light-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-MilitekOfficer",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_ArmsProtectionUpper_Vanguard_Heavy-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ArmsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Defender_Medium-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Defender_Medium-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Defender_Medium-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Defender_Medium-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Patriot_Light-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Patriot_Light-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Patriot_Light-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Patriot_Light-Press",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Patriot_Light-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.85,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.85,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.85,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 0.85,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_BulletproofVest_Vanguard_Heavy-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.85,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_BulletproofVest.txt"
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_FullHelmet.txt"
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_FullHelmet.txt"
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_FullHelmet.txt"
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_FullHelmet.txt"
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-MilitekOfficer",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_FullHelmet.txt"
+    },
+    {
+      "id": "Base.Military_FullHelmet_Vanguard-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_FullHelmet.txt"
+    },
+    {
+      "id": "Base.Military_Glasses_ShatterShield",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Glasses.txt"
+    },
+    {
+      "id": "Base.Military_Glasses_ShatterShield-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Glasses.txt"
+    },
+    {
+      "id": "Base.Military_Gloves_GripFingerless-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Gloves.txt"
+    },
+    {
+      "id": "Base.Military_Gloves_GripFingerless-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Gloves.txt"
+    },
+    {
+      "id": "Base.Military_Gloves_GripFingerless-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Gloves.txt"
+    },
+    {
+      "id": "Base.Military_Gloves_GripFingerless-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Gloves.txt"
+    },
+    {
+      "id": "Base.Military_Gloves_Grips-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Gloves.txt"
+    },
+    {
+      "id": "Base.Military_Gloves_Grips-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Gloves.txt"
+    },
+    {
+      "id": "Base.Military_Gloves_Grips-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Gloves.txt"
+    },
+    {
+      "id": "Base.Military_Gloves_Grips-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Gloves.txt"
+    },
+    {
+      "id": "Base.Military_Gloves_Grips-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Gloves.txt"
+    },
+    {
+      "id": "Base.Military_Hat_BaseballCapM-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Hat.txt"
+    },
+    {
+      "id": "Base.Military_Hat_BaseballCapM-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Hat.txt"
+    },
+    {
+      "id": "Base.Military_Hat_BaseballCapM-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Hat.txt"
+    },
+    {
+      "id": "Base.Military_Hat_BaseballCapM-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Hat.txt"
+    },
+    {
+      "id": "Base.Military_Hat_Beret-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Hat.txt"
+    },
+    {
+      "id": "Base.Military_Hat_Beret-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Hat.txt"
+    },
+    {
+      "id": "Base.Military_Hat_Beret-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Hat.txt"
+    },
+    {
+      "id": "Base.Military_Hat_Beret-Red",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Hat.txt"
+    },
+    {
+      "id": "Base.Military_Hat_Beret-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Hat.txt"
+    },
+    {
+      "id": "Base.Military_Hat_WarComms-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Hat.txt"
+    },
+    {
+      "id": "Base.Military_Hat_WarComms-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Hat.txt"
+    },
+    {
+      "id": "Base.Military_Hat_WarComms-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Hat.txt"
+    },
+    {
+      "id": "Base.Military_Hat_WarComms-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Hat.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-Black_NoBelts",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-Desert_NoBelts",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-Green_NoBelts",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Defender-White_NoBelts",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Black_NoBelts",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Desert_NoBelts",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Green_NoBelts",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Press",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-Press_NoBelts",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Helmet_Patriot-White_NoBelts",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Helmet.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Black_BeltLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Black_BeltRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Black_HipArmorLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Black_HipArmorRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Black_HipLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Black_HipRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Desert_BeltLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Desert_BeltRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Desert_HipArmorLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Desert_HipArmorRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Desert_HipLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Desert_HipRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Green_BeltLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Green_BeltRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Green_HipArmorLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Green_HipArmorRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Green_HipLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Green_HipRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Militek_BeltLeft",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Militek_BeltRight",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Militek_HipArmorLeft",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Militek_HipArmorRight",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Militek_HipLeft",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-Militek_HipRight",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-White_BeltLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-White_BeltRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-White_HipArmorLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-White_HipArmorRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-White_HipLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Holster_Defender-White_HipRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Holster.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Black_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Black_OpenRolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Black_RolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Desert_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Desert_OpenRolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Desert_RolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Green_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Green_OpenRolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Green_RolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Militek_Open",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Militek_OpenRolledUpSleeves",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-Militek_RolledUpSleeves",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-White_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-White_OpenRolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Classic-White_RolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Black_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Black_OpenRolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Black_RolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Desert_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Desert_OpenRolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Desert_RolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Green_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Green_OpenRolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-Green_RolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-White_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-White_OpenRolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_Lightweight-White_RolledUpSleeves",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Black_DOWN",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Black_DOWN_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Black_Up",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Black_Up_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Desert_DOWN",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Desert_DOWN_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Desert_Up",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Desert_Up_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Green_DOWN",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Green_DOWN_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Green_Up",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-Green_Up_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-White_DOWN",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-White_DOWN_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-White_Up",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_Jacket_WinterHood-White_Up_Open",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.92,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Jacket.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Defender_Medium-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.94,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Defender_Medium-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.94,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Defender_Medium-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.94,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Defender_Medium-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.94,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Patriot_Light-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Patriot_Light-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Patriot_Light-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Patriot_Light-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.9,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.9,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.9,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 0.9,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_LegsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionLower_Vanguard_Heavy-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.9,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionLower.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.94,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.94,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.94,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-Press",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.94,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Defender_Medium-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.94,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Patriot_Light-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Patriot_Light-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Patriot_Light-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Patriot_Light-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.9,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.9,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.9,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 0.9,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_LegsProtectionUpper_Vanguard_Heavy-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.9,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_LegsProtectionUpper.txt"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava1-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava1-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava1-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava1-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava2-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava2-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava2-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava2-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava3-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava3-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava3-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_Balaclava3-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_BandanaMask-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_BandanaMask-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_BandanaMask-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_Mask_BandanaMask-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Mask.txt"
+    },
+    {
+      "id": "Base.Military_MaskHelmet_GasMask-M80",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_MaskHelmet.txt"
+    },
+    {
+      "id": "Base.Military_MaskHelmet_GasMask-M80_nofilter",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_MaskHelmet.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Capri-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Capri-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Capri-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Capri-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_CapriSkinny-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_CapriSkinny-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_CapriSkinny-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_CapriSkinny-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Black_RollUp",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Black_Tuck",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Desert_RollUp",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Desert_Tuck",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Green_RollUp",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Green_Tuck",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Militek_RollUp",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-Militek_Tuck",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 0.98,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-White_RollUp",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Cargo-White_Tuck",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Black_RollUp",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Black_Tuck",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Desert_RollUp",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Desert_Tuck",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Green_RollUp",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-Green_Tuck",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-White_RollUp",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Classic-White_Tuck",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShorts-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShorts-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShorts-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShorts-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShortsSkinny-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShortsSkinny-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShortsSkinny-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_KneeLengthShortsSkinny-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Shorts-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Shorts-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Shorts-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Shorts-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsCargo-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsCargo-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsCargo-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsCargo-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsMini-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsMini-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsMini-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_ShortsMini-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Skinny-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Skinny-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Skinny-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Pants_Skinny-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Pants.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_Back",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_BeltLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_BeltRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_HipArmorLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_HipArmorRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_HipLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Black_HipRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_Back",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_BeltLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_BeltRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_HipArmorLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_HipArmorRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_HipLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Desert_HipRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_Back",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_BeltLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_BeltRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_HipArmorLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_HipArmorRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_HipLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-Green_HipRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_Back",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_BeltLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_BeltRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_HipArmorLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_HipArmorRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_HipLeft",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Sheath_Defender-White_HipRight",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Sheath.txt"
+    },
+    {
+      "id": "Base.Military_Shirt_Classic-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shirt.txt"
+    },
+    {
+      "id": "Base.Military_Shirt_Classic-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shirt.txt"
+    },
+    {
+      "id": "Base.Military_Shirt_Classic-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shirt.txt"
+    },
+    {
+      "id": "Base.Military_Shirt_Classic-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shirt.txt"
+    },
+    {
+      "id": "Base.Military_Shirt_ShortSleeveShirt-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shirt.txt"
+    },
+    {
+      "id": "Base.Military_Shirt_ShortSleeveShirt-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shirt.txt"
+    },
+    {
+      "id": "Base.Military_Shirt_ShortSleeveShirt-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shirt.txt"
+    },
+    {
+      "id": "Base.Military_Shirt_ShortSleeveShirt-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shirt.txt"
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.9,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shoes.txt"
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.9,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shoes.txt"
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.9,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shoes.txt"
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 0.9,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_Shoes.txt"
+    },
+    {
+      "id": "Base.Military_Shoes_Boots-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.9,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shoes.txt"
+    },
+    {
+      "id": "Base.Military_Shoes_TacticalBoots-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.95,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shoes.txt"
+    },
+    {
+      "id": "Base.Military_Shoes_TacticalBoots-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.95,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shoes.txt"
+    },
+    {
+      "id": "Base.Military_Shoes_TacticalBoots-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.95,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shoes.txt"
+    },
+    {
+      "id": "Base.Military_Shoes_TacticalBoots-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 0.95,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Shoes.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleated-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleated-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleated-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleated-Press",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleated-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedMini-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedMini-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedMini-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedMini-Press",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedMini-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedShort-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedShort-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedShort-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedShort-Press",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Skirt_KnifePleatedShort-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Skirt.txt"
+    },
+    {
+      "id": "Base.Military_Stockings-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Stockings.txt"
+    },
+    {
+      "id": "Base.Military_Stockings-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Stockings.txt"
+    },
+    {
+      "id": "Base.Military_Stockings-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Stockings.txt"
+    },
+    {
+      "id": "Base.Military_Stockings-Press",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Stockings.txt"
+    },
+    {
+      "id": "Base.Military_Stockings-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_Stockings.txt"
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ThermalUnderwear.txt"
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ThermalUnderwear.txt"
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ThermalUnderwear.txt"
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-Militek",
+      "mod": "Militek_Faction_Clothing",
+      "build": "42.20",
+      "original": 1,
+      "file": "3269061047/mods/Militek Clothing/42.20/media/scripts/clothing/Militek_ThermalUnderwear.txt"
+    },
+    {
+      "id": "Base.Military_ThermalUnderwear-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_ThermalUnderwear.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-Black_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-Desert_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-Green_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeve-White_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeveShort-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeveShort-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeveShort-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_LongSleeveShort-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_Neckholder-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_Neckholder-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_Neckholder-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_Neckholder-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_NeckholderShort-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_NeckholderShort-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_NeckholderShort-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_NeckholderShort-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-Black_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-Desert_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-Green_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulder-White_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulderShort-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulderShort-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulderShort-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_OneShoulderShort-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-Black_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-Desert_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-Green_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_Sleeveless-White_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_SleevelessShort-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_SleevelessShort-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_SleevelessShort-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_SleevelessShort-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTop-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTop-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTop-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTop-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTopShort-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTopShort-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTopShort-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TankTopShort-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-Black_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-Desert_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-Green_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirt-White_Man",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirtShort-Black",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirtShort-Desert",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirtShort-Green",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.Military_TShirt_TShirtShort-White",
+      "mod": "KATTAJ1_Military",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470426196/mods/KATTAJ1 Military Pack/42.15/media/scripts/clothing/Military_TShirt.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Bot",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Bot_FH",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Bot_H",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Gloves",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Gloves_FH",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Gloves_H",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Helmet",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Helmet_FH",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Helmet_H",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Shoes",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1.25,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Shoes_FH",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1.25,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Shoes_H",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1.25,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Top",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Top_FH",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.MT_Nano_Top_H",
+      "mod": "[MT] Nano Armor - Easy",
+      "build": "42",
+      "original": 1,
+      "file": "3474774172/mods/[MT] Nano Armor - Easy/42/media/scripts/MT_NanoArmor.txt"
+    },
+    {
+      "id": "Base.Pants_Classic_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Pants.txt"
+    },
+    {
+      "id": "Base.Pants_Classic_Cerberus_RollUp",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Pants.txt"
+    },
+    {
+      "id": "Base.Pants_Classic_Cerberus_Tuck",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Pants.txt"
+    },
+    {
+      "id": "Base.Pants_Classic_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Pants.txt"
+    },
+    {
+      "id": "Base.Pants_Classic_Lynx_RollUp",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Pants.txt"
+    },
+    {
+      "id": "Base.Pants_Classic_Lynx_Tuck",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Pants.txt"
+    },
+    {
+      "id": "Base.Pants_Shorts_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Pants.txt"
+    },
+    {
+      "id": "Base.Pants_Shorts_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Pants.txt"
+    },
+    {
+      "id": "Base.Pants_Skinny_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Pants.txt"
+    },
+    {
+      "id": "Base.Pants_Skinny_Cerberus_RollUp",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Pants.txt"
+    },
+    {
+      "id": "Base.Pants_Skinny_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Pants.txt"
+    },
+    {
+      "id": "Base.Pants_Skinny_Lynx_RollUp",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.98,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Pants.txt"
+    },
+    {
+      "id": "Base.Shirt_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_Cerberus_Open",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_Cerberus_OpenRolledUpSleeves",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_Cerberus_RolledUpSleeves",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_Lynx_Open",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_Lynx_OpenRolledUpSleeves",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_Lynx_RolledUpSleeves",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_Neckholder_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_Neckholder_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_NeckholderShort_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_NeckholderShort_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_ShortSleeve_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_ShortSleeve_Cerberus_Open",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_ShortSleeve_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_ShortSleeve_Lynx_Open",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_Sleeveless_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_SleevelessShort_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_TankTop_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_TankTop_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_TankTopShort_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_TankTopShort_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_Tshirt_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_Tshirt_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_TshirtShort_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Shirt.txt"
+    },
+    {
+      "id": "Base.Shirt_TshirtShort_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Shoes_Boots_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.95,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shoes.txt"
+    },
+    {
+      "id": "Base.Shoes_TacticalBoots_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 0.95,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Shoes.txt"
+    },
+    {
+      "id": "Base.Shoes_TacticalBoots_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 0.95,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shoes.txt"
+    },
+    {
+      "id": "Base.Stockings_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Underwear.txt"
+    },
+    {
+      "id": "Base.Stockings_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Underwear.txt"
+    },
+    {
+      "id": "Base.Sweater_Tactical_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Sweater_Tactical_Lynx_RolledUpSleeves",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Shirt.txt"
+    },
+    {
+      "id": "Base.Tights_Cerberus",
+      "mod": "CerberusPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470478700/mods/Cerberus Pack/42.15/media/scripts/clothing/Cerberus_Underwear.txt"
+    },
+    {
+      "id": "Base.Tights_Lynx",
+      "mod": "LynxPack",
+      "build": "42.15",
+      "original": 1,
+      "file": "3470485566/mods/Lynx Pack/42.15/media/scripts/clothing/Lynx_Underwear.txt"
+    },
+    {
+      "id": "Lifestyle.NeuralHat",
+      "mod": "LifestyleHobbies",
+      "build": "42",
+      "original": 1,
+      "file": "3403870858/mods/Lifestyle/common/media/scripts/Lifestyle_items.txt"
+    },
+    {
+      "id": "Lifestyle.UmbrellaHat",
+      "mod": "LifestyleHobbies",
+      "build": "42",
+      "original": 1,
+      "file": "3403870858/mods/Lifestyle/common/media/scripts/Lifestyle_items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackBlack",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackBlue",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackBrown",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackGreen",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackGrey",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackOrange",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackPink",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackPurple",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackRed",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackWhite",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathBackWood",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipBlack",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipBlue",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipBrown",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipGreen",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipGrey",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipOrange",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipPink",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipPurple",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipRed",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipWhite",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryKatanaSheathHipWood",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackBlack",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackBlue",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackBrown",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackGreen",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackGrey",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackOrange",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackPink",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackPurple",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackRed",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackWhite",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathBackWood",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipBlack",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipBlue",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipBrown",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipGreen",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipGrey",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipOrange",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipPink",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipPurple",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipRed",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipWhite",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LK.LegendaryWakizashiSheathHipWood",
+      "mod": "LKB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3668370011/mods/LegendaryKatanaWakizashi/42.20/media/scripts/generated/LK_Items.txt"
+    },
+    {
+      "id": "LTW.LegendaryKnifeSheathBack",
+      "mod": "LTWB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3689524052/mods/LegendaryTacticalWeapons/42.20/media/scripts/generated/LTW_Items.txt"
+    },
+    {
+      "id": "LTW.LegendaryKnifeSheathRightThigh",
+      "mod": "LTWB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3689524052/mods/LegendaryTacticalWeapons/42.20/media/scripts/generated/LTW_Items.txt"
+    },
+    {
+      "id": "LTW.LegendarySwordSheathBack",
+      "mod": "LTWB42",
+      "build": "42.20",
+      "original": 1,
+      "file": "3689524052/mods/LegendaryTacticalWeapons/42.20/media/scripts/generated/LTW_Items.txt"
+    },
+    {
+      "id": "SpiffoKnew.SpiffoKnew_Hat",
+      "mod": "Spiffo Knew [B42]",
+      "build": "42",
+      "original": 1,
+      "file": "3779597920/mods/Spiffo Knew [B42]/42/media/scripts/SpiffoKnew_Items.txt"
+    },
+    {
+      "id": "SpiffoKnew.SpiffoKnew_Suit",
+      "mod": "Spiffo Knew [B42]",
+      "build": "42",
+      "original": 0.7,
+      "file": "3779597920/mods/Spiffo Knew [B42]/42/media/scripts/SpiffoKnew_Items.txt"
+    },
+    {
+      "id": "SpiffoKnew.SpiffoKnew_Tail",
+      "mod": "Spiffo Knew [B42]",
+      "build": "42",
+      "original": 1,
+      "file": "3779597920/mods/Spiffo Knew [B42]/42/media/scripts/SpiffoKnew_Items.txt"
+    }
+  ]
+}
