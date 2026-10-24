@@ -196,5 +196,17 @@
     "ModId": "ZombieVisibilityFix",
     "Version": "",
     "Requires": ""
+  },
+  {
+    "WorkshopId": "3702483515",
+    "ModId": "SkullysFasterSwingSpeed",
+    "Version": "",
+    "Requires": ""
+  },
+  {
+    "WorkshopId": "3719586369",
+    "ModId": "SkullysAttackSwingSpeed4217TempFix",
+    "Version": "0.1.0-42.17-tempfix2",
+    "Requires": "\\SkullysFasterAttackSpeed;\\SkullysFasterSwingSpeed"
   }
 ]
