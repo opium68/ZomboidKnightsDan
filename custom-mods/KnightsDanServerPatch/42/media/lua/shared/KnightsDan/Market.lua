@@ -38,7 +38,8 @@ function K.generateCategoryMarket(market)
     for _,name in ipairs({"cartons","magazines","vehicle","vehicleHE"}) do categories[#categories+1]=name end
     for _,name in ipairs(categories) do
         local group = groups[name]
-        local count = ZombRand(0, math.min(3, #group) + 1)
+        local limit = (name=="firearms" or name=="melee") and 10 or 3
+        local count = ZombRand(0, math.min(limit, #group) + 1)
         if name=="cartons" then count=math.min(5,#group)
         elseif name=="magazines" then count=ZombRand(0, math.min(3,#group)+1)
         elseif name=="vehicle" then count=math.min(1,#group)

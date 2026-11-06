@@ -17,6 +17,10 @@ for i=1,6 do
     add('Base.Knife'..i,'Weapon','Weapon',false)
     add('Base.Ammo'..i,'Normal','Ammo',false)
 end
+for i=7,12 do
+    add('Base.Gun'..i,'Weapon','Weapon',true)
+    add('Base.Knife'..i,'Weapon','Weapon',false)
+end
 add('GunRepairKit.GunRepairKit','Normal','Tool',false)
 add('GunRepairKit.GunRepairKitAdvanced','Normal','Tool',false)
 add('KnightsDan.ClothingSet_haori','Container','Clothing',false)
@@ -40,7 +44,8 @@ for _,offer in ipairs(market.offers) do
     assert(offer.stock==4 and offer.initialStock==4)
 end
 assert(counts.rations==3 and counts.repair==2 and counts.clothing==1)
-for _,count in pairs(counts) do assert(count<=3) end
+assert(counts.firearms==10 and counts.melee==10, "Both weapon groups reach ten without duplicate offers")
+for name,count in pairs(counts) do assert(count<=((name=="firearms" or name=="melee") and 10 or 3)) end
 local bootMarket={generation=2,offers={}}
 ModData={getOrCreate=function() return bootMarket end,transmit=function() end}
 PZLinux={darkWebBuySessions={},Economy={scarcityMultiplier=function() return 1 end}}
@@ -64,4 +69,4 @@ maximum=false;day=21
 local empty=PZLinuxDarkWebBuildBuyOffers({})
 assert(#empty.offers==0)
 assert(#PZLinuxDarkWebBuildBuyOffers({}).offers==0,'all-zero day must not reroll')
-return '0-3 per category, optional repair/rations, no duplicate offers, persistent stock and valid empty days'
+return '0-10 firearms/melee; other categories retain 0-3, optional repair/rations, no duplicate offers, persistent stock and valid empty days'
