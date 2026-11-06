@@ -34,3 +34,5 @@
 실제 수정된 onClickPut 함수를 멀티플레이/싱글플레이 양쪽 조건으로 실행: 배지 소모, 계단 6개, 무기고 문 개방, 소환 호출 0, 배지 없을 때 거부 PASS. 통합 회귀 검사, Lua 구문, JSON 및 오버라이드 해시 검사 PASS. 실제 두 플레이어 화면과 문 통과는 별도 확인이 필요하다.
 
 운영 통합 모드를 별도 보관 후 정지 상태에서 설치했다. Git 자동 배포 버전 0.1.0-20261106.6으로 배포한다. 참가자는 게임을 완전히 종료하고 기존 JOIN-SERVER.cmd를 실행하여 클라이언트 Lua를 갱신한다. 서버는 정지 상태로 둔다.
+공개 배포 후 검증: PUBLIC_GIT_PASS version=0.1.0-20261106.6 signedFiles=194 serverMatchedModFiles=180 mods=106 workshopDependencies=2 updaterPS7=PASS updaterPS5.1=PASS server=OFF. 실제 런처 endpoint의 서명 검증과 공개 ZIP 설치 검증 및 운영 모드 전체 파일 SHA-256 대조 완료. 서버 정지 상태를 다시 확인했다.
+
