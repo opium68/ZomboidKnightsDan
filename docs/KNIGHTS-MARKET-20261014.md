@@ -66,3 +66,6 @@ PS5.1 서명 설치·동일 버전 재실행·실패 복구·별도 모드 보�
 
 0~10종 변경 검증: 두 무기 태그의 0종·10종 경계와 중복 없음, 다른 태그 상한 유지, 실제 PZLinux의 자정 갱신·당일 목록·소진 재고·주문 재실행 회귀, 보급품 검사 및 Lua 구문 PASS. 운영 서버 종료 상태에서 설치. 실제 멀티 화면 확인은 별도다.
 
+
+공개 배포 후 검증: PUBLIC_GIT_PASS version=0.1.0-20261106.7 signedFiles=194 serverMatchedModFiles=180 mods=106 workshopDependencies=2 updaterPS7=PASS server=OFF. 실제 런처 endpoint의 서명 검증과 공개 ZIP 설치 검증 및 운영 모드 전체 파일 SHA-256 대조 완료. 서버 정지 상태를 다시 확인했다.
+
