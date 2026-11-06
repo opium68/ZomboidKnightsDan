@@ -104,9 +104,6 @@
   "Tooltip_RPGSkillTree_WeightBig1": "무게 +10%%",
   "Tooltip_RPGSkillTree_WeightBig2": "무게 +10%%",
   "Tooltip_RPGSkillTree_WeightBig3": "무게 +10%%",
-  "Tooltip_RPGSkillTree_MemoryStone_1": "[메모리 스톤]",
-  "Tooltip_RPGSkillTree_MemoryStone_2": "경험치를 저장하고 복구할 수 있는 메모리 스톤을 해금합니다.",
-  "Tooltip_RPGSkillTree_MemoryStone_3": "좀비에게서 매우 낮은 확률로 획득할 수 있습니다.",
   "Tooltip_RPGSkillTree_Start_1": "[Start]",
   "Tooltip_RPGSkillTree_Start_2": "스킬트리의 심장. 모든 길은 여기서 시작됩니다.",
   "Tooltip_RPGSkillTree_GravityAdaptation_1": "[중력 적응]",
@@ -238,5 +235,8 @@
   "Tooltip_RPGSkillTree_HydrationBackpack_Mythic": "영원한 서리가 깃든 수분보급배낭입니다.<br>용량 50 / 무게 감소 99%% / 자체 무게 0.8<br>물 보유량 4L<br>내부 식품 부패 속도 80%% 감소 (전기 불필요)",
   "Tooltip_RPGSkillTree_ScoutArtifact_Mythic": "[신화]<br>착용 시 좀비 처치마다 5%% 확률로 탐지가 발동합니다.<br>30칸 이내 좀비 위치가 20초 동안 레이더에 표시됩니다.<br>랜덤박스 전용 / 획득 확률 0.03%%",
   "Tooltip_RPGSkillTree_SkeletonKey_Normal": "잠긴 문이나 차량을 열 수 있습니다. 성공할 때마다 1회 소모되며 최대 3회 사용 후 사라집니다. 운전석에 앉으면 차량의 시동키에 자동으로 맞춰집니다. 시동 기능은 사용 횟수를 소모하지 않습니다.",
-  "Tooltip_RPGSkillTree_RandomJumpBox": "우클릭하여 펭귄 점프 게임을 진행합니다. 첫 점프 시 상자 1개 소모. 성공 단계에서 보상을 수령하거나 추가 점프에 도전할 수 있습니다. 실패하면 보상을 모두 잃습니다."
+  "Tooltip_RPGSkillTree_RandomJumpBox": "우클릭하여 펭귄 점프 게임을 진행합니다. 첫 점프 시 상자 1개 소모. 성공 단계에서 보상을 수령하거나 추가 점프에 도전할 수 있습니다. 실패하면 보상을 모두 잃습니다.",
+  "Tooltip_RPGSkillTree_MemoryStone_3": "벼락불은 좀비 처치 시 기본 0.5% 확률로 획득합니다. 경험치 저장·복원 기능은 사용하지 않습니다.",
+  "Tooltip_RPGSkillTree_MemoryStone_1": "[반짝이는 벼락불]",
+  "Tooltip_RPGSkillTree_MemoryStone_2": "반짝이는 벼락불을 제련하여 무작위 보상을 얻습니다."
 }

@@ -27,9 +27,6 @@
   "RPGSkillTree.Memory_Stone_Normal": "[일반]메모리 스톤",
   "RPGSkillTree.Memory_Stone_Rare": "[희귀]메모리 스톤",
   "RPGSkillTree.Memory_Stone_Legendary": "[전설]메모리 스톤",
-  "RPGSkillTree.Randombox_Normal": "랜덤박스",
-  "RPGSkillTree.Randombox_Rare": "랜덤박스",
-  "RPGSkillTree.Randombox_Legendary": "랜덤박스",
   "RPGSkillTree.Evil_Blood": "악한 피",
   "RPGSkillTree.Evil_Soul": "악한 영혼",
   "RPGSkillTree.Evil_Sacrifice": "악한 제물",
@@ -61,5 +58,8 @@
   "RPGSkillTree.HydrationBackpack_Mythic": "[신화] 영원한 서리의 수분보급배낭",
   "RPGSkillTree.ScoutArtifact_Mythic": "[신화] 탐지의 아티팩트",
   "RPGSkillTree.SkeletonKey_Normal": "[일반] 해골열쇠",
-  "RPGSkillTree.RandomJumpBox": "랜덤점프박스"
+  "RPGSkillTree.RandomJumpBox": "랜덤점프박스",
+  "RPGSkillTree.Randombox_Normal": "반짝이는 벼락불",
+  "RPGSkillTree.Randombox_Rare": "반짝이는 벼락불",
+  "RPGSkillTree.Randombox_Legendary": "반짝이는 벼락불"
 }

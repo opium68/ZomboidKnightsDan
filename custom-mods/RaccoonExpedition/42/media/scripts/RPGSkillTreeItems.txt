@@ -636,8 +636,8 @@ RPGSkillTree {
         DisplayCategory   = Material,
         ItemType          = base:normal,
         Weight            = 0.0,
-        Icon              = Parcel_Medium_Military,
-        WorldStaticModel  = Parcel_Military_Medium,
+        Icon = RCEThunderEmber,
+        WorldStaticModel = LargeStone,
         Tags              = RPG:Artifacts;base:hasmetal;ignorezombiedensity,
     }
 
@@ -646,8 +646,8 @@ RPGSkillTree {
         DisplayCategory   = Material,
         ItemType          = base:normal,
         Weight            = 0.0,
-        Icon              = Parcel_Large_Hardware,
-        WorldStaticModel  = Parcel_Hardware_Large,
+        Icon = RCEThunderEmber,
+        WorldStaticModel = LargeStone,
         Tags              = RPG:Artifacts;base:hasmetal;ignorezombiedensity,
     }
 
@@ -656,8 +656,8 @@ RPGSkillTree {
         DisplayCategory   = Material,
         ItemType          = base:normal,
         Weight            = 0.0,
-        Icon              = Parcel_Medium_Ammo,
-        WorldStaticModel  = Parcel_Ammo_Medium,
+        Icon = RCEThunderEmber,
+        WorldStaticModel = LargeStone,
         Tags              = RPG:Artifacts;base:hasmetal;ignorezombiedensity,
     }
 	

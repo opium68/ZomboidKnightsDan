@@ -27,9 +27,6 @@
   "RPGSkillTree.Memory_Stone_Normal": "[Normal]Memory Stone",
   "RPGSkillTree.Memory_Stone_Rare": "[Rare]Memory Stone",
   "RPGSkillTree.Memory_Stone_Legendary": "[Legendary]Memory Stone",
-  "RPGSkillTree.Randombox_Normal": "Random Box",
-  "RPGSkillTree.Randombox_Rare": "Random Box",
-  "RPGSkillTree.Randombox_Legendary": "Random Box",
   "RPGSkillTree.Evil_Blood": "Evil Blood",
   "RPGSkillTree.Evil_Soul": "Evil Soul",
   "RPGSkillTree.Evil_Sacrifice": "Evil Sacrifice",
@@ -61,5 +58,8 @@
   "RPGSkillTree.HydrationBackpack_Mythic": "[Mythic] Eternal Frost Hydration Backpack",
   "RPGSkillTree.ScoutArtifact_Mythic": "[Mythic] Scout Artifact",
   "RPGSkillTree.SkeletonKey_Normal": "[Common] Skeleton Key",
-  "RPGSkillTree.RandomJumpBox": "Random Jump Box"
+  "RPGSkillTree.RandomJumpBox": "Random Jump Box",
+  "RPGSkillTree.Randombox_Normal": "Sparkling Thunder Ember",
+  "RPGSkillTree.Randombox_Rare": "Sparkling Thunder Ember",
+  "RPGSkillTree.Randombox_Legendary": "Sparkling Thunder Ember"
 }

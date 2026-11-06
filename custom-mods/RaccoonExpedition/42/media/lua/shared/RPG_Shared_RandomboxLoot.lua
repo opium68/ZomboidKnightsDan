@@ -1,4 +1,4 @@
--- RCE forging reward policy. Random-box opening stays disabled until forging ships.
+-- RCE forging rewards: server grants the complete entry quantity.
 local Loot={}
 local ampoule='RPGSkillTree.LevelUpElixir'
 local groups={

@@ -1,5 +1,5 @@
-local Chance={}
-function Chance.getRate()return 0 end
-function Chance.getRates()return 0,0,0 end
-function Chance.roll()return nil end
-return Chance
+local C={}
+function C.getRate()return 0.5 end
+function C.getRates()return 0.5,0,0 end
+function C.roll()return nil end
+return C

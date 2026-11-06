@@ -104,9 +104,6 @@
   "Tooltip_RPGSkillTree_WeightBig1": "Carry Weight +10%%",
   "Tooltip_RPGSkillTree_WeightBig2": "Carry Weight +10%%",
   "Tooltip_RPGSkillTree_WeightBig3": "Carry Weight +10%%",
-  "Tooltip_RPGSkillTree_MemoryStone_1": "[Memory Stone]",
-  "Tooltip_RPGSkillTree_MemoryStone_2": "Unlocks the Memory Stone, allowing you to store and restore experience points.",
-  "Tooltip_RPGSkillTree_MemoryStone_3": "It can be obtained from zombies at a very low drop rate.",
   "Tooltip_RPGSkillTree_Start_1": "[Start]",
   "Tooltip_RPGSkillTree_Start_2": "The heart of the skill tree. Every path starts from this point.",
   "Tooltip_RPGSkillTree_GravityAdaptation_1": "[Gravity Adaptation]",
@@ -238,5 +235,8 @@
   "Tooltip_RPGSkillTree_HydrationBackpack_Mythic": "Hydration backpack infused with eternal frost.<br>Capacity 50 / Weight reduction 99%% / Weight 0.8<br>Water capacity 4L<br>Food stored inside spoils 80%% more slowly (no power needed)",
   "Tooltip_RPGSkillTree_ScoutArtifact_Mythic": "[MYTHIC]<br>While worn, each zombie kill has a 5%% chance to trigger a scan.<br>Nearby zombies within 30 tiles appear on a radar for 20 seconds.<br>Random Box only / Reward chance 0.03%%",
   "Tooltip_RPGSkillTree_SkeletonKey_Normal": "Unlock a locked door or vehicle. Consumes one charge per successful unlock; disappears after 3 uses. Automatically matches the ignition while you are driving. Ignition does not consume charges.",
-  "Tooltip_RPGSkillTree_RandomJumpBox": "Right-click to play Penguin Jump. Consumes one box on the first jump. Collect XP potions and random boxes at a successful stage, or risk them on the next jump. Falling loses all rewards."
+  "Tooltip_RPGSkillTree_RandomJumpBox": "Right-click to play Penguin Jump. Consumes one box on the first jump. Collect XP potions and random boxes at a successful stage, or risk them on the next jump. Falling loses all rewards.",
+  "Tooltip_RPGSkillTree_MemoryStone_3": "Base zombie-kill drop chance: 0.5%. Memory saving and restoring are retired.",
+  "Tooltip_RPGSkillTree_MemoryStone_1": "[Sparkling Thunder Ember]",
+  "Tooltip_RPGSkillTree_MemoryStone_2": "Unlock refining thunder embers for random rewards."
 }

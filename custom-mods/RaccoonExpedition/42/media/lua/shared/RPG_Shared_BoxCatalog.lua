@@ -45,7 +45,7 @@ local function defaultBox()
     if sum > 0 then
         for _,row in ipairs(entries) do row.chance = row.chance * 100 / sum end
     end
-    return {id='default',name='Original RPG Random Box',drop=Chance.getRate(),rewards=entries}
+    return {id='default',name='Sparkling Thunder Ember',drop=Chance.getRate(),rewards=entries}
 end
 Catalog.defaultBox = defaultBox
 local function copyBox(row)
@@ -126,10 +126,11 @@ function Catalog.load()
     if not found then table.insert(saved.boxes,1,defaultBox()) end
     -- WIP pool revision 6: Normal Skeleton Key (three unlock charges). Refresh only the default box;
     -- custom user-created boxes and their reward tables are not touched.
-    if saved.defaultRewardVersion ~= 7 then
+    if saved.defaultRewardVersion ~= 8 then
         for _,box in ipairs(saved.boxes) do
             if box.id == 'default' then
                 box.rewards=defaultBox().rewards
+                box.drop=0.5
                 -- Correct old pre-release 2.11% persisted default, not custom rates.
                 if finite(box.drop) and math.abs(box.drop-2.11)<0.00001 then
                     box.drop=Chance.getRate()
@@ -137,7 +138,7 @@ function Catalog.load()
                 break
             end
         end
-        saved.defaultRewardVersion=7
+        saved.defaultRewardVersion=8
         saved.revision=saved.revision+1
     end
     -- Remove the previously auto-inserted jump box from existing DEFAULT

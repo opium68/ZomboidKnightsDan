@@ -1,1 +1,1 @@
--- Random boxes disabled by Raccoon Expedition; no runtime handlers.
+-- RCE: legacy handler retired; forging has one authoritative owner.
