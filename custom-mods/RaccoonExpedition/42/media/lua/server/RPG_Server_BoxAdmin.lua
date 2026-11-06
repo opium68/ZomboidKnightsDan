@@ -1,0 +1,1 @@
+-- Random boxes disabled by Raccoon Expedition; no runtime handlers.

@@ -1,0 +1,1 @@
+-- RCE: badge mechanism replaces sliding puzzle.

@@ -101,8 +101,25 @@ try {
         $bundledModsRoot = Join-Path $tempRoot 'local-mods'
         New-Item -ItemType Directory -Path $bundledModsRoot -Force | Out-Null
         foreach ($modDirectory in Get-ChildItem -LiteralPath $customModsRoot -Directory) {
+            # Original dependencies are installed by Steam, not the Git launcher.
+            if ($modDirectory.Name -in @('ProjectRPG','RaccoonCityB42')) { continue }
             $localModIds += $modDirectory.Name
-            Copy-Item -LiteralPath $modDirectory.FullName -Destination $bundledModsRoot -Recurse -Force
+            $modSource=$modDirectory.FullName
+            if($modDirectory.Name -eq 'RaccoonExpedition'){
+                # Include generated upstream overrides, not just the integration source.
+                $modSource=Join-Path $projectRoot 'research/raccoon-expedition-stage/RaccoonExpedition'
+                $manifestPath=Join-Path $modSource 'upstream-overrides.json'
+                if(!(Test-Path -LiteralPath $manifestPath)){throw 'Build RaccoonExpedition before packaging.'}
+                foreach($override in (Get-Content -LiteralPath $manifestPath -Raw|ConvertFrom-Json)){
+                    $file=Join-Path $modSource ('42/media/'+$override.RelativeMediaPath)
+                    if((Get-FileHash -LiteralPath $file).Hash -ne $override.OverrideSHA256){throw "Generated RCE override mismatch: $file"}
+                }
+                foreach($sourceFile in Get-ChildItem -LiteralPath $modDirectory.FullName -Recurse -File){
+                    $generated=Join-Path $modSource $sourceFile.FullName.Substring($modDirectory.FullName.Length+1)
+                    if(!(Test-Path -LiteralPath $generated) -or (Get-FileHash -LiteralPath $sourceFile.FullName).Hash -ne (Get-FileHash -LiteralPath $generated).Hash){throw 'RCE source changed: rebuild the stage before packaging.'}
+                }
+            }
+            Copy-Item -LiteralPath $modSource -Destination $bundledModsRoot -Recurse -Force
         }
     }
 

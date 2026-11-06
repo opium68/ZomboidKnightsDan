@@ -1,0 +1,6 @@
+name=Raccoon Expedition (experimental)
+id=RaccoonExpedition
+require=B42_PZLinux,ProjectRPG,RaccoonCityB42
+description=Personal Raccoon City expeditions, ampoule progression and restart-only cycles. Staged testing build.
+modversion=0.1.0
+versionMin=42.21
