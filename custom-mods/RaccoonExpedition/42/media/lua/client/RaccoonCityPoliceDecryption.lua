@@ -172,36 +172,7 @@ function RaccoonCityPoliceDecryption.onClickPut(_playerNum, tSquare)
 			
 			-- RCE: badge mechanism also opens the armory; no sliding puzzle or piece.
 RaccoonCityPoliceDecryption:RemoveSprite(10223,10380,3,'d_shisan_cannotdamaged_16')
--- 生成僵尸
-			for i = 1,50 do 
-				-- 大厅
-				local rx1 = ZombRand(10219, 10235)
-				local ry1 = ZombRand(10380, 10389)
-				if isClient() then
-					--print("server");
-					sendClientCommand("RaccoonCityCommand", "addZombies", {outfit = 'Police', x = rx1, y = ry1 , z = 2,count = 1,femaleChance = 50});
-				else
-					--print("client");
-					addZombiesInOutfit(rx1, ry1, 2, 1, 'Police', 50)
-				end
-				-- 隐藏房间10213 10387   10222 10380
-				local rx2 = ZombRand(10213, 10222)
-				local ry2 = ZombRand(10380, 10387)
-				if isClient() then
-					--print("server");
-					sendClientCommand("RaccoonCityCommand", "addZombies", {outfit = 'Police', x = rx2, y = ry2 , z = 3,count = 1,femaleChance = 50});
-				else
-					--print("client");
-					addZombiesInOutfit(rx2, ry2, 3, 1, 'Police', 50)
-				end
-			end 
-			if isClient() then
-				--print("server");
-				sendClientCommand("RaccoonCityCommand", "addZombies", {outfit = 'Police', x = 10227, y = 10384 , z = 3,count = 10,femaleChance = 50});
-			else
-				--print("client");
-				addZombiesInOutfit(10227, 10384, 3, 10, 'Police', 50)
-			end
+-- RCE: badge completion does not spawn zombies.
 		end 
 	
 	else 
