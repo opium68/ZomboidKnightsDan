@@ -1,0 +1,1209 @@
+module
+RPGSkillTree {
+	imports {
+		Base
+	}
+
+
+    /* [Common] Skeleton Key. Three successful unlocks per individual item. */
+    /* Only registered in the Project RPG random-box prize table. */
+    item SkeletonKey_Normal
+    {
+        DisplayCategory = Material,
+        ItemType = base:key,
+        Weight = 0.1,
+        Icon = Key1,
+        Tooltip = Tooltip_RPGSkillTree_SkeletonKey_Normal,
+        Tags = RPG:Artifacts,
+    }
+
+    /* Project RPG luck artifact: never registered in vanilla loot distributions. */
+    item LuckyChoker_Normal
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 1.0,
+        Icon = Necklace_Choker,
+        BodyLocation = base:neck,
+        ClothingItem = RPG_Reward_LuckyChoker_Normal,
+        Cosmetic = true,
+        WorldStaticModel = Choker_Ground,
+        Tooltip = Tooltip_RPGSkillTree_LuckyChoker_Normal,
+        Tags = RPG:Artifacts,
+    }
+
+    /* Project RPG luck artifact: never registered in vanilla loot distributions. */
+    item LuckyChoker_Rare
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.8,
+        Icon = Necklace_Choker_Diamond,
+        BodyLocation = base:neck,
+        ClothingItem = RPG_Reward_LuckyChoker_Rare,
+        Cosmetic = true,
+        WorldStaticModel = Choker_Diamond_Ground,
+        Tooltip = Tooltip_RPGSkillTree_LuckyChoker_Rare,
+        Tags = RPG:Artifacts,
+    }
+
+    /* Project RPG luck artifact: never registered in vanilla loot distributions. */
+    item LuckyChoker_Legendary
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.5,
+        Icon = Necklace_Choker_Amber,
+        BodyLocation = base:neck,
+        ClothingItem = RPG_Reward_LuckyChoker_Legendary,
+        Cosmetic = true,
+        WorldStaticModel = Choker_Amber_Ground,
+        Tooltip = Tooltip_RPGSkillTree_LuckyChoker_Legendary,
+        Tags = RPG:Artifacts,
+    }
+
+    /* [Mythic] Scout Artifact: random-box reward only (no vanilla loot entries). */
+    item ScoutArtifact_Mythic
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.5,
+        Icon = Necklace_GoldRuby,
+        BodyLocation = base:necklace,
+        ClothingItem = RPG_Reward_ScoutArtifact_Mythic,
+        Cosmetic = true,
+        WorldStaticModel = Necklace_GoldRuby_Ground,
+        Tooltip = Tooltip_RPGSkillTree_ScoutArtifact_Mythic,
+        Tags = RPG:Artifacts,
+    }
+
+    item Necklace_of_Memories_Normal
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 1.0,
+        Icon = Necklace_Crucifix,
+        BodyLocation = base:necklace,
+        ClothingItem = RPG_Reward_Necklace_of_Memories_Normal,
+        Cosmetic = true,
+        WorldStaticModel = Necklace_Crucifix_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Necklace_of_Memories_Normal,
+        Tags = RPG:Artifacts;base:hasmetal,
+    }
+
+    item Necklace_of_Memories_Rare
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.8,
+        Icon = Necklace_SilverDiamond,
+        BodyLocation = base:necklace,
+        ClothingItem = RPG_Reward_Necklace_of_Memories_Rare,
+        Cosmetic = true,
+        WorldStaticModel = Necklace_SilverDiamond_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Necklace_of_Memories_Rare,
+        Tags = RPG:Artifacts;base:hasmetal;base:tinysilverscrap;base:diamondjewellery,
+    }
+
+    item Necklace_of_Memories_Legendary
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.5,
+        Icon = Necklace_GoldRuby,
+        BodyLocation = base:necklace,
+        ClothingItem = RPG_Reward_Necklace_of_Memories_Legendary,
+        Cosmetic = true,
+        WorldStaticModel = Necklace_GoldRuby_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Necklace_of_Memories_Legendary,
+        Tags = RPG:Artifacts;base:hasmetal;base:tinygoldscrap;base:rubyjewellery,
+    }
+	
+	item Necklace_of_Strength_Normal
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 1.0,
+        Icon = NecklaceLong_Amber,
+        BodyLocation = base:necklace_long,
+        ClothingItem = RPG_Reward_Necklace_of_Strength_Normal,
+        Cosmetic = true,
+        WorldStaticModel = NecklaceLong_Amber_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Necklace_of_Strength_Normal,
+		Tags = RPG:Artifacts,
+	}
+	
+	item Necklace_of_Strength_Rare
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.8,
+        Icon = NecklaceLong_SilverDiamond,
+        BodyLocation = base:necklace_long,
+        ClothingItem = RPG_Reward_Necklace_of_Strength_Rare,
+        Cosmetic = true,
+        WorldStaticModel = NecklaceLongSilverDiamond_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Necklace_of_Strength_Rare,
+        Tags = RPG:Artifacts;base:hasmetal;base:tinysilverscrap;base:diamondscrap,
+    }
+	
+	item Necklace_of_Strength_Legendary
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.5,
+        Icon = NecklaceLong_GoldDiamond,
+        BodyLocation = base:necklace_long,
+        ClothingItem = RPG_Reward_Necklace_of_Strength_Legendary,
+        Cosmetic = true,
+        WorldStaticModel = NecklaceLong_GoldDiamond_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Necklace_of_Strength_Legendary,
+        Tags = RPG:Artifacts;base:hasmetal;base:tinygoldscrap;base:diamondjewellery,
+    }
+	
+	item Forest_Earrings_Rare
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.58,
+        Icon = Earring_LoopLrg_Silver,
+        BodyLocation = base:ears,
+        ClothingItem = RPG_Reward_Forest_Earrings_Rare,
+        Cosmetic = true,
+        WorldStaticModel = Earring_LoopLrgSilver_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Forest_Earrings_Rare,
+        Tags = RPG:Artifacts;base:hasmetal;base:tinysilverscrap,
+    }
+	
+	item Forest_Earrings_Legendary
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.5,
+        Icon = Earring_LoopLrg_Gold,
+        BodyLocation = base:ears,
+        ClothingItem = RPG_Reward_Forest_Earrings_Legendary,
+        Cosmetic = true,
+        WorldStaticModel = Earring_LoopLrg_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Forest_Earrings_Legendary,
+        Tags = RPG:Artifacts;base:hasmetal;base:tinygoldscrap,
+    }
+
+    item Dew_Beaded_Ring_Rare
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.8,
+        Icon = NoseRing_Silver,
+        BodyLocation = base:bellybutton,
+        ClothingItem = RPG_Reward_Dew_Beaded_Ring_Rare,
+        Cosmetic = true,
+        WorldStaticModel = NoseringSilver_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Dew_Beaded_Ring_Rare,
+        Tags = RPG:Artifacts;base:hasmetal;base:tinysilverscrap,
+    }
+	
+    item Dew_Beaded_Ring_Legendary
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.5,
+        Icon = NoseRing_Gold,
+        BodyLocation = base:bellybutton,
+        ClothingItem = RPG_Reward_Dew_Beaded_Ring_Legendary,
+        Cosmetic = true,
+        WorldStaticModel = Nosering_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Dew_Beaded_Ring_Legendary,
+        Tags = RPG:Artifacts;base:hasmetal;base:tinygoldscrap;base:rubyjewellery,
+    }
+	
+    item HydrationBackpack_Normal
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Weight = 2.0,
+        Icon = Hydropack_Black,
+        IconsForTexture = Hydropack_Black;Hydropack_Blue;Hydropack_Neon,
+        AttachmentReplacement = Bag,
+        BloodLocation = Bag,
+        CanBeEquipped = base:back,
+        Capacity = 28,
+        CloseSound = CloseHydrationPack,
+        ClothingItem = RPG_Reward_HydrationBackpack_Normal,
+        EquipSound = EquipBackpackLarge,
+        OpenSound = OpenHydrationPack,
+        PutInSound = StoreItemHydrationPack,
+        ReplaceInPrimaryHand = Bag_HydrationBackpack_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_HydrationBackpack_LHand holdingbagleft,
+        RunSpeedModifier = 0.97,
+        SoundParameter = EquippedBaggageContainer SchoolBag,
+        WeightReduction = 85,
+        WorldStaticModel = HydrationBackpack_Ground,
+        Tags = RPG:Artifacts;base:ignorezombiedensity,
+        component FluidContainer
+        {
+            ContainerName = RPGHydrationBackpackNormal,
+            Capacity = 1.0,
+            InitialPercentMin = 0.0,
+            InitialPercentMax = 1.0,
+            Fluids
+            {
+                fluid = Water:1.0,
+            }
+        }
+    }
+	
+    item HydrationBackpack_Rare
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Weight = 1.8,
+        Icon = Hydropack_Blue,
+        IconsForTexture = Hydropack_Black;Hydropack_Blue;Hydropack_Neon,
+        AttachmentReplacement = Bag,
+        BloodLocation = Bag,
+        CanBeEquipped = base:back,
+        Capacity = 30,
+        CloseSound = CloseHydrationPack,
+        ClothingItem = RPG_Reward_HydrationBackpack_Rare,
+        EquipSound = EquipBackpackLarge,
+        OpenSound = OpenHydrationPack,
+        PutInSound = StoreItemHydrationPack,
+        ReplaceInPrimaryHand = Bag_HydrationBackpack_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_HydrationBackpack_LHand holdingbagleft,
+        RunSpeedModifier = 0.98,
+        SoundParameter = EquippedBaggageContainer SchoolBag,
+        WeightReduction = 88,
+        WorldStaticModel = HydrationBackpack_Ground,
+        Tags = RPG:Artifacts;base:ignorezombiedensity,
+        component FluidContainer
+        {
+            ContainerName = RPGHydrationBackpackRare,
+            Capacity = 2.0,
+            InitialPercentMin = 0.0,
+            InitialPercentMax = 2.0,
+            Fluids
+            {
+                fluid = Water:2.0,
+            }
+        }
+    }
+
+    item HydrationBackpack_Legendary
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Weight = 1.0,
+        Icon = Hydropack_Camo,
+        AttachmentReplacement = Bag,
+        BloodLocation = Bag,
+        CanBeEquipped = base:back,
+        Capacity = 35,
+        CloseSound = CloseHydrationPack,
+        ClothingItem = RPG_Reward_HydrationBackpack_Legendary,
+        EquipSound = EquipBackpackLarge,
+        OpenSound = OpenHydrationPack,
+        PutInSound = StoreItemHydrationPack,
+        ReplaceInPrimaryHand = Bag_HydrationBackpack_Camo_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_HydrationBackpack_Camo_LHand holdingbagleft,
+        SoundParameter = EquippedBaggageContainer SchoolBag,
+        WeightReduction = 95,
+        WorldStaticModel = HydrationBackpack_Ground,
+        Tags = RPG:Artifacts;base:ignorezombiedensity,
+        component FluidContainer
+        {
+            ContainerName = RPGHydrationBackpackLegendary,
+            Capacity = 3.0,
+            InitialPercentMin = 0.0,
+            InitialPercentMax = 3.0,
+            Fluids
+            {
+                fluid = Water:3.0,
+            }
+		}
+	}
+	
+    /* Mythic: Eternal Frost Hydration Backpack, random-box exclusive. */
+    /* Native cooling is configured on the server and clients by */
+    /* RPG_Shared_FrostBackpack.lua rather than relying on household power. */
+    item HydrationBackpack_Mythic
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Weight = 0.8,
+        Icon = Hydropack_Blue,
+        AttachmentReplacement = Bag,
+        BloodLocation = Bag,
+        CanBeEquipped = base:back,
+        Capacity = 50,
+        CloseSound = CloseHydrationPack,
+        ClothingItem = RPG_Reward_HydrationBackpack_Mythic,
+        EquipSound = EquipBackpackLarge,
+        OpenSound = OpenHydrationPack,
+        PutInSound = StoreItemHydrationPack,
+        ReplaceInPrimaryHand = Bag_HydrationBackpack_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_HydrationBackpack_LHand holdingbagleft,
+        SoundParameter = EquippedBaggageContainer SchoolBag,
+        WeightReduction = 99,
+        WorldStaticModel = HydrationBackpack_Ground,
+        Tooltip = Tooltip_RPGSkillTree_HydrationBackpack_Mythic,
+        Tags = RPG:Artifacts;base:ignorezombiedensity,
+        component FluidContainer
+        {
+            ContainerName = RPGHydrationBackpackMythic,
+            Capacity = 4.0,
+            InitialPercentMin = 0.0,
+            InitialPercentMax = 4.0,
+            Fluids
+            {
+                fluid = Water:4.0,
+            }
+        }
+    }
+
+    item Bag_ALICE_BeltSus_Normal
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Icon = Webbing,
+        BodyLocation = base:webbing,
+        CanBeEquipped = base:webbing,
+        Capacity = 7,
+        CloseSound = CloseCargoVest,
+        EquipSound = EquipAliceBelt,
+        OpenSound = OpenCargoVest,
+        PutInSound = StoreItemCargoVest,
+        RunSpeedModifier = 0.97,
+        WeightReduction = 80,
+        ClothingItem = RPG_Reward_Bag_ALICE_BeltSus_Normal,
+        WorldStaticModel = ALICE_BeltSus_Ground,
+        AttachmentsProvided = SmallBeltLeft;SmallBeltRight;WebbingRight;WebbingLeft,
+        Tags = RPG:Artifacts;base:reloadfastmagazines;base:ignorezombiedensity;base:hasmetal;base:isfirefuel,
+        MaxItemSize = 1.5,
+        CombatSpeedModifier = 0.98,
+    }
+	
+	item Bag_ALICE_BeltSus_Rare
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Icon = WebbingCamo,
+        IconsForTexture = WebbingCamo;Webbing,
+        BodyLocation = base:webbing,
+        CanBeEquipped = base:webbing,
+        Capacity = 8,
+        CloseSound = CloseCargoVest,
+        EquipSound = EquipAliceBelt,
+        OpenSound = OpenCargoVest,
+        PutInSound = StoreItemCargoVest,
+        RunSpeedModifier = 0.98,
+        WeightReduction = 85,
+        ClothingItem = RPG_Reward_Bag_ALICE_BeltSus_Rare,
+        WorldStaticModel = ALICE_BeltSus_Ground,
+        AttachmentsProvided = SmallBeltLeft;SmallBeltRight;WebbingRight;WebbingLeft,
+        Tags = RPG:Artifacts;base:reloadfastmagazines;base:ignorezombiedensity;base:hasmetal;base:isfirefuel,
+        MaxItemSize = 2.0,
+        CombatSpeedModifier = 0.99,
+    }
+	
+    item Bag_ALICE_BeltSus_Legendary
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Icon = WebbingCamo,
+        BodyLocation = base:webbing,
+        CanBeEquipped = base:webbing,
+        Capacity = 10,
+        CloseSound = CloseCargoVest,
+        EquipSound = EquipAliceBelt,
+        OpenSound = OpenCargoVest,
+        PutInSound = StoreItemCargoVest,
+        WeightReduction = 95,
+        ClothingItem = RPG_Reward_Bag_ALICE_BeltSus_Legendary,
+        WorldStaticModel = ALICE_BeltSus_Ground,
+        AttachmentsProvided = SmallBeltLeft;SmallBeltRight;WebbingRight;WebbingLeft,
+        Tags = RPG:Artifacts;base:reloadfastmagazines;base:ignorezombiedensity;base:hasmetal;base:isfirefuel,
+    }
+
+    item Gratia_Satchel_Normal
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Weight = 1.0,
+        Icon = Satchel_Military,
+        BloodLocation = Bag,
+        CanBeEquipped = base:satchel,
+        Capacity = 13,
+        CloseSound = CloseSatchelMilitary,
+        ClothingItem = RPG_Reward_Gratia_Satchel_Normal,
+        EquipSound = EquipSatchel,
+        OpenSound = OpenSatchelMilitary,
+        PutInSound = StoreItemSatchelMilitary,
+        ReplaceInPrimaryHand = Bag_Satchel_Military_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_Satchel_Military_LHand holdingbagleft,
+        RunSpeedModifier = 0.99,
+        WeightReduction = 68,
+        WorldStaticModel = Satchel_Military_Ground,
+        Tags = RPG:Artifacts;base:ignorezombiedensity;base:isfirefuel;base:isfiretinder,
+    }
+
+    item Gratia_Satchel_Rare
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Weight = 0.8,
+        Icon = Satchel_Mail,
+        BloodLocation = Bag,
+        CanBeEquipped = base:satchel,
+        Capacity = 15,
+        CloseSound = CloseSatchelMail,
+        ClothingItem = RPG_Reward_Gratia_Satchel_Rare,
+        EquipSound = EquipSatchel,
+        OpenSound = OpenSatchelMail,
+        PutInSound = StoreItemSatchelMail,
+        ReplaceInPrimaryHand = Bag_Satchel_Mail_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_Satchel_Mail_LHand holdingbagleft,
+        RunSpeedModifier = 0.99,
+        WeightReduction = 72,
+        WorldStaticModel = Satchel_Mail_Ground,
+        Tags = RPG:Artifacts;base:isfirefuel;base:isfiretinder,
+    }
+
+    item Gratia_Satchel_Legendary
+    {
+        DisplayCategory = Memento,
+        ItemType = base:container,
+        Weight = 0.5,
+        Icon = Satchel_Fishing,
+        BloodLocation = Bag,
+        CanBeEquipped = base:satchel,
+        Capacity = 20,
+        CloseSound = CloseSatchelFishing,
+        ClothingItem = RPG_Reward_Gratia_Satchel_Legendary,
+        EquipSound = EquipSatchel,
+        OpenSound = OpenSatchelFishing,
+        PutInSound = StoreItemSatchelFishing,
+        ReplaceInPrimaryHand = Bag_Satchel_Fishing_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_Satchel_Fishing_LHand holdingbagleft,
+        WeightReduction = 80,
+        WorldStaticModel = Satchel_Fishing_Ground,
+        Tags = RPG:Artifacts;base:ignorezombiedensity;base:isfirefuel;base:isfiretinder;base:ismemento,
+    }
+
+    item Moonlit_Earring_Rare
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.8,
+        Icon = Earring_LoopSmall_Silver,
+        BodyLocation = base:eartop,
+        ClothingItem = RPG_Reward_Moonlit_Earring_Rare,
+        Cosmetic = true,
+        WorldStaticModel = Earring_LoopSmallSilver_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Moonlit_Earring_Rare,
+        Tags = RPG:Artifacts;base:hasmetal;base:tinysilverscrap,
+    }
+		
+	item Moonlit_Earring_Legendary
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.5,
+        Icon = Earring_LoopSmall_Gold,
+        BodyLocation = base:eartop,
+        ClothingItem = RPG_Reward_Moonlit_Earring_Legendary,
+        Cosmetic = true,
+        WorldStaticModel = Earring_LoopSmall_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Moonlit_Earring_Legendary,
+        Tags = RPG:Artifacts;base:hasmetal;base:tinygoldscrap,
+    }
+	
+    item Salvation_BraceletRight_Rare
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.8,
+        Icon = Bracelet_BangleSilver,
+        BodyLocation = base:rightwrist,
+        ClothingExtraSubmenu = RightWrist,
+        ClothingItem = RPG_Reward_Salvation_BraceletRight_Rare,
+        ClothingItemExtra = RPGSkillTree.Salvation_BraceletLeft_Rare,
+        ClothingItemExtraOption = LeftWrist,
+        Cosmetic = true,
+        WorldStaticModel = Bracelet_BangleSilver_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Salvation_BraceletRight_Rare,
+        Tags = RPG:Artifacts;base:hasmetal;base:tinysilverscrap,
+    }
+
+    item Salvation_BraceletLeft_Rare
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.8,
+        Icon = Bracelet_BangleSilver,
+        BodyLocation = base:leftwrist,
+        ClothingExtraSubmenu = LeftWrist,
+        ClothingItem = RPG_Reward_Salvation_BraceletLeft_Rare,
+        ClothingItemExtra = RPGSkillTree.Salvation_BraceletRight_Rare,
+        ClothingItemExtraOption = RightWrist,
+        Cosmetic = true,
+        WorldStaticModel = Bracelet_BangleSilver_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Salvation_BraceletLeft_Rare,
+        Tags = RPG:Artifacts;base:hasmetal;base:tinysilverscrap,
+    }
+	
+	item Salvation_BraceletRight_Legendary
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.5,
+        Icon = Bracelet_Bangle,
+        BodyLocation = base:rightwrist,
+        ClothingExtraSubmenu = RightWrist,
+        ClothingItem = RPG_Reward_Salvation_BraceletRight_Legendary,
+        ClothingItemExtra = RPGSkillTree.Salvation_BraceletLeft_Legendary,
+        ClothingItemExtraOption = LeftWrist,
+        Cosmetic = true,
+        WorldStaticModel = Bracelet_Bangle_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Salvation_BraceletRight_Legendary,
+        Tags = base:hasmetal;base:tinygoldscrap,
+    }
+
+    item Salvation_BraceletLeft_Legendary
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.5,
+        Icon = Bracelet_Bangle,
+        BodyLocation = base:leftwrist,
+        ClothingExtraSubmenu = LeftWrist,
+        ClothingItem = RPG_Reward_Salvation_BraceletLeft_Legendary,
+        ClothingItemExtra = RPGSkillTree.Salvation_BraceletRight_Legendary,
+        ClothingItemExtraOption = RightWrist,
+        Cosmetic = true,
+        WorldStaticModel = Bracelet_Bangle_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Salvation_BraceletLeft_Legendary,
+        Tags = base:hasmetal;base:tinygoldscrap,
+    }
+	
+	item Memory_Stone_Normal
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 0.0,
+        Icon = Boulder,
+        StaticModelsByIndex = LargeStone;LargeStone2;LargeStone3,
+        WorldStaticModelsByIndex = LargeStone;LargeStone2;LargeStone3,
+        Tags = RPG:Artifacts;base:heavyitem,
+    }
+	
+	item Memory_Stone_Rare
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 0.0,
+        Icon = CopperOre,
+        StaticModel = CopperOre,
+        WorldStaticModel = CopperOre,
+        Tags = RPG:Artifacts;base:hasmetal;base:heavyitem;base:copperore;base:coppersource,
+    }
+	
+	item Memory_Stone_Legendary
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 0.0,
+        Icon = Mace_Head,
+        WorldStaticModel = StoneMaceHead,
+		Tags = RPG:Artifacts,
+    }
+    /* [Rare] Random Jump Box: real inventory item. Right-click for Penguin Jump. */
+    /* Registered in the same Build 42.21 item script as the three random boxes. */
+    item RandomJumpBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 0,
+        Icon = RPGJumpBox,
+        WorldStaticModel = Disinfectant,
+        Tooltip = Tooltip_RPGSkillTree_RandomJumpBox,
+        Tags = RPG:Artifacts,
+    }
+
+	
+	item Randombox_Normal
+    {
+        DisplayCategory   = Material,
+        ItemType          = base:normal,
+        Weight            = 0.0,
+        Icon              = Parcel_Medium_Military,
+        WorldStaticModel  = Parcel_Military_Medium,
+        Tags              = RPG:Artifacts;base:hasmetal;ignorezombiedensity,
+    }
+
+    item Randombox_Rare
+    {
+        DisplayCategory   = Material,
+        ItemType          = base:normal,
+        Weight            = 0.0,
+        Icon              = Parcel_Large_Hardware,
+        WorldStaticModel  = Parcel_Hardware_Large,
+        Tags              = RPG:Artifacts;base:hasmetal;ignorezombiedensity,
+    }
+
+    item Randombox_Legendary
+    {
+        DisplayCategory   = Material,
+        ItemType          = base:normal,
+        Weight            = 0.0,
+        Icon              = Parcel_Medium_Ammo,
+        WorldStaticModel  = Parcel_Ammo_Medium,
+        Tags              = RPG:Artifacts;base:hasmetal;ignorezombiedensity,
+    }
+	
+	item Evil_Blood
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 0.0,
+        Icon = Paint_Red,
+        Tooltip = Tooltip_RPGSkillTree_Evil_Blood,
+        StaticModel = PaintTinRed_Ground,
+        WorldStaticModel = PaintTinRed_Ground,
+        Tags = RPG:Artifacts,
+	}
+	
+	item Evil_Soul
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 0.0,
+        Icon = Limestone,
+        WorldStaticModel = Limestone,
+        Tags = RPG:Artifacts,
+        Tooltip = Tooltip_RPGSkillTree_Evil_Soul,
+    }
+	
+    item Evil_Sacrifice
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Icon = Wallpaper_BeigeStripe,
+        Weight = 0.0,
+        WorldStaticModel = Wallpaper_BeigeStripe,
+        Tags = RPG:Artifacts,
+        Tooltip = Tooltip_RPGSkillTree_Evil_Sacrifice,
+    }
+
+    item PropaneGasTicket
+    {
+        DisplayCategory = Junk,
+        Weight = 0.1,
+        ItemType = base:literature,
+        Icon = SpeedingTicket,
+        WorldStaticModel = SpeedingTicket,
+        Tags = RPG:Artifact;base:applyownername;base:uninteresting,
+    }
+
+    item Crowbar_Rare
+    {
+        DisplayCategory = ToolWeapon,
+        ItemType = base:weapon,
+        Weight = 2.0,
+        IconsForTexture = Crowbar;Crowbar_Forged,
+        AttachmentType = BigBlade,
+        BaseSpeed = 1.0,
+        BreakSound = CrowbarBreak,
+        Categories = base:blunt,
+        ConditionLowerChanceOneIn = 70,
+        ConditionMax = 30,
+        CritDmgMultiplier = 2.5,
+        CriticalChance = 20.0,
+        DoorDamage = 8,
+        DoorHitSound = CrowbarHit,
+        DropSound = CrowbarDrop,
+        HitAngleMod = -30.0,
+        HitFloorSound = CrowbarHit,
+        HitSound = CrowbarHit,
+        KnockBackOnNoDeath = true,
+        KnockdownMod = 0.0,
+        MaxDamage = 1.15,
+        MaxHitcount = 3,
+        MaxRange = 1.25,
+        MetalValue = 150.0,
+        MinAngle = 0.75,
+        MinDamage = 0.6,
+        MinRange = 0.61,
+        MinimumSwingtime = 3.0,
+        PushBackMod = 0.5,
+        RunAnim = Run_Weapon2,
+        SubCategory = Swinging,
+        SwingAmountBeforeImpact = 0.02,
+        SwingAnim = Bat,
+        SwingSound = CrowbarSwing,
+        Swingtime = 3.0,
+        TreeDamage = 0,
+        TwoHandWeapon = true,
+        WeaponLength = 0.4,
+        WeaponSpritesByIndex = Crowbar;CrowbarForged,
+        Tags = RPG:Artifacts;base:crowbar;base:removebarricade;base:killanimal;base:smeltablesteellarge;base:hasmetal,
+        Researchablerecipes = Forge_Crowbar,
+    }
+
+    item Crowbar_Legendary
+    {
+        DisplayCategory = ToolWeapon,
+        ItemType = base:weapon,
+        Weight = 2.0,
+        IconsForTexture = Crowbar;Crowbar_Forged,
+        AttachmentType = BigBlade,
+        BaseSpeed = 1.0,
+        BreakSound = CrowbarBreak,
+        Categories = base:blunt,
+        ConditionLowerChanceOneIn = 70,
+        ConditionMax = 30,
+        CritDmgMultiplier = 2.5,
+        CriticalChance = 20.0,
+        DoorDamage = 8,
+        DoorHitSound = CrowbarHit,
+        DropSound = CrowbarDrop,
+        HitAngleMod = -30.0,
+        HitFloorSound = CrowbarHit,
+        HitSound = CrowbarHit,
+        KnockBackOnNoDeath = true,
+        KnockdownMod = 0.0,
+        MaxDamage = 1.15,
+        MaxHitcount = 4,
+        MaxRange = 1.25,
+        MetalValue = 150.0,
+        MinAngle = 0.75,
+        MinDamage = 0.6,
+        MinRange = 0.61,
+        MinimumSwingtime = 3.0,
+        PushBackMod = 0.5,
+        RunAnim = Run_Weapon2,
+        SubCategory = Swinging,
+        SwingAmountBeforeImpact = 0.02,
+        SwingAnim = Bat,
+        SwingSound = CrowbarSwing,
+        Swingtime = 3.0,
+        TreeDamage = 0,
+        TwoHandWeapon = true,
+        WeaponLength = 0.4,
+        WeaponSpritesByIndex = Crowbar;CrowbarForged,
+        Tags = RPG:Artifacts;base:crowbar;base:removebarricade;base:killanimal;base:smeltablesteellarge;base:hasmetal,
+        Researchablerecipes = Forge_Crowbar,
+    }
+
+    item Axe_Rare
+    {
+        DisplayCategory = ToolWeapon,
+        ItemType = base:weapon,
+        Weight = 3.0,
+        Icon = Axe,
+        AttachmentType = BigWeapon,
+        BaseSpeed = 1.0,
+        BreakSound = AxeBreak,
+        Categories = base:axe,
+        ConditionLowerChanceOneIn = 70,
+        ConditionMax = 30,
+        CritDmgMultiplier = 9.0,
+        CriticalChance = 25.0,
+        DamageCategory = Slash,
+        DamageMakeHole = true,
+        DoorDamage = 35,
+        DoorHitSound = AxeHit,
+        DropSound = AxeDrop,
+        HitAngleMod = -30.0,
+        HitFloorSound = AxeHit,
+        HitSound = AxeHit,
+        IdleAnim = Idle_Weapon2,
+        KnockBackOnNoDeath = true,
+        KnockdownMod = 2.0,
+        MaxDamage = 2.0,
+        MaxHitcount = 3,
+        MaxRange = 1.2,
+        MetalValue = 120.0,
+        MinAngle = 0.72,
+        MinDamage = 0.8,
+        MinRange = 0.61,
+        MinimumSwingtime = 3.0,
+        PushBackMod = 0.3,
+        RunAnim = Run_Weapon2,
+        SplatBloodOnNoDeath = true,
+        SplatNumber = 3,
+        SplatSize = 5,
+        SubCategory = Swinging,
+        SwingAmountBeforeImpact = 0.002,
+        SwingAnim = Bat,
+        SwingSound = AxeSwing,
+        Swingtime = 3.0,
+        TreeDamage = 35,
+        TwoHandWeapon = true,
+        WeaponLength = 0.38,
+        WeaponSprite = FireAxe,
+        Tags = RPG:Artifacts;base:choptree;base:cutplant;base:removebarricade;base:killanimal;base:repairwithtape;base:repairwithglue;base:hasmetal,
+        Researchablerecipes = MakeLargeStoneAxeHead;Forge_Old_Axe_Head,
+    }
+
+    item Axe_Legendary
+    {
+        DisplayCategory = ToolWeapon,
+        ItemType = base:weapon,
+        Weight = 3.0,
+        Icon = Axe,
+        AttachmentType = BigWeapon,
+        BaseSpeed = 1.0,
+        BreakSound = AxeBreak,
+        Categories = base:axe,
+        ConditionLowerChanceOneIn = 70,
+        ConditionMax = 30,
+        CritDmgMultiplier = 9.0,
+        CriticalChance = 25.0,
+        DamageCategory = Slash,
+        DamageMakeHole = true,
+        DoorDamage = 35,
+        DoorHitSound = AxeHit,
+        DropSound = AxeDrop,
+        HitAngleMod = -30.0,
+        HitFloorSound = AxeHit,
+        HitSound = AxeHit,
+        IdleAnim = Idle_Weapon2,
+        KnockBackOnNoDeath = true,
+        KnockdownMod = 2.0,
+        MaxDamage = 2.0,
+        MaxHitcount = 4,
+        MaxRange = 1.2,
+        MetalValue = 120.0,
+        MinAngle = 0.72,
+        MinDamage = 0.8,
+        MinRange = 0.61,
+        MinimumSwingtime = 3.0,
+        PushBackMod = 0.3,
+        RunAnim = Run_Weapon2,
+        SplatBloodOnNoDeath = true,
+        SplatNumber = 3,
+        SplatSize = 5,
+        SubCategory = Swinging,
+        SwingAmountBeforeImpact = 0.002,
+        SwingAnim = Bat,
+        SwingSound = AxeSwing,
+        Swingtime = 3.0,
+        TreeDamage = 35,
+        TwoHandWeapon = true,
+        WeaponLength = 0.38,
+        WeaponSprite = FireAxe,
+        Tags = RPG:Artifacts;base:choptree;base:cutplant;base:removebarricade;base:killanimal;base:repairwithtape;base:repairwithglue;base:hasmetal,
+        Researchablerecipes = MakeLargeStoneAxeHead;Forge_Old_Axe_Head,
+    }
+
+    item ShortSword_Rare
+    {
+        DisplayCategory = Weapon,
+        ItemType = base:weapon,
+        Weight = 1.5,
+        Icon = Sword_Forged_Short,
+        AttachmentType = Sword,
+        BaseSpeed = 1.0,
+        BreakSound = ShortSwordBreak,
+        Categories = base:longblade,
+        ConditionLowerChanceOneIn = 70,
+        ConditionMax = 30,
+        CritDmgMultiplier = 4.0,
+        CriticalChance = 20.0,
+        DamageCategory = Slash,
+        DamageMakeHole = true,
+        DoorDamage = 5,
+        DoorHitSound = ShortSwordHit,
+        DropSound = ShortSwordDrop,
+        HitAngleMod = -30.0,
+        HitFloorSound = ShortSwordHit,
+        HitSound = ShortSwordHit,
+        ImpactSound = ShortSwordHit,
+        KnockBackOnNoDeath = true,
+        KnockdownMod = 0.0,
+        MaxDamage = 2.0,
+        MaxHitcount = 3,
+        MaxRange = 1.23,
+        MinAngle = 0.8,
+        MinDamage = 1.5,
+        MinRange = 0.61,
+        MinimumSwingtime = 3.0,
+        PushBackMod = 0.5,
+        RunAnim = Run_Weapon2,
+        SubCategory = Swinging,
+        SwingAmountBeforeImpact = 0.02,
+        SwingAnim = Bat,
+        SwingSound = ShortSwordSwing,
+        Swingtime = 3.0,
+        Tags = RPG:Artifacts;base:ignorezombiedensity;base:hasmetal,
+        TreeDamage = 5,
+        WeaponLength = 0.3,
+        WeaponSprite = ShortSword,
+        Researchablerecipes = Forge_Crude_Shortsword_Blade;Forge_Crude_Sword_Blade;Forge_ShortSwordBlade;Forge_Sword_Blade;Forge_Machete_Blade;Forge_Scrap_Shortsword,
+    }
+
+    item ShortSword_Legendary
+    {
+        DisplayCategory = Weapon,
+        ItemType = base:weapon,
+        Weight = 1.5,
+        Icon = Sword_Forged_Short,
+        AttachmentType = Sword,
+        BaseSpeed = 1.0,
+        BreakSound = ShortSwordBreak,
+        Categories = base:longblade,
+        ConditionLowerChanceOneIn = 70,
+        ConditionMax = 30,
+        CritDmgMultiplier = 4.0,
+        CriticalChance = 20.0,
+        DamageCategory = Slash,
+        DamageMakeHole = true,
+        DoorDamage = 5,
+        DoorHitSound = ShortSwordHit,
+        DropSound = ShortSwordDrop,
+        HitAngleMod = -30.0,
+        HitFloorSound = ShortSwordHit,
+        HitSound = ShortSwordHit,
+        ImpactSound = ShortSwordHit,
+        KnockBackOnNoDeath = true,
+        KnockdownMod = 0.0,
+        MaxDamage = 2.0,
+        MaxHitcount = 4,
+        MaxRange = 1.23,
+        MinAngle = 0.8,
+        MinDamage = 1.5,
+        MinRange = 0.61,
+        MinimumSwingtime = 3.0,
+        PushBackMod = 0.5,
+        RunAnim = Run_Weapon2,
+        SubCategory = Swinging,
+        SwingAmountBeforeImpact = 0.02,
+        SwingAnim = Bat,
+        SwingSound = ShortSwordSwing,
+        Swingtime = 3.0,
+        Tags = RPG:Artifacts;base:ignorezombiedensity;base:hasmetal,
+        TreeDamage = 5,
+        WeaponLength = 0.3,
+        WeaponSprite = ShortSword,
+        Researchablerecipes = Forge_Crude_Shortsword_Blade;Forge_Crude_Sword_Blade;Forge_ShortSwordBlade;Forge_Sword_Blade;Forge_Machete_Blade;Forge_Scrap_Shortsword,
+    }
+
+    item HuntingKnife_Rare
+    {
+        DisplayCategory = Weapon,
+        ItemType = base:weapon,
+        Weight = 1.0,
+        IconsForTexture = HuntingKnife;HuntingKnife_Forged,
+        AimingMod = 0.8,
+        AttachmentType = Knife,
+        BreakSound = HuntingKnifeBreak,
+        Categories = base:smallblade,
+        CloseKillMove = Jaw_Stab,
+        ConditionLowerChanceOneIn = 70,
+        ConditionMax = 30,
+        CritDmgMultiplier = 3.0,
+        CriticalChance = 50.0,
+        DamageCategory = Slash,
+        DamageMakeHole = true,
+        DoorDamage = 1,
+        DoorHitSound = HuntingKnifeHit,
+        DropSound = HuntingKnifeDrop,
+        HitFloorSound = HuntingKnifeHit,
+        HitSound = HuntingKnifeHit,
+        IdleAnim = Idle_Weapon2,
+        ImpactSound = HuntingKnifeHit,
+        IsAimedHandWeapon = true,
+        KnockBackOnNoDeath = false,
+        KnockdownMod = 0.0,
+        MaxDamage = 1.2,
+        MaxHitcount = 2,
+        MaxRange = 0.9,
+        MetalValue = 30.0,
+        MinAngle = 0.65,
+        MinDamage = 0.6,
+        MinRange = 0.61,
+        MinimumSwingtime = 2.0,
+        PushBackMod = 0.01,
+        RunAnim = Run_Weapon2,
+        SplatBloodOnNoDeath = true,
+        SplatNumber = 4,
+        SubCategory = Stab,
+        SwingAmountBeforeImpact = 0.02,
+        SwingAnim = Stab,
+        SwingSound = HuntingKnifeSwing,
+        Swingtime = 2.0,
+        TreeDamage = 0,
+        WeaponLength = 0.25,
+        WeaponSpritesByIndex = HuntingKnife;HuntingKnifeForged,
+        Tags = RPG:Artifacts;base:cutplant;base:sharpknife;base:butcheranimal;base:killanimal;base:hasmetal,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+    }
+
+    item HuntingKnife_Legendary
+    {
+        DisplayCategory = Weapon,
+        ItemType = base:weapon,
+        Weight = 1.0,
+        IconsForTexture = HuntingKnife;HuntingKnife_Forged,
+        AimingMod = 0.8,
+        AttachmentType = Knife,
+        BreakSound = HuntingKnifeBreak,
+        Categories = base:smallblade,
+        CloseKillMove = Jaw_Stab,
+        ConditionLowerChanceOneIn = 70,
+        ConditionMax = 30,
+        CritDmgMultiplier = 3.0,
+        CriticalChance = 50.0,
+        DamageCategory = Slash,
+        DamageMakeHole = true,
+        DoorDamage = 1,
+        DoorHitSound = HuntingKnifeHit,
+        DropSound = HuntingKnifeDrop,
+        HitFloorSound = HuntingKnifeHit,
+        HitSound = HuntingKnifeHit,
+        IdleAnim = Idle_Weapon2,
+        ImpactSound = HuntingKnifeHit,
+        IsAimedHandWeapon = true,
+        KnockBackOnNoDeath = false,
+        KnockdownMod = 0.0,
+        MaxDamage = 1.2,
+        MaxHitcount = 3,
+        MaxRange = 0.9,
+        MetalValue = 30.0,
+        MinAngle = 0.65,
+        MinDamage = 0.6,
+        MinRange = 0.61,
+        MinimumSwingtime = 2.0,
+        PushBackMod = 0.01,
+        RunAnim = Run_Weapon2,
+        SplatBloodOnNoDeath = true,
+        SplatNumber = 4,
+        SubCategory = Stab,
+        SwingAmountBeforeImpact = 0.02,
+        SwingAnim = Stab,
+        SwingSound = HuntingKnifeSwing,
+        Swingtime = 2.0,
+        TreeDamage = 0,
+        WeaponLength = 0.25,
+        WeaponSpritesByIndex = HuntingKnife;HuntingKnifeForged,
+        Tags = RPG:Artifacts;base:cutplant;base:sharpknife;base:butcheranimal;base:killanimal;base:hasmetal,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+    }
+
+    item Revolver_Legendary
+    {
+        DisplayCategory = Weapon,
+        ItemType = base:weapon,
+        Weight = 1.0,
+        Icon = RevolverShort,
+        AimingPerkCritModifier = 6,
+        AimingPerkHitChanceModifier = 5,
+        AimingPerkMinAngleModifier = 0.05,
+        AimingPerkRangeModifier = 1,
+        AimReleaseSound = M36AimRelease,
+        Aimingtime = 15,
+        AmmoBox = Base.Bullets38Box,
+        AmmoType = base:bullets_38,
+        AttachmentType = HolsterSmall,
+        BreakSound = M36Break,
+        BringToBearSound = M36BringToBear,
+        ClickSound = M36Jam,
+        ConditionLowerChanceOneIn = 200,
+        ConditionMax = 30,
+        CritDmgMultiplier = 10.0,
+        CriticalChance = 20.0,
+        DoorDamage = 50,
+        DropSound = M36Drop,
+        EjectAmmoSound = M36EjectAmmo,
+        EjectAmmoStartSound = M36EjectAmmoStart,
+        EjectAmmoStopSound = M36EjectAmmoStop,
+        EquipSound = M36Equip,
+        HaveChamber = false,
+        HitChance = 70,
+        HitSound = BulletImpact,
+        ImpactSound = null,
+        InsertAmmoSound = M36InsertAmmo,
+        InsertAmmoStartSound = M36InsertAmmoStart,
+        InsertAmmoStopSound = M36InsertAmmoStop,
+        IsAimedFirearm = true,
+        JamGunChance = 0,
+        KnockBackOnNoDeath = true,
+        KnockdownMod = 2.0,
+        ManuallyRemoveSpentRounds = true,
+        MaxAmmo = 50,
+        MaxDamage = 1.6,
+        MaxHitcount = 2,
+        MaxRange = 18.0,
+        MinSightRange = 2,
+        MaxSightRange = 6.5,
+        MetalValue = 30.0,
+        MinAngle = 0.95,
+        MinDamage = 1.0,
+        MinRange = 0.61,
+        MinimumSwingtime = 0.5,
+        MultipleHitConditionAffected = false,
+        MuzzleFlashModelKey = muzzle_flash_revolver_short,
+        NPCSoundBoost = 1.5,
+        Projectilecount = 1,
+        PushBackMod = 0.3,
+        Ranged = true,
+        RecoilDelay = 11,
+        Reloadtime = 30,
+        RunAnim = Run_Weapon2,
+        ShellFallSound = M36CartridgeFall,
+        SoundGain = 1.5,
+        SoundRadius = 60,
+        SoundVolume = 25,
+        SplatBloodOnNoDeath = true,
+        SplatNumber = 3,
+        SplatSize = 3,
+        StopPower = 5.0,
+        SubCategory = Firearm,
+        SwingAmountBeforeImpact = 0.0,
+        SwingAnim = Handgun,
+        SwingSound = M36Shoot,
+        Swingtime = 0.5,
+        ToHitModifier = 1.5,
+        UnequipSound = M36UnEquip,
+        UseEndurance = false,
+        WeaponReloadType = revolver,
+        WeaponSprite = Revolver_Short,
+        Tags = RPG:Artifacts;base:hasmetal;base:firearm,
+    }
+	
+    item Evil_Bone
+    {
+        DisplayCategory = AnimalPart,
+        Weight = 0.0,
+        ItemType = base:normal,
+        Tags = RPG:Artifacts,
+        Icon = Bones,
+        WorldStaticModel = Bones_Ground,
+    }
+	
+	item BoneCollectors_Earing
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 1.0,
+        Icon = Earrings_BoarTusk,
+        BodyLocation = base:ears,
+        ClothingItem = RPG_Reward_BoneCollectors_Earing,
+        Cosmetic = true,
+        WorldStaticModel = Earring_BoarTusk,
+        Tags = RPG:Artifacts;base:ignorezombiedensity,
+		Tooltip = Tooltip_RPGSkillTree_Evil_Bone,
+    }
+	
+	item Ritual_Scroll
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 0.0,
+        Icon = LeatherHide_CowBrown,
+        WorldStaticModel = Leather_Brown_Medium,
+        Tags = RPG:Artifacts,
+        Tooltip = Tooltip_RPGSkillTree_Ritual_Scroll,
+    }
+}

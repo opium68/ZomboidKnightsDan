@@ -235,7 +235,7 @@
   "Tooltip_RPGSkillTree_LuckyChoker_Rare": "Eligible Project RPG item drop chance +10%%<br>While worn / Random Box exclusive",
   "Tooltip_RPGSkillTree_LuckyChoker_Legendary": "Eligible Project RPG item drop chance +30%%<br>While worn / Random Box exclusive",
   "Tooltip_RPGSkillTree_MythicElixir": "[MYTHIC]<br>Cures injuries, zombie infection, illness and negative conditions.<br>Fully restores health and endurance.<br>Removes panic, stress, unhappiness, boredom, wetness, pain, food poisoning and more.<br>One use / Random Box reward chance 0.03%%",
-  "Tooltip_RPGSkillTree_HydrationBackpack_Mythic": "Hydration backpack infused with eternal frost.<br>Capacity 40 / Weight reduction 97%% / Weight 0.8<br>Water capacity 4L<br>Food stored inside spoils 80%% more slowly (no power needed)",
+  "Tooltip_RPGSkillTree_HydrationBackpack_Mythic": "Hydration backpack infused with eternal frost.<br>Capacity 50 / Weight reduction 99%% / Weight 0.8<br>Water capacity 4L<br>Food stored inside spoils 80%% more slowly (no power needed)",
   "Tooltip_RPGSkillTree_ScoutArtifact_Mythic": "[MYTHIC]<br>While worn, each zombie kill has a 5%% chance to trigger a scan.<br>Nearby zombies within 30 tiles appear on a radar for 20 seconds.<br>Random Box only / Reward chance 0.03%%",
   "Tooltip_RPGSkillTree_SkeletonKey_Normal": "Unlock a locked door or vehicle. Consumes one charge per successful unlock; disappears after 3 uses. Automatically matches the ignition while you are driving. Ignition does not consume charges.",
   "Tooltip_RPGSkillTree_RandomJumpBox": "Right-click to play Penguin Jump. Consumes one box on the first jump. Collect XP potions and random boxes at a successful stage, or risk them on the next jump. Falling loses all rewards."

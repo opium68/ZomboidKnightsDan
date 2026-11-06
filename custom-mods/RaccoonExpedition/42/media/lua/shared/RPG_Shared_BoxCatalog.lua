@@ -39,7 +39,7 @@ local function defaultBox()
     local sum = 0
     for _, row in ipairs(Loot.POOL) do
         local chance = row.chance * 100
-        entries[#entries+1] = {type=row.type, chance=chance, tier=Catalog.rewardTier(row)}
+        entries[#entries+1] = {type=row.type, count=row.count or 1, chance=chance, tier=Catalog.rewardTier(row)}
         sum = sum + chance
     end
     if sum > 0 then
@@ -51,7 +51,7 @@ Catalog.defaultBox = defaultBox
 local function copyBox(row)
     local b = {id=row.id,name=row.name,drop=row.drop,rewards={}}
     for _,r in ipairs(row.rewards or {}) do
-        b.rewards[#b.rewards+1] = {type=r.type,chance=r.chance,tier=Catalog.rewardTier(r)}
+        b.rewards[#b.rewards+1] = {type=r.type,count=r.count or 1,chance=r.chance,tier=Catalog.rewardTier(r)}
     end
     return b
 end
@@ -93,7 +93,9 @@ function Catalog.validate(raw)
         if entry.tier~=nil and entry.tier~='Normal' and entry.tier~='Rare' and entry.tier~='Legendary' and entry.tier~='Mythic' then
             return nil,'Invalid reward tier at row '..i
         end
-        rewards[#rewards+1]={type=entry.type,chance=weight,tier=Catalog.rewardTier(entry)}
+        local count=finite(entry.count or 1)
+        if not count or count<1 or count>100 or count~=math.floor(count) then return nil,'Invalid reward quantity' end
+        rewards[#rewards+1]={type=entry.type,count=count,chance=weight,tier=Catalog.rewardTier(entry)}
         sum=sum+weight
     end
     if math.abs(sum-100)>0.011 then
@@ -124,7 +126,7 @@ function Catalog.load()
     if not found then table.insert(saved.boxes,1,defaultBox()) end
     -- WIP pool revision 6: Normal Skeleton Key (three unlock charges). Refresh only the default box;
     -- custom user-created boxes and their reward tables are not touched.
-    if saved.defaultRewardVersion ~= 6 then
+    if saved.defaultRewardVersion ~= 7 then
         for _,box in ipairs(saved.boxes) do
             if box.id == 'default' then
                 box.rewards=defaultBox().rewards
@@ -135,7 +137,7 @@ function Catalog.load()
                 break
             end
         end
-        saved.defaultRewardVersion=6
+        saved.defaultRewardVersion=7
         saved.revision=saved.revision+1
     end
     -- Remove the previously auto-inserted jump box from existing DEFAULT

@@ -235,7 +235,7 @@
   "Tooltip_RPGSkillTree_LuckyChoker_Rare": "Project RPG 아이템 획득 확률 +10%%<br>착용 시 적용 / 랜덤박스 전용",
   "Tooltip_RPGSkillTree_LuckyChoker_Legendary": "Project RPG 아이템 획득 확률 +30%%<br>착용 시 적용 / 랜덤박스 전용",
   "Tooltip_RPGSkillTree_MythicElixir": "[신화]<br>모든 부상·좀비 감염·질병·상태이상을 치유합니다.<br>체력 및 지구력을 완전히 회복합니다.<br>공황·스트레스·우울·지루함·젖음·통증·식중독 등 해소.<br>1회 소모 / 랜덤박스 보상 확률 0.03%%",
-  "Tooltip_RPGSkillTree_HydrationBackpack_Mythic": "영원한 서리가 깃든 수분보급배낭입니다.<br>용량 40 / 무게 감소 97%% / 자체 무게 0.8<br>물 보유량 4L<br>내부 식품 부패 속도 80%% 감소 (전기 불필요)",
+  "Tooltip_RPGSkillTree_HydrationBackpack_Mythic": "영원한 서리가 깃든 수분보급배낭입니다.<br>용량 50 / 무게 감소 99%% / 자체 무게 0.8<br>물 보유량 4L<br>내부 식품 부패 속도 80%% 감소 (전기 불필요)",
   "Tooltip_RPGSkillTree_ScoutArtifact_Mythic": "[신화]<br>착용 시 좀비 처치마다 5%% 확률로 탐지가 발동합니다.<br>30칸 이내 좀비 위치가 20초 동안 레이더에 표시됩니다.<br>랜덤박스 전용 / 획득 확률 0.03%%",
   "Tooltip_RPGSkillTree_SkeletonKey_Normal": "잠긴 문이나 차량을 열 수 있습니다. 성공할 때마다 1회 소모되며 최대 3회 사용 후 사라집니다. 운전석에 앉으면 차량의 시동키에 자동으로 맞춰집니다. 시동 기능은 사용 횟수를 소모하지 않습니다.",
   "Tooltip_RPGSkillTree_RandomJumpBox": "우클릭하여 펭귄 점프 게임을 진행합니다. 첫 점프 시 상자 1개 소모. 성공 단계에서 보상을 수령하거나 추가 점프에 도전할 수 있습니다. 실패하면 보상을 모두 잃습니다."
