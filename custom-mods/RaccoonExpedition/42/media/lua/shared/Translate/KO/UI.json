@@ -390,12 +390,11 @@
   "UI_RPG_Drop_SP_EvilSoul": "악한 영혼을 획득했습니다.",
   "UI_RPG_Drop_SP_EvilSacrifice": "악한 제물을 획득했습니다.",
   "UI_RPG_Drop_SP_Memory": "메모리 스톤을 획득했습니다.",
-  "UI_RPG_Randombox_OpenAll": "벼락불 모두 제련하기 (%1)",
-  "UI_RPG_BoxOdds_Context": "벼락불 제련 보상과 확률",
   "UI_RPG_Reveal_Title": "벼락불 제련",
-  "UI_RCE_Forge_Locked": "반짝이는 벼락불 노드를 먼저 배우세요",
-  "UI_RPG_Randombox_Lucky": "반짝이는 벼락불을 획득했다!",
+  "UI_RPG_BoxOdds_Context": "벼락불 제련 보상과 확률",
   "UI_RPG_Reveal_Empty": "제련한 벼락불이 없습니다",
   "UI_RPG_Randombox_Open": "벼락불 제련하기",
-  "UI_RPG_Status_MemoryStone": "반짝이는 벼락불"
+  "UI_RPG_Randombox_Lucky": "반짝이는 벼락불을 획득했다!",
+  "UI_RPG_Status_MemoryStone": "반짝이는 벼락불",
+  "UI_RPG_Randombox_OpenAll": "벼락불 모두 제련하기 (%1)"
 }

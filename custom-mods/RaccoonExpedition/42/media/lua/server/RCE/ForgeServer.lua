@@ -12,7 +12,7 @@ local function sync(player,inv,item,remove)
  end
 end
 function S.award(player,value)
- if not player or player:isDead() then return false end
+ if not player or player:isDead() or not RCE.Forge.unlocked(player) then return false end
  local r=tonumber(value)
  if not r then r=ZombRandFloat and ZombRandFloat(0,1) or ZombRand(100000000)/100000000 end
  if r>=RCE.Forge.probability(player) then return false end
@@ -27,7 +27,7 @@ local function tell(player,payload)
  elseif sendServerCommand then sendServerCommand(player,'RPGSkillTree','RandomboxReveal',payload) end
 end
 function S.open(player,args)
- if not player or player:isDead() or not RCE.Forge.unlocked(player) or type(args)~='table' then return false end
+ if not player or player:isDead() or type(args)~='table' then return false end
  local id=args.requestId
  if type(id)~='string' or #id<1 or #id>48 then return false end
  local md=player:getModData();md.RCEForgeRequests=md.RCEForgeRequests or {}

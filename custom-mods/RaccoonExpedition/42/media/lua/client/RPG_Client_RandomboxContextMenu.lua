@@ -98,10 +98,6 @@ local function OnFillInventoryObjectContextMenu(playerNum, context, items)
         end
     end
     if not box then return end
-    if not RCE.Forge.unlocked(pl) then
-        local option=context:addOption(getText('UI_RCE_Forge_Locked'),box,nil)
-        option.notAvailable=true;return
-    end
 
     local tier = getTierFromItem(box)
     if not tier then return end

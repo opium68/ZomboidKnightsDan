@@ -11,5 +11,6 @@ function F.isItem(item)
  return ft=='RPGSkillTree.Randombox_Normal' or ft=='RPGSkillTree.Randombox_Rare' or ft=='RPGSkillTree.Randombox_Legendary'
 end
 function F.probability(player)
+ if not F.unlocked(player) then return 0 end
  return require('RPG_Shared_ItemFindChance').boost(F.chance,player)
 end

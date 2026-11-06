@@ -390,12 +390,11 @@
   "UI_RPG_Drop_SP_EvilSoul": "You obtained an Evil Soul.",
   "UI_RPG_Drop_SP_EvilSacrifice": "You obtained an Evil Sacrifice.",
   "UI_RPG_Drop_SP_Memory": "You obtained a Memory Stone.",
-  "UI_RPG_Randombox_OpenAll": "Refine All Embers (%1)",
-  "UI_RPG_BoxOdds_Context": "Ember rewards and odds",
   "UI_RPG_Reveal_Title": "Thunder Ember Refining",
-  "UI_RCE_Forge_Locked": "Learn Sparkling Thunder Ember first",
-  "UI_RPG_Randombox_Lucky": "A sparkling thunder ember!",
+  "UI_RPG_BoxOdds_Context": "Ember rewards and odds",
   "UI_RPG_Reveal_Empty": "No embers refined",
   "UI_RPG_Randombox_Open": "Refine Thunder Ember",
-  "UI_RPG_Status_MemoryStone": "Sparkling Thunder Ember"
+  "UI_RPG_Randombox_Lucky": "A sparkling thunder ember!",
+  "UI_RPG_Status_MemoryStone": "Sparkling Thunder Ember",
+  "UI_RPG_Randombox_OpenAll": "Refine All Embers (%1)"
 }
