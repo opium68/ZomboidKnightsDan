@@ -51,3 +51,6 @@ J&G Forest Multicam, Black Multicam, Trauma Responder, MARPAT and British DPM ar
 
 
 2026-11-06 ember update: legacy boxes are now Sparkling Thunder Embers (base zombie drop 0.5%, original item-find bonuses). The renamed MemoryStone node unlocks zombie drops; anyone can refine acquired embers for 19 outcomes, including ampoule bundles of 1/3/10. Legacy memory save/restore is retired; account death-growth preservation remains. Frost backpack capacity is 50 with 99% weight reduction. See [the four-page patch notes and promotional PDF](https://github.com/opium68/ZomboidKnightsDan/releases/download/v0.1.0-20261106.5/KnightsDan-Update-20261106.pdf). Multiplayer visual verification remains separate from automated and isolated-engine checks.
+
+2026-11-06 server operations: missing clean-stop receipts now defer only the region reset. Existing world startup succeeds. Startup backups reuse compressed unchanged files to produce a new standalone full ZIP, with complete CRC/SHA verification and deletion handling. The existing client release stays unchanged. See [server operations](docs/SERVER-START-BACKUP-20261106.md).
+
