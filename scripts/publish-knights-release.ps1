@@ -89,7 +89,7 @@ foreach($file in 'build-supply.mjs','build-clothing-movement.mjs','common.ps1','
     Copy-Item -LiteralPath (Join-Path $PSScriptRoot $file) -Destination (Join-Path $repository "scripts/$file") -Force
 }
 New-Item -ItemType Directory -Path (Join-Path $repository 'config/escape_test') -Force | Out-Null
-$publicIni=@(Get-Content -LiteralPath (Join-Path $root 'config/escape_test/escape_test.ini') | Where-Object {$_ -match '^(Mods|WorkshopItems|DoLuaChecksum)='}) -join "`n"
+$publicIni=@(Get-Content -LiteralPath (Join-Path $root 'config/escape_test/escape_test.ini') | Where-Object {$_ -match '^(Mods|WorkshopItems|DoLuaChecksum|AntiCheat[A-Za-z]+)='}) -join "`n"
 [IO.File]::WriteAllText((Join-Path $repository 'config/escape_test/escape_test.ini'),$publicIni,[Text.UTF8Encoding]::new($false))
 $readme=@'
 # Zomboid Knights Dan

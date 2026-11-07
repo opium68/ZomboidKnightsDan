@@ -1,0 +1,5 @@
+# Server anti-cheat disabled - 2026-11-08
+
+At the owner's request, all ten AntiCheat enum settings in escape_test are set to 4 (disabled), in the live INI and both deployment configuration copies. Actual installed B42.21 AntiCheat.isEnabled() bytecode verifies enum value 4 disables validation. Value 3 was log mode; AntiCheatNoClip.react still teleported non-exempt players back, matching the mansion ramp report. This change disables the engine anti-cheat categories globally, rather than adding a location exception. Lua file consistency checking and PvP safety retain their existing settings.
+
+Original configuration copies were backed up locally before editing. No world or character data was edited and the server was not restarted. A running server must also receive changeoption for each option, or reload the settings on its next normal startup. Runtime application is not yet verified.
