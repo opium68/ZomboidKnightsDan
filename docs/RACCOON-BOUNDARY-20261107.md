@@ -25,3 +25,5 @@
 적용 전 전체 백업: escape_test-20261107-023408.zip, SHA256 A70F35A9E843BFEAEEB09774660BE6DFAE60D118EF4AD6FD73A376311ED76A4C. 통합 모드와 기존 네이티브 JAR도 별도 보관했다. 운영 월드는 초기화 대상인 상태였으므로 정상 종료 영수증 일치를 확인한 뒤 일회성 점검 래퍼에서 초기화 단계만 실행하지 않고 로컬 접속 전용으로 잠시 기동했다. 보수를 적용하고 정상 저장·종료했다. 영수증을 임의 생성하거나 초기화 상태를 위조하지 않았으며, 정상 런처의 내부 인원 없음+재시작 시 초기화 정책은 변경하지 않았다. 전후 캐릭터 위치·생사·저장 데이터 SHA256 및 원정 회차가 같음을 비교했다. 서버는 종료 상태로 둔다.
 
 참가자는 게임을 완전히 종료하고 기존 JOIN-SERVER.cmd로 자동 업데이트한다. 다른 서버 호스트는 서버를 끄고 server-runtime/raccoon-bridge.jar 및 SHA256.txt를 확인해 D:/PZDedicated/RCE/raccoon-bridge.jar를 교체해야 한다. 이 JAR는 클라이언트 배포물에 포함하지 않는다. 검증 엔진 SHA256: E1A69EB743EDE60B213A0FE7F8B83D4FCAB773036D256CC4543A336F3B058A33.
+공개 배포 후 검증: PUBLIC_GIT_PASS version=0.1.0-20261107.1 signedFiles=198 serverMatchedModFiles=184 mods=106 workshopDependencies=2 updaterPS7=PASS server=OFF. 실제 런처 endpoint의 서명 검증과 공개 ZIP 설치 검증 및 운영 모드 전체 파일 SHA-256 대조 완료. 서버 정지 상태를 다시 확인했다.
+
