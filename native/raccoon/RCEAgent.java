@@ -23,12 +23,62 @@ public final class RCEAgent {
     private static void with(Object builder,Object element)throws Exception{
         c("ClassFileBuilder").getMethod("with",c("ClassFileElement")).invoke(builder,element);
     }
+    private static byte[] protect(String owner,byte[] bytes)throws Exception {
+        int[] count={0};
+        Object cl=transform("ClassTransform",(builder,element)->{
+            if(c("MethodModel").isInstance(element)) {
+                Object entry=c("MethodModel").getMethod("methodName").invoke(element);
+                String name=(String)c("constantpool.Utf8Entry").getMethod("stringValue").invoke(entry);
+                String desc=(String)c("constantpool.Utf8Entry").getMethod("stringValue").invoke(c("MethodModel").getMethod("methodType").invoke(element));
+                boolean square=owner.equals("zombie/iso/IsoGridSquare");
+                boolean burn=square && java.util.Set.of("Burn","BurnWalls","BurnWallsTCOnly","BurnTick").contains(name) && desc.endsWith(")V");
+                boolean remove=square && java.util.Set.of("RemoveTileObject","RemoveTileObjectErosionNoRecalc","transmitRemoveItemFromSquare","transmitRemoveItemFromSquareOnClients").contains(name) && desc.startsWith("(Lzombie/iso/IsoObject;");
+                boolean fence=(owner.endsWith("/BrokenFences")||owner.endsWith("/BentFences")) && (name.equals("destroyFence")||name.equals("bendFence")) && desc.startsWith("(Lzombie/iso/IsoObject;") && desc.endsWith(")V");
+                boolean object=!square && !owner.endsWith("Fences") && java.util.Set.of("Damage","Thump","destroyFence","handleBurning","destroy","WeaponHit").contains(name) && desc.endsWith(")V");
+                if(burn||remove||fence||object){
+                    int slot=(remove||fence)?1:0;boolean integer=desc.endsWith(")I");
+                    Object mt=transform("MethodTransform",(mb,me)->{
+                        if(c("CodeModel").isInstance(me)){
+                            boolean[] inserted={false};
+                            Object ct=transform("CodeTransform",(cb,ce)->{
+                                if(!inserted[0] && c("Instruction").isInstance(ce)){
+                                    inserted[0]=true;
+                                    c("CodeBuilder").getMethod("aload",int.class).invoke(cb,slot);
+                                    c("CodeBuilder").getMethod("invokestatic",ClassDesc.class,String.class,MethodTypeDesc.class).invoke(cb,ClassDesc.of("raccoon.RCEProtection"),burn?"square":"object",MethodTypeDesc.ofDescriptor(burn?"(Lzombie/iso/IsoGridSquare;)Z":"(Lzombie/iso/IsoObject;)Z"));
+                                    java.util.function.Consumer<Object> ret=b->{try{
+                                        if(integer)c("CodeBuilder").getMethod("iconst_m1").invoke(b);
+                                        c("CodeBuilder").getMethod(integer?"ireturn":"return_").invoke(b);
+                                    }catch(Exception e){throw new RuntimeException(e);}};
+                                    c("CodeBuilder").getMethod("ifThen",java.util.function.Consumer.class).invoke(cb,ret);
+                                }
+                                with(cb,ce);
+                            });
+                            c("MethodBuilder").getMethod("transformCode",c("CodeModel"),c("CodeTransform")).invoke(mb,me,ct);
+                        }else with(mb,me);
+                    });
+                    c("ClassBuilder").getMethod("transformMethod",c("MethodModel"),c("MethodTransform")).invoke(builder,element,mt);
+                    count[0]++;return;
+                }
+            }
+            with(builder,element);
+        });
+        Object api=c("ClassFile").getMethod("of").invoke(null);
+        Object model=c("ClassFile").getMethod("parse",byte[].class).invoke(api,bytes);
+        byte[] result=(byte[])c("ClassFile").getMethod("transformClass",c("ClassModel"),c("ClassTransform")).invoke(api,model,cl);
+        if(count[0]==0)throw new IllegalStateException("No barrier methods matched "+owner);
+        System.out.println("[RCE_AGENT] barrier guards "+owner+" methods="+count[0]);
+        return result;
+    }
     public static void premain(String ignored, Instrumentation instrumentation) {
         System.out.println("[RCE_AGENT] armed");
         instrumentation.addTransformer(new ClassFileTransformer() {
             public byte[] transform(ClassLoader loader, String name, Class<?> cls,
                                     ProtectionDomain domain, byte[] bytes) {
-                if (!"zombie/Lua/LuaManager".equals(name)) return null;
+                if (!"zombie/Lua/LuaManager".equals(name)) {
+                    if(java.util.Set.of("zombie/iso/IsoObject","zombie/iso/objects/IsoThumpable","zombie/iso/IsoGridSquare","zombie/iso/BrokenFences","zombie/iso/BentFences").contains(name))
+                        try{return protect(name,bytes);}catch(Exception e){e.printStackTrace();throw new IllegalStateException("Barrier guard failed "+name,e);}
+                    return null;
+                }
                 try {
                     // JDK25's supported Class-File API, accessed reflectively so
                     // the agent itself can be built by the available javac21.

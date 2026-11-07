@@ -20,8 +20,9 @@ RCE.Config = {
     exits={
         {id='north',x=10064,y=9908,z=0},
         {id='east',x=10484,y=10051,z=0},
-        {id='southwest',x=9905,y=10490,z=0},
+        {id='southwest',x=9914,y=10451,z=0},
         {id='south',x=10270,y=10478,z=0},
+        {id='west',x=9924,y=10192,z=0},
     },
     -- No invented fallback destination. If origin/nearby squares fail, stay
     -- inside the expedition and report failure until an admin sets a fallback.
