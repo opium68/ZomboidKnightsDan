@@ -29,3 +29,7 @@
 
 
 점검 기동 중에만 PauseEmpty=false로 설정하고 종료 시 설정 파일 원본 바이트를 복원했으며 PauseEmpty=true를 재확인했다. 마지막 재검증은 청크 유지가 완료될 때까지 매 틱 유지하고 일시정지 중에도 확인하는 경로까지 포함한다. 정상 운영 런처는 수정하지 않았다.
+
+## Client loading correction — 0.1.0-20261107.3
+
+The 22:27 client log identified a Lua error in zzzz_RCEBarrier.lua: ISDestroyCursor was absent because BuildingObjects/ISDestroyCursor is server-side in B42.21. The client no longer requires that unavailable module. Its optional cursor guard installs only when the class exists, including a late OnGameStart check. The shared timed-action guard and native server protection remain active. A focused regression covers absent and late cursor classes, protected and ordinary objects, and repeated installation. Actual reconnect verification remains pending.

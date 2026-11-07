@@ -236,7 +236,7 @@
   "Tooltip_RPGSkillTree_ScoutArtifact_Mythic": "[MYTHIC]<br>While worn, each zombie kill has a 5%% chance to trigger a scan.<br>Nearby zombies within 30 tiles appear on a radar for 20 seconds.<br>Random Box only / Reward chance 0.03%%",
   "Tooltip_RPGSkillTree_SkeletonKey_Normal": "Unlock a locked door or vehicle. Consumes one charge per successful unlock; disappears after 3 uses. Automatically matches the ignition while you are driving. Ignition does not consume charges.",
   "Tooltip_RPGSkillTree_RandomJumpBox": "Right-click to play Penguin Jump. Consumes one box on the first jump. Collect XP potions and random boxes at a successful stage, or risk them on the next jump. Falling loses all rewards.",
-  "Tooltip_RPGSkillTree_MemoryStone_1": "[Sparkling Thunder Ember]",
+  "Tooltip_RPGSkillTree_MemoryStone_3": "After learning this node: base drop chance 0.5%. Anyone can refine an acquired ember, without this node.",
   "Tooltip_RPGSkillTree_MemoryStone_2": "Unlock thunder ember drops from zombie kills.",
-  "Tooltip_RPGSkillTree_MemoryStone_3": "After learning this node: base drop chance 0.5%. Anyone can refine an acquired ember, without this node."
+  "Tooltip_RPGSkillTree_MemoryStone_1": "[Sparkling Thunder Ember]"
 }
