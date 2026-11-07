@@ -55,3 +55,5 @@ J&G Forest Multicam, Black Multicam, Trauma Responder, MARPAT and British DPM ar
 RPD badge completion opens stairs and the secret armory without the original 110 extra zombies. Population settings are unchanged: global 0.65, start 0.5, peak 1.0, regular respawn disabled. See docs/RACCOON-POPULATION-20261106.md. Server startup and recovery: docs/SERVER-START-BACKUP-20261106.md.
 
 2026-11-07 boundary update: southwest return moved to 9914,10451,0; west return added at 9924,10192,0 (five total). Two original-map breaches are repaired and outer barricades protected against damage/removal. Server runtime update is required; see docs/RACCOON-BOUNDARY-20261107.md.
+
+Bunker garage door update: original garage doors removed at both western lodge ramps (12 exact surface tiles). Floors, frames and ramps are preserved. See docs/RACCOON-BUNKER-DOORS-20261107.md for scope and actual-client retest status.
