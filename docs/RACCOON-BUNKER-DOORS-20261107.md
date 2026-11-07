@@ -21,3 +21,6 @@
 
 기존 Git 런처로 배포하며 원본 모드는 계속 Steam에서 받는다. 게임을 완전히 종료하고 JOIN-SERVER.cmd를 실행하면 된다. 서버는 종료 상태로 둔다.
 운영 저장 전후 캐릭터 9명의 위치·생사·데이터 SHA256 및 원정 cycle=6 일치 PASS. PauseEmpty 원복 확인. 관련 백업과 로그는 운영 프로젝트의 backups 및 logs에 보관한다.
+
+공개 배포 후 검증: PUBLIC_GIT_PASS version=0.1.0-20261107.2 signedFiles=200 serverMatchedModFiles=186 mods=106 workshopDependencies=2 updaterPS7=PASS server=OFF. 실제 런처 endpoint의 서명 검증과 공개 ZIP 설치 검증 및 운영 모드 전체 파일 SHA-256 대조 완료. 서버 정지 상태를 다시 확인했다.
+
