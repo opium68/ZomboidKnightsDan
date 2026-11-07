@@ -21,7 +21,7 @@ for _,client in ipairs({true,false}) do
  RaccoonCityPoliceDecryption.AddSprite=function(_,x,y,z,s)added[x..','..y..','..z..':'..s]=true end
  RaccoonCityPoliceDecryption.onClickPut(0,nil)
  assert(#items==0,'Badges consumed')
- assert(removed['10223,10380,3:d_shisan_cannotdamaged_16'],'Armory opens')
+ assert(not removed['10223,10380,3:d_shisan_cannotdamaged_16'],'Armory is server-owned')
  local stairs=0;for k in pairs(added)do if string.find(k,'fixtures_stairs',1,true)then stairs=stairs+1 end end
  assert(stairs==6,'All stairs opened')
  RaccoonCityPoliceDecryption.onClickPut(0,nil)

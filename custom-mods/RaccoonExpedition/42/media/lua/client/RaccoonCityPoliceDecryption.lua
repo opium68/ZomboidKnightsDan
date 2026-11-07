@@ -171,7 +171,7 @@ function RaccoonCityPoliceDecryption.onClickPut(_playerNum, tSquare)
 		
 			
 			-- RCE: badge mechanism also opens the armory; no sliding puzzle or piece.
-RaccoonCityPoliceDecryption:RemoveSprite(10223,10380,3,'d_shisan_cannotdamaged_16')
+-- RCE: the server opens the armory after verifying all six puzzle stairs.
 -- RCE: badge completion does not spawn zombies.
 		end 
 	
