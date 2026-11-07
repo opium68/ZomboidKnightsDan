@@ -27,3 +27,5 @@
 참가자는 게임을 완전히 종료하고 기존 JOIN-SERVER.cmd로 자동 업데이트한다. 다른 서버 호스트는 서버를 끄고 server-runtime/raccoon-bridge.jar 및 SHA256.txt를 확인해 D:/PZDedicated/RCE/raccoon-bridge.jar를 교체해야 한다. 이 JAR는 클라이언트 배포물에 포함하지 않는다. 검증 엔진 SHA256: E1A69EB743EDE60B213A0FE7F8B83D4FCAB773036D256CC4543A336F3B058A33.
 공개 배포 후 검증: PUBLIC_GIT_PASS version=0.1.0-20261107.1 signedFiles=198 serverMatchedModFiles=184 mods=106 workshopDependencies=2 updaterPS7=PASS server=OFF. 실제 런처 endpoint의 서명 검증과 공개 ZIP 설치 검증 및 운영 모드 전체 파일 SHA-256 대조 완료. 서버 정지 상태를 다시 확인했다.
 
+
+점검 기동 중에만 PauseEmpty=false로 설정하고 종료 시 설정 파일 원본 바이트를 복원했으며 PauseEmpty=true를 재확인했다. 마지막 재검증은 청크 유지가 완료될 때까지 매 틱 유지하고 일시정지 중에도 확인하는 경로까지 포함한다. 정상 운영 런처는 수정하지 않았다.
