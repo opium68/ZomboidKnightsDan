@@ -27,3 +27,6 @@ The requested account-specific respec was handled separately through a validated
 Before work, standalone verified full backup escape_test-20261108-121517.zip was created: 278901311 bytes, 249550 entries; SHA256 E11907F94665C7369D20B6C4572B76827B8694D027F29BE8C08520201B7F1ACC. Existing expedition regressions and focused medical/hydration tests pass. The operating server was kept loopback-only for maintenance, the current expedition cycle was preserved, and normal shutdown/receipt was verified. PauseEmpty was restored. All ten engine anti-cheat categories remain configured at 4 (disabled).
 
 The server is left stopped. Start through the usual host launcher; clients fully close the game and run JOIN-SERVER.cmd for the signed Git update. Workshop originals remain Steam dependencies. No automatic full-world or character reset was introduced.
+## Loot multiplier adjustment
+
+At the owner's request, RangedWeaponLootNew remains 1.2 and AmmoLootNew changes from 4.0 to 2.0 in both the operating and host-deployment SandboxVars. The original configuration files were backed up locally. The server remains stopped; the next normal startup uses these values for new loot generation. Already generated container inventories are not reduced or rerolled by this setting change.
