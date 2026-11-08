@@ -59,3 +59,5 @@ RPD badge completion opens stairs and the secret armory without the original 110
 Bunker garage door update: original garage doors removed at both western lodge ramps (12 exact surface tiles). Floors, frames and ramps are preserved. See docs/RACCOON-BUNKER-DOORS-20261107.md for scope and actual-client retest status.
 
 RPD armory and stairs repair: the server removes the secret entrance and six stairwell floor blockers after verifying badge-puzzle stairs, including existing completed runs. See docs/RPD-ARMORY-STAIRS-20261108.md for verification and rollout status.
+
+November medical and usability fixes: each of 11 medical buildings independently receives 0-3 extra ampoules per cycle; RPD shelf passage and music adjusted; hydration action component correction. See docs/NOVEMBER-FIXES-20261108.md for verification and multiplayer retest limits.
