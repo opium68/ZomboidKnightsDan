@@ -21,5 +21,8 @@
   "IGUI_RCE_TransferFailed": "이동하지 못했습니다. 다시 시도하세요",
   "IGUI_RCE_Dead": "사망하여 취소됐습니다",
   "IGUI_RCE_SafetyCheck": "목적지 안전 확인 중...",
-  "IGUI_RCE_CountdownSuffix": " (%1초)"
+  "IGUI_RCE_CountdownSuffix": " (%1초)",
+  "IGUI_RCE_OpenPrincipalSecret": "비밀문 개방",
+  "IGUI_RCE_EmptyPrincipalCabinet": "캐비닛을 먼저 비워 주세요.",
+  "IGUI_RCE_SuspiciousFurniture": "뭔가 수상하다"
 }

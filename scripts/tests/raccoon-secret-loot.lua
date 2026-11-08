@@ -4,14 +4,14 @@ RCE={Config={ampoule='RPGSkillTree.LevelUpElixir'},inside=function()return true 
 Events=setmetatable({},{__index=function()return {Add=function()end}end})
 require=function(name)if name=='RCE/Server'then return true end;return load(name)end
 load('RCE/SecretPools')
-assert(#RCE.SecretPools==2)
+assert(#RCE.SecretPools==3)
 local randomValue=0
 ZombRand=function(n)return math.min(randomValue,n-1)end
 local M=load('RCE/SecretLoot')
-for choice=0,2 do
+for choice=0,3 do
  state.secret=nil;randomValue=choice
- local plan=M.initialize();assert(plan.total==(3+choice)*2)
- assert(plan.buildings.principal==3+choice and plan.buildings.slaughter==3+choice)
+ local plan=M.initialize();local expected=3+math.min(choice,2);assert(plan.total==expected*2+choice)
+ assert(plan.buildings.principal==expected and plan.buildings.slaughter==expected and plan.buildings['gunstore-basement']==choice)
  assert(M.initialize()==plan,'No reroll on restart/reentry')
  local given=0
  for _,e in pairs(plan.plan)do
@@ -24,6 +24,13 @@ for choice=0,2 do
 end
 state.cycle=9
 local new=M.initialize();for _ in pairs(new.delivered)do error('Ledger not reset')end
+-- Upgrade an existing same-cycle ledger without re-granting older secret rooms.
+local count=new.buildings['gunstore-basement'];new.buildings['gunstore-basement']=nil
+for key,e in pairs(new.plan)do if e.building=='gunstore-basement'then new.plan[key]=nil end end
+new.total=new.total-count;new.delivered.keep=7
+local oldPrincipal=new.buildings.principal;randomValue=0
+assert(M.initialize()==new and new.buildings.principal==oldPrincipal and new.buildings['gunstore-basement']==0 and new.delivered.keep==7,'Same-cycle new pool added once; prior quotas and deliveries preserved')
+randomValue=3;assert(M.initialize().buildings['gunstore-basement']==0,'Zero allocation is persisted, not re-rolled')
 local sword={getFullType=function()return 'Base.dabaojian'end}
 local other={getFullType=function()return 'Base.Katana'end}
 local inv={sword,other,sword}

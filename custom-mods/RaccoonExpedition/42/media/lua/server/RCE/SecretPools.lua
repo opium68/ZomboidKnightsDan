@@ -8,4 +8,14 @@ RCE.SecretPools={
   {x=10110,y=10412,z=-1,type='metal_shelves',tile='shisan_rpd4_116'},
   {x=10110,y=10413,z=-1,type='metal_shelves',tile='shisan_furniture_3_31'},
  }},
+ {id='gunstore-basement',min=0,max=3,containers={
+  {x=10317,y=9956,z=-1,type='crate',tile='carpentry_01_16'},
+  {x=10317,y=9956,z=-1,type='crate',tile='carpentry_01_17'},
+  {x=10318,y=9956,z=-1,type='crate',tile='carpentry_01_16'},
+  {x=10319,y=9956,z=-1,type='militarylocker',tile='location_military_generic_01_22'},
+  {x=10316,y=9962,z=-1,type='militarycrate',tile='shisan_rpd5_94'},
+  {x=10317,y=9962,z=-1,type='militarycrate',tile='shisan_rpd5_94'},
+  {x=10318,y=9962,z=-1,type='militarycrate',tile='shisan_rpd5_94'},
+  {x=10323,y=9960,z=-1,type='toolcabinet',tile='location_business_machinery_01_35'},
+ }},
 }

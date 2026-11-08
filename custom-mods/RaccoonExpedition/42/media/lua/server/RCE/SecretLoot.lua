@@ -4,12 +4,15 @@ RCE.SecretLoot={}
 local M=RCE.SecretLoot
 function M.initialize()
  local state=RCE.Server.store()
- if state.secret and state.secret.cycle==state.cycle then return state.secret end
- local med={cycle=state.cycle,plan={},delivered={},buildings={},total=0}
+ local med=state.secret
+ if not med or med.cycle~=state.cycle then med={cycle=state.cycle,plan={},delivered={},buildings={},total=0}end
+ local changed=false
  for _,building in ipairs(RCE.SecretPools)do
+ if med.buildings[building.id]==nil then
+  changed=true
   local pool={};for _,c in ipairs(building.containers)do pool[#pool+1]=c end
   if #pool>0 then
-   local total=3+ZombRand(3);med.buildings[building.id]=total;med.total=med.total+total
+   local total=(building.min or 3)+ZombRand((building.max or 5)-(building.min or 3)+1);med.buildings[building.id]=total;med.total=med.total+total
    for i=1,total do
     local at=ZombRand(#pool)+1;local c=pool[at]
     local key=table.concat({c.x,c.y,c.z,c.type,c.tile},':')
@@ -21,8 +24,9 @@ function M.initialize()
    end
   end
  end
+ end
  state.secret=med
- print('[RCE_SECRET] PLAN cycle='..state.cycle..' ampoules='..med.total)
+ if changed then print('[RCE_SECRET] PLAN cycle='..state.cycle..' ampoules='..med.total)end
  return med
 end
 function M.fill(_,_,container)

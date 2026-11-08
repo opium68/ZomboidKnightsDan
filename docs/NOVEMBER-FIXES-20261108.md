@@ -34,3 +34,7 @@ At the owner's request, RangedWeaponLootNew remains 1.2 and AmmoLootNew changes 
 ## Secret-room reward update
 
 Release 0.1.0-20261108.3 adds an independent 3–5 ampoules per cycle to each of the principal and slaughterhouse secret rooms, and replaces original dabaojian rewards with one ampoule per sword. Entry-route inspection found no ordinary doorway to the principal or gun-store hidden rooms; the slaughterhouse basement stairs passed bidirectional native collision checks. See [secret rewards and entry findings](RACCOON-SECRET-LOOT-20261108.md). No entrance walls were changed.
+
+## Queued interactive passages
+
+The .5 candidate is prepared for the next normal server start: four independent 50% cabinet buttons, one-second proximity/two-second overhead clue, original school and gun-store iron bars removed, and a separate 0–3 ampoules in the northeast gun-store basement. Ordinary demolition remains allowed. This is deferred deployment, not a live .5 activation. See [the final rules and rollout checks](RACCOON-SECRET-DOORS-20261108.md).

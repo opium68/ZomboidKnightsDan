@@ -27,3 +27,7 @@ Release 0.1.0-20261108.3. Focused Lua regression covers exact independent 3/4/5 
 The operating server is left stopped; installed mod files take effect on its next normal startup. Clients fully close the game and run JOIN-SERVER.cmd to update from Git. Workshop originals remain Steam dependencies. No world reset or character respec is performed by this update.
 
 Pre-update standalone backup: escape_test-20261108-175720.zip, 278883717 bytes, 249549 entries, SHA256 560DF6C2833BEF2F889A98FBC61618EA1AA21240E491ACE29B6CCB395D21B40B. Installed RCE files were verified against the tested stage by SHA256. The operating save and current cycle were not opened or changed by this deployment.
+
+## Subsequent entrance and loot work
+
+The original no-doorway findings above predate the queued .5 candidate: four interactive furniture sites independently select buttons at 50% each, the original school and gun-store inner walls/bars are cleared, and the gun-store basement containing 10318,9960,-1 gains a separate 0–3 ampoules. Principal and slaughterhouse totals remain 3–5 each. Ordinary demolition remains allowed. See [final rules and deferred rollout](RACCOON-SECRET-DOORS-20261108.md). The active manifest stays on .3 until the next normal host start.

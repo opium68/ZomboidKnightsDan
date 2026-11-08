@@ -21,5 +21,8 @@
   "IGUI_RCE_TransferFailed": "Transfer failed. Try again.",
   "IGUI_RCE_Dead": "Cancelled: character died",
   "IGUI_RCE_SafetyCheck": "Checking the destination...",
-  "IGUI_RCE_CountdownSuffix": " (%1s)"
+  "IGUI_RCE_CountdownSuffix": " (%1s)",
+  "IGUI_RCE_OpenPrincipalSecret": "Open secret passage",
+  "IGUI_RCE_EmptyPrincipalCabinet": "Empty the cabinet first.",
+  "IGUI_RCE_SuspiciousFurniture": "Something seems suspicious."
 }
