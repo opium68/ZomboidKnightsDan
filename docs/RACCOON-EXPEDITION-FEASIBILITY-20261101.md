@@ -104,3 +104,7 @@ LV 창에서 비활성화된 위험도 패널을 생성해 발생하던 오류�
 다크웹 입장 UI 연결을 OnGameStart 한 번에 의존하지 않도록 변경했다. 즉시 설치와 OnCreatePlayer, 지연 로딩 재시도를 지원하며 중복 연결은 방지한다. 멀티플레이어 생성 이벤트, 늦은 UI 로딩, 입장 요청을 실행하는 회귀 검사를 추가했다. 실제 화면 재확인은 대기 중이다.
 
 현재 접속 시험은 4개 모드만 활성화한 최소 구성이다. 운영 프로필은 103개 모드이며 백신 좀비·기존 서버 패치·UI·특성·아이템 등과의 통합 호환성을 검증하지 않았다. 운영 목록과 순서를 유지하고 원정 모드를 추가한 별도 시험이 배포 전 필요하다.
+
+## 2026-11-08 medical supplementation and usability update
+
+The existing 8-12 primary ampoules are retained. In addition, each of the eleven reviewed medical buildings independently receives 0-3 ampoules per expedition cycle (0-33 additional in total), with a persistent per-building quota and delivery ledger. See [November fixes](NOVEMBER-FIXES-20261108.md) for the building IDs, cabinet selection, RPD passage/music changes, hydration correction and actual-client verification limits. Release 0.1.0-20261108.2 is installed and published. Maintenance preserved cycle 8 and stopped normally; private character maintenance verified that eight other player rows remained identical.

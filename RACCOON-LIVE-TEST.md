@@ -122,3 +122,7 @@ Git 공개 배포 검증 완료: 0.1.0-20261106.5. 기존 런처가 사용하는
 ## 2026-11-07 탈출 지점·외곽 보수 완료
 
 남서쪽 9914,10451,0으로 수정, 서쪽 9924,10192,0 추가(총 5곳). 두 틈 보수, 외곽 전용 타일 파괴·해체 방지 적용. 최종 엔진 검사 및 운영 저장·정상 종료 PASS. 캐릭터 9명의 위치·생사·저장 데이터 SHA256과 cycle=6 유지, PauseEmpty 원복. Git 0.1.0-20261107.1 공개 서명 및 운영 모드 184파일 SHA256 대조 PASS. 실제 두 참가자 화면과 실제 차량 충돌 주행은 별도 확인 대상. [세부 범위](https://github.com/opium68/ZomboidKnightsDan/blob/main/docs/RACCOON-BOUNDARY-20261107.md).
+
+## 2026-11-08 medical supplementation and usability update
+
+The existing 8-12 primary ampoules are retained. In addition, each of the eleven reviewed medical buildings independently receives 0-3 ampoules per expedition cycle (0-33 additional in total), with a persistent per-building quota and delivery ledger. See [November fixes](NOVEMBER-FIXES-20261108.md) for the building IDs, cabinet selection, RPD passage/music changes, hydration correction and actual-client verification limits. Release 0.1.0-20261108.2 is installed and published. Maintenance preserved cycle 8 and stopped normally; private character maintenance verified that eight other player rows remained identical.
