@@ -1,0 +1,11 @@
+RCE.SecretPools={
+ {id='principal',containers={
+  {x=10401,y=9998,z=2,type='crate',tile='shisan_furniture_2_119'},
+  {x=10401,y=9999,z=2,type='crate',tile='shisan_furniture_2_119'},
+ }},
+ {id='slaughter',containers={
+  {x=10110,y=10411,z=-1,type='metal_shelves',tile='shisan_rpd4_117'},
+  {x=10110,y=10412,z=-1,type='metal_shelves',tile='shisan_rpd4_116'},
+  {x=10110,y=10413,z=-1,type='metal_shelves',tile='shisan_furniture_3_31'},
+ }},
+}

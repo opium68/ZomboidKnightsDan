@@ -60,12 +60,12 @@ function RaccoonCityItemsSpawns.OnBadgeSpawns(roomName, containerType, container
 		end 
 	elseif roomName:contains("gunstorehide") then -- 枪店隐藏
 		if containerType == "knifeshelf" and not SandboxVars.DisableDaBaoJian then 
-			container:AddItem("dabaojian");
+			container:AddItem("RPGSkillTree.LevelUpElixir");
 		end 
 		if containerType == "militarycrate" and not SandboxVars.DisableDaBaoJian then 
 			local rand = ZombRand(0, 100) + 1
 			if rand <= 30 then 
-				container:AddItem("dabaojian");
+				container:AddItem("RPGSkillTree.LevelUpElixir");
 			end 
 		end 
 	elseif roomName:contains("biochemlab") then -- 疫苗所
@@ -103,7 +103,7 @@ function RaccoonCityItemsSpawns.OnBadgeSpawns(roomName, containerType, container
 				if modData.dabaojian < 1 then -- 最多刷1把
 					local rand = ZombRand(0, 100) + 1
 					if rand <= 10 then 
-						container:AddItem("dabaojian");
+						container:AddItem("RPGSkillTree.LevelUpElixir");
 						modData.dabaojian = modData.dabaojian + 1
 					end 
 				end 

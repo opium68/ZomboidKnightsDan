@@ -30,3 +30,7 @@ The server is left stopped. Start through the usual host launcher; clients fully
 ## Loot multiplier adjustment
 
 At the owner's request, RangedWeaponLootNew remains 1.2 and AmmoLootNew changes from 4.0 to 2.0 in both the operating and host-deployment SandboxVars. The original configuration files were backed up locally. The server remains stopped; the next normal startup uses these values for new loot generation. Already generated container inventories are not reduced or rerolled by this setting change.
+
+## Secret-room reward update
+
+Release 0.1.0-20261108.3 adds an independent 3–5 ampoules per cycle to each of the principal and slaughterhouse secret rooms, and replaces original dabaojian rewards with one ampoule per sword. Entry-route inspection found no ordinary doorway to the principal or gun-store hidden rooms; the slaughterhouse basement stairs passed bidirectional native collision checks. See [secret rewards and entry findings](RACCOON-SECRET-LOOT-20261108.md). No entrance walls were changed.
