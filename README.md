@@ -63,3 +63,5 @@ RPD armory and stairs repair: the server removes the secret entrance and six sta
 November medical and usability fixes: each of 11 medical buildings independently receives 0-3 extra ampoules per cycle; RPD shelf passage and music adjusted; hydration action component correction. See docs/NOVEMBER-FIXES-20261108.md for verification and multiplayer retest limits.
 
 Secret-room rewards: principal and slaughterhouse rooms each receive 3-5 ampoules per cycle; dabaojian rewards become ampoules. Entry findings and verification: docs/RACCOON-SECRET-LOOT-20261108.md.
+
+Interactive secret passages: four independently selected 50% furniture buttons, 1-second proximity and 2-second overhead clue, and 0-3 extra ampoules in the northeast gun-store basement. Ordinary demolition remains allowed. See docs/RACCOON-SECRET-DOORS-20261108.md.
